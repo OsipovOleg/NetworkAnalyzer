@@ -1,0 +1,57 @@
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/NetworkSimulator.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/NetworkSimulator.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/BLAS.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/ExactAnalysis.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/LatexEditor.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/Networks.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/PhaseTypeDistribution.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/RandomVariables.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/BLAS.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/ExactAnalysis.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/LatexEditor.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/Networks.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/PhaseTypeDistribution.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/bin/Debug/RandomVariables.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/obj/Debug/NetworkSimulator.csprojResolveAssemblyReference.cache
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/obj/Debug/NetworkSimulator.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkSimulator/obj/Debug/NetworkSimulator.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/NetworkSimulator.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/NetworkSimulator.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/BLAS.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/ExactAnalysis.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/LatexEditor.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/Networks.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/PhaseTypeDistribution.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/RandomVariables.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/BLAS.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/ExactAnalysis.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/LatexEditor.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/Networks.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/PhaseTypeDistribution.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/bin/Debug/RandomVariables.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/obj/Debug/NetworkSimulator.csprojResolveAssemblyReference.cache
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/obj/Debug/NetworkSimulator.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkSimulator/obj/Debug/NetworkSimulator.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/NetworkSimulator.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/NetworkSimulator.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/BLAS.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/ExactAnalysis.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/Networks.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/PhaseTypeDistribution.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/RandomVariables.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/MathNet.Numerics.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/BLAS.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/BLAS.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/ExactAnalysis.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/ExactAnalysis.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/PhaseTypeDistribution.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/PhaseTypeDistribution.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/RandomVariables.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/RandomVariables.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/Networks.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/Networks.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/bin/Debug/MathNet.Numerics.xml
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/obj/Debug/NetworkSimulator.csprojResolveAssemblyReference.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/obj/Debug/NetworkSimulator.csproj.CoreCompileInputs.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/obj/Debug/NetworkSimulator.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkSimulator/obj/Debug/NetworkSimulator.pdb

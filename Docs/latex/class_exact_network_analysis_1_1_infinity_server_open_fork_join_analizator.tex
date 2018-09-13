@@ -1,0 +1,729 @@
+\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator}{}\section{Класс Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}
+\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator}\index{Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+
+
+ 
+
+
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static Dictionary$<$ string, double\mbox{[}$\,$\mbox{]}$>$ \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a3ade97ca1f8742b8f289bd2a41b2ae89}{Input\+Rates} (int\mbox{[}$\,$\mbox{]} S, int\mbox{[}$\,$\mbox{]} F, int\mbox{[}$\,$\mbox{]} J, double Lambda0, \hyperlink{class_network_descriptions_1_1_routing_matrix}{Routing\+Matrix} Theta)
+\begin{DoxyCompactList}\small\item\em Получает интенсивности потоков для каждой из систем в сети \end{DoxyCompactList}\item 
+static double\mbox{[}$\,$\mbox{]} \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_aa6f6f71f9d588a2a98ee4b4849013050}{Total\+Input\+Rates} (Dictionary$<$ string, double\mbox{[}$\,$\mbox{]}$>$ rates)
+\begin{DoxyCompactList}\small\item\em Возвращает суммарную интенсивность для каждой из систем \end{DoxyCompactList}\item 
+static bool \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a7c4183cc7e1bceeb0fdf5cdad7d72fd8}{Is\+Trivial\+Matrix} (\hyperlink{class_network_descriptions_1_1_routing_matrix}{Routing\+Matrix} Theta, int k, int\mbox{[}$\,$\mbox{]} F)
+\begin{DoxyCompactList}\small\item\em Проверяет на элементарность матрицу в матрице передачи \end{DoxyCompactList}\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_afbb9c04d80ac7e389fae8476862c99e3}{Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network} (int\mbox{[}$\,$\mbox{]} S, int\mbox{[}$\,$\mbox{]} F, int\mbox{[}$\,$\mbox{]} J, \hyperlink{class_network_descriptions_1_1_routing_matrix}{Routing\+Matrix} Theta, double\mbox{[}$\,$\mbox{]} mu, int Trivial\+Index)
+\item 
+static int \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a5b22001b6c5c5e048a05754205579e65}{Find\+Trivial\+Network} (int\mbox{[}$\,$\mbox{]} F, \hyperlink{class_network_descriptions_1_1_routing_matrix}{Routing\+Matrix} Theta)
+\begin{DoxyCompactList}\small\item\em Находит элементраную подсеть и возвращает номер соотвествующей элементарной матрицы \end{DoxyCompactList}\item 
+static \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{Description\+O\+F\+J\+QN} \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_af1e56486f7040dafe910613157eea459}{Reduce\+Trivial\+Sub\+Network} (\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{Description\+O\+F\+J\+QN} Description, int k)
+\begin{DoxyCompactList}\small\item\em Выполние редукции относительно элементарной подсети k \end{DoxyCompactList}\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ad97f666f7135599a6862ad3ef16f8973}{Response\+Time\+For\+Base\+Network} (\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{Description\+O\+F\+J\+QN} Description)
+\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a4b7ce8b06e8eabf86de585c8119b9d59}{Response\+Time\+Distribution} (\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{Description\+O\+F\+J\+QN} Description)
+\end{DoxyCompactItemize}
+\subsection*{Закрытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{Reorder} (List$<$ int $>$ list, int y)
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+Анализ открытой экспоненциальной сети массового обслуживания произвольной топологии с делением и слиянием требований, в которой все базовые системы бесконечноприборные 
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 17
+
+
+
+\subsection{Методы}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Find\+Trivial\+Network@{Find\+Trivial\+Network}}
+\index{Find\+Trivial\+Network@{Find\+Trivial\+Network}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Find\+Trivial\+Network(int[] F, Routing\+Matrix Theta)}{FindTrivialNetwork(int[] F, RoutingMatrix Theta)}}]{\setlength{\rightskip}{0pt plus 5cm}static int Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Find\+Trivial\+Network (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{F, }
+\item[{{\bf Routing\+Matrix}}]{Theta}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a5b22001b6c5c5e048a05754205579e65}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a5b22001b6c5c5e048a05754205579e65}
+
+
+Находит элементраную подсеть и возвращает номер соотвествующей элементарной матрицы 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em F} & Множество номеров дивайдеров\\
+\hline
+{\em Theta} & Матрица передачи\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 291
+
+
+\begin{DoxyCode}
+292         \{
+293             \textcolor{comment}{//Найти элементарную подсеть }
+294             \textcolor{keywordtype}{int} trivial\_ind = 0;
+295             \textcolor{keywordtype}{bool} success = \textcolor{keyword}{false};
+296             \textcolor{keywordflow}{for} (; trivial\_ind < Theta.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; trivial\_ind++)
+297             \{
+298                 \textcolor{keywordflow}{if} (\hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a7c4183cc7e1bceeb0fdf5cdad7d72fd8}{IsTrivialMatrix}(Theta, trivial\_ind, F))
+299                 \{
+300                     success = \textcolor{keyword}{true};
+301                     \textcolor{keywordflow}{break};
+302                 \}
+303             \}
+304             \textcolor{keywordflow}{if} (success == \textcolor{keyword}{false})
+305             \{
+306                 \textcolor{keywordflow}{return} -1;
+307             \}
+308             \textcolor{keywordflow}{return} trivial\_ind;
+309         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Input\+Rates@{Input\+Rates}}
+\index{Input\+Rates@{Input\+Rates}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Input\+Rates(int[] S, int[] F, int[] J, double Lambda0, Routing\+Matrix Theta)}{InputRates(int[] S, int[] F, int[] J, double Lambda0, RoutingMatrix Theta)}}]{\setlength{\rightskip}{0pt plus 5cm}static Dictionary$<$string, double\mbox{[}$\,$\mbox{]}$>$ Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Input\+Rates (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{S, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{F, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{J, }
+\item[{double}]{Lambda0, }
+\item[{{\bf Routing\+Matrix}}]{Theta}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a3ade97ca1f8742b8f289bd2a41b2ae89}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a3ade97ca1f8742b8f289bd2a41b2ae89}
+
+
+Получает интенсивности потоков для каждой из систем в сети 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em S} & Массив номеров базовых систем \\
+\hline
+{\em F} & Массив номеров дивайдеров\\
+\hline
+{\em J} & Массив номеров интеграторов\\
+\hline
+{\em Lambda0} & ИНтенсивность входящего потока\\
+\hline
+{\em Theta} & Матрица передачи\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Словарь, в котором ключ -\/ вектор перемещений, а значение -\/ вектор интенсвиностей для входящего потока в базовые системы и дивайдеры (S\+\_\+1, S\+\_\+2, ...S\+\_\+\+LS, F\+\_\+1, F\+\_\+2, ..., F\+\_\+\+LF) 
+\end{DoxyReturn}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 29
+
+
+\begin{DoxyCode}
+30         \{
+31             \textcolor{comment}{//Словарь с элементами (вектор перемещений; вектор интенсивостей)}
+32             Dictionary<string, double[]> rates = \textcolor{keyword}{new} Dictionary<string, double[]>();
+33 
+34 
+35             \textcolor{comment}{//Первый этап - Решение уравнения потока для требований}
+36             \textcolor{comment}{//Размерность СЛАУ}
+37             \textcolor{keywordtype}{int} n = F.Length + S.Length;
+38             \textcolor{keywordtype}{int} k = 0; \textcolor{comment}{//0-фрагменты }
+39             \textcolor{comment}{//Перенумерация интенсивностей происходит по порядку }
+40             \textcolor{comment}{//сначала для БС, а затем для дивайдеров:}
+41             \textcolor{comment}{//lambda(S1) = lambda(1), ..., lambda(SL\_S) =  lambda(L\_S)}
+42             \textcolor{comment}{//lambda (F1) = lambda(L\_S), ... lambdA(FL\_F) = lambda(L\_F+L\_S)}
+43             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A = \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(n, n);
+44             \textcolor{keywordtype}{double}[] b = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[n];
+45 
+46             \textcolor{comment}{//Нумерация базовых систем и интеграторов}
+47             \textcolor{comment}{//базовых систем и дивайдеров}
+48             \textcolor{keywordtype}{int}[] SF = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[S.Length + F.Length];
+49             \textcolor{keywordtype}{int}[] SJ = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[S.Length + F.Length];
+50             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < S.Length; i++)
+51             \{
+52                 SF[i] = S[i];
+53                 SJ[i] = S[i];
+54             \}
+55             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < F.Length; i++)
+56             \{
+57                 SF[i + S.Length] = F[i];
+58                 SJ[i + S.Length] = J[i];
+59             \}
+60 
+61 
+62             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < A.\hyperlink{class_b_l_a_s_1_1_matrix_a511a107843f7d488a87a7f01a184e893}{CountRow}; j++)
+63             \{
+64                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < A.\hyperlink{class_b_l_a_s_1_1_matrix_aae67f388c0c049518adc10781e29d091}{CountColumn}; i++)
+65                 \{
+66                     A[j, i] = Theta[k, SJ[i], SF[j]];
+67                     \textcolor{keywordflow}{if} (i == j)
+68                     \{
+69                         A[i, j]--;
+70                     \}
+71 
+72                 \}
+73                 \textcolor{comment}{//Поток требований из источника}
+74                 b[j] = -Lambda0 * Theta[k, 0, SF[j]];
+75             \}
+76 
+77             rates.Add(\textcolor{stringliteral}{"0"}, \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_ac30bde9ba0a8f983730daa3fa0318e29}{Gauss}(A, b));
+78             HashSet<string> UnknownRates = \textcolor{keyword}{new} HashSet<string>();
+79             UnknownRates.Add(\textcolor{stringliteral}{"0"});
+80 
+81             \textcolor{comment}{//Пока множество не пусто }
+82             \textcolor{keywordflow}{while} (UnknownRates.Count != 0)
+83             \{
+84                 \textcolor{keywordtype}{string} v = UnknownRates.ElementAt(0);
+85                 UnknownRates.Remove(v);
+86                 \textcolor{comment}{//Проверяю поток в дивайдер}
+87                 \textcolor{keywordflow}{for} (k = 0; k < F.Length; k++)
+88                 \{
+89                     \textcolor{comment}{//Если есть поток в k-ый дивайдер, то определяю итенсивности для }
+90                     \textcolor{comment}{//вектора перемещений (v,k)}
+91                     \textcolor{keywordtype}{int} indexFk = Array.IndexOf(SF, F[k]);
+92 
+93                     \textcolor{keywordflow}{if} (rates[v][indexFk] > 0)
+94                     \{
+95                         A.\hyperlink{class_b_l_a_s_1_1_matrix_ac86fdeae6e5a0d2aa7475f432b85eed0}{Initialize}();
+96                         b.Initialize();
+97 
+98                         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < A.\hyperlink{class_b_l_a_s_1_1_matrix_a511a107843f7d488a87a7f01a184e893}{CountRow}; j++)
+99                         \{
+100                             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < SF.Length; i++)
+101                             \{
+102                                 A[j, i] = Theta[k + 1, SJ[i], SF[j]];
+103                                 \textcolor{keywordflow}{if} (i == j)
+104                                 \{
+105                                     A[i, j]--;
+106                                 \}
+107 
+108                             \}
+109                             \textcolor{comment}{//Поток требований в БС и дивайдер (в интегратор поток требований идти не
+       может)}
+110                             b[j] = -rates[v][indexFk] * Theta[k + 1, F[k], SF[j]];
+111                         \}
+112 
+113                         \textcolor{keywordtype}{string} new\_v = v + \textcolor{stringliteral}{","} + (k + 1).ToString();
+114                         rates.Add(new\_v, \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_ac30bde9ba0a8f983730daa3fa0318e29}{Gauss}(A, b));
+115                         UnknownRates.Add(new\_v);
+116                     \}
+117 
+118                 \}
+119             \}
+120             \textcolor{keywordflow}{return} rates;
+121         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Is\+Trivial\+Matrix@{Is\+Trivial\+Matrix}}
+\index{Is\+Trivial\+Matrix@{Is\+Trivial\+Matrix}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Is\+Trivial\+Matrix(\+Routing\+Matrix Theta, int k, int[] F)}{IsTrivialMatrix(RoutingMatrix Theta, int k, int[] F)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Is\+Trivial\+Matrix (
+\begin{DoxyParamCaption}
+\item[{{\bf Routing\+Matrix}}]{Theta, }
+\item[{int}]{k, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{F}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a7c4183cc7e1bceeb0fdf5cdad7d72fd8}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a7c4183cc7e1bceeb0fdf5cdad7d72fd8}
+
+
+Проверяет на элементарность матрицу в матрице передачи 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Theta} & Матрица передачи\\
+\hline
+{\em k} & Номер матрицы, которую необходимо проверить\\
+\hline
+{\em F} & Массив номеров дивайдеров\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 149
+
+
+\begin{DoxyCode}
+150         \{
+151             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Theta.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; i++)
+152             \{
+153                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < F.Length; j++)
+154                 \{
+155                     \textcolor{keywordflow}{if} (Theta[k][i, F[j]] > 0)
+156                     \{
+157                         \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+158                     \}
+159                 \}
+160             \}
+161             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+162         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Reduce\+Trivial\+Sub\+Network@{Reduce\+Trivial\+Sub\+Network}}
+\index{Reduce\+Trivial\+Sub\+Network@{Reduce\+Trivial\+Sub\+Network}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Reduce\+Trivial\+Sub\+Network(\+Description\+O\+F\+J\+Q\+N Description, int k)}{ReduceTrivialSubNetwork(DescriptionOFJQN Description, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Description\+O\+F\+J\+QN} Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Reduce\+Trivial\+Sub\+Network (
+\begin{DoxyParamCaption}
+\item[{{\bf Description\+O\+F\+J\+QN}}]{Description, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_af1e56486f7040dafe910613157eea459}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_af1e56486f7040dafe910613157eea459}
+
+
+Выполние редукции относительно элементарной подсети k 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Network} & \\
+\hline
+{\em k} & Номер элементарной подсети\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 317
+
+
+\begin{DoxyCode}
+318         \{
+319             \textcolor{comment}{//Генерация фазового распределения для элементраной сети}
+320 \textcolor{preprocessor}{#if (DEBUG)}
+321             Console.WriteLine(\textcolor{stringliteral}{"Выполнение редукции"});
+322 \textcolor{preprocessor}{#endif}
+323             \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{PhaseTypeVarible} TrivialPH = 
+      \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_afbb9c04d80ac7e389fae8476862c99e3}{ResponseTimeDistributionForTrivialSubNetwork}(Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}, k);
+324 
+325             \textcolor{keywordtype}{int} Y = TrivialPH.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a1bfaf7709c227b28fbbc89b808a89bfe}{NumberOfPhases};
+326             var A = TrivialPH.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a9832e75be88711d5939e808aea3b4121}{SubGenerator};
+327             var alpha = TrivialPH.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_ac9102d397b010f61b97cda69acfdb31b}{InitialDistribution};
+328             \textcolor{comment}{//Число всех систем в сети}
+329             \textcolor{keywordtype}{int} L = Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention} - 1;
+330 
+331             \textcolor{comment}{//2) Множества номеров базовых систем, дивайдеров, интеграторов для новой сети}
+332             List<int> S = \textcolor{keyword}{new} List<int>();
+333             \textcolor{comment}{//Вектор интенсивностей осблуживания для новой сети}
+334             List<double> mu = \textcolor{keyword}{new} List<Double>();
+335             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length; i++)
+336             \{
+337                 mu.Add(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}[i]);
+338                 S.Add(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[i]);
+339             \}
+340             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Y; i++)
+341             \{
+342                 mu.Add(-A[i, i]);
+343                 S.Add(L + i + 1);
+344             \}
+345             \textcolor{comment}{//Дивайдеры и интеграторы для новой сети }
+346             List<int> F = \textcolor{keyword}{new} List<int>();
+347             List<int> J = \textcolor{keyword}{new} List<int>();
+348             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}.Length; i++)
+349             \{
+350                 F.Add(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[i]);
+351                 J.Add(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[i]);
+352             \}
+353 
+354             \textcolor{comment}{//3) Создаем новую матрицу передачи}
+355             \hyperlink{class_network_descriptions_1_1_routing_matrix}{RoutingMatrix} ReducedTheta = \textcolor{keyword}{new} \hyperlink{class_network_descriptions_1_1_routing_matrix}{RoutingMatrix}(Y + Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker});
+356             \textcolor{comment}{//Копирование исходной матрицы в матрицу для новой сети}
+357             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; l++)
+358             \{
+359                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; i++)
+360                 \{
+361                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; j++)
+362                     \{
+363                         ReducedTheta[l][i, j] = Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[l][i, j];
+364                     \}
+365                 \}
+366             \}
+367 
+368             \textcolor{comment}{//Переходы между новыми базовыми системами}
+369             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < ReducedTheta.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; l++)
+370             \{
+371                 \textcolor{comment}{//Возможность перехода для l-фрагмента в элементарную подсеть H\_k (т.е. в дивайдер F\_k)}
+372                 \textcolor{keywordtype}{bool} transition = \textcolor{keyword}{false};
+373                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; i++)
+374                 \{
+375                     \textcolor{keywordflow}{if} (Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[l][i, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[k - 1]] > 0)
+376                     \{
+377                         transition = \textcolor{keyword}{true};
+378                         \textcolor{keywordflow}{break};
+379                     \}
+380                 \}
+381                 \textcolor{keywordflow}{if} (transition == \textcolor{keyword}{false})
+382                 \{
+383                     \textcolor{keywordflow}{continue};
+384                 \}
+385                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i <= Y; i++)
+386                 \{
+387                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 1; j <= Y; j++)
+388                     \{
+389                         \textcolor{keywordflow}{if} (i != j)
+390                         \{
+391                             ReducedTheta[l][i + L, j + L] = -A[i - 1, j - 1] / A[i - 1, i - 1];
+392                         \}
+393                     \}
+394                 \}
+395             \}
+396 
+397             \textcolor{comment}{//вероятности перехода в подсеть и выхода из подсети}
+398             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < ReducedTheta.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; l++)
+399             \{
+400                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i <= L; i++)
+401                 \{
+402                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 1; j <= Y; j++)
+403                     \{
+404                         ReducedTheta[l][i, L + j] = alpha[j - 1] * Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[l][i, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[k - 1]];
+405                     \}
+406                 \}
+407             \}
+408 
+409             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < ReducedTheta.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; l++)
+410             \{
+411                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i <= Y; i++)
+412                 \{
+413                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j <= L; j++)
+414                     \{
+415                         \textcolor{keywordtype}{double} a\_star = -A.Row(i - 1).Sum();
+416                         ReducedTheta[l][L + i, j] = -a\_star / A[i - 1, i - 1] * Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[l][Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[k - 1], j];
+417                     \}
+418                 \}
+419             \}
+420 
+421             \textcolor{comment}{//Удаление строк и столбцов }
+422             ReducedTheta.\hyperlink{class_network_descriptions_1_1_routing_matrix_a1a69e843795b875d926f77a298941c3c}{DeleteMatrix}(k, F[k - 1], J[k - 1]);
+423 
+424             \textcolor{keywordtype}{int} xF = F[k - 1];
+425             F.RemoveAt(k - 1); \textcolor{comment}{//Удаление дивайдера}
+426             \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{Reorder}(F, xF);
+427             \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{Reorder}(S, xF);
+428             \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{Reorder}(J, xF);
+429 
+430             \textcolor{keywordtype}{int} xJ = J[k - 1];
+431             J.RemoveAt(k - 1);\textcolor{comment}{//Удаление интегратора}
+432             \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{Reorder}(F, xJ);
+433             \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{Reorder}(S, xJ);
+434             \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{Reorder}(J, xJ);
+435 
+436             \textcolor{comment}{//Здесь нужно убрать все недостижимые базовые системы}
+437 
+438 
+439 
+440             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{DescriptionOFJQN}(S.ToArray(), F.ToArray(), J.ToArray(), mu.ToArray()
+      , null, 
+441                 ReducedTheta, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0}); 
+442         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Reorder@{Reorder}}
+\index{Reorder@{Reorder}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Reorder(\+List$<$ int $>$ list, int y)}{Reorder(List< int > list, int y)}}]{\setlength{\rightskip}{0pt plus 5cm}static void Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Reorder (
+\begin{DoxyParamCaption}
+\item[{List$<$ int $>$}]{list, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ac1e0bbf8c9137256c8895c3776dc6416}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 444
+
+
+\begin{DoxyCode}
+445         \{
+446             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < list.Count; i++)
+447             \{
+448                 \textcolor{keywordflow}{if} (list[i] > y)
+449                 \{
+450                     list[i]--;
+451                 \}
+452             \}
+453         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Response\+Time\+Distribution@{Response\+Time\+Distribution}}
+\index{Response\+Time\+Distribution@{Response\+Time\+Distribution}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Response\+Time\+Distribution(\+Description\+O\+F\+J\+Q\+N Description)}{ResponseTimeDistribution(DescriptionOFJQN Description)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Response\+Time\+Distribution (
+\begin{DoxyParamCaption}
+\item[{{\bf Description\+O\+F\+J\+QN}}]{Description}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a4b7ce8b06e8eabf86de585c8119b9d59}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a4b7ce8b06e8eabf86de585c8119b9d59}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 484
+
+
+\begin{DoxyCode}
+485         \{
+486             \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{PhaseTypeVarible} ph = \textcolor{keyword}{new} \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{PhaseTypeVarible}();
+487 
+488             \textcolor{comment}{//Находим первую элементарную подсеть }
+489             \textcolor{keywordtype}{int} k = \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a5b22001b6c5c5e048a05754205579e65}{FindTrivialNetwork}(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}, Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta});
+490 \textcolor{preprocessor}{#if(DEBUG)}
+491             Console.WriteLine(\textcolor{stringliteral}{"Найдена подсеть H\{0\} в качестве элемнтарной"}, k);
+492 \textcolor{preprocessor}{#endif}
+493 
+494             \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{DescriptionOFJQN} ReducedNetwork = Description;
+495 
+496             \textcolor{comment}{//Пока вся сеть не стала элементарной }
+497             \textcolor{keywordflow}{while} (k != 0)
+498             \{
+499                 \textcolor{comment}{//Выполняем редукцию }
+500                 ReducedNetwork = \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_af1e56486f7040dafe910613157eea459}{ReduceTrivialSubNetwork}(ReducedNetwork, k);
+501 
+502                 \textcolor{comment}{//Поиск новой элементарной подсети}
+503                 k = \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a5b22001b6c5c5e048a05754205579e65}{FindTrivialNetwork}(ReducedNetwork.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}, ReducedNetwork.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta});
+504             \}
+505 
+506             ph = \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ad97f666f7135599a6862ad3ef16f8973}{ResponseTimeForBaseNetwork}(ReducedNetwork);
+507 \textcolor{preprocessor}{#if debug}
+508             Console.WriteLine(\textcolor{stringliteral}{"Порядок матрицы \{0\}"}, ph.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a1bfaf7709c227b28fbbc89b808a89bfe}{NumberOfPhases});
+509             Console.WriteLine(\textcolor{stringliteral}{"Число элементов в матрице \{0\}"}, ph.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a1bfaf7709c227b28fbbc89b808a89bfe}{NumberOfPhases} * ph.
+      \hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a1bfaf7709c227b28fbbc89b808a89bfe}{NumberOfPhases});
+510             Console.WriteLine(\textcolor{stringliteral}{"Число ненулевых  элементов в матрице \{0\} (\{1:f4\})"}, ph.Generator.
+      NonZeroElements(),
+511                 (double)ph.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a1bfaf7709c227b28fbbc89b808a89bfe}{NumberOfPhases} * ph.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a1bfaf7709c227b28fbbc89b808a89bfe}{NumberOfPhases} / ph.Generator.
+      NonZeroElements());
+512 \textcolor{preprocessor}{#endif}
+513             \textcolor{keywordflow}{return} ph;
+514         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network@{Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network}}
+\index{Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network@{Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network(int[] S, int[] F, int[] J, Routing\+Matrix Theta, double[] mu, int Trivial\+Index)}{ResponseTimeDistributionForTrivialSubNetwork(int[] S, int[] F, int[] J, RoutingMatrix Theta, double[] mu, int TrivialIndex)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{S, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{F, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{J, }
+\item[{{\bf Routing\+Matrix}}]{Theta, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{mu, }
+\item[{int}]{Trivial\+Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_afbb9c04d80ac7e389fae8476862c99e3}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_afbb9c04d80ac7e389fae8476862c99e3}
+
+
+
+
+
+\begin{DoxyParams}{Аргументы}
+{\em S} & \\
+\hline
+{\em F} & \\
+\hline
+{\em J} & \\
+\hline
+{\em Theta} & \\
+\hline
+{\em mu} & \\
+\hline
+{\em Trivial\+Index} & Индекс элеметарной подсети (k$>$0) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 178
+
+
+\begin{DoxyCode}
+179         \{
+180 
+181 \textcolor{preprocessor}{#if (DEBUG)}
+182             Console.WriteLine(\textcolor{stringliteral}{"Получение длительности реациии для элементарной подсети соглано теореме"});
+183 \textcolor{preprocessor}{#endif}
+184             \textcolor{comment}{//Счет всех собственных номеров идет с нуля!}
+185             \textcolor{comment}{//Множество собственных номеров базовых систем, в которые переходят фрагменты непосредственно
+       после деления  }
+186             \textcolor{comment}{// в дивайдере F\_k}
+187             List<int> R = \textcolor{keyword}{new} List<int>();
+188             \textcolor{keywordtype}{int} k = TrivialIndex;
+189             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < S.Length; j++)
+190             \{
+191                 \textcolor{keywordflow}{if} (Theta[k][F[k - 1], S[j]] > 0)
+192                 \{
+193                     R.Add(j);
+194                 \}
+195             \}
+196             \textcolor{keywordtype}{int} cR = R.Count;
+197 
+198             List<int>[] B = \textcolor{keyword}{new} List<int>[cR];
+199             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < B.Length; i++)
+200             \{
+201                 \textcolor{comment}{//B[i]  - последовательность, состоящая из собственных номеров базовых систем в которые }
+202                 \textcolor{comment}{//возможно поступление k-фрагмента из базовой системы S\_R[i], i = 0, ..., cR-1}
+203                 B[i] = \textcolor{keyword}{new} List<int>();
+204                 \textcolor{comment}{//Начинаем обход в ширину из вершины S\_R[i] }
+205                 Queue<int> queue = \textcolor{keyword}{new} Queue<int>();
+206                 queue.Enqueue(R[i]); \textcolor{comment}{//Первый элемент - сосбственный номер базовой системы S\_R[i]}
+207                 \textcolor{keywordflow}{while} (queue.Count != 0)
+208                 \{
+209                     \textcolor{comment}{//Достать из очереди собственный номер базовой системы}
+210                     \textcolor{keywordtype}{int} j = queue.Dequeue();
+211                     \textcolor{comment}{//Положить в список просмотренных вершин }
+212                     B[i].Add(j);
+213                     \textcolor{comment}{//Для всех смежных вершин выполнить }
+214                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 0; l < S.Length; l++)
+215                     \{
+216                         \textcolor{comment}{//Если возможен переход}
+217                         \textcolor{comment}{//вершина не посещена}
+218                         \textcolor{comment}{//и не нарпавлена в очередь для посещения }
+219                         \textcolor{keywordflow}{if} ((Theta[k][S[j], S[l]] > 0) &&
+220                             (queue.Contains(l) == \textcolor{keyword}{false}) &&
+221                             (B[i].Contains(l) == \textcolor{keyword}{false}))
+222                         \{
+223                             \textcolor{comment}{//Запланировал посетить эту вершину}
+224                             queue.Enqueue(l);
+225                         \}
+226                     \}
+227 
+228                 \}
+229                 \textcolor{comment}{//Упорядочиваем, но на первом месте должен стоять элемент R[i]}
+230                 B[i].Sort();
+231                 B[i][B[i].IndexOf(R[i])] = B[i][0];
+232                 B[i][0] = R[i];
+233             \}
+234 
+235             List<PhaseTypeVarible> ph = \textcolor{keyword}{new} List<PhaseTypeVarible>();
+236             \textcolor{comment}{//Вычисления по формуле }
+237             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < R.Count; i++)
+238             \{
+239                 \textcolor{keywordtype}{int} j = R[i];
+240                 \textcolor{comment}{//Число систем достижимых из Sj (включая Sj)}
+241                 var b = B[i];
+242 
+243                 \textcolor{keywordtype}{int} cb = b.Count;
+244                 \textcolor{comment}{//Начальное распределение }
+245                 \textcolor{keywordtype}{double}[] alpha = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[cb];
+246                 alpha[0] = 1;
+247 
+248                 \textcolor{comment}{//Генератор }
+249                 \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A = \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(cb, cb);
+250                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} n = 0; n < cb; n++)
+251                 \{
+252                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} m = 0; m < cb; m++)
+253                     \{
+254                         \textcolor{comment}{//n* m* номера базовых систем во множестве всех систем}
+255                         \textcolor{keywordtype}{int} n\_ = b[n] + 1;
+256                         \textcolor{keywordtype}{int} m\_ = b[m] + 1;
+257 
+258                         A[n, m] = mu[b[n]] * Theta[k][n\_, m\_];
+259                         \textcolor{keywordflow}{if} (n == m)
+260                         \{
+261                             A[n, m] = -mu[b[n]];
+262                         \}
+263                     \}
+264                 \}
+265 
+266                 \textcolor{comment}{//Получили генератор и начальное распределение для одной из начальных систем}
+267                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} l = 1; l <= Theta[k][F[k - 1], S[j]]; l++)
+268                 \{
+269                     ph.Add(\textcolor{keyword}{new} \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{PhaseTypeVarible}(A, alpha));
+270 \textcolor{preprocessor}{#if (DEBUG)}
+271                     Console.WriteLine(\textcolor{stringliteral}{"Вывод параметров фазового распределения"});
+272                     Console.WriteLine(\textcolor{keyword}{new} \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{PhaseTypeVarible}(A, alpha));
+273 \textcolor{preprocessor}{#endif}
+274                 \}
+275             \}
+276 
+277 \textcolor{preprocessor}{#if (DEBUG)}
+278             Console.WriteLine(\textcolor{stringliteral}{"Распределение для всей подсети"});
+279             Console.WriteLine(\hyperlink{class_phase_type_distribution_1_1_p_h_operations}{PHOperations}.\hyperlink{class_phase_type_distribution_1_1_p_h_operations_a724d142f65c13b43a88d87924f2129bc}{Max}(ph));
+280             Console.ReadKey();
+281 \textcolor{preprocessor}{#endif}
+282             \textcolor{keywordflow}{return} \hyperlink{class_phase_type_distribution_1_1_p_h_operations}{PHOperations}.\hyperlink{class_phase_type_distribution_1_1_p_h_operations_a724d142f65c13b43a88d87924f2129bc}{Max}(ph);
+283         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Response\+Time\+For\+Base\+Network@{Response\+Time\+For\+Base\+Network}}
+\index{Response\+Time\+For\+Base\+Network@{Response\+Time\+For\+Base\+Network}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Response\+Time\+For\+Base\+Network(\+Description\+O\+F\+J\+Q\+N Description)}{ResponseTimeForBaseNetwork(DescriptionOFJQN Description)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Response\+Time\+For\+Base\+Network (
+\begin{DoxyParamCaption}
+\item[{{\bf Description\+O\+F\+J\+QN}}]{Description}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ad97f666f7135599a6862ad3ef16f8973}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_ad97f666f7135599a6862ad3ef16f8973}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 457
+
+
+\begin{DoxyCode}
+458         \{
+459             \textcolor{keywordtype}{int} L = Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention} - 1;
+460             \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{PhaseTypeVarible} ph = \textcolor{keyword}{new} \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{PhaseTypeVarible}(\textcolor{keyword}{new} 
+      \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(L, L), \textcolor{keyword}{new} \textcolor{keywordtype}{double}[L]);
+461             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < L; i++)
+462             \{
+463                 ph.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_ac9102d397b010f61b97cda69acfdb31b}{InitialDistribution}[i] = Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[0][0, i + 1];
+464             \}
+465 
+466             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < L; i++)
+467             \{
+468                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < L; j++)
+469                 \{
+470                     ph.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a9832e75be88711d5939e808aea3b4121}{SubGenerator}[i, j] = Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}[i] * Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[0][i + 1, j + 1];
+471                     \textcolor{keywordflow}{if} (i == j)
+472                     \{
+473                         ph.\hyperlink{class_phase_type_distribution_1_1_phase_type_varible_a9832e75be88711d5939e808aea3b4121}{SubGenerator}[i, j] = -Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}[i];
+474                     \}
+475                 \}
+476             \}
+477 
+478 
+479             \textcolor{keywordflow}{return} ph;
+480 
+481         \}
+\end{DoxyCode}
+\index{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}!Total\+Input\+Rates@{Total\+Input\+Rates}}
+\index{Total\+Input\+Rates@{Total\+Input\+Rates}!Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator@{Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}}
+\subsubsection[{\texorpdfstring{Total\+Input\+Rates(\+Dictionary$<$ string, double[]$>$ rates)}{TotalInputRates(Dictionary< string, double[]> rates)}}]{\setlength{\rightskip}{0pt plus 5cm}static double \mbox{[}$\,$\mbox{]} Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator.\+Total\+Input\+Rates (
+\begin{DoxyParamCaption}
+\item[{Dictionary$<$ string, double\mbox{[}$\,$\mbox{]}$>$}]{rates}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_aa6f6f71f9d588a2a98ee4b4849013050}{}\label{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_aa6f6f71f9d588a2a98ee4b4849013050}
+
+
+Возвращает суммарную интенсивность для каждой из систем 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em rates} & Словарь с интенсивностями\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Open\+Fork\+Join\+Analizator.\+cs строка 128
+
+
+\begin{DoxyCode}
+129         \{
+130             \textcolor{keywordtype}{double}[] Lambda = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[rates.ElementAt(0).Value.Length];
+131             \textcolor{keywordflow}{foreach} (var item \textcolor{keywordflow}{in} rates)
+132             \{
+133                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Lambda.Length; i++)
+134                 \{
+135                     Lambda[i] += item.Value[i];
+136                 \}
+137             \}
+138             \textcolor{keywordflow}{return} Lambda;
+139 
+140         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Exact\+Analysis/\hyperlink{_open_fork_join_analizator_8cs}{Open\+Fork\+Join\+Analizator.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,46 @@
+\hypertarget{class_network_simulator_1_1_demo}{}\section{Класс Network\+Simulator.\+Demo}
+\label{class_network_simulator_1_1_demo}\index{Network\+Simulator.\+Demo@{Network\+Simulator.\+Demo}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_network_simulator_1_1_demo_a1b0bb0e3f606382df99ab6cd7de6fdba}{Run\+Model} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Demo.\+cs строка 12
+
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Demo@{Network\+Simulator\+::\+Demo}!Run\+Model@{Run\+Model}}
+\index{Run\+Model@{Run\+Model}!Network\+Simulator\+::\+Demo@{Network\+Simulator\+::\+Demo}}
+\subsubsection[{\texorpdfstring{Run\+Model()}{RunModel()}}]{\setlength{\rightskip}{0pt plus 5cm}static void Network\+Simulator.\+Demo.\+Run\+Model (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_network_simulator_1_1_demo_a1b0bb0e3f606382df99ab6cd7de6fdba}{}\label{class_network_simulator_1_1_demo_a1b0bb0e3f606382df99ab6cd7de6fdba}
+
+
+См. определение в файле Demo.\+cs строка 15
+
+
+\begin{DoxyCode}
+16         \{
+17             \textcolor{comment}{//Создание описания сети }
+18             \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{DescriptionOFJQN} Description = \textcolor{keyword}{new} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{DescriptionOFJQN}(Environment
+      .GetFolderPath(Environment.SpecialFolder.Desktop) + \textcolor{stringliteral}{"/msu.txt"});
+19             OFJQN.CreateNetworkModel(Description, \textcolor{keyword}{new} Random()).Run(1000000); 
+20             
+21 
+22 
+23 
+24         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_network_simulator_2_demo_8cs}{Demo.\+cs}\end{DoxyCompactItemize}

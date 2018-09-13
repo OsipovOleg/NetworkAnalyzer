@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_desktop_network_analyzator_1_1_add_routing_element">
+<title>DesktopNetworkAnalyzator::AddRoutingElement class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.ComponentModel.IContainer components<para><emphasis>&lt;summary&gt;
+Required designer variable.
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.ComboBox SourceNodeBox</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.ComboBox DestanationNodesBox</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Button ApplyButton</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.TextBox RoutingElementText</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Button CancelButton</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Label label1</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Label label2</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Label label3</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_desktop_network_analyzator_1_1_add_routing_element_1aa4cc1082bd6140946f8ed490fdeda7fd">AddRoutingElement</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_add_routing_element_1ab3824e9c687867106312afbf8498dd91">AddRoutingElement_Load</link> (
+object sender, EventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_add_routing_element_1a650794f03fa5fa37fbf866cd87caf45d">ApplyButton_Click</link> (
+object sender, EventArgs e)<para><emphasis>&lt;summary&gt;
+Создает элемент матрицы для выбранной пары узлов 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_add_routing_element_1aba45fe28f7be06dc75a09ad57e15d5c1">label1_Click</link> (
+object sender, EventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_add_routing_element_1a5ff95e240eb593739394ad1bef92e6e8">InitializeComponent</link> (
+)<para><emphasis>&lt;summary&gt;
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_desktop_network_analyzator_1_1_add_routing_element_1a5cb25bcd26e98e8ac07aa7982f4a5479">Dispose</link> (
+bool disposing)<para><emphasis>&lt;summary&gt;
+Clean up any resources being used.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>System.ComponentModel.IContainer DesktopNetworkAnalyzator.AddRoutingElement.components</title>                
+                <para>Definition at line 8 of file AddRoutingElement.Designer.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>AddRoutingElement.Designer.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_add_routing_element_1aa4cc1082bd6140946f8ed490fdeda7fd">
+                <title>DesktopNetworkAnalyzator.AddRoutingElement.AddRoutingElement ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_add_routing_element_1ab3824e9c687867106312afbf8498dd91">
+                <title>void DesktopNetworkAnalyzator.AddRoutingElement.AddRoutingElement_Load (object sender, EventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_add_routing_element_1a650794f03fa5fa37fbf866cd87caf45d">
+                <title>void DesktopNetworkAnalyzator.AddRoutingElement.ApplyButton_Click (object sender, EventArgs e)</title> <emphasis>&lt;summary&gt;
+Создает элемент матрицы для выбранной пары узлов 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>sender</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>e</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_add_routing_element_1aba45fe28f7be06dc75a09ad57e15d5c1">
+                <title>void DesktopNetworkAnalyzator.AddRoutingElement.label1_Click (object sender, EventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_add_routing_element_1a5ff95e240eb593739394ad1bef92e6e8">
+                <title>void DesktopNetworkAnalyzator.AddRoutingElement.InitializeComponent ()</title> <emphasis>&lt;summary&gt;
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_add_routing_element_1a5cb25bcd26e98e8ac07aa7982f4a5479">
+                <title>override void DesktopNetworkAnalyzator.AddRoutingElement.Dispose (bool disposing)</title> <emphasis>&lt;summary&gt;
+Clean up any resources being used.
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>disposing</entry>
+                                <entry>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

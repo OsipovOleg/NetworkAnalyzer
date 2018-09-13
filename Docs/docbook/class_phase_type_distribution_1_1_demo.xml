@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_phase_type_distribution_1_1_demo">
+<title>PhaseTypeDistribution::Demo class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_phase_type_distribution_1_1_demo_1a28ecaecf8ba6ef129fa64c9ebfebf51f">DemoPH</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_phase_type_distribution_1_1_demo_1a28ecaecf8ba6ef129fa64c9ebfebf51f">
+                <title>static void PhaseTypeDistribution.Demo.DemoPH ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

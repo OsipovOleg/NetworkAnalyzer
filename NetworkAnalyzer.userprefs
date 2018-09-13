@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Demo/Analysis.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x64" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo/Program.cs">
+    <Files>
+      <File FileName="Demo/Program.cs" Line="2675" Column="30" />
+      <File FileName="BLAS/Computation.cs" Line="1" Column="1" />
+      <File FileName="BLAS/Matrix.cs" Line="1" Column="1" />
+      <File FileName="Networks/DescriptionOFJQN.cs" Line="1" Column="1" />
+      <File FileName="NetworkSimulator/ServiceNode.cs" Line="1" Column="1" />
+      <File FileName="Networks/RoutingMatrix.cs" Line="1" Column="1" />
+      <File FileName="PhaseTypeDistribution/PHOperations.cs" Line="1" Column="1" />
+      <File FileName="ExactAnalysis/OpenForkJoinAnalizator.cs" Line="1" Column="1" />
+      <File FileName="PhaseTypeDistribution/PhaseTypeVarible.cs" Line="1" Column="1" />
+      <File FileName="NetworkSimulator/SourceNode.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

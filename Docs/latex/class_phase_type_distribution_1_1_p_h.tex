@@ -1,0 +1,161 @@
+\hypertarget{class_phase_type_distribution_1_1_p_h}{}\section{Класс Phase\+Type\+Distribution.\+PH}
+\label{class_phase_type_distribution_1_1_p_h}\index{Phase\+Type\+Distribution.\+PH@{Phase\+Type\+Distribution.\+PH}}
+
+
+Описывает случайную величину с фазовым расределением  
+
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_phase_type_distribution_1_1_p_h_ae7d0a336790e2efce690e860424ae6ab}{PH} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_phase_type_distribution_1_1_p_h_a80552346d502e6805f79ea0262fb209f}{Generator}, double\mbox{[}$\,$\mbox{]} \hyperlink{class_phase_type_distribution_1_1_p_h_a987a901d55fcc253f34c42218dbb4456}{Initial\+Probabilities})
+\begin{DoxyCompactList}\small\item\em Создает фазовое распределение по его матрице и начальному распределению \end{DoxyCompactList}\item 
+\hyperlink{class_phase_type_distribution_1_1_p_h_aff4abc963d79bff793c3f5b8884a8975}{PH} ()
+\begin{DoxyCompactList}\small\item\em Создает фазовое распределение \end{DoxyCompactList}\item 
+double \hyperlink{class_phase_type_distribution_1_1_p_h_a170c80fcac45b3d05bfdf1df33d02f1c}{Expected\+Value} ()
+\begin{DoxyCompactList}\small\item\em Математическое ожидание для случайной величины \end{DoxyCompactList}\item 
+override string \hyperlink{class_phase_type_distribution_1_1_p_h_a2ce09b0ccf1ebd03e74a7854bc98e7a1}{To\+String} ()
+\item 
+double \hyperlink{class_phase_type_distribution_1_1_p_h_a2603d3b806c3ffcab85a7ea8e01a5010}{Var} ()
+\begin{DoxyCompactList}\small\item\em Дисперсия случайной величины \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_phase_type_distribution_1_1_p_h}{PH} \hyperlink{class_phase_type_distribution_1_1_p_h_ae116dda4b8cc0d8eb1d15399166a0152}{operator+} (\hyperlink{class_phase_type_distribution_1_1_p_h}{PH} A, \hyperlink{class_phase_type_distribution_1_1_p_h}{PH} B)
+\begin{DoxyCompactList}\small\item\em Фазовое распределение для суммы двух случайных величин с фазовыми распределениями \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_phase_type_distribution_1_1_p_h_a80552346d502e6805f79ea0262fb209f}{Generator}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Генератор фазового распределения \end{DoxyCompactList}\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_phase_type_distribution_1_1_p_h_a987a901d55fcc253f34c42218dbb4456}{Initial\+Probabilities}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Начальное распределение для фазового распределения \end{DoxyCompactList}\item 
+int \hyperlink{class_phase_type_distribution_1_1_p_h_a1cc9a81b38dd0c3f8dfa26a789262fec}{Number\+Of\+Phases}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Число фаз в фазовом распределении \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Описывает случайную величину с фазовым расределением 
+
+
+
+\subsection{Конструктор(ы)}
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!PH@{PH}}
+\index{PH@{PH}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{P\+H(\+Matrix Generator, double[] Initial\+Probabilities)}{PH(Matrix Generator, double[] InitialProbabilities)}}]{\setlength{\rightskip}{0pt plus 5cm}Phase\+Type\+Distribution.\+P\+H.\+PH (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{Generator, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{Initial\+Probabilities}
+\end{DoxyParamCaption}
+)}\hypertarget{class_phase_type_distribution_1_1_p_h_ae7d0a336790e2efce690e860424ae6ab}{}\label{class_phase_type_distribution_1_1_p_h_ae7d0a336790e2efce690e860424ae6ab}
+
+
+Создает фазовое распределение по его матрице и начальному распределению 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Generator} & Генератор фазового распределения\\
+\hline
+{\em Initial\+Probabilities} & Начальое распределение\\
+\hline
+\end{DoxyParams}
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!PH@{PH}}
+\index{PH@{PH}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{P\+H()}{PH()}}]{\setlength{\rightskip}{0pt plus 5cm}Phase\+Type\+Distribution.\+P\+H.\+PH (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_phase_type_distribution_1_1_p_h_aff4abc963d79bff793c3f5b8884a8975}{}\label{class_phase_type_distribution_1_1_p_h_aff4abc963d79bff793c3f5b8884a8975}
+
+
+Создает фазовое распределение 
+
+
+
+\subsection{Методы}
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!Expected\+Value@{Expected\+Value}}
+\index{Expected\+Value@{Expected\+Value}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{Expected\+Value()}{ExpectedValue()}}]{\setlength{\rightskip}{0pt plus 5cm}double Phase\+Type\+Distribution.\+P\+H.\+Expected\+Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_phase_type_distribution_1_1_p_h_a170c80fcac45b3d05bfdf1df33d02f1c}{}\label{class_phase_type_distribution_1_1_p_h_a170c80fcac45b3d05bfdf1df33d02f1c}
+
+
+Математическое ожидание для случайной величины 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!operator+@{operator+}}
+\index{operator+@{operator+}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{operator+(\+P\+H A, P\+H B)}{operator+(PH A, PH B)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf PH} Phase\+Type\+Distribution.\+P\+H.\+operator+ (
+\begin{DoxyParamCaption}
+\item[{{\bf PH}}]{A, }
+\item[{{\bf PH}}]{B}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_p_h_ae116dda4b8cc0d8eb1d15399166a0152}{}\label{class_phase_type_distribution_1_1_p_h_ae116dda4b8cc0d8eb1d15399166a0152}
+
+
+Фазовое распределение для суммы двух случайных величин с фазовыми распределениями 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em A} & \\
+\hline
+{\em B} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{To\+String()}{ToString()}}]{\setlength{\rightskip}{0pt plus 5cm}override string Phase\+Type\+Distribution.\+P\+H.\+To\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_phase_type_distribution_1_1_p_h_a2ce09b0ccf1ebd03e74a7854bc98e7a1}{}\label{class_phase_type_distribution_1_1_p_h_a2ce09b0ccf1ebd03e74a7854bc98e7a1}
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!Var@{Var}}
+\index{Var@{Var}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{Var()}{Var()}}]{\setlength{\rightskip}{0pt plus 5cm}double Phase\+Type\+Distribution.\+P\+H.\+Var (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_phase_type_distribution_1_1_p_h_a2603d3b806c3ffcab85a7ea8e01a5010}{}\label{class_phase_type_distribution_1_1_p_h_a2603d3b806c3ffcab85a7ea8e01a5010}
+
+
+Дисперсия случайной величины 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+\subsection{Полный список свойств}
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!Generator@{Generator}}
+\index{Generator@{Generator}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{Generator}{Generator}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} Phase\+Type\+Distribution.\+P\+H.\+Generator\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_phase_type_distribution_1_1_p_h_a80552346d502e6805f79ea0262fb209f}{}\label{class_phase_type_distribution_1_1_p_h_a80552346d502e6805f79ea0262fb209f}
+
+
+Генератор фазового распределения 
+
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!Initial\+Probabilities@{Initial\+Probabilities}}
+\index{Initial\+Probabilities@{Initial\+Probabilities}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{Initial\+Probabilities}{InitialProbabilities}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} Phase\+Type\+Distribution.\+P\+H.\+Initial\+Probabilities\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_phase_type_distribution_1_1_p_h_a987a901d55fcc253f34c42218dbb4456}{}\label{class_phase_type_distribution_1_1_p_h_a987a901d55fcc253f34c42218dbb4456}
+
+
+Начальное распределение для фазового распределения 
+
+\index{Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}!Number\+Of\+Phases@{Number\+Of\+Phases}}
+\index{Number\+Of\+Phases@{Number\+Of\+Phases}!Phase\+Type\+Distribution\+::\+PH@{Phase\+Type\+Distribution\+::\+PH}}
+\subsubsection[{\texorpdfstring{Number\+Of\+Phases}{NumberOfPhases}}]{\setlength{\rightskip}{0pt plus 5cm}int Phase\+Type\+Distribution.\+P\+H.\+Number\+Of\+Phases\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_phase_type_distribution_1_1_p_h_a1cc9a81b38dd0c3f8dfa26a789262fec}{}\label{class_phase_type_distribution_1_1_p_h_a1cc9a81b38dd0c3f8dfa26a789262fec}
+
+
+Число фаз в фазовом распределении 
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Phase\+Type\+Distribution/\hyperlink{_p_h_8cs}{P\+H.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_node">
+<title>NetworkSimulator::Node class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Защищенные данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Random r<para><emphasis>&lt;summary&gt;
+Для генерации случайных чисел
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract void <link linkend="class_network_simulator_1_1_node_1afc4e83369cdce31db59b1023113c01f2">Route</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Отправляет фрагмент по сети обслуживания согласно маршрутизации 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract void <link linkend="class_network_simulator_1_1_node_1abcda5067b8842a447b2ad293818fc319">Send</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f, <link linkend="class_network_simulator_1_1_node">Node</link> N)<para><emphasis>&lt;summary&gt;
+Отправляет фрагмент в узел
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract void <link linkend="class_network_simulator_1_1_node_1ab1d7ae2e2e59169e9ab3086087d950e8">Receive</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Получение фрагмента узлом
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract void <link linkend="class_network_simulator_1_1_node_1a1f558044a94581467ba00d12bf1ae8fd">Activate</link> (
+)<para><emphasis>&lt;summary&gt;
+Активация узла
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Узел сети массового обслуживания </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 13 of file Node.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Node.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>Random NetworkSimulator.Node.r</title>                
+                <para>Definition at line 36 of file Node.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Node.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_network_simulator_1_1_node_1afc4e83369cdce31db59b1023113c01f2">
+                <title>abstract void NetworkSimulator.Node.Route (Fragment f)</title> <emphasis>&lt;summary&gt;
+Отправляет фрагмент по сети обслуживания согласно маршрутизации 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Фрагмент для отправки</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_node_1abcda5067b8842a447b2ad293818fc319">
+                <title>abstract void NetworkSimulator.Node.Send (Fragment f, Node N)</title> <emphasis>&lt;summary&gt;
+Отправляет фрагмент в узел
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Отправляемый фрагмент</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>N</entry>
+                                <entry>
+<para>отУзел-получатель</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_node_1ab1d7ae2e2e59169e9ab3086087d950e8">
+                <title>abstract void NetworkSimulator.Node.Receive (Fragment f)</title> <emphasis>&lt;summary&gt;
+Получение фрагмента узлом
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Получаемый фрагмент</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_node_1a1f558044a94581467ba00d12bf1ae8fd">
+                <title>abstract void NetworkSimulator.Node.Activate ()</title> <emphasis>&lt;summary&gt;
+Активация узла
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,47 @@
+\hypertarget{class_latex_1_1_demo}{}\section{Класс Latex.\+Demo}
+\label{class_latex_1_1_demo}\index{Latex.\+Demo@{Latex.\+Demo}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_latex_1_1_demo_a8c29e3340938f92d55ad89d926db66d3}{Demo\+Latex} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Demo.\+cs строка 10
+
+
+
+\subsection{Методы}
+\index{Latex\+::\+Demo@{Latex\+::\+Demo}!Demo\+Latex@{Demo\+Latex}}
+\index{Demo\+Latex@{Demo\+Latex}!Latex\+::\+Demo@{Latex\+::\+Demo}}
+\subsubsection[{\texorpdfstring{Demo\+Latex()}{DemoLatex()}}]{\setlength{\rightskip}{0pt plus 5cm}static void Latex.\+Demo.\+Demo\+Latex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_latex_1_1_demo_a8c29e3340938f92d55ad89d926db66d3}{}\label{class_latex_1_1_demo_a8c29e3340938f92d55ad89d926db66d3}
+
+
+См. определение в файле Demo.\+cs строка 12
+
+
+\begin{DoxyCode}
+13         \{
+14             \textcolor{keywordtype}{string} text = LatexEditor.BeginLaTex();
+15             text += \textcolor{stringliteral}{"Привет Мир\(\backslash\)n"};
+16             text += LatexEditor.EndLaTex();
+17             LatexEditor.SaveLaTex(text, \textcolor{stringliteral}{"simple"});
+18 
+19             
+20             LatexEditor.CompileLaTex(\textcolor{stringliteral}{"simple"});
+21             Thread.Sleep(2000);
+22             LatexEditor.ShowPDF(\textcolor{stringliteral}{"simple"});
+23         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Latex\+Editor/\hyperlink{_latex_editor_2_demo_8cs}{Demo.\+cs}\end{DoxyCompactItemize}

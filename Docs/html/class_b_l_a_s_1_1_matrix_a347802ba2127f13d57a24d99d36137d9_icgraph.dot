@@ -1,0 +1,25 @@
+digraph "BLAS.Matrix.Matrix"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BLAS.Matrix.Matrix",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BLAS.Matrix.operator+",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#a4f01e6bba79f85ffffc92b7309b5d323",tooltip="Сложение двух матриц "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BLAS.Matrix.operator-",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#ae4f1195fb82b55af477919632adee368",tooltip="Разность матриц "];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="BLAS.Matrix.operator*",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#a2022997b0574ca2ff3a8df17a16562b8",tooltip="Умножение матриц "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="BLAS.Matrix.Transpose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#a7917b89e566d41ce3e80e039bfe414db",tooltip="Возвращает транспонированную матрицу "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="BLAS.Matrix.Copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#acbb991a74ebf35c9932aaedc8b936f51",tooltip="Создает копию данной матрицы "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="BLAS.Matrix.Det",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#a2ea117d5fbaeddc4928b9f6b390dfe4c",tooltip="Возвращает определитель матрицы "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="BLAS.Matrix.Inv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#aa6af90c35062376d6e0db316fd2cad70",tooltip="Возвращает обратную матрицу "];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="PhaseTypeDistribution.PH.\lExpectedValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_phase_type_distribution_1_1_p_h.html#a170c80fcac45b3d05bfdf1df33d02f1c",tooltip="Математическое ожидание для случайной величины "];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="PhaseTypeDistribution.PH.Var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_phase_type_distribution_1_1_p_h.html#a2603d3b806c3ffcab85a7ea8e01a5010",tooltip="Дисперсия случайной величины "];
+}

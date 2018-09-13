@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_random_variables_1_1_random_variable">
+<title>RandomVariables::RandomVariable class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract double <link linkend="class_random_variables_1_1_random_variable_1adf5ef829531ebcc4f0591b81d579519a">NextValue</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Абстрактный класс для генератора случайных величин </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 13 of file RandomVariable.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>RandomVariable.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_random_variables_1_1_random_variable_1adf5ef829531ebcc4f0591b81d579519a">
+                <title>abstract double RandomVariables.RandomVariable.NextValue ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespace_b_l_a_s">
+<title>BLAS</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_b_l_a_s_1_1_computation">BLAS::Computation</link></para>
+<para><emphasis>&lt;summary&gt;
+Класс, включающий в себя методы для работы с матрицами и методы решения СЛАУ
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_b_l_a_s_1_1_demo">BLAS::Demo</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_b_l_a_s_1_1_matrix">BLAS::Matrix</link></para>
+<para><emphasis>&lt;summary&gt;
+Матрица заданной размерности
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

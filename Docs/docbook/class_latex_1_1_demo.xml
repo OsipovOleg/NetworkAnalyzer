@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_latex_1_1_demo">
+<title>Latex::Demo class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_latex_1_1_demo_1a8c29e3340938f92d55ad89d926db66d3">DemoLatex</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_latex_1_1_demo_1a8c29e3340938f92d55ad89d926db66d3">
+                <title>static void Latex.Demo.DemoLatex ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

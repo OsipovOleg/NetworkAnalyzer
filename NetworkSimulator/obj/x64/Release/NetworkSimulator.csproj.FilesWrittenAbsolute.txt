@@ -1,0 +1,14 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/obj/x64/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/NetworkSimulator.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/obj/x64/Release/NetworkSimulator.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/BLAS.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/BLAS.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/ExactAnalysis.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/ExactAnalysis.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/PhaseTypeDistribution.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/PhaseTypeDistribution.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/RandomVariables.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/RandomVariables.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/Networks.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/Networks.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/bin/x64/Release/MathNet.Numerics.dll

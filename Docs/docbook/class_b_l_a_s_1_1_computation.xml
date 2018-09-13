@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_b_l_a_s_1_1_computation">
+<title>BLAS::Computation class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static int <link linkend="class_b_l_a_s_1_1_computation_1a6b1d14ddde137052891ae426962a495d">MaxAbs</link> (
+double[] mas)<para><emphasis>&lt;summary&gt;
+Возвращает номер максимального 
+по модулю элемента в одномерном массиве 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static double[] <link linkend="class_b_l_a_s_1_1_computation_1ac30bde9ba0a8f983730daa3fa0318e29">Gauss</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> A, double[] b)<para><emphasis>&lt;summary&gt;
+Решение системы методом Гаусса. Для решения матрица системы должна быть квадратной.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static double[] <link linkend="class_b_l_a_s_1_1_computation_1aec73d3c3fa06792481c838baf85297cc">Zeidel</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> A_arg, double[] b_arg, double accuracy)<para><emphasis>&lt;summary&gt;
+Решение системы линейных уравнений методом Зейделя
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_computation_1a51aa0363d37030a35bcd43cfe86599c1">KroneckerProduct</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> A, <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> B)<para><emphasis>&lt;summary&gt;
+Возвращает произведение Кронекера (тензорное произведение) для двух матриц
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_computation_1a1fe45b442a10421501936b43a054a4b4">Eye</link> (
+int n)<para><emphasis>&lt;summary&gt;
+Создание единичной матрицы
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_computation_1a2af0de99ec7f64477a68ad329a869248">OnesRow</link> (
+int n)<para><emphasis>&lt;summary&gt;
+Строка из единиц 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_computation_1ae7bf65dbabdb3c801ccddba5ed866b11">OnesColumn</link> (
+int n)<para><emphasis>&lt;summary&gt;
+Столбец из единиц 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_computation_1a494ec792812354d87034d18e2583d029">KroneckerSum</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> A, <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> B)<para><emphasis>&lt;summary&gt;
+Сумма Кронекера двух матриц 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Класс, включающий в себя методы для работы с матрицами и методы решения СЛАУ </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 17 of file Computation.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Computation.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_b_l_a_s_1_1_computation_1a6b1d14ddde137052891ae426962a495d">
+                <title>static int BLAS.Computation.MaxAbs (double[] mas)</title> <emphasis>&lt;summary&gt;
+Возвращает номер максимального 
+по модулю элемента в одномерном массиве 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>mas</entry>
+                                <entry>
+<para>Одномерный массив</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_computation_1ac30bde9ba0a8f983730daa3fa0318e29">
+                <title>static double [] BLAS.Computation.Gauss (Matrix A, double[] b)</title> <emphasis>&lt;summary&gt;
+Решение системы методом Гаусса. Для решения матрица системы должна быть квадратной.
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>A</entry>
+                                <entry>
+<para>Матрица системы</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>Вектор свободных членов</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_computation_1aec73d3c3fa06792481c838baf85297cc">
+                <title>static double [] BLAS.Computation.Zeidel (Matrix A_arg, double[] b_arg, double accuracy)</title> <emphasis>&lt;summary&gt;
+Решение системы линейных уравнений методом Зейделя
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>A_arg</entry>
+                                <entry>
+<para>Матрица системы</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b_arg</entry>
+                                <entry>
+<para>Столбец свободных членов</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>accuracy</entry>
+                                <entry>
+<para>Точность вычисления</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_computation_1a51aa0363d37030a35bcd43cfe86599c1">
+                <title>static Matrix BLAS.Computation.KroneckerProduct (Matrix A, Matrix B)</title> <emphasis>&lt;summary&gt;
+Возвращает произведение Кронекера (тензорное произведение) для двух матриц
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>A</entry>
+                                <entry>
+<para>Первая матрица</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>B</entry>
+                                <entry>
+<para>Вторая матрица</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_computation_1a1fe45b442a10421501936b43a054a4b4">
+                <title>static Matrix BLAS.Computation.Eye (int n)</title> <emphasis>&lt;summary&gt;
+Создание единичной матрицы
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>n</entry>
+                                <entry>
+<para>Порядок матрицы</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_computation_1a2af0de99ec7f64477a68ad329a869248">
+                <title>static Matrix BLAS.Computation.OnesRow (int n)</title> <emphasis>&lt;summary&gt;
+Строка из единиц 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>n</entry>
+                                <entry>
+<para>Размер строки</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_computation_1ae7bf65dbabdb3c801ccddba5ed866b11">
+                <title>static Matrix BLAS.Computation.OnesColumn (int n)</title> <emphasis>&lt;summary&gt;
+Столбец из единиц 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>n</entry>
+                                <entry>
+<para>Размер столбца</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_computation_1a494ec792812354d87034d18e2583d029">
+                <title>static Matrix BLAS.Computation.KroneckerSum (Matrix A, Matrix B)</title> <emphasis>&lt;summary&gt;
+Сумма Кронекера двух матриц 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>A</entry>
+                                <entry>
+<para>Первая матрица</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>B</entry>
+                                <entry>
+<para>Вторая матрица</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

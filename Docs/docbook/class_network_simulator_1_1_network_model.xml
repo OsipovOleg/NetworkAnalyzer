@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_network_model">
+<title>NetworkSimulator::NetworkModel class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_network_model_1a61dfb38e787f81b16b584c6f311064af">NetworkModel</link> (
+<link linkend="class_network_simulator_1_1_node">Node</link>[] Nodes, <link linkend="class_network_simulator_1_1_info_node">InfoNode</link> Info, Random r)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_network_simulator_1_1_network_model_1a79f12b7c4dc35f16f98bf59e06341e79">Run</link> (
+double FinishTime)<para><emphasis>&lt;summary&gt;
+Запуск имитационной модели сети 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_network_simulator_1_1_network_model_1ab2526f51714e4ead297180cc391449a2">Analysis</link> (
+out double AverageRT)<para><emphasis>&lt;summary&gt;
+Выполняет анализ имитационной модели
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Имитационная модель сети обслуживания </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 13 of file NetworkModel.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>NetworkModel.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_simulator_1_1_network_model_1a61dfb38e787f81b16b584c6f311064af">
+                <title>NetworkSimulator.NetworkModel.NetworkModel (Node[] Nodes, InfoNode Info, Random r)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_network_model_1a79f12b7c4dc35f16f98bf59e06341e79">
+                <title>void NetworkSimulator.NetworkModel.Run (double FinishTime)</title> <emphasis>&lt;summary&gt;
+Запуск имитационной модели сети 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>FinishTime</entry>
+                                <entry>
+<para>Время окончания моделирования</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_network_model_1ab2526f51714e4ead297180cc391449a2">
+                <title>void NetworkSimulator.NetworkModel.Analysis (out double AverageRT)</title> <emphasis>&lt;summary&gt;
+Выполняет анализ имитационной модели
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+</section>

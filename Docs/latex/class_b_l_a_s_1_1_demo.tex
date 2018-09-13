@@ -1,0 +1,60 @@
+\hypertarget{class_b_l_a_s_1_1_demo}{}\section{Класс B\+L\+A\+S.\+Demo}
+\label{class_b_l_a_s_1_1_demo}\index{B\+L\+A\+S.\+Demo@{B\+L\+A\+S.\+Demo}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_b_l_a_s_1_1_demo_a20026e7e790b63695ee6a1943299c817}{Demo\+B\+L\+AS} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Demo.\+cs строка 9
+
+
+
+\subsection{Методы}
+\index{B\+L\+A\+S\+::\+Demo@{B\+L\+A\+S\+::\+Demo}!Demo\+B\+L\+AS@{Demo\+B\+L\+AS}}
+\index{Demo\+B\+L\+AS@{Demo\+B\+L\+AS}!B\+L\+A\+S\+::\+Demo@{B\+L\+A\+S\+::\+Demo}}
+\subsubsection[{\texorpdfstring{Demo\+B\+L\+A\+S()}{DemoBLAS()}}]{\setlength{\rightskip}{0pt plus 5cm}static void B\+L\+A\+S.\+Demo.\+Demo\+B\+L\+AS (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_demo_a20026e7e790b63695ee6a1943299c817}{}\label{class_b_l_a_s_1_1_demo_a20026e7e790b63695ee6a1943299c817}
+
+
+См. определение в файле Demo.\+cs строка 11
+
+
+\begin{DoxyCode}
+12         \{
+13 
+14             Console.WriteLine(\textcolor{stringliteral}{"Демострация работы с классом Matrix"}); 
+15             Matrix A = \textcolor{keyword}{new} Matrix(\textcolor{keyword}{new} \textcolor{keywordtype}{double}[,]
+16               \{ \{ 1, 2 \},
+17                 \{ 3, 4 \} \});
+18             Matrix B = \textcolor{keyword}{new} Matrix(\textcolor{keyword}{new} \textcolor{keywordtype}{double}[,]
+19                 \{ \{ 0, 5 \},
+20                 \{ 6, 7 \} \});
+21             Matrix C = \textcolor{keyword}{new} Matrix(\textcolor{keyword}{new} \textcolor{keywordtype}{double}[,]
+22                 \{ \{ 1, 2 \},
+23                 \{ 3, 4 \} \});
+24             Matrix D = \textcolor{keyword}{new} Matrix(\textcolor{keyword}{new} \textcolor{keywordtype}{double}[,]
+25                 \{ \{ 1, 2 \},
+26                 \{ 3, 4 \} \});
+27 
+28             \textcolor{comment}{/* Matrix m = new Matrix(new Matrix[,]}
+29 \textcolor{comment}{                  \{ \{A, B \},}
+30 \textcolor{comment}{                  \{C, D \} \});*/}
+31 
+32 
+33             \textcolor{comment}{// Console.WriteLine(A.ToString());}
+34             Console.WriteLine(Computation.KroneckerProduct(A, B).ToString());
+35         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+B\+L\+A\+S/\hyperlink{_b_l_a_s_2_demo_8cs}{Demo.\+cs}\end{DoxyCompactItemize}

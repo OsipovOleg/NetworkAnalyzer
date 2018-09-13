@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_fork_node">
+<title>NetworkSimulator::ForkNode class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_fork_node_1a14a821313420932498ff994b7de90bc9">ForkNode</link> (
+int ID, int ForkNodeID, Random r, <link linkend="class_network_simulator_1_1_node">Node</link>[] Nodes, <link linkend="class_network_simulator_1_1_info_node">InfoNode</link> Info, double[] RouteRow)<para><emphasis>&lt;summary&gt;
+Создание дивайдера
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_fork_node_1aca7a8c482a32868c4a8cb7c319bd866f">Receive</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Получение фрагмента из какого-то узла
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_fork_node_1adbb300697c7a60946cddf9a0ae0e5dc6">Activate</link> (
+)<para><emphasis>&lt;summary&gt;
+Активация дивайдера
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_fork_node_1aa61ec4b939488e78ac16865249f764f4">Send</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f, <link linkend="class_network_simulator_1_1_node">Node</link> N)<para><emphasis>&lt;summary&gt;
+Отправляет фрагмент указанному узлу
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_fork_node_1a2268305e06c8e851a6faf2db79c89c58">Route</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Распределяет фрагмент по узлам
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Дивайдер </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 12 of file ForkNode.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>ForkNode.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_simulator_1_1_fork_node_1a14a821313420932498ff994b7de90bc9">
+                <title>NetworkSimulator.ForkNode.ForkNode (int ID, int ForkNodeID, Random r, Node[] Nodes, InfoNode Info, double[] RouteRow)</title> <emphasis>&lt;summary&gt;
+Создание дивайдера
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>ID</entry>
+                                <entry>
+<para>Идентификатор системы</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>ForkNodeID</entry>
+                                <entry>
+<para>Идентификатор дивайдера</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>r</entry>
+                                <entry>
+<para>Генератор случайных чисел</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Nodes</entry>
+                                <entry>
+<para>Узлы для обмена фрагментами</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Info</entry>
+                                <entry>
+<para>Информационный узел</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>RouteRow</entry>
+                                <entry>
+<para>Строка для маршрутизации. Элемент строки строки с номером i задает число фрагментов, которые поступят в систему Nodes[i]/// </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_fork_node_1aca7a8c482a32868c4a8cb7c319bd866f">
+                <title>override void NetworkSimulator.ForkNode.Receive (Fragment f)</title> <emphasis>&lt;summary&gt;
+Получение фрагмента из какого-то узла
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Получаемый фрагмент</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_fork_node_1adbb300697c7a60946cddf9a0ae0e5dc6">
+                <title>override void NetworkSimulator.ForkNode.Activate ()</title> <emphasis>&lt;summary&gt;
+Активация дивайдера
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_fork_node_1aa61ec4b939488e78ac16865249f764f4">
+                <title>override void NetworkSimulator.ForkNode.Send (Fragment f, Node N)</title> <emphasis>&lt;summary&gt;
+Отправляет фрагмент указанному узлу
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Отправляемый фрагмент</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>N</entry>
+                                <entry>
+<para>Узел-получатель</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_fork_node_1a2268305e06c8e851a6faf2db79c89c58">
+                <title>override void NetworkSimulator.ForkNode.Route (Fragment f)</title> <emphasis>&lt;summary&gt;
+Распределяет фрагмент по узлам
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Фрагмент, поступивший в дивайдер</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

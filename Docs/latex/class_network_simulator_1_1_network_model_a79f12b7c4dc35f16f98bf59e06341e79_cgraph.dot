@@ -1,0 +1,11 @@
+digraph "NetworkSimulator.NetworkModel.Run"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NetworkSimulator.Network\lModel.Run",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="NetworkSimulator.InfoNode.\lSetCurentTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_info_node.html#a99e3644d53d9feba5a9381f3a9912eec",tooltip="Задает текущее время "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="NetworkSimulator.Node.Activate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_node.html#a1f558044a94581467ba00d12bf1ae8fd",tooltip="Активация узла "];
+}

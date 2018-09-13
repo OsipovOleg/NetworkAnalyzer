@@ -1,0 +1,124 @@
+\hypertarget{class_phase_type_distribution_1_1_demo}{}\section{Класс Phase\+Type\+Distribution.\+Demo}
+\label{class_phase_type_distribution_1_1_demo}\index{Phase\+Type\+Distribution.\+Demo@{Phase\+Type\+Distribution.\+Demo}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_phase_type_distribution_1_1_demo_a28ecaecf8ba6ef129fa64c9ebfebf51f}{Demo\+PH} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Demo.\+cs строка 10
+
+
+
+\subsection{Методы}
+\index{Phase\+Type\+Distribution\+::\+Demo@{Phase\+Type\+Distribution\+::\+Demo}!Demo\+PH@{Demo\+PH}}
+\index{Demo\+PH@{Demo\+PH}!Phase\+Type\+Distribution\+::\+Demo@{Phase\+Type\+Distribution\+::\+Demo}}
+\subsubsection[{\texorpdfstring{Demo\+P\+H()}{DemoPH()}}]{\setlength{\rightskip}{0pt plus 5cm}static void Phase\+Type\+Distribution.\+Demo.\+Demo\+PH (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_demo_a28ecaecf8ba6ef129fa64c9ebfebf51f}{}\label{class_phase_type_distribution_1_1_demo_a28ecaecf8ba6ef129fa64c9ebfebf51f}
+
+
+См. определение в файле Demo.\+cs строка 12
+
+
+\begin{DoxyCode}
+13         \{
+14             Console.WriteLine(\textcolor{stringliteral}{"Демонстрация работы с классом PH"});
+15             \textcolor{keywordtype}{double} mu1 = 2;
+16             \textcolor{keywordtype}{double} mu2 = 2;
+17             \textcolor{keywordtype}{double} mu3 = 2;
+18             \textcolor{keywordtype}{double} mu4 = 2;
+19             \textcolor{keywordtype}{double} mu5 = 2;
+20             \textcolor{keywordtype}{double} mu6 = 2;
+21 
+22 
+23             \textcolor{keywordtype}{double}[,] A1 = \{ \{ -mu1 \} \};
+24             \textcolor{keywordtype}{double}[] alpha1 = \{ 1 \};
+25 
+26             \textcolor{keywordtype}{double}[,] A2 = \{
+27                 \{ -mu2, 0.5 * mu2, 0\},
+28                 \{ 0, -mu4, 0.5 * mu4\},
+29                 \{ 0, mu5, -mu5\}
+30             \};
+31 
+32             \textcolor{keywordtype}{double}[] alpha2 = \{ 1, 0, 0 \};
+33 
+34 
+35             \textcolor{keywordtype}{double}[,] A3 = \{
+36                 \{ -mu2, mu2, 0\},
+37                 \{ 0, -mu4, 0.2 * mu4\},
+38                 \{ 0, 0.7 * mu5, -mu5\}
+39             \};
+40             \textcolor{keywordtype}{double}[] alpha3 = \{ 1, 0, 0 \};
+41 
+42 
+43             \textcolor{keywordtype}{double}[,] A4 = \{
+44                 \{ -mu5, 0.7 * mu5 \},
+45                 \{ 0.2 * mu4, -mu4 \}
+46             \};
+47             \textcolor{keywordtype}{double}[] alpha4 = \{ 1, 0 \};
+48 
+49             \textcolor{keywordtype}{double}[,] A5 = \{
+50                 \{ -mu3, 0.7 * mu3, 0, 0\},
+51                 \{0, -mu2, mu2, 0\},
+52                 \{0, 0, -mu4, 0.2 * mu4\},
+53                 \{0, 0, 0.7 * mu5, -mu5\}
+54             \};
+55             \textcolor{keywordtype}{double}[] alpha5 = \{ 1, 0, 0, 0 \};
+56 
+57 
+58             PhaseTypeVarible A1PH = \textcolor{keyword}{new} PhaseTypeVarible(\textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(A1), alpha1);
+59             PhaseTypeVarible A2PH = \textcolor{keyword}{new} PhaseTypeVarible(\textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(A2), alpha2);
+60             PhaseTypeVarible A3PH = \textcolor{keyword}{new} PhaseTypeVarible(\textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(A3), alpha3);
+61             PhaseTypeVarible A4PH = \textcolor{keyword}{new} PhaseTypeVarible(\textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(A4), alpha4);
+62             PhaseTypeVarible A5PH = \textcolor{keyword}{new} PhaseTypeVarible(\textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(A5), alpha5);
+63 
+64             \textcolor{comment}{// calculate PH Matrix of maximum of times for D1->S1 and D1->S2}
+65             PhaseTypeVarible B12 = PHOperations.Max(A1PH, A2PH);
+66             PhaseTypeVarible B34 = PHOperations.Max(A3PH, A4PH);
+67             \textcolor{comment}{// PH B345 = PHOperations.Max(\{ B34, A5PH);}
+68             PhaseTypeVarible[] variable = \{ A3PH, A4PH, A5PH \};
+69             PhaseTypeVarible B345 = PHOperations.Max(variable);
+70 
+71             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} gamma12 = \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(1, B12.NumberOfPhases);
+72             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < B12.NumberOfPhases; i++)
+73             \{
+74                 gamma12[0, i] = B12.InitialDistribution[i];
+75             \}
+76 
+77 
+78             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} gamma345 = \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(1, B345.NumberOfPhases);
+79             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < B345.NumberOfPhases; i++)
+80             \{
+81                 gamma345[0, i] = B345.InitialDistribution[i]; 
+82             \}
+83 
+84 
+85 
+86             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} tau12 = -gamma12 * (B12.SubGenerator.Inv()) * 
+      \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_ae7bf65dbabdb3c801ccddba5ed866b11}{OnesColumn}(B12.NumberOfPhases);
+87 
+88 
+89             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} tau345 = -gamma345 * (B345.SubGenerator.Inv()) * 
+      \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_ae7bf65dbabdb3c801ccddba5ed866b11}{OnesColumn}(B345.NumberOfPhases);
+90 
+91             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} tau = 0.5 * tau12 + 0.5 * tau345;
+92 
+93 
+94 
+95             \textcolor{keywordtype}{double} t = tau[0, 0] + 1 / mu6;
+96 
+97             Console.WriteLine(\textcolor{stringliteral}{"\{0:f6\}  "}, t);
+98         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Phase\+Type\+Distribution/\hyperlink{_phase_type_distribution_2_demo_8cs}{Demo.\+cs}\end{DoxyCompactItemize}

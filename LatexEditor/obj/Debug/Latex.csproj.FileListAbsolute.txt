@@ -1,0 +1,14 @@
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Debug\LatexEditor.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Debug\LatexEditor.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Debug\BLAS.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Debug\BLAS.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\Debug\Latex.csprojResolveAssemblyReference.cache
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\Debug\LatexEditor.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\Debug\LatexEditor.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Debug\LatexEditor.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Debug\LatexEditor.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Debug\BLAS.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Debug\BLAS.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\Debug\Latex.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\Debug\LatexEditor.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\Debug\LatexEditor.pdb

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_phase_type_varible_8cs">
+    <title>PhaseTypeVarible.cs File Reference</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeDistribution::PhaseTypeVarible</link></para>
+<para><emphasis>&lt;summary&gt;
+Описывает случайную величину с фазовым расределением
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title> Пространства имен </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="namespace_phase_type_distribution">PhaseTypeDistribution</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Подробное описание</title>
+    <para>Definition in file /home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/PhaseTypeVarible.cs</para>
+    </simplesect>
+</section>

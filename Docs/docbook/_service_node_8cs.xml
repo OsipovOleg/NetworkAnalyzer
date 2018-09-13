@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_service_node_8cs">
+    <title>ServiceNode.cs File Reference</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_label">NetworkSimulator::Label</link></para>
+<para><emphasis>&lt;summary&gt;
+Метка требования, находящегося на обслуживании (на приборе)
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_service_node">NetworkSimulator::ServiceNode</link></para>
+<para><emphasis>&lt;summary&gt;
+Базовая система
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title> Пространства имен </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="namespace_network_simulator">NetworkSimulator</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Подробное описание</title>
+    <para>Definition in file /home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/ServiceNode.cs</para>
+    </simplesect>
+</section>

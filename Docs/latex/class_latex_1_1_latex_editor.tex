@@ -1,0 +1,535 @@
+\hypertarget{class_latex_1_1_latex_editor}{}\section{Класс Latex.\+Latex\+Editor}
+\label{class_latex_1_1_latex_editor}\index{Latex.\+Latex\+Editor@{Latex.\+Latex\+Editor}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_latex_1_1_latex_editor_a8c003bd184cc2b8b2632410a7b1d39ed}{Latex\+System\+Of\+Equation} (string\mbox{[},\mbox{]} A\+\_\+str, string\mbox{[}$\,$\mbox{]} b\+\_\+str, string\mbox{[}$\,$\mbox{]} x\+\_\+str, \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A, double\mbox{[}$\,$\mbox{]} b)
+\begin{DoxyCompactList}\small\item\em Формирует систему линейных алгебраических уравнений A$\ast$x = b в виде кода La\+Tex \end{DoxyCompactList}\item 
+static string \hyperlink{class_latex_1_1_latex_editor_a57e3b1474dd286bc0f8bfa0dd718b25a}{Begin\+La\+Tex} ()
+\begin{DoxyCompactList}\small\item\em Формирует шапку tex-\/документа \end{DoxyCompactList}\item 
+static string \hyperlink{class_latex_1_1_latex_editor_aadd58706a390c458fa7146a3798fe573}{End\+La\+Tex} ()
+\begin{DoxyCompactList}\small\item\em Формирует окончание tex-\/документа \end{DoxyCompactList}\item 
+static void \hyperlink{class_latex_1_1_latex_editor_a69f48235bc595627993b62d3cfc25201}{Save\+La\+Tex} (string code, string File\+Name)
+\begin{DoxyCompactList}\small\item\em Сохраняет документ \end{DoxyCompactList}\item 
+static void \hyperlink{class_latex_1_1_latex_editor_ad420e196f1fa78e64ba5bd9e6d823006}{Compile\+La\+Tex} (string File\+Name)
+\begin{DoxyCompactList}\small\item\em Компилирует файл (pdflatex.\+exe) \end{DoxyCompactList}\item 
+static void \hyperlink{class_latex_1_1_latex_editor_a77a63dbcb2cf87e5eb98707f928e7f6f}{Show\+P\+DF} (string File\+Name)
+\begin{DoxyCompactList}\small\item\em Отображает P\+DF документ с данными (Sumatra\+P\+DF) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_latex_1_1_latex_editor_aeba08fa7a4f2ff2ab9752bb496841c7c}{New\+Line} C\+:\textbackslash{}\+Sumatra\+P\+D\+F.\+exe\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Переход на новую строку \end{DoxyCompactList}\item 
+static string \hyperlink{class_latex_1_1_latex_editor_a1899d954c17ac9ad27a773f0d1ee9d61}{New\+Page}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 13
+
+
+
+\subsection{Методы}
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!Begin\+La\+Tex@{Begin\+La\+Tex}}
+\index{Begin\+La\+Tex@{Begin\+La\+Tex}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{Begin\+La\+Tex()}{BeginLaTex()}}]{\setlength{\rightskip}{0pt plus 5cm}static string Latex.\+Latex\+Editor.\+Begin\+La\+Tex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_latex_1_1_latex_editor_a57e3b1474dd286bc0f8bfa0dd718b25a}{}\label{class_latex_1_1_latex_editor_a57e3b1474dd286bc0f8bfa0dd718b25a}
+
+
+Формирует шапку tex-\/документа 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 118
+
+
+\begin{DoxyCode}
+119         \{
+120             \textcolor{keywordflow}{return} \textcolor{stringliteral}{@"}
+121 \textcolor{stringliteral}{\(\backslash\)documentclass[paper=a4, fontsize=16pt]\{report\}}
+122 \textcolor{stringliteral}{\(\backslash\)usepackage\{setspace\}}
+123 \textcolor{stringliteral}{\(\backslash\)linespread\{1.6\}}
+124 \textcolor{stringliteral}{}
+125 \textcolor{stringliteral}{}
+126 \textcolor{stringliteral}{\(\backslash\)usepackage[landscape,pdftex]\{geometry\}}
+127 \textcolor{stringliteral}{\(\backslash\)usepackage[T2A]\{fontenc\}}
+128 \textcolor{stringliteral}{\(\backslash\)usepackage[cp1251]\{inputenc\}}
+129 \textcolor{stringliteral}{\(\backslash\)usepackage[english,russian]\{babel\}}
+130 \textcolor{stringliteral}{\(\backslash\)usepackage\{float\}}
+131 \textcolor{stringliteral}{\(\backslash\)usepackage\{amsthm\}}
+132 \textcolor{stringliteral}{\(\backslash\)usepackage\{amsmath\}}
+133 \textcolor{stringliteral}{\(\backslash\)usepackage\{amssymb\}}
+134 \textcolor{stringliteral}{\(\backslash\)usepackage\{amsfonts\}}
+135 \textcolor{stringliteral}{\(\backslash\)usepackage\{mathtext\}}
+136 \textcolor{stringliteral}{\(\backslash\)usepackage\{mathrsfs\}}
+137 \textcolor{stringliteral}{\(\backslash\)usepackage\{cite\}}
+138 \textcolor{stringliteral}{\(\backslash\)usepackage\{graphicx\}}
+139 \textcolor{stringliteral}{\(\backslash\)usepackage\{epic\}}
+140 \textcolor{stringliteral}{\(\backslash\)usepackage\{multicol\}}
+141 \textcolor{stringliteral}{\(\backslash\)usepackage\{longtable\}}
+142 \textcolor{stringliteral}{}
+143 \textcolor{stringliteral}{}
+144 \textcolor{stringliteral}{}
+145 \textcolor{stringliteral}{}
+146 \textcolor{stringliteral}{}
+147 \textcolor{stringliteral}{\(\backslash\)theoremstyle\{plain\}}
+148 \textcolor{stringliteral}{%Нумерованные}
+149 \textcolor{stringliteral}{\(\backslash\)newtheorem\{theorem\}\{\(\backslash\)indent Теорема\}}
+150 \textcolor{stringliteral}{\(\backslash\)newtheorem\{lemma\}\{\(\backslash\)indent Лемма\}}
+151 \textcolor{stringliteral}{\(\backslash\)newtheorem\{corollary\}\{\(\backslash\)indent Следствие\}}
+152 \textcolor{stringliteral}{\(\backslash\)newtheorem\{prop\}\{\(\backslash\)indent Утверждение\}}
+153 \textcolor{stringliteral}{\(\backslash\)newtheorem\{propos\}\{\(\backslash\)indent Предложение\}}
+154 \textcolor{stringliteral}{\(\backslash\)newtheorem\{problem\}\{\(\backslash\)indent Задача\}}
+155 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Theorem\}\{\(\backslash\)indent Theorem\}}
+156 \textcolor{stringliteral}{\(\backslash\)newtheorem\{hypothesis\}\{\(\backslash\)indent Предположение\}}
+157 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Etheorem\}\{\(\backslash\)indent Theorem\}}
+158 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Eproposition\}\{\(\backslash\)indent Proposition\}}
+159 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Corollary\}\{\(\backslash\)indent Corollary\}}
+160 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Lemma\}\{\(\backslash\)indent Lemma\}}
+161 \textcolor{stringliteral}{\(\backslash\)newtheorem\{theoremb\}\{\(\backslash\)indent Теорема\}}
+162 \textcolor{stringliteral}{%Нумерация теорем A, B, C}
+163 \textcolor{stringliteral}{\(\backslash\)renewcommand\{\(\backslash\)thetheoremb\}\{\(\backslash\)Alph\{theoremb\}\}}
+164 \textcolor{stringliteral}{}
+165 \textcolor{stringliteral}{\(\backslash\)theoremstyle\{remark\}}
+166 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Example\}\{\(\backslash\)indent Example\}}
+167 \textcolor{stringliteral}{}
+168 \textcolor{stringliteral}{}
+169 \textcolor{stringliteral}{%Двойная нумерация}
+170 \textcolor{stringliteral}{\(\backslash\)newtheorem\{theoremnn\}\{\(\backslash\)indent Теорема\}[section]}
+171 \textcolor{stringliteral}{\(\backslash\)newtheorem\{lemmann\}\{\(\backslash\)indent Лемма\}[section]}
+172 \textcolor{stringliteral}{\(\backslash\)newtheorem\{corollarynn\}\{\(\backslash\)indent Следствие\}[section]}
+173 \textcolor{stringliteral}{\(\backslash\)newtheorem\{propnn\}\{\(\backslash\)indent Утверждение\}[section]}
+174 \textcolor{stringliteral}{\(\backslash\)newtheorem\{proposnn\}\{\(\backslash\)indent Предложение\}[section]}
+175 \textcolor{stringliteral}{\(\backslash\)newtheorem\{hypothesisnn\}\{\(\backslash\)indent Предположение\}[section]}
+176 \textcolor{stringliteral}{}
+177 \textcolor{stringliteral}{\(\backslash\)theoremstyle\{plain\}}
+178 \textcolor{stringliteral}{%Ненумерованные окружения}
+179 \textcolor{stringliteral}{%Просто теорема (без номера)}
+180 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{theorem*\}\{\(\backslash\)indent Теорема\}}
+181 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{lemma*\}\{\(\backslash\)indent Лемма\}}
+182 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{corollary*\}\{\(\backslash\)indent Следствие\}}
+183 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{Corollary*\}\{\(\backslash\)indent Corollary\}}
+184 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{prop*\}\{\(\backslash\)indent Утверждение\}}
+185 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{propos*\}\{\(\backslash\)indent Предложение\}}
+186 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{hypothesis*\}\{\(\backslash\)indent Предположение\}}
+187 \textcolor{stringliteral}{%-------------------------------------------------}
+188 \textcolor{stringliteral}{\(\backslash\)theoremstyle\{definition\}}
+189 \textcolor{stringliteral}{\(\backslash\)newtheorem\{definitionn\}\{\(\backslash\)indent Определение\}[section]}
+190 \textcolor{stringliteral}{\(\backslash\)newtheorem\{remarknn\}\{\(\backslash\)indent Замечание\}[section]}
+191 \textcolor{stringliteral}{\(\backslash\)newtheorem\{examplenn\}\{\(\backslash\)indent Пример\}[section]}
+192 \textcolor{stringliteral}{}
+193 \textcolor{stringliteral}{\(\backslash\)newtheorem\{definition\}\{\(\backslash\)indent Определение\}}
+194 \textcolor{stringliteral}{\(\backslash\)newtheorem\{remark\}\{\(\backslash\)indent Замечание\}}
+195 \textcolor{stringliteral}{\(\backslash\)newtheorem\{example\}\{\(\backslash\)indent Пример\}}
+196 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Remark\}\{\(\backslash\)indent Remark\}}
+197 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Question\}\{\(\backslash\)indent Question\}}
+198 \textcolor{stringliteral}{\(\backslash\)newtheorem\{Definition\}\{\(\backslash\)indent Definition\}}
+199 \textcolor{stringliteral}{}
+200 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{definition*\}\{\(\backslash\)indent Определение\}}
+201 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{remark*\}\{\(\backslash\)indent Замечание\}}
+202 \textcolor{stringliteral}{\(\backslash\)newtheorem*\{example*\}\{\(\backslash\)indent Пример\}}
+203 \textcolor{stringliteral}{}
+204 \textcolor{stringliteral}{\(\backslash\)renewenvironment\{proof\}\{\(\backslash\)indent\(\backslash\)textbf\{Доказательство. \}\}\{\(\backslash\)hfill$\(\backslash\)Box$\}}
+205 \textcolor{stringliteral}{}
+206 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)const\}\{\(\backslash\)mathrm\{const\}\}}
+207 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Span\}\{\(\backslash\)mathrm\{Span\}\(\backslash\),\}}
+208 \textcolor{stringliteral}{\(\backslash\)renewcommand\{\(\backslash\)Re\}\{\(\backslash\),\(\backslash\)mathrm\{Re\}\(\backslash\),\}}
+209 \textcolor{stringliteral}{\(\backslash\)renewcommand\{\(\backslash\)Im\}\{\(\backslash\),\(\backslash\)mathrm\{Im\}\(\backslash\),\}}
+210 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)sgn\}\{\(\backslash\)mathrm\{sgn\}\(\backslash\),\}}
+211 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)diag\}\{\(\backslash\)mathrm\{diag\}\(\backslash\),\}}
+212 \textcolor{stringliteral}{}
+213 \textcolor{stringliteral}{%Двойная нумерация формул}
+214 \textcolor{stringliteral}{%\(\backslash\)numberwithin\{equation\}\{section\}}
+215 \textcolor{stringliteral}{}
+216 \textcolor{stringliteral}{}
+217 \textcolor{stringliteral}{\(\backslash\)bibliographystyle\{gost2008\}}
+218 \textcolor{stringliteral}{\(\backslash\)usepackage\{bm\}}
+219 \textcolor{stringliteral}{\(\backslash\)usepackage\{hyperref\}}
+220 \textcolor{stringliteral}{\(\backslash\)usepackage\{xcolor\}}
+221 \textcolor{stringliteral}{\(\backslash\)definecolor\{linkcolor\}\{HTML\}\{799B03\} % цвет ссылок}
+222 \textcolor{stringliteral}{\(\backslash\)definecolor\{urlcolor\}\{HTML\}\{799B03\} % цвет гиперссылок}
+223 \textcolor{stringliteral}{}
+224 \textcolor{stringliteral}{\(\backslash\)hypersetup\{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true\}}
+225 \textcolor{stringliteral}{}
+226 \textcolor{stringliteral}{}
+227 \textcolor{stringliteral}{}
+228 \textcolor{stringliteral}{}
+229 \textcolor{stringliteral}{%Сеть массового обслуживания }
+230 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Network\}\{\(\backslash\)mathcal\{N\}\}}
+231 \textcolor{stringliteral}{%Узел }
+232 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Node\}\{N\}}
+233 \textcolor{stringliteral}{%Подсеть массового обслуживания}
+234 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SubNetwork\}\{H\}}
+235 \textcolor{stringliteral}{%Команды для параметра #1 элементарной подсети}
+236 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Trivial\}[1]\{\(\backslash\)hat\{#1\}\}}
+237 \textcolor{stringliteral}{%Элементарная сеть }
+238 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)TrivialSubNetwork\}\{\(\backslash\)Trivial\{\(\backslash\)SubNetwork\}\}}
+239 \textcolor{stringliteral}{%Множество всех элементарных подсетей массового обслуживания}
+240 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetTrivialSubNetwork\}\{\(\backslash\)mathcal\{\(\backslash\)TrivialSubNetwork\}\}}
+241 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetIndTrivialSubNetwork\}\{X\_\{\(\backslash\)SetTrivialSubNetwork\}\}}
+242 \textcolor{stringliteral}{}
+243 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)RT\}\{\(\backslash\)tau\}}
+244 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)TrivialRT\}\{\(\backslash\)Trivial\{\(\backslash\)RT\}\}}
+245 \textcolor{stringliteral}{}
+246 \textcolor{stringliteral}{%Множестово систем в ветке от дивайдера #1 начиная с системы #2}
+247 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)BranchSequence\}[2]\{\(\backslash\)mathcal\{B\}\{(#1,S\_\{#2\})\}\}}
+248 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ElementBranchSequence\}[1]\{b\_\{#1\}\}}
+249 \textcolor{stringliteral}{}
+250 \textcolor{stringliteral}{%Множество всех систем смежных с дивайдером #1}
+251 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ReachableSet\}[1]\{\(\backslash\)mathcal\{R\}^\{(#1)\}\}}
+252 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ElementReachableSet\}[2]\{r^\{(#1)\}\_\{#2\}\}}
+253 \textcolor{stringliteral}{}
+254 \textcolor{stringliteral}{}
+255 \textcolor{stringliteral}{%Множества базовых систем, дивайдеров и интеграторов}
+256 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetS\}\{\(\backslash\)mathcal\{S\}\}}
+257 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetF\}\{\(\backslash\)mathcal\{F\}\}}
+258 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetJ\}\{\(\backslash\)mathcal\{J\}\}}
+259 \textcolor{stringliteral}{}
+260 \textcolor{stringliteral}{%Число всех систем, базовых систем, двйдеров и интеграторов}
+261 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)NumberNodes\}\{L\}}
+262 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)NumberS\}\{\(\backslash\)NumberNodes\_\{\(\backslash\)SetS\}\}}
+263 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)NumberF\}\{\(\backslash\)NumberNodes\_\{\(\backslash\)SetF\}\}}
+264 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)NumberJ\}\{\(\backslash\)NumberNodes\_\{\(\backslash\)SetF\}\}}
+265 \textcolor{stringliteral}{%Множество номеров систем облуживания, базовых систем}
+266 \textcolor{stringliteral}{%дивайдеров и интеграторов}
+267 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetIndNodes\}\{X\}}
+268 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetIndS\}\{\(\backslash\)SetIndNodes\_\{\(\backslash\)SetS\}\}}
+269 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetIndF\}\{\(\backslash\)SetIndNodes\_\{\(\backslash\)SetF\}\}}
+270 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetIndJ\}\{\(\backslash\)SetIndNodes\_\{\(\backslash\)SetJ\}\}}
+271 \textcolor{stringliteral}{}
+272 \textcolor{stringliteral}{%Последовательность номеров дивайдеров интеграторов и базовых систем}
+273 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)IndS\}\{x^\(\backslash\)SetS\}}
+274 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)IndF\}\{x^\(\backslash\)SetF\}}
+275 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)IndJ\}\{x^\(\backslash\)SetJ\}}
+276 \textcolor{stringliteral}{}
+277 \textcolor{stringliteral}{%Оператор математического ожидания}
+278 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Expect\}\{\(\backslash\)mathsf\{E\}\}}
+279 \textcolor{stringliteral}{}
+280 \textcolor{stringliteral}{% Цепь Маркова }
+281 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)MC\}\{\(\backslash\)mathfrak\{C\}\}}
+282 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)StateMC\}\{\(\backslash\)mathfrak\{s\}\}}
+283 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)InitialProbMC\}\{\(\backslash\)alpha\}}
+284 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)InitialDistMC\}\{\(\backslash\)bm\{\(\backslash\)InitialProbMC\} \}}
+285 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)GeneratorMC\}\{\(\backslash\)bm\{Q\}\}}
+286 \textcolor{stringliteral}{}
+287 \textcolor{stringliteral}{%Фазовое распределение }
+288 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)PH\}\{\(\backslash\)mathrm\{PH\}\}}
+289 \textcolor{stringliteral}{%Матрица фазового распределения}
+290 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)MatrixPH\}\{\(\backslash\)bm\{A\}\}}
+291 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)TransitionRate\}\{a\}}
+292 \textcolor{stringliteral}{%Операия максимума для фазовых с.в.}
+293 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)MaxPH\}\{\(\backslash\)vee\}}
+294 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)BigMaxPH\}\{\(\backslash\)bigvee\}}
+295 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)DimPH\}\{Y\}}
+296 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)TrivialDimPH\}\{\(\backslash\)Trivial\{\(\backslash\)DimPH\}\}}
+297 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)TrivialTransitionRate\}\{\(\backslash\)Trivial\{\(\backslash\)TransitionRate\}\}}
+298 \textcolor{stringliteral}{}
+299 \textcolor{stringliteral}{%Мощность пространства состояний и других мат моделей }
+300 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Card\}\{c\}}
+301 \textcolor{stringliteral}{}
+302 \textcolor{stringliteral}{}
+303 \textcolor{stringliteral}{}
+304 \textcolor{stringliteral}{%Матрицы}
+305 \textcolor{stringliteral}{%Едничная матрица }
+306 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Eye\}\{\(\backslash\)bm\{I\}\}}
+307 \textcolor{stringliteral}{}
+308 \textcolor{stringliteral}{%Марица передачи}
+309 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)RouteMatrix\}\{\(\backslash\)bm\{\(\backslash\)Theta\}\}}
+310 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ForkRouteMatrix\}[1]\{\(\backslash\)RouteMatrix^\{(#1)\}\}}
+311 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ElementRouteMatrix\}[3]\{\(\backslash\)theta^\{(#1)\}\_\{#2,#3\}\}}
+312 \textcolor{stringliteral}{}
+313 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ReductionRouteMatrix\}\{\(\backslash\)tilde\{\(\backslash\)bm\{\(\backslash\)Theta\}\}\}}
+314 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ReductionForkRouteMatrix\}[1]\{\(\backslash\)ReductionRouteMatrix^\{(#1)\}\}}
+315 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ReductionElementRouteMatrix\}[3]\{\(\backslash\)tilde\{\(\backslash\)theta\}^\{(#1)\}\_\{#2,#3\}\}}
+316 \textcolor{stringliteral}{}
+317 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)ReductionNetwork\}\{\(\backslash\)tilde\{\(\backslash\)Network\}\}}
+318 \textcolor{stringliteral}{}
+319 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)Task\}\{\(\backslash\)sigma\}}
+320 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)PredTask\}\{\(\backslash\)Task^*\}}
+321 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)MoveVec\}\{\(\backslash\)bm\{v\}\}}
+322 \textcolor{stringliteral}{\(\backslash\)newcommand\{\(\backslash\)SetMove\}\{\(\backslash\)mathcal\{V\}\}}
+323 \textcolor{stringliteral}{}
+324 \textcolor{stringliteral}{}
+325 \textcolor{stringliteral}{\(\backslash\)begin\{document\}"};
+326 
+327         \}
+\end{DoxyCode}
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!Compile\+La\+Tex@{Compile\+La\+Tex}}
+\index{Compile\+La\+Tex@{Compile\+La\+Tex}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{Compile\+La\+Tex(string File\+Name)}{CompileLaTex(string FileName)}}]{\setlength{\rightskip}{0pt plus 5cm}static void Latex.\+Latex\+Editor.\+Compile\+La\+Tex (
+\begin{DoxyParamCaption}
+\item[{string}]{File\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_latex_1_1_latex_editor_ad420e196f1fa78e64ba5bd9e6d823006}{}\label{class_latex_1_1_latex_editor_ad420e196f1fa78e64ba5bd9e6d823006}
+
+
+Компилирует файл (pdflatex.\+exe) 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em File\+Name} & Имя файла без расширения\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 358
+
+
+\begin{DoxyCode}
+359         \{
+360             \textcolor{keywordtype}{string} cmd = \textcolor{stringliteral}{@"-synctex=1 -interaction=nonstopmode "} + FileName + \textcolor{stringliteral}{".tex"};
+361             var pr = Process.Start(\textcolor{stringliteral}{"pdflatex.exe "}, cmd);
+362         \}
+\end{DoxyCode}
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!End\+La\+Tex@{End\+La\+Tex}}
+\index{End\+La\+Tex@{End\+La\+Tex}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{End\+La\+Tex()}{EndLaTex()}}]{\setlength{\rightskip}{0pt plus 5cm}static string Latex.\+Latex\+Editor.\+End\+La\+Tex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_latex_1_1_latex_editor_aadd58706a390c458fa7146a3798fe573}{}\label{class_latex_1_1_latex_editor_aadd58706a390c458fa7146a3798fe573}
+
+
+Формирует окончание tex-\/документа 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 333
+
+
+\begin{DoxyCode}
+334         \{
+335             \textcolor{keywordflow}{return} \textcolor{stringliteral}{@"\(\backslash\)end\{document\}"};
+336 
+337         \}
+\end{DoxyCode}
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!Latex\+System\+Of\+Equation@{Latex\+System\+Of\+Equation}}
+\index{Latex\+System\+Of\+Equation@{Latex\+System\+Of\+Equation}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{Latex\+System\+Of\+Equation(string[,] A\+\_\+str, string[] b\+\_\+str, string[] x\+\_\+str, Matrix A, double[] b)}{LatexSystemOfEquation(string[,] A_str, string[] b_str, string[] x_str, Matrix A, double[] b)}}]{\setlength{\rightskip}{0pt plus 5cm}static string Latex.\+Latex\+Editor.\+Latex\+System\+Of\+Equation (
+\begin{DoxyParamCaption}
+\item[{string}]{A\+\_\+str\mbox{[},\mbox{]}, }
+\item[{string\mbox{[}$\,$\mbox{]}}]{b\+\_\+str, }
+\item[{string\mbox{[}$\,$\mbox{]}}]{x\+\_\+str, }
+\item[{{\bf Matrix}}]{A, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_latex_1_1_latex_editor_a8c003bd184cc2b8b2632410a7b1d39ed}{}\label{class_latex_1_1_latex_editor_a8c003bd184cc2b8b2632410a7b1d39ed}
+
+
+Формирует систему линейных алгебраических уравнений A$\ast$x = b в виде кода La\+Tex 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em A\+\_\+str} & Текстовое представление матрицы A\\
+\hline
+{\em b\+\_\+str} & Текстовое представление строки b\\
+\hline
+{\em x\+\_\+str} & Текстовое представление столбца x\\
+\hline
+{\em A} & Численные значения матрицы A\\
+\hline
+{\em b} & Численные значения строки b\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 24
+
+
+\begin{DoxyCode}
+26         \{
+27             StringBuilder res = \textcolor{keyword}{new} StringBuilder();
+28             res.AppendLine();
+29             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)begin\{equation*\}"});
+30             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)begin\{cases\}"});
+31 
+32             \textcolor{keywordtype}{int} n = A.\hyperlink{class_b_l_a_s_1_1_matrix_aae67f388c0c049518adc10781e29d091}{CountColumn};
+33             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+34             \{
+35                 \textcolor{keywordtype}{int} j = 0;
+36                 \textcolor{keywordflow}{while} (A[i, j] == 0)
+37                 \{
+38                     j++;
+39                 \}
+40                 res.AppendFormat(\textcolor{stringliteral}{"\{0\}\{1\}"}, A\_str[i, j], x\_str[j]);
+41                 j++;
+42                 \textcolor{keywordflow}{for} (; j < n; j++)
+43                 \{
+44                     \textcolor{keywordflow}{if} (A[i, j] != 0)
+45                     \{
+46                         res.AppendFormat(\textcolor{stringliteral}{"+\{0\}\{1\}"}, A\_str[i, j], x\_str[j]);
+47                     \}
+48                 \}
+49                 res.AppendFormat(\textcolor{stringliteral}{"= \{0\},"}, b\_str[i]);
+50                 \textcolor{keywordflow}{if} (i < n - 1)
+51                 \{
+52                     res.Append(\textcolor{stringliteral}{@"\(\backslash\)\(\backslash\)"});
+53                 \}
+54                 res.AppendLine();
+55             \}
+56             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)end\{cases\}"});
+57             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)end\{equation*\}"});
+58 
+59             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)\(\backslash\)"});
+60             \textcolor{comment}{//Подстановка чисел}
+61             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)begin\{equation*\}"});
+62             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)begin\{cases\}"});
+63 
+64             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+65             \{
+66                 \textcolor{keywordflow}{if} (A[i, 0] != 0)
+67                 \{
+68                     res.AppendFormat(\textcolor{stringliteral}{"\{0\}\{1\}"}, A[i, 0], x\_str[0]);
+69                 \}
+70                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 1; j < n; j++)
+71                 \{
+72                     \textcolor{keywordflow}{if} (A[i, j] > 0)
+73                     \{
+74                         res.AppendFormat(\textcolor{stringliteral}{"+\{0\}\{1\}"}, A[i, j], x\_str[j]);
+75                     \}
+76                     \textcolor{keywordflow}{if} (A[i, j] < 0)
+77                     \{
+78                         res.AppendFormat(\textcolor{stringliteral}{"\{0\}\{1\}"}, A[i, j], x\_str[j]);
+79 
+80                     \}
+81 
+82                 \}
+83                 res.AppendFormat(\textcolor{stringliteral}{"= \{0\},"}, b[i]);
+84                 \textcolor{keywordflow}{if} (i < n - 1)
+85                 \{
+86                     res.Append(\textcolor{stringliteral}{@"\(\backslash\)\(\backslash\)"});
+87                 \}
+88                 res.AppendLine();
+89             \}
+90             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)end\{cases\}"});
+91             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)end\{equation*\}"});
+92 
+93 
+94             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)\(\backslash\)"});
+95             res.AppendLine(\textcolor{stringliteral}{@"Решение СЛАУ\(\backslash\)\(\backslash\)"});
+96 
+97             var x = \hyperlink{namespace_b_l_a_s}{BLAS}.\hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_ac30bde9ba0a8f983730daa3fa0318e29}{Gauss}(A, b);
+98             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)begin\{equation*\}"});
+99             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)begin\{cases\}"});
+100             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+101             \{
+102                 res.AppendFormat(\textcolor{stringliteral}{"\{0\}= \{1:f4\}; "}, x\_str[i], x[i]);
+103                 \textcolor{keywordflow}{if} (i < n - 1)
+104                 \{
+105                     res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)\(\backslash\)"});
+106                 \}
+107             \}
+108             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)end\{cases\}"});
+109             res.AppendLine(\textcolor{stringliteral}{@"\(\backslash\)end\{equation*\}"});
+110             \textcolor{keywordflow}{return} res.ToString();
+111         \}
+\end{DoxyCode}
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!Save\+La\+Tex@{Save\+La\+Tex}}
+\index{Save\+La\+Tex@{Save\+La\+Tex}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{Save\+La\+Tex(string code, string File\+Name)}{SaveLaTex(string code, string FileName)}}]{\setlength{\rightskip}{0pt plus 5cm}static void Latex.\+Latex\+Editor.\+Save\+La\+Tex (
+\begin{DoxyParamCaption}
+\item[{string}]{code, }
+\item[{string}]{File\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_latex_1_1_latex_editor_a69f48235bc595627993b62d3cfc25201}{}\label{class_latex_1_1_latex_editor_a69f48235bc595627993b62d3cfc25201}
+
+
+Сохраняет документ 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em code} & Текст документа\\
+\hline
+{\em name} & Имя файла без разширения\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 345
+
+
+\begin{DoxyCode}
+346         \{
+347             \textcolor{keyword}{using} (StreamWriter sw = \textcolor{keyword}{new} StreamWriter(FileName + \textcolor{stringliteral}{".tex"}, \textcolor{keyword}{false}, Encoding.GetEncoding(1251))
+      )
+348             \{
+349                 sw.WriteLine(code);
+350             \}
+351 
+352         \}
+\end{DoxyCode}
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!Show\+P\+DF@{Show\+P\+DF}}
+\index{Show\+P\+DF@{Show\+P\+DF}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{Show\+P\+D\+F(string File\+Name)}{ShowPDF(string FileName)}}]{\setlength{\rightskip}{0pt plus 5cm}static void Latex.\+Latex\+Editor.\+Show\+P\+DF (
+\begin{DoxyParamCaption}
+\item[{string}]{File\+Name}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_latex_1_1_latex_editor_a77a63dbcb2cf87e5eb98707f928e7f6f}{}\label{class_latex_1_1_latex_editor_a77a63dbcb2cf87e5eb98707f928e7f6f}
+
+
+Отображает P\+DF документ с данными (Sumatra\+P\+DF) 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em File\+Name} & Имя файла без расширения\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 368
+
+
+\begin{DoxyCode}
+369         \{
+370 
+371             Process psi = \textcolor{keyword}{new} Process();
+372 
+373             \textcolor{keywordtype}{string} cmd = FileName + \textcolor{stringliteral}{".pdf"};
+374             psi.StartInfo = \textcolor{keyword}{new} ProcessStartInfo(\textcolor{stringliteral}{@"C:\(\backslash\)SumatraPDF.exe"}, cmd);
+375             \textcolor{comment}{//Program Files (x86)\(\backslash\)Adobe\(\backslash\)Acrobat Reader DC\(\backslash\)Reader\(\backslash\)AcroRd32.exe}
+376             psi.Start();
+377             psi.WaitForExit();
+378 
+379 
+380         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!New\+Line@{New\+Line}}
+\index{New\+Line@{New\+Line}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{New\+Line}{NewLine}}]{\setlength{\rightskip}{0pt plus 5cm}string Latex.\+Latex\+Editor.\+New\+Line C\+:\textbackslash{}\+Sumatra\+P\+D\+F.\+exe\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}\hypertarget{class_latex_1_1_latex_editor_aeba08fa7a4f2ff2ab9752bb496841c7c}{}\label{class_latex_1_1_latex_editor_aeba08fa7a4f2ff2ab9752bb496841c7c}
+
+
+Переход на новую строку 
+
+
+
+См. определение в файле Latex\+Editor.\+cs строка 386
+
+\index{Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}!New\+Page@{New\+Page}}
+\index{New\+Page@{New\+Page}!Latex\+::\+Latex\+Editor@{Latex\+::\+Latex\+Editor}}
+\subsubsection[{\texorpdfstring{New\+Page}{NewPage}}]{\setlength{\rightskip}{0pt plus 5cm}string Latex.\+Latex\+Editor.\+New\+Page\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}\hypertarget{class_latex_1_1_latex_editor_a1899d954c17ac9ad27a773f0d1ee9d61}{}\label{class_latex_1_1_latex_editor_a1899d954c17ac9ad27a773f0d1ee9d61}
+
+
+См. определение в файле Latex\+Editor.\+cs строка 394
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Latex\+Editor/\hyperlink{_latex_editor_8cs}{Latex\+Editor.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,115 @@
+\hypertarget{class_network_simulator_1_1_buffer}{}\section{Класс Network\+Simulator.\+Buffer}
+\label{class_network_simulator_1_1_buffer}\index{Network\+Simulator.\+Buffer@{Network\+Simulator.\+Buffer}}
+
+
+Абстрактный класс для буфера (очередь)  
+
+
+Граф наследования\+:Network\+Simulator.\+Buffer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_buffer}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{class_network_simulator_1_1_buffer_acc9891009aed36c04a04796e24cc62a5}{Put} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Помещает фрагмент в буффер \end{DoxyCompactList}\item 
+abstract \hyperlink{class_network_simulator_1_1_fragment}{Fragment} \hyperlink{class_network_simulator_1_1_buffer_abb36ad86bbf0f02e0905388ab07e041d}{Take} ()
+\begin{DoxyCompactList}\small\item\em Берет фрагмент из буффера \end{DoxyCompactList}\item 
+abstract int \hyperlink{class_network_simulator_1_1_buffer_ad8935513aaa3111b032d3b36cde5b663}{Length} ()
+\begin{DoxyCompactList}\small\item\em Число элеметов в буффере \end{DoxyCompactList}\item 
+abstract bool \hyperlink{class_network_simulator_1_1_buffer_afbd910f1f775e7ee212017c92e72a09f}{Is\+Empty} ()
+\begin{DoxyCompactList}\small\item\em Проверка буффера на пустоту \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Абстрактный класс для буфера (очередь) 
+
+
+
+См. определение в файле Buffer.\+cs строка 12
+
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}!Is\+Empty@{Is\+Empty}}
+\index{Is\+Empty@{Is\+Empty}!Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}}
+\subsubsection[{\texorpdfstring{Is\+Empty()}{IsEmpty()}}]{\setlength{\rightskip}{0pt plus 5cm}abstract bool Network\+Simulator.\+Buffer.\+Is\+Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_network_simulator_1_1_buffer_afbd910f1f775e7ee212017c92e72a09f}{}\label{class_network_simulator_1_1_buffer_afbd910f1f775e7ee212017c92e72a09f}
+
+
+Проверка буффера на пустоту 
+
+\begin{DoxyReturn}{Возвращает}
+Возвращает true если буффер пуст, иначе flase
+\end{DoxyReturn}
+
+
+Замещается в \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_abf626c68dc10a0fe86e7865d0717b012}{Network\+Simulator.\+Queue\+F\+C\+FS}.
+
+\index{Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}!Length@{Length}}
+\index{Length@{Length}!Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}}
+\subsubsection[{\texorpdfstring{Length()}{Length()}}]{\setlength{\rightskip}{0pt plus 5cm}abstract int Network\+Simulator.\+Buffer.\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_network_simulator_1_1_buffer_ad8935513aaa3111b032d3b36cde5b663}{}\label{class_network_simulator_1_1_buffer_ad8935513aaa3111b032d3b36cde5b663}
+
+
+Число элеметов в буффере 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+Замещается в \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a463716e2e6eebb40170e5e2d82363d73}{Network\+Simulator.\+Queue\+F\+C\+FS}.
+
+\index{Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}!Put@{Put}}
+\index{Put@{Put}!Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}}
+\subsubsection[{\texorpdfstring{Put(\+Fragment f)}{Put(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Network\+Simulator.\+Buffer.\+Put (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_network_simulator_1_1_buffer_acc9891009aed36c04a04796e24cc62a5}{}\label{class_network_simulator_1_1_buffer_acc9891009aed36c04a04796e24cc62a5}
+
+
+Помещает фрагмент в буффер 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Помещаемый фрагмент\\
+\hline
+\end{DoxyParams}
+
+
+Замещается в \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_acf69de265821290747952858f417ae5f}{Network\+Simulator.\+Queue\+F\+C\+FS}.
+
+\index{Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}!Take@{Take}}
+\index{Take@{Take}!Network\+Simulator\+::\+Buffer@{Network\+Simulator\+::\+Buffer}}
+\subsubsection[{\texorpdfstring{Take()}{Take()}}]{\setlength{\rightskip}{0pt plus 5cm}abstract {\bf Fragment} Network\+Simulator.\+Buffer.\+Take (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\hypertarget{class_network_simulator_1_1_buffer_abb36ad86bbf0f02e0905388ab07e041d}{}\label{class_network_simulator_1_1_buffer_abb36ad86bbf0f02e0905388ab07e041d}
+
+
+Берет фрагмент из буффера 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+Замещается в \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_aa3b80a41b3c15339131d7de216b02a2b}{Network\+Simulator.\+Queue\+F\+C\+FS}.
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_buffer_8cs}{Buffer.\+cs}\end{DoxyCompactItemize}

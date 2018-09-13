@@ -1,0 +1,291 @@
+\hypertarget{class_network_simulator_1_1_fork_node}{}\section{Класс Network\+Simulator.\+Fork\+Node}
+\label{class_network_simulator_1_1_fork_node}\index{Network\+Simulator.\+Fork\+Node@{Network\+Simulator.\+Fork\+Node}}
+
+
+Дивайдер  
+
+
+Граф наследования\+:Network\+Simulator.\+Fork\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_fork_node}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_fork_node_a14a821313420932498ff994b7de90bc9}{Fork\+Node} (int \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID}, int \hyperlink{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}{Fork\+Node\+ID}, Random \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r}, \hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}, \hyperlink{class_network_simulator_1_1_info_node}{Info\+Node} \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}, double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}{Route\+Row})
+\begin{DoxyCompactList}\small\item\em Создание дивайдера \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_fork_node_aca7a8c482a32868c4a8cb7c319bd866f}{Receive} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Получение фрагмента из какого-\/то узла \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_fork_node_adbb300697c7a60946cddf9a0ae0e5dc6}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Активация дивайдера \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_network_simulator_1_1_fork_node_aa61ec4b939488e78ac16865249f764f4}{Send} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f, \hyperlink{class_network_simulator_1_1_node}{Node} N)
+\begin{DoxyCompactList}\small\item\em Отправляет фрагмент указанному узлу \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_fork_node_a2268305e06c8e851a6faf2db79c89c58}{Route} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Распределяет фрагмент по узлам \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}{Fork\+Node\+ID}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Идентификатор дивайдера (собственный номер дивайдера) Имеет значение 1,2,... \end{DoxyCompactList}\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}{Route\+Row}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Маршрутная строка для дивайдера \end{DoxyCompactList}\item 
+int \hyperlink{class_network_simulator_1_1_fork_node_afce4020751cd59e8715309dae27501c8}{Fork\+Degree}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Число фрагментов на которое делится поступающий фрагмент \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Дополнительные унаследованные члены}
+
+
+\subsection{Подробное описание}
+Дивайдер 
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 11
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Fork\+Node@{Fork\+Node}}
+\index{Fork\+Node@{Fork\+Node}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Fork\+Node(int I\+D, int Fork\+Node\+I\+D, Random r, Node[] Nodes, Info\+Node Info, double[] Route\+Row)}{ForkNode(int ID, int ForkNodeID, Random r, Node[] Nodes, InfoNode Info, double[] RouteRow)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Fork\+Node.\+Fork\+Node (
+\begin{DoxyParamCaption}
+\item[{int}]{ID, }
+\item[{int}]{Fork\+Node\+ID, }
+\item[{Random}]{r, }
+\item[{{\bf Node}\mbox{[}$\,$\mbox{]}}]{Nodes, }
+\item[{{\bf Info\+Node}}]{Info, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{Route\+Row}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_fork_node_a14a821313420932498ff994b7de90bc9}{}\label{class_network_simulator_1_1_fork_node_a14a821313420932498ff994b7de90bc9}
+
+
+Создание дивайдера 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em ID} & Идентификатор системы\\
+\hline
+{\em Fork\+Node\+ID} & Идентификатор дивайдера\\
+\hline
+{\em r} & Генератор случайных чисел\\
+\hline
+{\em Nodes} & Узлы для обмена фрагментами\\
+\hline
+{\em Info} & Информационный узел\\
+\hline
+{\em Route\+Row} & Строка для маршрутизации. Элемент строки строки с номером i задает число фрагментов, которые поступят в систему Nodes\mbox{[}i\mbox{]}/// \\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Fork\+Node.\+cs строка 50
+
+
+\begin{DoxyCode}
+51         \{
+52             \textcolor{comment}{//Передача параметров}
+53             this.\hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID} = \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID};
+54             this.\hyperlink{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}{ForkNodeID} = \hyperlink{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}{ForkNodeID};
+55             this.\hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r} = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r};
+56             this.\hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes} = \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes};
+57             this.\hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info};
+58             this.\hyperlink{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}{RouteRow} = \hyperlink{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}{RouteRow};
+59 
+60             \textcolor{comment}{//Обнуление числа поступивших фрагментов}
+61             this.\hyperlink{class_network_simulator_1_1_node_a24aabc6ded4e970b0c2c5c3bcbdf6cd8}{NumberOfArrivedDemads} = 0;
+62 
+63             \textcolor{comment}{//Число фрагметов, получаемых при делении}
+64             this.\hyperlink{class_network_simulator_1_1_fork_node_afce4020751cd59e8715309dae27501c8}{ForkDegree} = (int)\hyperlink{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}{RouteRow}.Sum();
+65             \hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = \textcolor{keywordtype}{double}.PositiveInfinity;
+66         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Activate@{Activate}}
+\index{Activate@{Activate}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Activate()}{Activate()}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Fork\+Node.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_fork_node_adbb300697c7a60946cddf9a0ae0e5dc6}{}\label{class_network_simulator_1_1_fork_node_adbb300697c7a60946cddf9a0ae0e5dc6}
+
+
+Активация дивайдера 
+
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_a1f558044a94581467ba00d12bf1ae8fd}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 123
+
+
+\begin{DoxyCode}
+124         \{
+125         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Receive@{Receive}}
+\index{Receive@{Receive}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Receive(\+Fragment f)}{Receive(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Fork\+Node.\+Receive (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_fork_node_aca7a8c482a32868c4a8cb7c319bd866f}{}\label{class_network_simulator_1_1_fork_node_aca7a8c482a32868c4a8cb7c319bd866f}
+
+
+Получение фрагмента из какого-\/то узла 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Получаемый фрагмент\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_ab1d7ae2e2e59169e9ab3086087d950e8}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 114
+
+
+\begin{DoxyCode}
+115         \{
+116             \hyperlink{class_network_simulator_1_1_node_a24aabc6ded4e970b0c2c5c3bcbdf6cd8}{NumberOfArrivedDemads}++;
+117             \hyperlink{class_network_simulator_1_1_fork_node_a2268305e06c8e851a6faf2db79c89c58}{Route}(f);
+118         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Route@{Route}}
+\index{Route@{Route}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Route(\+Fragment f)}{Route(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Fork\+Node.\+Route (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_fork_node_a2268305e06c8e851a6faf2db79c89c58}{}\label{class_network_simulator_1_1_fork_node_a2268305e06c8e851a6faf2db79c89c58}
+
+
+Распределяет фрагмент по узлам 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Фрагмент, поступивший в дивайдер\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_afc4e83369cdce31db59b1023113c01f2}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 89
+
+
+\begin{DoxyCode}
+90         \{
+91             \textcolor{comment}{//Номер фрагмента начиная с единицы}
+92             \textcolor{keywordtype}{int} partIndex = 1;
+93             \textcolor{comment}{//Проход по каждому смежному узлу}
+94             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}.Length; i++)
+95             \{
+96                 \textcolor{comment}{//Создаем фрагмент необходимое колчиество раз}
+97                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \hyperlink{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}{RouteRow}[i]; j++)
+98                 \{
+99                     Fragment part = \textcolor{keyword}{new} Fragment(f.TimeGeneration, f.ID, \textcolor{keyword}{new} Signature(f, partIndex, 
+      \hyperlink{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}{ForkNodeID}));
+100                     part.NumberOfParts = \hyperlink{class_network_simulator_1_1_fork_node_afce4020751cd59e8715309dae27501c8}{ForkDegree};
+101                     \textcolor{comment}{//Отправляем фрагмент в смежный узел}
+102                     \hyperlink{class_network_simulator_1_1_fork_node_aa61ec4b939488e78ac16865249f764f4}{Send}(part, \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}[i]);
+103                     \textcolor{comment}{//Увеличиваем индекс фрагмента}
+104                     partIndex++;
+105                 \}
+106             \}
+107         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Send@{Send}}
+\index{Send@{Send}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Send(\+Fragment f, Node N)}{Send(Fragment f, Node N)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Fork\+Node.\+Send (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f, }
+\item[{{\bf Node}}]{N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_fork_node_aa61ec4b939488e78ac16865249f764f4}{}\label{class_network_simulator_1_1_fork_node_aa61ec4b939488e78ac16865249f764f4}
+
+
+Отправляет фрагмент указанному узлу 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Отправляемый фрагмент\\
+\hline
+{\em N} & Узел-\/получатель\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_abcda5067b8842a447b2ad293818fc319}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 74
+
+
+\begin{DoxyCode}
+75         \{
+76 \textcolor{preprocessor}{#if DEBUG1}
+77             Console.WriteLine(\textcolor{stringliteral}{"Отправка фрагмента из дивайдера \{0\} в узел \{1\}"}, this.
+      \hyperlink{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}{ForkNodeID}, N.ID);
+78             Console.ReadKey();
+79 \textcolor{preprocessor}{#endif}
+80             N.Receive(f);
+81         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Fork\+Degree@{Fork\+Degree}}
+\index{Fork\+Degree@{Fork\+Degree}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Fork\+Degree}{ForkDegree}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Fork\+Node.\+Fork\+Degree\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_fork_node_afce4020751cd59e8715309dae27501c8}{}\label{class_network_simulator_1_1_fork_node_afce4020751cd59e8715309dae27501c8}
+
+
+Число фрагментов на которое делится поступающий фрагмент 
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 36
+
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Fork\+Node\+ID@{Fork\+Node\+ID}}
+\index{Fork\+Node\+ID@{Fork\+Node\+ID}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Fork\+Node\+ID}{ForkNodeID}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Fork\+Node.\+Fork\+Node\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [protected set]}}\hypertarget{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}{}\label{class_network_simulator_1_1_fork_node_a13432354bc104beb3ec98ba28d4966cb}
+
+
+Идентификатор дивайдера (собственный номер дивайдера) Имеет значение 1,2,... 
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 18
+
+\index{Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}!Route\+Row@{Route\+Row}}
+\index{Route\+Row@{Route\+Row}!Network\+Simulator\+::\+Fork\+Node@{Network\+Simulator\+::\+Fork\+Node}}
+\subsubsection[{\texorpdfstring{Route\+Row}{RouteRow}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} Network\+Simulator.\+Fork\+Node.\+Route\+Row\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}{}\label{class_network_simulator_1_1_fork_node_afcdd23cd37381679ba4f364e0c5b1854}
+
+
+Маршрутная строка для дивайдера 
+
+
+
+См. определение в файле Fork\+Node.\+cs строка 27
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_fork_node_8cs}{Fork\+Node.\+cs}\end{DoxyCompactItemize}

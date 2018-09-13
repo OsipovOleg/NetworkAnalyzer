@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_descriptions_1_1_routing_matrix">
+<title>NetworkDescriptions::RoutingMatrix class Reference</title>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double[][,] Theta</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_descriptions_1_1_routing_matrix_1add98014b6965f5679a0aaeda89b446bd">RoutingMatrix</link> (
+int Dim, int CountForker)<para><emphasis>&lt;summary&gt;
+Маршрутная матрица размера DimxDim
+ &lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double[] <link linkend="class_network_descriptions_1_1_routing_matrix_1aab9481fcca1c6b37fbe29f32cdf3dc83">RoutingRow</link> (
+int i, int k)<para><emphasis>&lt;summary&gt;
+Строка k-матрицы передачи 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double[,] <link linkend="class_network_descriptions_1_1_routing_matrix_1ac861d6d51c5507ca96cca4cf29b4a02c">RoutingMatrixForNode</link> (
+int i)<para><emphasis>&lt;summary&gt;
+Маршрутная матрица для фиксированного узла
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override string <link linkend="class_network_descriptions_1_1_routing_matrix_1a08fa3960104e8189d799f415594602f4">ToString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_network_descriptions_1_1_routing_matrix_1ae26be8d879fc6b41bc0e66eeeaae9580">DeleteNode</link> (
+int IndexOfNode)<para><emphasis>&lt;summary&gt;
+Удаление системы и соотвествующих строк и столбцов 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_network_descriptions_1_1_routing_matrix_1a8009ecda60ef6189dc09c016e4284fd8">AdjacencyMatrix</link> (
+)<para><emphasis>&lt;summary&gt;
+Получает матрицу смежности графа по набору матриц передачи
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_network_descriptions_1_1_routing_matrix_1a1a69e843795b875d926f77a298941c3c">DeleteMatrix</link> (
+int k, int IndexOfForkNode, int IndexJoinNode)<para><emphasis>&lt;summary&gt;
+Удаляет матрицу из матрицы передачи для некоторой пары дивайдер-интегратор 
+с удалением соотвествующих строк
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Маршрутная матрица для сети с делением и слиянием требований </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 14 of file RoutingMatrix.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>RoutingMatrix.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+        </section>
+            <section xml:id="class_network_descriptions_1_1_routing_matrix_1add98014b6965f5679a0aaeda89b446bd">
+                <title>NetworkDescriptions.RoutingMatrix.RoutingMatrix (int Dim, int CountForker)</title> <emphasis>&lt;summary&gt;
+Маршрутная матрица размера DimxDim
+ &lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>L</entry>
+                                <entry>
+<para>Число систем обслуживания в сети</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_descriptions_1_1_routing_matrix_1aab9481fcca1c6b37fbe29f32cdf3dc83">
+                <title>double [] NetworkDescriptions.RoutingMatrix.RoutingRow (int i, int k)</title> <emphasis>&lt;summary&gt;
+Строка k-матрицы передачи 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>i</entry>
+                                <entry>
+<para>Номер узла(строки)</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>k</entry>
+                                <entry>
+<para>Номер матры</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_descriptions_1_1_routing_matrix_1ac861d6d51c5507ca96cca4cf29b4a02c">
+                <title>double [,] NetworkDescriptions.RoutingMatrix.RoutingMatrixForNode (int i)</title> <emphasis>&lt;summary&gt;
+Маршрутная матрица для фиксированного узла
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>i</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_descriptions_1_1_routing_matrix_1a08fa3960104e8189d799f415594602f4">
+                <title>override string NetworkDescriptions.RoutingMatrix.ToString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_network_descriptions_1_1_routing_matrix_1ae26be8d879fc6b41bc0e66eeeaae9580">
+                <title>void NetworkDescriptions.RoutingMatrix.DeleteNode (int IndexOfNode)</title> <emphasis>&lt;summary&gt;
+Удаление системы и соотвествующих строк и столбцов 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>IndexOfNode</entry>
+                                <entry>
+<para>Номер системы (строки столбца) для удаления</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_descriptions_1_1_routing_matrix_1a8009ecda60ef6189dc09c016e4284fd8">
+                <title>Matrix NetworkDescriptions.RoutingMatrix.AdjacencyMatrix ()</title> <emphasis>&lt;summary&gt;
+Получает матрицу смежности графа по набору матриц передачи
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para>The matrix.</para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_descriptions_1_1_routing_matrix_1a1a69e843795b875d926f77a298941c3c">
+                <title>void NetworkDescriptions.RoutingMatrix.DeleteMatrix (int k, int IndexOfForkNode, int IndexJoinNode)</title> <emphasis>&lt;summary&gt;
+Удаляет матрицу из матрицы передачи для некоторой пары дивайдер-интегратор 
+с удалением соотвествующих строк
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>k</entry>
+                                <entry>
+<para>Номер матрицы для удаления (k&gt;0)</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>IndexOfForkNode</entry>
+                                <entry>
+<para>Индекс дивайдера F_k</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>IndexJoinNode</entry>
+                                <entry>
+<para>Индекс интегратора J_k</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

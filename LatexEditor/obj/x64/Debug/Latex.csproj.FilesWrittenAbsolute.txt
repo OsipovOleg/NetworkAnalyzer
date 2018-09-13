@@ -1,0 +1,4 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/LatexEditor/obj/x64/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/LatexEditor/bin/x64/Debug/LatexEditor.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/LatexEditor/obj/x64/Debug/LatexEditor.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/LatexEditor/bin/x64/Debug/BLAS.dll

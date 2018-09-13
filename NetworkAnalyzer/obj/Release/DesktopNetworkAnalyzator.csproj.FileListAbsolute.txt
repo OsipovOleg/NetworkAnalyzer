@@ -1,0 +1,22 @@
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\bin\Release\NetworkAnalyzer.exe.config
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\bin\Release\NetworkAnalyzer.exe
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\bin\Release\NetworkAnalyzer.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.csprojResolveAssemblyReference.cache
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\NetworkAnalyzer.AddRoutingElement.resources
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.MainForm.resources
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\NetworkAnalyzer.Properties.Resources.resources
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\NetworkAnalyzer.RoutingMatrixCreator.resources
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.csproj.GenerateResource.Cache
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\NetworkAnalyzer.exe
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\Release\NetworkAnalyzer.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\bin\Release\NetworkAnalyzer.exe.config
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\bin\Release\NetworkAnalyzer.exe
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\bin\Release\NetworkAnalyzer.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.MainForm.resources
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\NetworkAnalyzer.Properties.Resources.resources
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.csproj.GenerateResource.Cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\NetworkAnalyzer.exe
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\NetworkAnalyzer.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.AddRoutingElement.resources
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\Release\DesktopNetworkAnalyzator.RoutingMatrixCreator.resources

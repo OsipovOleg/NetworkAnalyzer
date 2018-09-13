@@ -1,0 +1,5 @@
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Statistic/bin/Debug/Statistic.exe
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Statistic/bin/Debug/Statistic.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Statistic/obj/x64/Debug/Statistic.csproj.CoreCompileInputs.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Statistic/obj/x64/Debug/Statistic.exe
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Statistic/obj/x64/Debug/Statistic.pdb

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_analysis_1_1_program">
+<title>Analysis::Program class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static string file<para><emphasis>&lt;summary&gt;
+Имя файла с параметрами сети обслуживания
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="class_analysis_1_1_program_1a1d8b267dd093b57dc83268ebd548a73a">FiniteAnalysis</link> (
+Random rand, double FinishTime, double lambda, out double SimulationRT, out double ApproximationRT, out double[] rho)<para><emphasis>&lt;summary&gt;
+Анализ однопориборной сети обслуживания и проверка на имитационной модели
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_analysis_1_1_program_1a9ad75be60bacf9d163fb2fa45cb94e18">Main</link> (
+string[] args)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <simplesect>
+                <title>string Analysis.Program.file</title>                
+                <para>Definition at line 22 of file Program.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Program.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <section xml:id="class_analysis_1_1_program_1a1d8b267dd093b57dc83268ebd548a73a">
+                <title>static bool Analysis.Program.FiniteAnalysis (Random rand, double FinishTime, double lambda, out double SimulationRT, out double ApproximationRT, out double[] rho)</title> <emphasis>&lt;summary&gt;
+Анализ однопориборной сети обслуживания и проверка на имитационной модели
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_analysis_1_1_program_1a9ad75be60bacf9d163fb2fa45cb94e18">
+                <title>static void Analysis.Program.Main (string[] args)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

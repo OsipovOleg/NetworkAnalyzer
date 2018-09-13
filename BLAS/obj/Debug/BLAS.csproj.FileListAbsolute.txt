@@ -1,0 +1,18 @@
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/BLAS/bin/Debug/BLAS.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/BLAS/bin/Debug/BLAS.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/BLAS/obj/Debug/BLAS.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/BLAS/obj/Debug/BLAS.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/BLAS/obj/Debug/BLAS.csprojResolveAssemblyReference.cache
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/BLAS/bin/Debug/BLAS.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/BLAS/bin/Debug/BLAS.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/BLAS/obj/Debug/BLAS.csprojResolveAssemblyReference.cache
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/BLAS/obj/Debug/BLAS.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/BLAS/obj/Debug/BLAS.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/bin/Debug/BLAS.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/bin/Debug/BLAS.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/bin/Debug/MathNet.Numerics.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/bin/Debug/MathNet.Numerics.xml
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/obj/Debug/BLAS.csprojResolveAssemblyReference.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/obj/Debug/BLAS.csproj.CoreCompileInputs.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/obj/Debug/BLAS.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/BLAS/obj/Debug/BLAS.pdb

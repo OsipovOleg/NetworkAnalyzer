@@ -1,0 +1,10 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\x64\Release\LatexEditor.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\x64\Release\LatexEditor.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\x64\Release\BLAS.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\x64\Release\BLAS.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\x64\Release\Latex.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\x64\Release\LatexEditor.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\x64\Release\BLAS.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\x64\Release\BLAS.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\x64\Release\Latex.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\x64\Release\LatexEditor.dll

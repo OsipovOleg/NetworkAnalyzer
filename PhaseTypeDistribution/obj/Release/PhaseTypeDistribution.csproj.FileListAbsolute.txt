@@ -1,0 +1,18 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\bin\Release\PhaseTypeDistribution.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\bin\Release\PhaseTypeDistribution.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\bin\Release\BLAS.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\bin\Release\LatexEditor.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\bin\Release\BLAS.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\obj\Release\PhaseTypeDistribution.csprojResolveAssemblyReference.cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\obj\Release\PhaseTypeDistribution.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\obj\Release\PhaseTypeDistribution.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\PhaseTypeDistribution\bin\Release\LatexEditor.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\bin\Release\PhaseTypeDistribution.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\bin\Release\PhaseTypeDistribution.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\bin\Release\BLAS.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\bin\Release\LatexEditor.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\bin\Release\BLAS.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\obj\Release\PhaseTypeDistribution.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\obj\Release\PhaseTypeDistribution.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\obj\Release\PhaseTypeDistribution.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\PhaseTypeDistribution\bin\Release\LatexEditor.pdb

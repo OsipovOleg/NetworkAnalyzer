@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespace_network_simulator">
+<title>NetworkSimulator</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_buffer">NetworkSimulator::Buffer</link></para>
+<para><emphasis>&lt;summary&gt;
+Абстрактный класс для буфера (очередь)
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_demand">NetworkSimulator::Demand</link></para>
+<para><emphasis>&lt;summary&gt;
+Абстрактный класс для требования
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_demo">NetworkSimulator::Demo</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_fork_node">NetworkSimulator::ForkNode</link></para>
+<para><emphasis>&lt;summary&gt;
+Дивайдер
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_fragment">NetworkSimulator::Fragment</link></para>
+<para><emphasis>&lt;summary&gt;
+Фрагмент в сети с делением и слиянием требований
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_info_node">NetworkSimulator::InfoNode</link></para>
+<para><emphasis>&lt;summary&gt;
+Информационный узел в сети обслуживания
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_join_node">NetworkSimulator::JoinNode</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_label">NetworkSimulator::Label</link></para>
+<para><emphasis>&lt;summary&gt;
+Метка требования, находящегося на обслуживании (на приборе)
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_network_model">NetworkSimulator::NetworkModel</link></para>
+<para><emphasis>&lt;summary&gt;
+ Имитационная модель сети обслуживания
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_node">NetworkSimulator::Node</link></para>
+<para><emphasis>&lt;summary&gt;
+Узел сети массового обслуживания
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_o_f_j_q_n">NetworkSimulator::OFJQN</link></para>
+<para><emphasis>&lt;summary&gt;
+Имитционная модель для открытой экспоненциальносй сети массового обслуживания 
+с делением и слиянием требований и произвольным числом обслуживающих прибором с дисциплиной FCFS
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_queue_f_c_f_s">NetworkSimulator::QueueFCFS</link></para>
+<para><emphasis>&lt;summary&gt;
+Очередь с дисциплной FCFS
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_service_node">NetworkSimulator::ServiceNode</link></para>
+<para><emphasis>&lt;summary&gt;
+Базовая система
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_signature">NetworkSimulator::Signature</link></para>
+<para><emphasis>&lt;summary&gt;
+Класс для сигнатуры фрагмента 
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_source_node">NetworkSimulator::SourceNode</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_utils">NetworkSimulator::Utils</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

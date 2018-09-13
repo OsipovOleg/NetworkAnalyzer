@@ -1,0 +1,91 @@
+\hypertarget{class_network_simulator_1_1_o_f_j_q_n}{}\section{Класс Network\+Simulator.\+O\+F\+J\+QN}
+\label{class_network_simulator_1_1_o_f_j_q_n}\index{Network\+Simulator.\+O\+F\+J\+QN@{Network\+Simulator.\+O\+F\+J\+QN}}
+
+
+Имитционная модель для открытой экспоненциальносй сети массового обслуживания с делением и слиянием требований и произвольным числом обслуживающих прибором с дисциплиной F\+C\+FS  
+
+
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_network_simulator_1_1_network_model}{Network\+Model} \hyperlink{class_network_simulator_1_1_o_f_j_q_n_a6d0939bfdf0bc3c0b96269169506c454}{Create\+Network\+Model} (\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{Description\+O\+F\+J\+QN} Description, Random rand)
+\begin{DoxyCompactList}\small\item\em Создает экземпляр класса \hyperlink{class_network_simulator_1_1_network_model}{Network\+Model} по описанию сети обслуживания \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Имитционная модель для открытой экспоненциальносй сети массового обслуживания с делением и слиянием требований и произвольным числом обслуживающих прибором с дисциплиной F\+C\+FS 
+
+
+
+См. определение в файле O\+F\+J\+Q\+N.\+cs строка 13
+
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+O\+F\+J\+QN@{Network\+Simulator\+::\+O\+F\+J\+QN}!Create\+Network\+Model@{Create\+Network\+Model}}
+\index{Create\+Network\+Model@{Create\+Network\+Model}!Network\+Simulator\+::\+O\+F\+J\+QN@{Network\+Simulator\+::\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{Create\+Network\+Model(\+Description\+O\+F\+J\+Q\+N Description, Random rand)}{CreateNetworkModel(DescriptionOFJQN Description, Random rand)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Network\+Model} Network\+Simulator.\+O\+F\+J\+Q\+N.\+Create\+Network\+Model (
+\begin{DoxyParamCaption}
+\item[{{\bf Description\+O\+F\+J\+QN}}]{Description, }
+\item[{Random}]{rand}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_network_simulator_1_1_o_f_j_q_n_a6d0939bfdf0bc3c0b96269169506c454}{}\label{class_network_simulator_1_1_o_f_j_q_n_a6d0939bfdf0bc3c0b96269169506c454}
+
+
+Создает экземпляр класса \hyperlink{class_network_simulator_1_1_network_model}{Network\+Model} по описанию сети обслуживания 
+
+\begin{DoxyReturn}{Возвращает}
+The network model.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Аргументы}
+{\em Description} & Описание сети обслуживания\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле O\+F\+J\+Q\+N.\+cs строка 20
+
+
+\begin{DoxyCode}
+21         \{
+22             InfoNode Info = \textcolor{keyword}{new} InfoNode();
+23             Info.SetCurentTime(0);
+24 
+25             var Nodes = \textcolor{keyword}{new} Node[Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}];
+26             \textcolor{comment}{//Источник требований}
+27             Nodes[0] = \textcolor{keyword}{new} SourceNode(0, rand, \textcolor{keyword}{new} \hyperlink{class_random_variables_1_1_exponential_variable}{ExponentialVariable}(rand, Description
+      .\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0}), Nodes, Info, Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_aab9481fcca1c6b37fbe29f32cdf3dc83}{RoutingRow}(0, 0));
+28             \textcolor{comment}{//Базовые системы}
+29             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length; i++)
+30             \{
+31 
+32                 Nodes[Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[i]] = \textcolor{keyword}{new} ServiceNode(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[i], rand, \textcolor{keyword}{new} 
+      \hyperlink{namespace_random_variables}{RandomVariables}.\hyperlink{class_random_variables_1_1_exponential_variable}{ExponentialVariable}(rand, Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}[i]),
+33                     \textcolor{keyword}{new} QueueFCFS(), Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}[i], Nodes, Info, Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_ac861d6d51c5507ca96cca4cf29b4a02c}{RoutingMatrixForNode}(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[i]));
+34             \}
+35             \textcolor{comment}{//Дивайдеры}
+36             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}.Length; k++)
+37             \{
+38                 Nodes[Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[k]] = \textcolor{keyword}{new} ForkNode(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[k], k + 1, rand, Nodes, Info, 
+      Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_aab9481fcca1c6b37fbe29f32cdf3dc83}{RoutingRow}(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[k], k + 1));
+39             \}
+40             \textcolor{comment}{//Интеграторы}
+41             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}.Length; k++)
+42             \{
+43                 Nodes[Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[k]] = \textcolor{keyword}{new} JoinNode(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[k], rand, Nodes, Info, Description.
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_ac861d6d51c5507ca96cca4cf29b4a02c}{RoutingMatrixForNode}(Description.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[k]));
+44             \}
+45 
+46 
+47 
+48             \textcolor{keywordflow}{return} \textcolor{keyword}{new} NetworkModel(Nodes, Info, rand); 
+49         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_o_f_j_q_n_8cs}{O\+F\+J\+Q\+N.\+cs}\end{DoxyCompactItemize}

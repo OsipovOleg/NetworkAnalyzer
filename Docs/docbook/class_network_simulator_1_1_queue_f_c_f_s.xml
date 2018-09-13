@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_queue_f_c_f_s">
+<title>NetworkSimulator::QueueFCFS class Reference</title>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Queue&lt; Fragment &gt; queue</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_queue_f_c_f_s_1a812ab2164add073d81904f6c9e458037">QueueFCFS</link> (
+)<para><emphasis>&lt;summary&gt;
+Создает очередь FCFS
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override bool <link linkend="class_network_simulator_1_1_queue_f_c_f_s_1abf626c68dc10a0fe86e7865d0717b012">IsEmpty</link> (
+)<para><emphasis>&lt;summary&gt;
+Проверка очереди на пустоту
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override int <link linkend="class_network_simulator_1_1_queue_f_c_f_s_1a463716e2e6eebb40170e5e2d82363d73">Length</link> (
+)<para><emphasis>&lt;summary&gt;
+Число элментов в очереди
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_queue_f_c_f_s_1acf69de265821290747952858f417ae5f">Put</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Помещает элемент в очередь
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override <link linkend="class_network_simulator_1_1_fragment">Fragment</link> <link linkend="class_network_simulator_1_1_queue_f_c_f_s_1aa3b80a41b3c15339131d7de216b02a2b">Take</link> (
+)<para><emphasis>&lt;summary&gt;
+Выбор первого элемента из очереди
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Очередь с дисциплной FCFS </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 13 of file QueueFCFS.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>QueueFCFS.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+        </section>
+            <section xml:id="class_network_simulator_1_1_queue_f_c_f_s_1a812ab2164add073d81904f6c9e458037">
+                <title>NetworkSimulator.QueueFCFS.QueueFCFS ()</title> <emphasis>&lt;summary&gt;
+Создает очередь FCFS
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_queue_f_c_f_s_1abf626c68dc10a0fe86e7865d0717b012">
+                <title>override bool NetworkSimulator.QueueFCFS.IsEmpty ()</title> <emphasis>&lt;summary&gt;
+Проверка очереди на пустоту
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_queue_f_c_f_s_1a463716e2e6eebb40170e5e2d82363d73">
+                <title>override int NetworkSimulator.QueueFCFS.Length ()</title> <emphasis>&lt;summary&gt;
+Число элментов в очереди
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_queue_f_c_f_s_1acf69de265821290747952858f417ae5f">
+                <title>override void NetworkSimulator.QueueFCFS.Put (Fragment f)</title> <emphasis>&lt;summary&gt;
+Помещает элемент в очередь
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Помещаемый фрагмент</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_queue_f_c_f_s_1aa3b80a41b3c15339131d7de216b02a2b">
+                <title>override Fragment NetworkSimulator.QueueFCFS.Take ()</title> <emphasis>&lt;summary&gt;
+Выбор первого элемента из очереди
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

@@ -1,0 +1,7 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\x64\Debug\LatexEditor.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\x64\Debug\LatexEditor.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\x64\Debug\Latex.csprojResolveAssemblyReference.cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\x64\Debug\LatexEditor.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\x64\Debug\LatexEditor.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\x64\Debug\BLAS.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\x64\Debug\BLAS.pdb

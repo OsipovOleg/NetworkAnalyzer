@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_phase_type_distribution_1_1_phase_type_varible">
+<title>PhaseTypeDistribution::PhaseTypeVarible class Reference</title>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>Matrix subgenerator<para><emphasis>&lt;summary&gt;
+Генератор для фазового распределения 
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double[] initialProbabilities<para><emphasis>&lt;summary&gt;
+Начальное распределение
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_phase_type_distribution_1_1_phase_type_varible_1a3748ae4cbdf3e0d6396e06d0407fd718">PhaseTypeVarible</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> Generator, double[] InitialProbabilities)<para><emphasis>&lt;summary&gt;
+Создает фазовое распределение по его матрице и начальному распределению
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_phase_type_distribution_1_1_phase_type_varible_1ab89c5d81e5cff2f95414f68cf622a773">PhaseTypeVarible</link> (
+)<para><emphasis>&lt;summary&gt;
+Создает фазовое распределение
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_phase_type_distribution_1_1_phase_type_varible_1a29c6567b3097d81c011c426886cd2d6e">ExpectedValue</link> (
+)<para><emphasis>&lt;summary&gt;
+Математическое ожидание для случайной величины 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override string <link linkend="class_phase_type_distribution_1_1_phase_type_varible_1a87c84666a7544595d687ec8913569147">ToString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_phase_type_distribution_1_1_phase_type_varible_1a0a0eaea2b6b3aa60dc742204cac11447">Variance</link> (
+)<para><emphasis>&lt;summary&gt;
+Дисперсия случайной величины
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_phase_type_distribution_1_1_phase_type_varible_1a357bb39985c894e157773327ffba36af">operator+</link> (
+<link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> A, <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> B)<para><emphasis>&lt;summary&gt;
+Фазовое распределение для суммы двух случайных величин с фазовыми распределениями
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Описывает случайную величину с фазовым расределением </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 11 of file PhaseTypeVarible.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>PhaseTypeVarible.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>Matrix PhaseTypeDistribution.PhaseTypeVarible.subgenerator</title>                
+                <para>Definition at line 15 of file PhaseTypeVarible.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>PhaseTypeVarible.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>double [] PhaseTypeDistribution.PhaseTypeVarible.initialProbabilities</title>                
+                <para>Definition at line 19 of file PhaseTypeVarible.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>PhaseTypeVarible.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_phase_type_distribution_1_1_phase_type_varible_1a3748ae4cbdf3e0d6396e06d0407fd718">
+                <title>PhaseTypeDistribution.PhaseTypeVarible.PhaseTypeVarible (Matrix Generator, double[] InitialProbabilities)</title> <emphasis>&lt;summary&gt;
+Создает фазовое распределение по его матрице и начальному распределению
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>Generator</entry>
+                                <entry>
+<para>Генератор фазового распределения</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>InitialProbabilities</entry>
+                                <entry>
+<para>Начальое распределение</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_phase_type_varible_1ab89c5d81e5cff2f95414f68cf622a773">
+                <title>PhaseTypeDistribution.PhaseTypeVarible.PhaseTypeVarible ()</title> <emphasis>&lt;summary&gt;
+Создает фазовое распределение
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_phase_type_varible_1a29c6567b3097d81c011c426886cd2d6e">
+                <title>double PhaseTypeDistribution.PhaseTypeVarible.ExpectedValue ()</title> <emphasis>&lt;summary&gt;
+Математическое ожидание для случайной величины 
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_phase_type_varible_1a87c84666a7544595d687ec8913569147">
+                <title>override string PhaseTypeDistribution.PhaseTypeVarible.ToString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_phase_type_varible_1a0a0eaea2b6b3aa60dc742204cac11447">
+                <title>double PhaseTypeDistribution.PhaseTypeVarible.Variance ()</title> <emphasis>&lt;summary&gt;
+Дисперсия случайной величины
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_phase_type_varible_1a357bb39985c894e157773327ffba36af">
+                <title>static PhaseTypeVarible PhaseTypeDistribution.PhaseTypeVarible.operator+ (PhaseTypeVarible A, PhaseTypeVarible B)</title> <emphasis>&lt;summary&gt;
+Фазовое распределение для суммы двух случайных величин с фазовыми распределениями
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>A</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>B</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

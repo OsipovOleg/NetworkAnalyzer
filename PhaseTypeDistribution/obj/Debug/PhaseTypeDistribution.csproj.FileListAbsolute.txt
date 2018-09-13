@@ -1,0 +1,29 @@
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/bin/Debug/PhaseTypeDistribution.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/bin/Debug/PhaseTypeDistribution.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/bin/Debug/BLAS.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/bin/Debug/LatexEditor.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/bin/Debug/BLAS.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/bin/Debug/LatexEditor.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.csprojResolveAssemblyReference.cache
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/bin/Debug/PhaseTypeDistribution.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/bin/Debug/PhaseTypeDistribution.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/bin/Debug/BLAS.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/bin/Debug/LatexEditor.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/bin/Debug/BLAS.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/bin/Debug/LatexEditor.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.csprojResolveAssemblyReference.cache
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/bin/Debug/PhaseTypeDistribution.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/bin/Debug/PhaseTypeDistribution.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/bin/Debug/BLAS.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/bin/Debug/MathNet.Numerics.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/bin/Debug/BLAS.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/bin/Debug/BLAS.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/bin/Debug/MathNet.Numerics.xml
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.csprojResolveAssemblyReference.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.csproj.CoreCompileInputs.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/PhaseTypeDistribution/obj/Debug/PhaseTypeDistribution.pdb

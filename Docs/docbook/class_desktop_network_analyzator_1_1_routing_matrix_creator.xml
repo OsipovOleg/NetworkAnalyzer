@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator">
+<title>DesktopNetworkAnalyzator::RoutingMatrixCreator class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.ComponentModel.IContainer components<para><emphasis>&lt;summary&gt;
+Required designer variable.
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.ListBox RoutingList</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Button AddButton</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Button DeleteButton</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.Button ApplyButton</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_desktop_network_analyzator_1_1_routing_matrix_creator_1ad70f5f1a2c271f609722bfd79072a235">RoutingMatrixCreator</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_routing_matrix_creator_1abee16260f87190b27f8e261a68592522">AddButton_Click</link> (
+object sender, EventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_routing_matrix_creator_1a065d49ec813253c6af91e7f9747986d8">RoutingMatrixCreator_Load</link> (
+object sender, EventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_routing_matrix_creator_1a4ce2a70101ef4578e789317e10efa55a">ApplyButton_Click</link> (
+object sender, EventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_routing_matrix_creator_1aea6ab07d9cf85667f73bf63270b284fe">DeleteButton_Click</link> (
+object sender, EventArgs e)<para><emphasis>&lt;summary&gt;
+Удаляет выбранный элемент
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_routing_matrix_creator_1ac69a8c5f3cb68beb05debee168d20ced">InitializeComponent</link> (
+)<para><emphasis>&lt;summary&gt;
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_desktop_network_analyzator_1_1_routing_matrix_creator_1a1e0180682e5e3f0405f96f573cab3852">Dispose</link> (
+bool disposing)<para><emphasis>&lt;summary&gt;
+Clean up any resources being used.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>System.ComponentModel.IContainer DesktopNetworkAnalyzator.RoutingMatrixCreator.components</title>                
+                <para>Definition at line 8 of file RoutingMatrixCreator.Designer.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>RoutingMatrixCreator.Designer.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator_1ad70f5f1a2c271f609722bfd79072a235">
+                <title>DesktopNetworkAnalyzator.RoutingMatrixCreator.RoutingMatrixCreator ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator_1abee16260f87190b27f8e261a68592522">
+                <title>void DesktopNetworkAnalyzator.RoutingMatrixCreator.AddButton_Click (object sender, EventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator_1a065d49ec813253c6af91e7f9747986d8">
+                <title>void DesktopNetworkAnalyzator.RoutingMatrixCreator.RoutingMatrixCreator_Load (object sender, EventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator_1a4ce2a70101ef4578e789317e10efa55a">
+                <title>void DesktopNetworkAnalyzator.RoutingMatrixCreator.ApplyButton_Click (object sender, EventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator_1aea6ab07d9cf85667f73bf63270b284fe">
+                <title>void DesktopNetworkAnalyzator.RoutingMatrixCreator.DeleteButton_Click (object sender, EventArgs e)</title> <emphasis>&lt;summary&gt;
+Удаляет выбранный элемент
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>sender</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>e</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator_1ac69a8c5f3cb68beb05debee168d20ced">
+                <title>void DesktopNetworkAnalyzator.RoutingMatrixCreator.InitializeComponent ()</title> <emphasis>&lt;summary&gt;
+Required method for Designer support - do not modify
+the contents of this method with the code editor.
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_routing_matrix_creator_1a1e0180682e5e3f0405f96f573cab3852">
+                <title>override void DesktopNetworkAnalyzator.RoutingMatrixCreator.Dispose (bool disposing)</title> <emphasis>&lt;summary&gt;
+Clean up any resources being used.
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>disposing</entry>
+                                <entry>
+<para>true if managed resources should be disposed; otherwise, false.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

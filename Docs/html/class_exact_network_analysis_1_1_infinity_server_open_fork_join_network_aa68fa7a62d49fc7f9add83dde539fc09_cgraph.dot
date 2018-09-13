@@ -1,0 +1,15 @@
+digraph "ExactNetworkAnalysis.InfinityServerOpenForkJoinNetwork.InfinityServerOpenForkJoinNetwork"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ExactNetworkAnalysis.Infinity\lServerOpenForkJoinNetwork.Infinity\lServerOpenForkJoinNetwork",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BLAS.Matrix.Initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#ac86fdeae6e5a0d2aa7475f432b85eed0",tooltip="Инициализирует каждый элемент матрицы значением по умолчанию (0) "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Networks.RoutingMatrix.Delete\lMatrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_networks_1_1_routing_matrix.html#a90b6115f19d84c00ffa542b614cad426",tooltip="Удаляет матрицу из матрицы передачи для некоторой пары дивайдер-интегратор с удалением соотвествующих..."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Networks.RoutingMatrix.DeleteNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_networks_1_1_routing_matrix.html#aa0c89ec7be267ad6a7dff5d9e5ce3e9b",tooltip="Удаление системы и соотвествующих строк и столбцов "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="BLAS.Matrix.NonZeroElements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#af471c79d0dfb885d8e2d65de20359b75",tooltip="Возвращает число ненулевых элементов в матрице "];
+}

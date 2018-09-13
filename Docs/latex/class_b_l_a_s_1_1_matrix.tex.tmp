@@ -1,0 +1,623 @@
+\hypertarget{class_b_l_a_s_1_1_matrix}{}\section{B\+L\+A\+S.\+Matrix Class Reference}
+\label{class_b_l_a_s_1_1_matrix}\index{B\+L\+A\+S.\+Matrix@{B\+L\+A\+S.\+Matrix}}
+
+
+Матрица заданной размерности  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_b_l_a_s_1_1_matrix_a6864f15a809bdaefa5b0217070a23921}{Row} (int i)
+\begin{DoxyCompactList}\small\item\em Возвращает i-\/ую строку в виде массива \end{DoxyCompactList}\item 
+void \hyperlink{class_b_l_a_s_1_1_matrix_a3c9a4d9b739cccdceed11ec4eb5c7891}{Row} (int i, double\mbox{[}$\,$\mbox{]} row)
+\begin{DoxyCompactList}\small\item\em Задает i-\/ую строку матрицы \end{DoxyCompactList}\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_b_l_a_s_1_1_matrix_ae656a489aa5a156e4604c40f38179c6b}{Column} (int j)
+\begin{DoxyCompactList}\small\item\em Возвращает j-\/ый столбец \end{DoxyCompactList}\item 
+void \hyperlink{class_b_l_a_s_1_1_matrix_ad3c635d45b5cdfe172821f86b157999c}{Column} (int j, double\mbox{[}$\,$\mbox{]} column)
+\begin{DoxyCompactList}\small\item\em Задает j-\/ый столбец \end{DoxyCompactList}\item 
+\hyperlink{class_b_l_a_s_1_1_matrix_a347802ba2127f13d57a24d99d36137d9}{Matrix} (int n, int m)
+\begin{DoxyCompactList}\small\item\em Создает матрицу заданной размерности \end{DoxyCompactList}\item 
+void \hyperlink{class_b_l_a_s_1_1_matrix_ac86fdeae6e5a0d2aa7475f432b85eed0}{Initialize} ()
+\begin{DoxyCompactList}\small\item\em Инициализирует каждый элемент матрицы значением по умолчанию (0) \end{DoxyCompactList}\item 
+\hyperlink{class_b_l_a_s_1_1_matrix_a1147c79d0709bd25b4a1c605f5542f53}{Matrix} (double\mbox{[},\mbox{]} matrix)
+\begin{DoxyCompactList}\small\item\em Создает матрицу из двумерного массива (копирует элементы) \end{DoxyCompactList}\item 
+\hyperlink{class_b_l_a_s_1_1_matrix_a1bcb586901d3f49412c9e98e6f9e3917}{Matrix} (double\mbox{[}$\,$\mbox{]} b)
+\begin{DoxyCompactList}\small\item\em Создание вектора-\/строки \end{DoxyCompactList}\item 
+\hyperlink{class_b_l_a_s_1_1_matrix_ae5da8590bfbd38c7ea0b924bb3c950cc}{Matrix} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}\mbox{[},\mbox{]} Blocks)
+\begin{DoxyCompactList}\small\item\em Создает блочную матрицу из массива матриц (костыль) \end{DoxyCompactList}\item 
+void \hyperlink{class_b_l_a_s_1_1_matrix_a7d892ff1da86df3d8b3f69d78349f563}{Random\+Double\+Matrix} (double Min\+Value, double Max\+Value)
+\begin{DoxyCompactList}\small\item\em Заполняет массив случайными вещественными числами \end{DoxyCompactList}\item 
+void \hyperlink{class_b_l_a_s_1_1_matrix_a345564b81477b189e905d0bd7347b1c2}{Random\+Int\+Matrix} (int Min\+Value, int Max\+Value)
+\begin{DoxyCompactList}\small\item\em Заполняет массив случайными целыми числами \end{DoxyCompactList}\item 
+\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_a7917b89e566d41ce3e80e039bfe414db}{Transpose} ()
+\begin{DoxyCompactList}\small\item\em Возвращает транспонированную матрицу \end{DoxyCompactList}\item 
+\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_acbb991a74ebf35c9932aaedc8b936f51}{Copy} ()
+\begin{DoxyCompactList}\small\item\em Создает копию данной матрицы \end{DoxyCompactList}\item 
+double \hyperlink{class_b_l_a_s_1_1_matrix_a2ea117d5fbaeddc4928b9f6b390dfe4c}{Det} ()
+\begin{DoxyCompactList}\small\item\em Возвращает определитель матрицы \end{DoxyCompactList}\item 
+\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_aa6af90c35062376d6e0db316fd2cad70}{Inv} ()
+\begin{DoxyCompactList}\small\item\em Возвращает обратную матрицу \end{DoxyCompactList}\item 
+override string \hyperlink{class_b_l_a_s_1_1_matrix_a5d8dcb0da420eb386ca861d669cec9c5}{To\+String} ()
+\begin{DoxyCompactList}\small\item\em Возвращает строковое представление матрицы \end{DoxyCompactList}\item 
+double \hyperlink{class_b_l_a_s_1_1_matrix_af16842e488d9bf861c76c47c5fe0f4bf}{Norm} ()
+\begin{DoxyCompactList}\small\item\em Возвращает норму матрицы -\/ максимальную из сумм модулей элементов строки \end{DoxyCompactList}\item 
+long \hyperlink{class_b_l_a_s_1_1_matrix_af471c79d0dfb885d8e2d65de20359b75}{Non\+Zero\+Elements} ()
+\begin{DoxyCompactList}\small\item\em Возвращает число ненулевых элементов в матрице \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_a4f01e6bba79f85ffffc92b7309b5d323}{operator+} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} a, \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} b)
+\begin{DoxyCompactList}\small\item\em Сложение двух матриц \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_ae4f1195fb82b55af477919632adee368}{operator-\/} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} a, \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} b)
+\begin{DoxyCompactList}\small\item\em Разность матриц \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_a4ec498275d375f747ed8e2d401416dc6}{operator-\/} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} a)
+\begin{DoxyCompactList}\small\item\em Унарный минус \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_a2022997b0574ca2ff3a8df17a16562b8}{operator$\ast$} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} a, \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} b)
+\begin{DoxyCompactList}\small\item\em Умножение матриц \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_matrix_ae8042451c61299687cfb3fbd7a33493e}{operator$\ast$} (double x, \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A)
+\begin{DoxyCompactList}\small\item\em Умножение матрицы на число \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_b_l_a_s_1_1_matrix_a511a107843f7d488a87a7f01a184e893}{Count\+Row}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Число строк в матрице \end{DoxyCompactList}\item 
+int \hyperlink{class_b_l_a_s_1_1_matrix_aae67f388c0c049518adc10781e29d091}{Count\+Column}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Число столбцов в матрице \end{DoxyCompactList}\item 
+bool \hyperlink{class_b_l_a_s_1_1_matrix_aba7efc43be0d4d739b278d3c82d21935}{is\+Square}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Возвращает true если матрица квадратная \end{DoxyCompactList}\item 
+double \hyperlink{class_b_l_a_s_1_1_matrix_add823747419052a25f9a5cf67c8eeb03}{this\mbox{[}int i, int j\mbox{]}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Элемент i-\/ой строки и j-\/го стлбца \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Матрица заданной размерности 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Matrix(int n, int m)}{Matrix(int n, int m)}}]{\setlength{\rightskip}{0pt plus 5cm}B\+L\+A\+S.\+Matrix.\+Matrix (
+\begin{DoxyParamCaption}
+\item[{int}]{n, }
+\item[{int}]{m}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a347802ba2127f13d57a24d99d36137d9}{}\label{class_b_l_a_s_1_1_matrix_a347802ba2127f13d57a24d99d36137d9}
+
+
+Создает матрицу заданной размерности 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Количество строк\\
+\hline
+{\em m} & Количество столбцов\\
+\hline
+\end{DoxyParams}
+
+
+Here is the caller graph for this function\+:
+% FIG 0
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Matrix(double[,] matrix)}{Matrix(double[,] matrix)}}]{\setlength{\rightskip}{0pt plus 5cm}B\+L\+A\+S.\+Matrix.\+Matrix (
+\begin{DoxyParamCaption}
+\item[{double}]{matrix\mbox{[},\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a1147c79d0709bd25b4a1c605f5542f53}{}\label{class_b_l_a_s_1_1_matrix_a1147c79d0709bd25b4a1c605f5542f53}
+
+
+Создает матрицу из двумерного массива (копирует элементы) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Двумерный массив\\
+\hline
+\end{DoxyParams}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Matrix(double[] b)}{Matrix(double[] b)}}]{\setlength{\rightskip}{0pt plus 5cm}B\+L\+A\+S.\+Matrix.\+Matrix (
+\begin{DoxyParamCaption}
+\item[{double\mbox{[}$\,$\mbox{]}}]{b}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a1bcb586901d3f49412c9e98e6f9e3917}{}\label{class_b_l_a_s_1_1_matrix_a1bcb586901d3f49412c9e98e6f9e3917}
+
+
+Создание вектора-\/строки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Matrix(\+Matrix[,] Blocks)}{Matrix(Matrix[,] Blocks)}}]{\setlength{\rightskip}{0pt plus 5cm}B\+L\+A\+S.\+Matrix.\+Matrix (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{Blocks\mbox{[},\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_ae5da8590bfbd38c7ea0b924bb3c950cc}{}\label{class_b_l_a_s_1_1_matrix_ae5da8590bfbd38c7ea0b924bb3c950cc}
+
+
+Создает блочную матрицу из массива матриц (костыль) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Blocks} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Column@{Column}}
+\index{Column@{Column}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Column(int j)}{Column(int j)}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} B\+L\+A\+S.\+Matrix.\+Column (
+\begin{DoxyParamCaption}
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_ae656a489aa5a156e4604c40f38179c6b}{}\label{class_b_l_a_s_1_1_matrix_ae656a489aa5a156e4604c40f38179c6b}
+
+
+Возвращает j-\/ый столбец 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+% FIG 1
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Column@{Column}}
+\index{Column@{Column}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Column(int j, double[] column)}{Column(int j, double[] column)}}]{\setlength{\rightskip}{0pt plus 5cm}void B\+L\+A\+S.\+Matrix.\+Column (
+\begin{DoxyParamCaption}
+\item[{int}]{j, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{column}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_ad3c635d45b5cdfe172821f86b157999c}{}\label{class_b_l_a_s_1_1_matrix_ad3c635d45b5cdfe172821f86b157999c}
+
+
+Задает j-\/ый столбец 
+
+
+\begin{DoxyParams}{Parameters}
+{\em j} & Номер столбца\\
+\hline
+{\em column} & Столбец\\
+\hline
+\end{DoxyParams}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Copy@{Copy}}
+\index{Copy@{Copy}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Copy()}{Copy()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} B\+L\+A\+S.\+Matrix.\+Copy (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_acbb991a74ebf35c9932aaedc8b936f51}{}\label{class_b_l_a_s_1_1_matrix_acbb991a74ebf35c9932aaedc8b936f51}
+
+
+Создает копию данной матрицы 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 2
+
+
+
+
+Here is the caller graph for this function\+:
+% FIG 3
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Det@{Det}}
+\index{Det@{Det}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Det()}{Det()}}]{\setlength{\rightskip}{0pt plus 5cm}double B\+L\+A\+S.\+Matrix.\+Det (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a2ea117d5fbaeddc4928b9f6b390dfe4c}{}\label{class_b_l_a_s_1_1_matrix_a2ea117d5fbaeddc4928b9f6b390dfe4c}
+
+
+Возвращает определитель матрицы 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 4
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Initialize()}{Initialize()}}]{\setlength{\rightskip}{0pt plus 5cm}void B\+L\+A\+S.\+Matrix.\+Initialize (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_ac86fdeae6e5a0d2aa7475f432b85eed0}{}\label{class_b_l_a_s_1_1_matrix_ac86fdeae6e5a0d2aa7475f432b85eed0}
+
+
+Инициализирует каждый элемент матрицы значением по умолчанию (0) 
+
+
+
+Here is the caller graph for this function\+:
+% FIG 5
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Inv@{Inv}}
+\index{Inv@{Inv}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Inv()}{Inv()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} B\+L\+A\+S.\+Matrix.\+Inv (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_aa6af90c35062376d6e0db316fd2cad70}{}\label{class_b_l_a_s_1_1_matrix_aa6af90c35062376d6e0db316fd2cad70}
+
+
+Возвращает обратную матрицу 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 6
+
+
+
+
+Here is the caller graph for this function\+:
+% FIG 7
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Non\+Zero\+Elements@{Non\+Zero\+Elements}}
+\index{Non\+Zero\+Elements@{Non\+Zero\+Elements}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Non\+Zero\+Elements()}{NonZeroElements()}}]{\setlength{\rightskip}{0pt plus 5cm}long B\+L\+A\+S.\+Matrix.\+Non\+Zero\+Elements (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_af471c79d0dfb885d8e2d65de20359b75}{}\label{class_b_l_a_s_1_1_matrix_af471c79d0dfb885d8e2d65de20359b75}
+
+
+Возвращает число ненулевых элементов в матрице 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+% FIG 8
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Norm@{Norm}}
+\index{Norm@{Norm}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Norm()}{Norm()}}]{\setlength{\rightskip}{0pt plus 5cm}double B\+L\+A\+S.\+Matrix.\+Norm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_af16842e488d9bf861c76c47c5fe0f4bf}{}\label{class_b_l_a_s_1_1_matrix_af16842e488d9bf861c76c47c5fe0f4bf}
+
+
+Возвращает норму матрицы -\/ максимальную из сумм модулей элементов строки 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{operator$\ast$(\+Matrix a, Matrix b)}{operator*(Matrix a, Matrix b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Matrix.\+operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{a, }
+\item[{{\bf Matrix}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_matrix_a2022997b0574ca2ff3a8df17a16562b8}{}\label{class_b_l_a_s_1_1_matrix_a2022997b0574ca2ff3a8df17a16562b8}
+
+
+Умножение матриц 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 9
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{operator$\ast$(double x, Matrix A)}{operator*(double x, Matrix A)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Matrix.\+operator$\ast$ (
+\begin{DoxyParamCaption}
+\item[{double}]{x, }
+\item[{{\bf Matrix}}]{A}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_matrix_ae8042451c61299687cfb3fbd7a33493e}{}\label{class_b_l_a_s_1_1_matrix_ae8042451c61299687cfb3fbd7a33493e}
+
+
+Умножение матрицы на число 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Число\\
+\hline
+{\em A} & Матрица\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 10
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!operator+@{operator+}}
+\index{operator+@{operator+}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{operator+(\+Matrix a, Matrix b)}{operator+(Matrix a, Matrix b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Matrix.\+operator+ (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{a, }
+\item[{{\bf Matrix}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_matrix_a4f01e6bba79f85ffffc92b7309b5d323}{}\label{class_b_l_a_s_1_1_matrix_a4f01e6bba79f85ffffc92b7309b5d323}
+
+
+Сложение двух матриц 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Первое слагаемое \\
+\hline
+{\em b} & Второе слагаемое\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 11
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{operator-\/(\+Matrix a, Matrix b)}{operator-(Matrix a, Matrix b)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Matrix.\+operator-\/ (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{a, }
+\item[{{\bf Matrix}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_matrix_ae4f1195fb82b55af477919632adee368}{}\label{class_b_l_a_s_1_1_matrix_ae4f1195fb82b55af477919632adee368}
+
+
+Разность матриц 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+{\em b} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 12
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{operator-\/(\+Matrix a)}{operator-(Matrix a)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Matrix.\+operator-\/ (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{a}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_matrix_a4ec498275d375f747ed8e2d401416dc6}{}\label{class_b_l_a_s_1_1_matrix_a4ec498275d375f747ed8e2d401416dc6}
+
+
+Унарный минус 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the call graph for this function\+:
+% FIG 13
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Random\+Double\+Matrix@{Random\+Double\+Matrix}}
+\index{Random\+Double\+Matrix@{Random\+Double\+Matrix}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Random\+Double\+Matrix(double Min\+Value, double Max\+Value)}{RandomDoubleMatrix(double MinValue, double MaxValue)}}]{\setlength{\rightskip}{0pt plus 5cm}void B\+L\+A\+S.\+Matrix.\+Random\+Double\+Matrix (
+\begin{DoxyParamCaption}
+\item[{double}]{Min\+Value, }
+\item[{double}]{Max\+Value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a7d892ff1da86df3d8b3f69d78349f563}{}\label{class_b_l_a_s_1_1_matrix_a7d892ff1da86df3d8b3f69d78349f563}
+
+
+Заполняет массив случайными вещественными числами 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Min\+Value} & Минимальное значение\\
+\hline
+{\em Max\+Value} & Максимальное значение\\
+\hline
+\end{DoxyParams}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Random\+Int\+Matrix@{Random\+Int\+Matrix}}
+\index{Random\+Int\+Matrix@{Random\+Int\+Matrix}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Random\+Int\+Matrix(int Min\+Value, int Max\+Value)}{RandomIntMatrix(int MinValue, int MaxValue)}}]{\setlength{\rightskip}{0pt plus 5cm}void B\+L\+A\+S.\+Matrix.\+Random\+Int\+Matrix (
+\begin{DoxyParamCaption}
+\item[{int}]{Min\+Value, }
+\item[{int}]{Max\+Value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a345564b81477b189e905d0bd7347b1c2}{}\label{class_b_l_a_s_1_1_matrix_a345564b81477b189e905d0bd7347b1c2}
+
+
+Заполняет массив случайными целыми числами 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Min\+Value} & Минимальное значение\\
+\hline
+{\em Max\+Value} & Максимальное значение\\
+\hline
+\end{DoxyParams}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Row@{Row}}
+\index{Row@{Row}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Row(int i)}{Row(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} B\+L\+A\+S.\+Matrix.\+Row (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a6864f15a809bdaefa5b0217070a23921}{}\label{class_b_l_a_s_1_1_matrix_a6864f15a809bdaefa5b0217070a23921}
+
+
+Возвращает i-\/ую строку в виде массива 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Номер строки\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+% FIG 14
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Row@{Row}}
+\index{Row@{Row}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Row(int i, double[] row)}{Row(int i, double[] row)}}]{\setlength{\rightskip}{0pt plus 5cm}void B\+L\+A\+S.\+Matrix.\+Row (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{row}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a3c9a4d9b739cccdceed11ec4eb5c7891}{}\label{class_b_l_a_s_1_1_matrix_a3c9a4d9b739cccdceed11ec4eb5c7891}
+
+
+Задает i-\/ую строку матрицы 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Номер строки\\
+\hline
+{\em row} & Строка\\
+\hline
+\end{DoxyParams}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{To\+String()}{ToString()}}]{\setlength{\rightskip}{0pt plus 5cm}override string B\+L\+A\+S.\+Matrix.\+To\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a5d8dcb0da420eb386ca861d669cec9c5}{}\label{class_b_l_a_s_1_1_matrix_a5d8dcb0da420eb386ca861d669cec9c5}
+
+
+Возвращает строковое представление матрицы 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Here is the caller graph for this function\+:
+% FIG 15
+
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Transpose@{Transpose}}
+\index{Transpose@{Transpose}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Transpose()}{Transpose()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Matrix} B\+L\+A\+S.\+Matrix.\+Transpose (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_b_l_a_s_1_1_matrix_a7917b89e566d41ce3e80e039bfe414db}{}\label{class_b_l_a_s_1_1_matrix_a7917b89e566d41ce3e80e039bfe414db}
+
+
+Возвращает транспонированную матрицу 
+
+
+
+Here is the call graph for this function\+:
+% FIG 16
+
+
+
+
+\subsection{Property Documentation}
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Count\+Column@{Count\+Column}}
+\index{Count\+Column@{Count\+Column}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Count\+Column}{CountColumn}}]{\setlength{\rightskip}{0pt plus 5cm}int B\+L\+A\+S.\+Matrix.\+Count\+Column\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_b_l_a_s_1_1_matrix_aae67f388c0c049518adc10781e29d091}{}\label{class_b_l_a_s_1_1_matrix_aae67f388c0c049518adc10781e29d091}
+
+
+Число столбцов в матрице 
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!Count\+Row@{Count\+Row}}
+\index{Count\+Row@{Count\+Row}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{Count\+Row}{CountRow}}]{\setlength{\rightskip}{0pt plus 5cm}int B\+L\+A\+S.\+Matrix.\+Count\+Row\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_b_l_a_s_1_1_matrix_a511a107843f7d488a87a7f01a184e893}{}\label{class_b_l_a_s_1_1_matrix_a511a107843f7d488a87a7f01a184e893}
+
+
+Число строк в матрице 
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!is\+Square@{is\+Square}}
+\index{is\+Square@{is\+Square}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{is\+Square}{isSquare}}]{\setlength{\rightskip}{0pt plus 5cm}bool B\+L\+A\+S.\+Matrix.\+is\+Square\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_b_l_a_s_1_1_matrix_aba7efc43be0d4d739b278d3c82d21935}{}\label{class_b_l_a_s_1_1_matrix_aba7efc43be0d4d739b278d3c82d21935}
+
+
+Возвращает true если матрица квадратная 
+
+\index{B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}!this\mbox{[}int i, int j\mbox{]}@{this[int i, int j]}}
+\index{this\mbox{[}int i, int j\mbox{]}@{this[int i, int j]}!B\+L\+A\+S\+::\+Matrix@{B\+L\+A\+S\+::\+Matrix}}
+\subsubsection[{\texorpdfstring{this[int i, int j]}{this[int i, int j]}}]{\setlength{\rightskip}{0pt plus 5cm}double B\+L\+A\+S.\+Matrix.\+this\mbox{[}int i, int j\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_b_l_a_s_1_1_matrix_add823747419052a25f9a5cf67c8eeb03}{}\label{class_b_l_a_s_1_1_matrix_add823747419052a25f9a5cf67c8eeb03}
+
+
+Элемент i-\/ой строки и j-\/го стлбца 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Номер строки\\
+\hline
+{\em j} & Номер столбца\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+B\+L\+A\+S/\hyperlink{_matrix_8cs}{Matrix.\+cs}\end{DoxyCompactItemize}

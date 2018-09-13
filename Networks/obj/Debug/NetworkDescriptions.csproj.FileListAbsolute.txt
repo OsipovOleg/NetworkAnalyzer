@@ -1,0 +1,10 @@
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/bin/Debug/Networks.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/bin/Debug/Networks.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/bin/Debug/BLAS.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/bin/Debug/MathNet.Numerics.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/bin/Debug/BLAS.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/bin/Debug/BLAS.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/bin/Debug/MathNet.Numerics.xml
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/obj/Debug/NetworkDescriptions.csproj.CoreCompileInputs.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/obj/Debug/Networks.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/Networks/obj/Debug/Networks.pdb

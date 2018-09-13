@@ -1,0 +1,10 @@
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\Networks\bin\Debug\Networks.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\Networks\bin\Debug\Networks.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\Networks\obj\Debug\Networks.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\Networks\obj\Debug\Networks.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\Networks\obj\Debug\Networks.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\Networks\bin\Debug\Networks.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\Networks\bin\Debug\Networks.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\Networks\obj\Debug\Networks.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\Networks\obj\Debug\Networks.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\Networks\obj\Debug\Networks.pdb

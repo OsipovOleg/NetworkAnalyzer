@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_label">
+<title>NetworkSimulator::Label class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_label_1ad26a187810d4efe2e7ad863fce2d2797">Label</link> (
+double TimeLeave, long ID)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_network_simulator_1_1_label_1ab875dff5a5f1d1f378c5560a67e70266">CompareTo</link> (
+<link linkend="class_network_simulator_1_1_label">Label</link> other)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Метка требования, находящегося на обслуживании (на приборе) </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 14 of file ServiceNode.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>ServiceNode.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_simulator_1_1_label_1ad26a187810d4efe2e7ad863fce2d2797">
+                <title>NetworkSimulator.Label.Label (double TimeLeave, long ID)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_label_1ab875dff5a5f1d1f378c5560a67e70266">
+                <title>int NetworkSimulator.Label.CompareTo (Label other)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

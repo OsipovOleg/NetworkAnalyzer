@@ -1,0 +1,2 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\bin\x64\Release\BLAS.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\obj\x64\Release\BLAS.dll

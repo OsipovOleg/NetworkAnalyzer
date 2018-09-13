@@ -1,0 +1,72 @@
+\hypertarget{class_network_simulator_1_1_utils}{}\section{Класс Network\+Simulator.\+Utils}
+\label{class_network_simulator_1_1_utils}\index{Network\+Simulator.\+Utils@{Network\+Simulator.\+Utils}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_network_simulator_1_1_utils_aaa072f6fa5259e0924a99ba9b63692fb}{Route\+For\+Fork\+Node} (\hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} Nodes, double\mbox{[}$\,$\mbox{]} Route\+Row, out \hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} Adjacent\+Nodes, out double\mbox{[}$\,$\mbox{]} Adjacent\+Route\+Row)
+\begin{DoxyCompactList}\small\item\em Получает массив только смежных узлов и строку маршрутизации для них \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Utils.\+cs строка 9
+
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Utils@{Network\+Simulator\+::\+Utils}!Route\+For\+Fork\+Node@{Route\+For\+Fork\+Node}}
+\index{Route\+For\+Fork\+Node@{Route\+For\+Fork\+Node}!Network\+Simulator\+::\+Utils@{Network\+Simulator\+::\+Utils}}
+\subsubsection[{\texorpdfstring{Route\+For\+Fork\+Node(\+Node[] Nodes, double[] Route\+Row, out Node[] Adjacent\+Nodes, out double[] Adjacent\+Route\+Row)}{RouteForForkNode(Node[] Nodes, double[] RouteRow, out Node[] AdjacentNodes, out double[] AdjacentRouteRow)}}]{\setlength{\rightskip}{0pt plus 5cm}static void Network\+Simulator.\+Utils.\+Route\+For\+Fork\+Node (
+\begin{DoxyParamCaption}
+\item[{{\bf Node}\mbox{[}$\,$\mbox{]}}]{Nodes, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{Route\+Row, }
+\item[{out {\bf Node}\mbox{[}$\,$\mbox{]}}]{Adjacent\+Nodes, }
+\item[{out double\mbox{[}$\,$\mbox{]}}]{Adjacent\+Route\+Row}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_network_simulator_1_1_utils_aaa072f6fa5259e0924a99ba9b63692fb}{}\label{class_network_simulator_1_1_utils_aaa072f6fa5259e0924a99ba9b63692fb}
+
+
+Получает массив только смежных узлов и строку маршрутизации для них 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Nodes} & Все узлы \\
+\hline
+{\em Route\+Row} & Строка маршрутизации\\
+\hline
+{\em Adjacent\+Nodes} & Смежные узлы\\
+\hline
+{\em Adjacent\+Route\+Row} & Строка марщрутизации для смежных узлов\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Utils.\+cs строка 18
+
+
+\begin{DoxyCode}
+20         \{
+21             \textcolor{comment}{//Число смежных узлов }
+22             \textcolor{keywordtype}{int} NumberOfAdjacentNodes = RouteRow.Count(x => x > 0);
+23             AdjacentNodes = \textcolor{keyword}{new} Node[NumberOfAdjacentNodes];
+24 
+25             AdjacentRouteRow = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[NumberOfAdjacentNodes];
+26             \textcolor{keywordtype}{int} j = 0;
+27             \textcolor{comment}{//Отбор только смежных узлов}
+28             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < RouteRow.Length; i++)
+29             \{
+30                 \textcolor{keywordflow}{if} (RouteRow[i] > 0)
+31                 \{
+32                     AdjacentNodes[j] = Nodes[i];
+33                     AdjacentRouteRow[j] = RouteRow[i];
+34                     j++;
+35                 \}
+36             \}
+37         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_utils_8cs}{Utils.\+cs}\end{DoxyCompactItemize}

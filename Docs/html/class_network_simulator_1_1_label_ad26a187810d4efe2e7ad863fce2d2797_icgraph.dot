@@ -1,0 +1,9 @@
+digraph "NetworkSimulator.Label.Label"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NetworkSimulator.Label.Label",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NetworkSimulator.Service\lNode.StartService",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_service_node.html#a16e3b098c0c8b3e08288c49078d5b1a5",tooltip="Берет фрагмент из очереди и начинает его обслуживание "];
+}

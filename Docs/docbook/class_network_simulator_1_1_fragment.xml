@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_fragment">
+<title>NetworkSimulator::Fragment class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_fragment_1a945eb2690fcad45cc07ed52c047ce763">Fragment</link> (
+double TimeGeneration, long ID, <link linkend="class_network_simulator_1_1_signature">Signature</link> Sigma)<para><emphasis>&lt;summary&gt;
+Создание фрагмента(требования) 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Фрагмент в сети с делением и слиянием требований </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 58 of file Fragment.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Fragment.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_simulator_1_1_fragment_1a945eb2690fcad45cc07ed52c047ce763">
+                <title>NetworkSimulator.Fragment.Fragment (double TimeGeneration, long ID, Signature Sigma)</title> <emphasis>&lt;summary&gt;
+Создание фрагмента(требования) 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>TimeGeneration</entry>
+                                <entry>
+<para>Время создания</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>ID</entry>
+                                <entry>
+<para>Идентификатор фрагмента</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Sigma</entry>
+                                <entry>
+<para>Сигнатура фрамента</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

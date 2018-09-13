@@ -1,0 +1,929 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_b_l_a_s_1_1_matrix">
+<title>BLAS::Matrix class Reference</title>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double[,] matrix<para><emphasis>&lt;summary&gt;
+Массив с элементами матрицы
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int n<para><emphasis>&lt;summary&gt;
+Число строк в матрице
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int m<para><emphasis>&lt;summary&gt;
+Число столюцов в матрице
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double[] <link linkend="class_b_l_a_s_1_1_matrix_1a6864f15a809bdaefa5b0217070a23921">Row</link> (
+int i)<para><emphasis>&lt;summary&gt;
+Возвращает i-ую строку в виде массива
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_b_l_a_s_1_1_matrix_1a3c9a4d9b739cccdceed11ec4eb5c7891">Row</link> (
+int i, double[] row)<para><emphasis>&lt;summary&gt;
+Задает i-ую строку матрицы
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double[] <link linkend="class_b_l_a_s_1_1_matrix_1ae656a489aa5a156e4604c40f38179c6b">Column</link> (
+int j)<para><emphasis>&lt;summary&gt;
+Возвращает j-ый столбец
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_b_l_a_s_1_1_matrix_1ad3c635d45b5cdfe172821f86b157999c">Column</link> (
+int j, double[] column)<para><emphasis>&lt;summary&gt;
+Задает j-ый столбец
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_b_l_a_s_1_1_matrix_1a347802ba2127f13d57a24d99d36137d9">Matrix</link> (
+int n, int m)<para><emphasis>&lt;summary&gt;
+Создает матрицу заданной размерности
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_b_l_a_s_1_1_matrix_1ac86fdeae6e5a0d2aa7475f432b85eed0">Initialize</link> (
+)<para><emphasis>&lt;summary&gt;
+Инициализирует каждый элемент матрицы значением по умолчанию (0)
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_b_l_a_s_1_1_matrix_1a1147c79d0709bd25b4a1c605f5542f53">Matrix</link> (
+double matrix)<para><emphasis>&lt;summary&gt;
+Создает матрицу из двумерного массива (копирует элементы)
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_b_l_a_s_1_1_matrix_1a1bcb586901d3f49412c9e98e6f9e3917">Matrix</link> (
+double[] b)<para><emphasis>&lt;summary&gt;
+Создание вектора-строки
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_b_l_a_s_1_1_matrix_1ae5da8590bfbd38c7ea0b924bb3c950cc">Matrix</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> Blocks)<para><emphasis>&lt;summary&gt;
+Создает блочную матрицу из массива матриц (костыль)
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_b_l_a_s_1_1_matrix_1a7d892ff1da86df3d8b3f69d78349f563">RandomDoubleMatrix</link> (
+double MinValue, double MaxValue)<para><emphasis>&lt;summary&gt;
+Заполняет массив случайными  вещественными числами 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_b_l_a_s_1_1_matrix_1a345564b81477b189e905d0bd7347b1c2">RandomIntMatrix</link> (
+int MinValue, int MaxValue)<para><emphasis>&lt;summary&gt;
+Заполняет массив случайными  целыми числами 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1a7917b89e566d41ce3e80e039bfe414db">Transpose</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает транспонированную матрицу
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1acbb991a74ebf35c9932aaedc8b936f51">Copy</link> (
+)<para><emphasis>&lt;summary&gt;
+Создает копию данной матрицы
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_b_l_a_s_1_1_matrix_1a2ea117d5fbaeddc4928b9f6b390dfe4c">Det</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает определитель матрицы
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para><link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1aa6af90c35062376d6e0db316fd2cad70">Inv</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает обратную матрицу
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override string <link linkend="class_b_l_a_s_1_1_matrix_1a5d8dcb0da420eb386ca861d669cec9c5">ToString</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает строковое представление матрицы
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string <link linkend="class_b_l_a_s_1_1_matrix_1a838540b46c1b19cdf618842d94283d31">SaveAsIntMatrix</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает строковое представление матрицы
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_b_l_a_s_1_1_matrix_1af16842e488d9bf861c76c47c5fe0f4bf">Norm</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает норму матрицы - максимальную из сумм модулей элементов строки
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>long <link linkend="class_b_l_a_s_1_1_matrix_1af471c79d0dfb885d8e2d65de20359b75">NonZeroElements</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает число ненулевых элементов в матрице
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1a4f01e6bba79f85ffffc92b7309b5d323">operator+</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> a, <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> b)<para><emphasis>&lt;summary&gt;
+Сложение двух матриц
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1ae4f1195fb82b55af477919632adee368">operator-</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> a, <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> b)<para><emphasis>&lt;summary&gt;
+Разность матриц
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1a4ec498275d375f747ed8e2d401416dc6">operator-</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> a)<para><emphasis>&lt;summary&gt;
+Унарный минус
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1a2022997b0574ca2ff3a8df17a16562b8">operator*</link> (
+<link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> a, <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> b)<para><emphasis>&lt;summary&gt;
+Умножение матриц
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> <link linkend="class_b_l_a_s_1_1_matrix_1ae8042451c61299687cfb3fbd7a33493e">operator*</link> (
+double x, <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> A)<para><emphasis>&lt;summary&gt;
+Умножение матрицы на число 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Матрица заданной размерности </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 16 of file Matrix.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Matrix.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>double [,] BLAS.Matrix.matrix</title>                
+                <para>Definition at line 20 of file Matrix.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Matrix.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>int BLAS.Matrix.n</title>                
+                <para>Definition at line 24 of file Matrix.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Matrix.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+            <simplesect>
+                <title>int BLAS.Matrix.m</title>                
+                <para>Definition at line 28 of file Matrix.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Matrix.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a6864f15a809bdaefa5b0217070a23921">
+                <title>double [] BLAS.Matrix.Row (int i)</title> <emphasis>&lt;summary&gt;
+Возвращает i-ую строку в виде массива
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>i</entry>
+                                <entry>
+<para>Номер строки</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a3c9a4d9b739cccdceed11ec4eb5c7891">
+                <title>void BLAS.Matrix.Row (int i, double[] row)</title> <emphasis>&lt;summary&gt;
+Задает i-ую строку матрицы
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>i</entry>
+                                <entry>
+<para>Номер строки</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>row</entry>
+                                <entry>
+<para>Строка</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1ae656a489aa5a156e4604c40f38179c6b">
+                <title>double [] BLAS.Matrix.Column (int j)</title> <emphasis>&lt;summary&gt;
+Возвращает j-ый столбец
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>j</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1ad3c635d45b5cdfe172821f86b157999c">
+                <title>void BLAS.Matrix.Column (int j, double[] column)</title> <emphasis>&lt;summary&gt;
+Задает j-ый столбец
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>j</entry>
+                                <entry>
+<para>Номер столбца</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>column</entry>
+                                <entry>
+<para>Столбец</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a347802ba2127f13d57a24d99d36137d9">
+                <title>BLAS.Matrix.Matrix (int n, int m)</title> <emphasis>&lt;summary&gt;
+Создает матрицу заданной размерности
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>n</entry>
+                                <entry>
+<para>Количество строк</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>m</entry>
+                                <entry>
+<para>Количество столбцов</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1ac86fdeae6e5a0d2aa7475f432b85eed0">
+                <title>void BLAS.Matrix.Initialize ()</title> <emphasis>&lt;summary&gt;
+Инициализирует каждый элемент матрицы значением по умолчанию (0)
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a1147c79d0709bd25b4a1c605f5542f53">
+                <title>BLAS.Matrix.Matrix (double[,] matrix)</title> <emphasis>&lt;summary&gt;
+Создает матрицу из двумерного массива (копирует элементы)
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>matrix</entry>
+                                <entry>
+<para>Двумерный массив</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a1bcb586901d3f49412c9e98e6f9e3917">
+                <title>BLAS.Matrix.Matrix (double[] b)</title> <emphasis>&lt;summary&gt;
+Создание вектора-строки
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>b</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1ae5da8590bfbd38c7ea0b924bb3c950cc">
+                <title>BLAS.Matrix.Matrix (Matrix[,] Blocks)</title> <emphasis>&lt;summary&gt;
+Создает блочную матрицу из массива матриц (костыль)
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>Blocks</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a7d892ff1da86df3d8b3f69d78349f563">
+                <title>void BLAS.Matrix.RandomDoubleMatrix (double MinValue, double MaxValue)</title> <emphasis>&lt;summary&gt;
+Заполняет массив случайными  вещественными числами 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>MinValue</entry>
+                                <entry>
+<para>Минимальное значение</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>MaxValue</entry>
+                                <entry>
+<para>Максимальное значение</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a345564b81477b189e905d0bd7347b1c2">
+                <title>void BLAS.Matrix.RandomIntMatrix (int MinValue, int MaxValue)</title> <emphasis>&lt;summary&gt;
+Заполняет массив случайными  целыми числами 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>MinValue</entry>
+                                <entry>
+<para>Минимальное значение</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>MaxValue</entry>
+                                <entry>
+<para>Максимальное значение</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a7917b89e566d41ce3e80e039bfe414db">
+                <title>Matrix BLAS.Matrix.Transpose ()</title> <emphasis>&lt;summary&gt;
+Возвращает транспонированную матрицу
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1acbb991a74ebf35c9932aaedc8b936f51">
+                <title>Matrix BLAS.Matrix.Copy ()</title> <emphasis>&lt;summary&gt;
+Создает копию данной матрицы
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a2ea117d5fbaeddc4928b9f6b390dfe4c">
+                <title>double BLAS.Matrix.Det ()</title> <emphasis>&lt;summary&gt;
+Возвращает определитель матрицы
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1aa6af90c35062376d6e0db316fd2cad70">
+                <title>Matrix BLAS.Matrix.Inv ()</title> <emphasis>&lt;summary&gt;
+Возвращает обратную матрицу
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a5d8dcb0da420eb386ca861d669cec9c5">
+                <title>override string BLAS.Matrix.ToString ()</title> <emphasis>&lt;summary&gt;
+Возвращает строковое представление матрицы
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a838540b46c1b19cdf618842d94283d31">
+                <title>string BLAS.Matrix.SaveAsIntMatrix ()</title> <emphasis>&lt;summary&gt;
+Возвращает строковое представление матрицы
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1af16842e488d9bf861c76c47c5fe0f4bf">
+                <title>double BLAS.Matrix.Norm ()</title> <emphasis>&lt;summary&gt;
+Возвращает норму матрицы - максимальную из сумм модулей элементов строки
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1af471c79d0dfb885d8e2d65de20359b75">
+                <title>long BLAS.Matrix.NonZeroElements ()</title> <emphasis>&lt;summary&gt;
+Возвращает число ненулевых элементов в матрице
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a4f01e6bba79f85ffffc92b7309b5d323">
+                <title>static Matrix BLAS.Matrix.operator+ (Matrix a, Matrix b)</title> <emphasis>&lt;summary&gt;
+Сложение двух матриц
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry>
+<para>Первое слагаемое </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>Второе слагаемое</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1ae4f1195fb82b55af477919632adee368">
+                <title>static Matrix BLAS.Matrix.operator- (Matrix a, Matrix b)</title> <emphasis>&lt;summary&gt;
+Разность матриц
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a4ec498275d375f747ed8e2d401416dc6">
+                <title>static Matrix BLAS.Matrix.operator- (Matrix a)</title> <emphasis>&lt;summary&gt;
+Унарный минус
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1a2022997b0574ca2ff3a8df17a16562b8">
+                <title>static Matrix BLAS.Matrix.operator* (Matrix a, Matrix b)</title> <emphasis>&lt;summary&gt;
+Умножение матриц
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>a</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_b_l_a_s_1_1_matrix_1ae8042451c61299687cfb3fbd7a33493e">
+                <title>static Matrix BLAS.Matrix.operator* (double x, Matrix A)</title> <emphasis>&lt;summary&gt;
+Умножение матрицы на число 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>x</entry>
+                                <entry>
+<para>Число</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>A</entry>
+                                <entry>
+<para>Матрица</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

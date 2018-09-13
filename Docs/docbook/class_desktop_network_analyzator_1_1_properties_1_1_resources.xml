@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_desktop_network_analyzator_1_1_properties_1_1_resources">
+<title>DesktopNetworkAnalyzator::Properties::Resources class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static global::System.Resources.ResourceManager resourceMan</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static global::System.Globalization.CultureInfo resourceCulture</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_desktop_network_analyzator_1_1_properties_1_1_resources_1a1c3715bb1a69bc1084a706a7720b9e79">Resources</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Класс ресурсов со строгим типом для поиска локализованных строк и пр. </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 26 of file Resources.Designer.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Resources.Designer.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_desktop_network_analyzator_1_1_properties_1_1_resources_1a1c3715bb1a69bc1084a706a7720b9e79">
+                <title>DesktopNetworkAnalyzator.Properties.Resources.Resources ()</title> <emphasis></emphasis>
+                
+            </section>
+</section>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_desktop_network_analyzator_1_1_main_form">
+<title>DesktopNetworkAnalyzator::MainForm class Reference</title>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.ComponentModel.IContainer components<para><emphasis>&lt;summary&gt;
+Обязательная переменная конструктора.
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.MenuStrip menuStrip1</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.ToolStripMenuItem FileToolStripMenuItem</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.ToolStripMenuItem OpenToolStripMenuItem</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>System.Windows.Forms.ToolStripMenuItem NewToolStripMenuItem</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_desktop_network_analyzator_1_1_main_form_1afe17fac50a2899e29e5a15940c2b2793">MainForm</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_main_form_1af62e697612e1ecb886e7ad6ba1bb60a3">NewToolStripMenuItem_Click</link> (
+object sender, EventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_main_form_1a8cf989c632a4dc10eaaf1c1a97fdc600">OpenToolStripMenuItem_Click</link> (
+object sender, EventArgs e)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_desktop_network_analyzator_1_1_main_form_1aeb92516420e282cf27ace0ada2209461">InitializeComponent</link> (
+)<para><emphasis>&lt;summary&gt;
+Требуемый метод для поддержки конструктора — не изменяйте 
+содержимое этого метода с помощью редактора кода.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_desktop_network_analyzator_1_1_main_form_1a48384182a9206f71b1e5ae9d53d80df0">Dispose</link> (
+bool disposing)<para><emphasis>&lt;summary&gt;
+Освободить все используемые ресурсы.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>System.ComponentModel.IContainer DesktopNetworkAnalyzator.MainForm.components</title>                
+                <para>Definition at line 8 of file MainForm.Designer.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>MainForm.Designer.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_main_form_1afe17fac50a2899e29e5a15940c2b2793">
+                <title>DesktopNetworkAnalyzator.MainForm.MainForm ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_main_form_1af62e697612e1ecb886e7ad6ba1bb60a3">
+                <title>void DesktopNetworkAnalyzator.MainForm.NewToolStripMenuItem_Click (object sender, EventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_main_form_1a8cf989c632a4dc10eaaf1c1a97fdc600">
+                <title>void DesktopNetworkAnalyzator.MainForm.OpenToolStripMenuItem_Click (object sender, EventArgs e)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_main_form_1aeb92516420e282cf27ace0ada2209461">
+                <title>void DesktopNetworkAnalyzator.MainForm.InitializeComponent ()</title> <emphasis>&lt;summary&gt;
+Требуемый метод для поддержки конструктора — не изменяйте 
+содержимое этого метода с помощью редактора кода.
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_main_form_1a48384182a9206f71b1e5ae9d53d80df0">
+                <title>override void DesktopNetworkAnalyzator.MainForm.Dispose (bool disposing)</title> <emphasis>&lt;summary&gt;
+Освободить все используемые ресурсы.
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>disposing</entry>
+                                <entry>
+<para>истинно, если управляемый ресурс должен быть удален; иначе ложно.</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

@@ -1,0 +1,10 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\bin\Release\BLAS.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\bin\Release\BLAS.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\obj\Release\BLAS.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\obj\Release\BLAS.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\BLAS\bin\Release\BLAS.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\BLAS\bin\Release\BLAS.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\BLAS\obj\Release\BLAS.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\BLAS\obj\Release\BLAS.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\BLAS\bin\Release\BLAS.dll.CodeAnalysisLog.xml
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\BLAS\bin\Release\BLAS.dll.lastcodeanalysissucceeded

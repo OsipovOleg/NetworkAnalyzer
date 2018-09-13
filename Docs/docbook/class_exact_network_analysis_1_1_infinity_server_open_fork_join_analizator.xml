@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator">
+<title>ExactNetworkAnalysis::InfinityServerOpenForkJoinAnalizator class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static Dictionary&lt; string, double[]&gt; <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a3ade97ca1f8742b8f289bd2a41b2ae89">InputRates</link> (
+int[] S, int[] F, int[] J, double Lambda0, <link linkend="class_network_descriptions_1_1_routing_matrix">RoutingMatrix</link> Theta)<para><emphasis>&lt;summary&gt;
+Получает интенсивности потоков для каждой из систем в сети 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static double[] <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1aa6f6f71f9d588a2a98ee4b4849013050">TotalInputRates</link> (
+Dictionary&lt; string, double[]&gt; rates)<para><emphasis>&lt;summary&gt;
+Возвращает суммарную интенсивность для каждой из систем 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static bool <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a7c4183cc7e1bceeb0fdf5cdad7d72fd8">IsTrivialMatrix</link> (
+<link linkend="class_network_descriptions_1_1_routing_matrix">RoutingMatrix</link> Theta, int k, int[] F)<para><emphasis>&lt;summary&gt;
+Проверяет на элементарность матрицу в матрице передачи 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1afbb9c04d80ac7e389fae8476862c99e3">ResponseTimeDistributionForTrivialSubNetwork</link> (
+int[] S, int[] F, int[] J, <link linkend="class_network_descriptions_1_1_routing_matrix">RoutingMatrix</link> Theta, double[] mu, int TrivialIndex)<para><emphasis>&lt;summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static int <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a5b22001b6c5c5e048a05754205579e65">FindTrivialNetwork</link> (
+int[] F, <link linkend="class_network_descriptions_1_1_routing_matrix">RoutingMatrix</link> Theta)<para><emphasis>&lt;summary&gt;
+Находит элементраную подсеть и возвращает номер соотвествующей элементарной матрицы 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_network_descriptions_1_1_description_o_f_j_q_n">DescriptionOFJQN</link> <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1af1e56486f7040dafe910613157eea459">ReduceTrivialSubNetwork</link> (
+<link linkend="class_network_descriptions_1_1_description_o_f_j_q_n">DescriptionOFJQN</link> Description, int k)<para><emphasis>&lt;summary&gt;
+Выполние редукции относительно элементарной подсети k
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1ad97f666f7135599a6862ad3ef16f8973">ResponseTimeForBaseNetwork</link> (
+<link linkend="class_network_descriptions_1_1_description_o_f_j_q_n">DescriptionOFJQN</link> Description)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a4b7ce8b06e8eabf86de585c8119b9d59">ResponseTimeDistribution</link> (
+<link linkend="class_network_descriptions_1_1_description_o_f_j_q_n">DescriptionOFJQN</link> Description)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1ac1e0bbf8c9137256c8895c3776dc6416">Reorder</link> (
+List&lt; int &gt; list, int y)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+
+<para>Анализ открытой экспоненциальной сети массового обслуживания произвольной топологии с делением и слиянием требований, в которой все базовые системы бесконечноприборные </para>
+                <para>Definition at line 18 of file OpenForkJoinAnalizator.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>OpenForkJoinAnalizator.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a3ade97ca1f8742b8f289bd2a41b2ae89">
+                <title>static Dictionary&lt;string, double[]&gt; ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.InputRates (int[] S, int[] F, int[] J, double Lambda0, RoutingMatrix Theta)</title> <emphasis>&lt;summary&gt;
+Получает интенсивности потоков для каждой из систем в сети 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>S</entry>
+                                <entry>
+<para>Массив номеров базовых систем </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>F</entry>
+                                <entry>
+<para>Массив номеров дивайдеров</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>J</entry>
+                                <entry>
+<para>Массив номеров интеграторов</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Lambda0</entry>
+                                <entry>
+<para>ИНтенсивность входящего потока</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Theta</entry>
+                                <entry>
+<para>Матрица передачи</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para>Словарь, в котором ключ - вектор перемещений, а значение - вектор интенсвиностей для входящего потока в базовые системы и дивайдеры (S_1, S_2, ...S_LS, F_1, F_2, ..., F_LF) </para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1aa6f6f71f9d588a2a98ee4b4849013050">
+                <title>static double [] ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.TotalInputRates (Dictionary&lt; string, double[]&gt; rates)</title> <emphasis>&lt;summary&gt;
+Возвращает суммарную интенсивность для каждой из систем 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>rates</entry>
+                                <entry>
+<para>Словарь с интенсивностями</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a7c4183cc7e1bceeb0fdf5cdad7d72fd8">
+                <title>static bool ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.IsTrivialMatrix (RoutingMatrix Theta, int k, int[] F)</title> <emphasis>&lt;summary&gt;
+Проверяет на элементарность матрицу в матрице передачи 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>Theta</entry>
+                                <entry>
+<para>Матрица передачи</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>k</entry>
+                                <entry>
+<para>Номер матрицы, которую необходимо проверить</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>F</entry>
+                                <entry>
+<para>Массив номеров дивайдеров</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1afbb9c04d80ac7e389fae8476862c99e3">
+                <title>static PhaseTypeVarible ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.ResponseTimeDistributionForTrivialSubNetwork (int[] S, int[] F, int[] J, RoutingMatrix Theta, double[] mu, int TrivialIndex)</title> <emphasis>&lt;summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>S</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>F</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>J</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>Theta</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>mu</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>TrivialIndex</entry>
+                                <entry>
+<para>Индекс элеметарной подсети (k&gt;0) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a5b22001b6c5c5e048a05754205579e65">
+                <title>static int ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.FindTrivialNetwork (int[] F, RoutingMatrix Theta)</title> <emphasis>&lt;summary&gt;
+Находит элементраную подсеть и возвращает номер соотвествующей элементарной матрицы 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>F</entry>
+                                <entry>
+<para>Множество номеров дивайдеров</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Theta</entry>
+                                <entry>
+<para>Матрица передачи</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1af1e56486f7040dafe910613157eea459">
+                <title>static DescriptionOFJQN ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.ReduceTrivialSubNetwork (DescriptionOFJQN Description, int k)</title> <emphasis>&lt;summary&gt;
+Выполние редукции относительно элементарной подсети k
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>Network</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>k</entry>
+                                <entry>
+<para>Номер элементарной подсети</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1ad97f666f7135599a6862ad3ef16f8973">
+                <title>static PhaseTypeVarible ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.ResponseTimeForBaseNetwork (DescriptionOFJQN Description)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1a4b7ce8b06e8eabf86de585c8119b9d59">
+                <title>static PhaseTypeVarible ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.ResponseTimeDistribution (DescriptionOFJQN Description)</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_1ac1e0bbf8c9137256c8895c3776dc6416">
+                <title>static void ExactNetworkAnalysis.InfinityServerOpenForkJoinAnalizator.Reorder (List&lt; int &gt; list, int y)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

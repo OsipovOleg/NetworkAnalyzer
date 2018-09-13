@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_join_node">
+<title>NetworkSimulator::JoinNode class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_join_node_1a32dc54853db194d6647d15b795981744">Receive</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Процедура приема фрагмента в интегратор 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_join_node_1ab383bfff6a85c0963af158e9af6c574b">Activate</link> (
+)<para><emphasis>&lt;summary&gt;
+Выполняемое действие дивайдера
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_join_node_1a57e5c5715308e75fd446e1152d7b079d">JoinNode</link> (
+int ID, Random r, <link linkend="class_network_simulator_1_1_node">Node</link>[] Nodes, <link linkend="class_network_simulator_1_1_info_node">InfoNode</link> Info, double RouteMatrixForNode)<para><emphasis>&lt;summary&gt;
+Создание и инициализация интератора
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_join_node_1a5682ed1b31096dce17466e18e8fc8743">Route</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Отправляет фрагмент по сети
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_join_node_1ac22f690bb07cc47c8788ae823e7c6c19">Send</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f, <link linkend="class_network_simulator_1_1_node">Node</link> N)<para><emphasis>&lt;summary&gt;
+Отправка фрагмент в заданый узел сетиобслуживания
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_network_simulator_1_1_join_node_1a32dc54853db194d6647d15b795981744">
+                <title>override void NetworkSimulator.JoinNode.Receive (Fragment f)</title> <emphasis>&lt;summary&gt;
+Процедура приема фрагмента в интегратор 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_join_node_1ab383bfff6a85c0963af158e9af6c574b">
+                <title>override void NetworkSimulator.JoinNode.Activate ()</title> <emphasis>&lt;summary&gt;
+Выполняемое действие дивайдера
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_join_node_1a57e5c5715308e75fd446e1152d7b079d">
+                <title>NetworkSimulator.JoinNode.JoinNode (int ID, Random r, Node[] Nodes, InfoNode Info, double[,] RouteMatrixForNode)</title> <emphasis>&lt;summary&gt;
+Создание и инициализация интератора
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>ID</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>r</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>RouteMatrixForNode</entry>
+                                <entry>
+<para>Элемент матрицы i,j задает вероятность для i-фрагмента поступить в j узел</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_join_node_1a5682ed1b31096dce17466e18e8fc8743">
+                <title>override void NetworkSimulator.JoinNode.Route (Fragment f)</title> <emphasis>&lt;summary&gt;
+Отправляет фрагмент по сети
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_join_node_1ac22f690bb07cc47c8788ae823e7c6c19">
+                <title>override void NetworkSimulator.JoinNode.Send (Fragment f, Node N)</title> <emphasis>&lt;summary&gt;
+Отправка фрагмент в заданый узел сетиобслуживания
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Отправляемый фрагмент</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>N</entry>
+                                <entry>
+<para>Заданный узел</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

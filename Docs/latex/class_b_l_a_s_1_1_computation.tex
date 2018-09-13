@@ -1,0 +1,453 @@
+\hypertarget{class_b_l_a_s_1_1_computation}{}\section{Класс B\+L\+A\+S.\+Computation}
+\label{class_b_l_a_s_1_1_computation}\index{B\+L\+A\+S.\+Computation@{B\+L\+A\+S.\+Computation}}
+
+
+Класс, включающий в себя методы для работы с матрицами и методы решения СЛАУ  
+
+
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{class_b_l_a_s_1_1_computation_a6b1d14ddde137052891ae426962a495d}{Max\+Abs} (double\mbox{[}$\,$\mbox{]} mas)
+\begin{DoxyCompactList}\small\item\em Возвращает номер максимального по модулю элемента в одномерном массиве \end{DoxyCompactList}\item 
+static double\mbox{[}$\,$\mbox{]} \hyperlink{class_b_l_a_s_1_1_computation_ac30bde9ba0a8f983730daa3fa0318e29}{Gauss} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A, double\mbox{[}$\,$\mbox{]} b)
+\begin{DoxyCompactList}\small\item\em Решение системы методом Гаусса. Для решения матрица системы должна быть квадратной. \end{DoxyCompactList}\item 
+static double\mbox{[}$\,$\mbox{]} \hyperlink{class_b_l_a_s_1_1_computation_aec73d3c3fa06792481c838baf85297cc}{Zeidel} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A\+\_\+arg, double\mbox{[}$\,$\mbox{]} b\+\_\+arg, double accuracy)
+\begin{DoxyCompactList}\small\item\em Решение системы линейных уравнений методом Зейделя \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_computation_a51aa0363d37030a35bcd43cfe86599c1}{Kronecker\+Product} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A, \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} B)
+\begin{DoxyCompactList}\small\item\em Возвращает произведение Кронекера (тензорное произведение) для двух матриц \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_computation_a1fe45b442a10421501936b43a054a4b4}{Eye} (int n)
+\begin{DoxyCompactList}\small\item\em Создание единичной матрицы \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_computation_a2af0de99ec7f64477a68ad329a869248}{Ones\+Row} (int n)
+\begin{DoxyCompactList}\small\item\em Строка из единиц \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_computation_ae7bf65dbabdb3c801ccddba5ed866b11}{Ones\+Column} (int n)
+\begin{DoxyCompactList}\small\item\em Столбец из единиц \end{DoxyCompactList}\item 
+static \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} \hyperlink{class_b_l_a_s_1_1_computation_a494ec792812354d87034d18e2583d029}{Kronecker\+Sum} (\hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A, \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} B)
+\begin{DoxyCompactList}\small\item\em Сумма Кронекера двух матриц \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Класс, включающий в себя методы для работы с матрицами и методы решения СЛАУ 
+
+
+
+См. определение в файле Computation.\+cs строка 16
+
+
+
+\subsection{Методы}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Eye@{Eye}}
+\index{Eye@{Eye}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Eye(int n)}{Eye(int n)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Computation.\+Eye (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_a1fe45b442a10421501936b43a054a4b4}{}\label{class_b_l_a_s_1_1_computation_a1fe45b442a10421501936b43a054a4b4}
+
+
+Создание единичной матрицы 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em n} & Порядок матрицы\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Computation.\+cs строка 213
+
+
+\begin{DoxyCode}
+214         \{
+215             Matrix m = \textcolor{keyword}{new} Matrix(n, n);
+216             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+217             \{
+218                 m[i, i] = 1;
+219             \}
+220             \textcolor{keywordflow}{return} m;
+221         \}
+\end{DoxyCode}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Gauss@{Gauss}}
+\index{Gauss@{Gauss}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Gauss(\+Matrix A, double[] b)}{Gauss(Matrix A, double[] b)}}]{\setlength{\rightskip}{0pt plus 5cm}static double \mbox{[}$\,$\mbox{]} B\+L\+A\+S.\+Computation.\+Gauss (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{A, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{b}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_ac30bde9ba0a8f983730daa3fa0318e29}{}\label{class_b_l_a_s_1_1_computation_ac30bde9ba0a8f983730daa3fa0318e29}
+
+
+Решение системы методом Гаусса. Для решения матрица системы должна быть квадратной. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em A} & Матрица системы\\
+\hline
+{\em b} & Вектор свободных членов\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Computation.\+cs строка 47
+
+
+\begin{DoxyCode}
+48         \{
+49             \textcolor{comment}{//Копирование всех входных параметров}
+50             Matrix \_A = A.Copy();
+51             \textcolor{keywordtype}{double}[] \_b = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[b.Length];
+52             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < b.Length; i++)
+53             \{
+54                 \_b[i] = b[i];
+55             \}
+56 
+57             \textcolor{comment}{//Прямой ход метода Гаусса}
+58             \textcolor{keywordflow}{if} ((!\_A.isSquare) || (\_b.Length != \_A.CountColumn))
+59             \{
+60                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Матрица на квадратная или столбец свободных членов не соответствует
+       размерности матрицы. Метод Гаусса не применим"});
+61             \}
+62             \textcolor{keywordtype}{int} n = \_A.CountColumn;
+63 
+64             \textcolor{keywordtype}{int}[] transposition = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[n];\textcolor{comment}{//вектор перестановок}
+65             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+66             \{
+67                 transposition[i] = i;
+68             \}
+69 
+70             \textcolor{comment}{//Получение треугольной матрицы - прямой ход }
+71             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < n; k++)
+72             \{
+73                 \textcolor{comment}{//Ищем максимальный элемент в k строке}
+74                 \textcolor{keywordtype}{double}[] row = \_A.Row(k);
+75                 \textcolor{keywordtype}{int} maxNum = \hyperlink{class_b_l_a_s_1_1_computation_a6b1d14ddde137052891ae426962a495d}{MaxAbs}(row);
+76                 \textcolor{keywordflow}{if} (row[maxNum] == 0)
+77                 \{
+78                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Все элементы строки нулевые. Такая система имеет множество решений
+      "});
+79                 \}
+80                 \textcolor{keywordflow}{if} (maxNum != k)
+81                 \{
+82                     \textcolor{comment}{//обмен}
+83                     \textcolor{keywordtype}{double}[] temp = \_A.Column(maxNum);\textcolor{comment}{//сохраняю максимальный столбец }
+84                     \_A.Column(maxNum, \_A.Column(k)); \textcolor{comment}{//на место максимального стоблца ставлю ("первый") k
+       столбец}
+85                     \_A.Column(k, temp);
+86                     \textcolor{keywordtype}{int} temp\_num = transposition[k];
+87                     transposition[k] = transposition[maxNum];
+88                     transposition[maxNum] = temp\_num;
+89                 \}
+90 
+91 
+92 
+93                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} m = k + 1; m < n; m++) \textcolor{comment}{//взял m-ую строку }
+94                 \{
+95                     \textcolor{keywordtype}{double} cmk = -\_A[m, k] / \_A[k, k];\textcolor{comment}{//к-т для умножения k строки}
+96                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = k; j < n; j++)
+97                     \{
+98                         \_A[m, j] = \_A[m, j] + cmk * \_A[k, j];
+99                     \}
+100                     \_b[m] = \_b[m] + cmk * \_b[k];
+101 
+102                 \}
+103             \}
+104 
+105 
+106             \textcolor{comment}{//Обратный ход}
+107 
+108             \textcolor{keywordtype}{double}[] x = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[n];
+109 
+110             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = n - 1; k >= 0; k--)
+111             \{
+112                 \textcolor{keywordtype}{double} sum = 0;
+113                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = k + 1; i < n; i++)
+114                 \{
+115                     sum += \_A[k, i] * x[transposition[i]];
+116                 \}
+117                 x[transposition[k]] = (\_b[k] - sum) / \_A[k, k];
+118 
+119             \}
+120             \textcolor{keywordflow}{return} x;
+121 
+122         \}
+\end{DoxyCode}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Kronecker\+Product@{Kronecker\+Product}}
+\index{Kronecker\+Product@{Kronecker\+Product}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Kronecker\+Product(\+Matrix A, Matrix B)}{KroneckerProduct(Matrix A, Matrix B)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Computation.\+Kronecker\+Product (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{A, }
+\item[{{\bf Matrix}}]{B}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_a51aa0363d37030a35bcd43cfe86599c1}{}\label{class_b_l_a_s_1_1_computation_a51aa0363d37030a35bcd43cfe86599c1}
+
+
+Возвращает произведение Кронекера (тензорное произведение) для двух матриц 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em A} & Первая матрица\\
+\hline
+{\em B} & Вторая матрица\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Computation.\+cs строка 188
+
+
+\begin{DoxyCode}
+189         \{
+190             \textcolor{keywordtype}{int} n = A.CountRow;
+191             \textcolor{keywordtype}{int} m = A.CountColumn;
+192             \textcolor{keywordtype}{int} p = B.CountRow;
+193             \textcolor{keywordtype}{int} q = B.CountColumn;
+194 
+195             Matrix[,] aB = \textcolor{keyword}{new} Matrix[n, m];
+196             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+197             \{
+198                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < m; j++)
+199                 \{
+200                     aB[i, j] = A[i, j] * B;
+201                 \}
+202             \}
+203 
+204             \textcolor{keywordflow}{return} \textcolor{keyword}{new} Matrix(aB);
+205 
+206         \}
+\end{DoxyCode}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Kronecker\+Sum@{Kronecker\+Sum}}
+\index{Kronecker\+Sum@{Kronecker\+Sum}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Kronecker\+Sum(\+Matrix A, Matrix B)}{KroneckerSum(Matrix A, Matrix B)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Computation.\+Kronecker\+Sum (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{A, }
+\item[{{\bf Matrix}}]{B}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_a494ec792812354d87034d18e2583d029}{}\label{class_b_l_a_s_1_1_computation_a494ec792812354d87034d18e2583d029}
+
+
+Сумма Кронекера двух матриц 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em A} & Первая матрица\\
+\hline
+{\em B} & Вторая матрица\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Computation.\+cs строка 265
+
+
+\begin{DoxyCode}
+266         \{
+267             \textcolor{keywordflow}{if} (!(A.isSquare && B.isSquare))
+268             \{
+269                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Матрица не квадратная"});
+270             \}
+271             \textcolor{keywordtype}{int} n = A.CountColumn;
+272             \textcolor{keywordtype}{int} m = B.CountColumn;
+273 
+274             \textcolor{keywordflow}{return} \hyperlink{class_b_l_a_s_1_1_computation_a51aa0363d37030a35bcd43cfe86599c1}{KroneckerProduct}(A, \hyperlink{class_b_l_a_s_1_1_computation_a1fe45b442a10421501936b43a054a4b4}{Eye}(m)) + 
+      \hyperlink{class_b_l_a_s_1_1_computation_a51aa0363d37030a35bcd43cfe86599c1}{KroneckerProduct}(\hyperlink{class_b_l_a_s_1_1_computation_a1fe45b442a10421501936b43a054a4b4}{Eye}(n), B);
+275         \}
+\end{DoxyCode}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Max\+Abs@{Max\+Abs}}
+\index{Max\+Abs@{Max\+Abs}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Max\+Abs(double[] mas)}{MaxAbs(double[] mas)}}]{\setlength{\rightskip}{0pt plus 5cm}static int B\+L\+A\+S.\+Computation.\+Max\+Abs (
+\begin{DoxyParamCaption}
+\item[{double\mbox{[}$\,$\mbox{]}}]{mas}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_a6b1d14ddde137052891ae426962a495d}{}\label{class_b_l_a_s_1_1_computation_a6b1d14ddde137052891ae426962a495d}
+
+
+Возвращает номер максимального по модулю элемента в одномерном массиве 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em mas} & Одномерный массив\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Computation.\+cs строка 25
+
+
+\begin{DoxyCode}
+26         \{
+27             \textcolor{keywordflow}{if} (mas.Length == 0) \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Массив пуст. Нет max"});
+28 
+29             \textcolor{keywordtype}{int} maxNum = 0;
+30             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < mas.Length; i++)
+31             \{
+32                 \textcolor{keywordflow}{if} (Math.Abs(mas[maxNum]) < Math.Abs(mas[i]))
+33                 \{
+34                     maxNum = i;
+35                 \}
+36             \}
+37             \textcolor{keywordflow}{return} maxNum;
+38 
+39         \}
+\end{DoxyCode}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Ones\+Column@{Ones\+Column}}
+\index{Ones\+Column@{Ones\+Column}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Ones\+Column(int n)}{OnesColumn(int n)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Computation.\+Ones\+Column (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_ae7bf65dbabdb3c801ccddba5ed866b11}{}\label{class_b_l_a_s_1_1_computation_ae7bf65dbabdb3c801ccddba5ed866b11}
+
+
+Столбец из единиц 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em n} & Размер столбца\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Computation.\+cs строка 246
+
+
+\begin{DoxyCode}
+247         \{
+248             Matrix column = \textcolor{keyword}{new} Matrix(n, 1);
+249             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+250             \{
+251                 column[i, 0] = 1;
+252             \}
+253             \textcolor{keywordflow}{return} column;
+254         \}
+\end{DoxyCode}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Ones\+Row@{Ones\+Row}}
+\index{Ones\+Row@{Ones\+Row}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Ones\+Row(int n)}{OnesRow(int n)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Matrix} B\+L\+A\+S.\+Computation.\+Ones\+Row (
+\begin{DoxyParamCaption}
+\item[{int}]{n}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_a2af0de99ec7f64477a68ad329a869248}{}\label{class_b_l_a_s_1_1_computation_a2af0de99ec7f64477a68ad329a869248}
+
+
+Строка из единиц 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em n} & Размер строки\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Computation.\+cs строка 230
+
+
+\begin{DoxyCode}
+231         \{
+232             Matrix row = \textcolor{keyword}{new} Matrix(1, n);
+233             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+234             \{
+235                 row[0, i] = 1;
+236             \}
+237             \textcolor{keywordflow}{return} row;
+238         \}
+\end{DoxyCode}
+\index{B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}!Zeidel@{Zeidel}}
+\index{Zeidel@{Zeidel}!B\+L\+A\+S\+::\+Computation@{B\+L\+A\+S\+::\+Computation}}
+\subsubsection[{\texorpdfstring{Zeidel(\+Matrix A\+\_\+arg, double[] b\+\_\+arg, double accuracy)}{Zeidel(Matrix A_arg, double[] b_arg, double accuracy)}}]{\setlength{\rightskip}{0pt plus 5cm}static double \mbox{[}$\,$\mbox{]} B\+L\+A\+S.\+Computation.\+Zeidel (
+\begin{DoxyParamCaption}
+\item[{{\bf Matrix}}]{A\+\_\+arg, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{b\+\_\+arg, }
+\item[{double}]{accuracy}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_b_l_a_s_1_1_computation_aec73d3c3fa06792481c838baf85297cc}{}\label{class_b_l_a_s_1_1_computation_aec73d3c3fa06792481c838baf85297cc}
+
+
+Решение системы линейных уравнений методом Зейделя 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em A\+\_\+arg} & Матрица системы\\
+\hline
+{\em b\+\_\+arg} & Столбец свободных членов\\
+\hline
+{\em accuracy} & Точность вычисления\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Computation.\+cs строка 133
+
+
+\begin{DoxyCode}
+134         \{
+135             \textcolor{comment}{//Копирование всех входных параметров}
+136             Matrix A = A\_arg.Copy();
+137 
+138             \textcolor{keywordflow}{if} ((!A.isSquare) || (b\_arg.Length != A.CountColumn))
+139             \{
+140                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Матрица на квадратная или столбец свободных членов не соответствует
+       размерности матрицы. Метод Гаусса не применим"});
+141             \}
+142             \textcolor{keywordtype}{int} n = A.CountColumn;
+143 
+144             Matrix x = \textcolor{keyword}{new} Matrix(n, 1);
+145             Matrix b = \textcolor{keyword}{new} Matrix(n, 1);
+146             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+147             \{
+148                 b[i, 0] = b\_arg[i];
+149             \}
+150 
+151 
+152             \textcolor{keywordtype}{int} iter = 0;
+153 
+154             \textcolor{keywordflow}{while} ((A * x - b).Norm() > accuracy)
+155             \{
+156                 iter++;
+157                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+158                 \{
+159                     \textcolor{keywordtype}{double} temp = 0;
+160                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < n; j++)
+161                     \{
+162                         \textcolor{keywordflow}{if} (j == i) \textcolor{keywordflow}{continue};
+163                         temp += A[i, j] * x[j, 0];
+164                     \}
+165                     x[i, 0] = (b[i, 0] - temp) / A[i, i];
+166                 \}
+167             \}
+168 
+169             Console.WriteLine(\textcolor{stringliteral}{"Произведено \{0\} итер."}, iter);
+170 
+171             \textcolor{keywordtype}{double}[] result = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[n];
+172             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+173             \{
+174                 result[i] = x[i, 0];
+175             \}
+176             \textcolor{keywordflow}{return} result;
+177         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+B\+L\+A\+S/\hyperlink{_computation_8cs}{Computation.\+cs}\end{DoxyCompactItemize}

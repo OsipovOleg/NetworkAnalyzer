@@ -1,0 +1,236 @@
+\hypertarget{class_network_simulator_1_1_info_node}{}\section{Класс Network\+Simulator.\+Info\+Node}
+\label{class_network_simulator_1_1_info_node}\index{Network\+Simulator.\+Info\+Node@{Network\+Simulator.\+Info\+Node}}
+
+
+Информационный узел в сети обслуживания  
+
+
+Граф наследования\+:Network\+Simulator.\+Info\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_info_node}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_network_simulator_1_1_info_node_ab05a35ee0ee90670e7c6df8fc980b96d}{Receive} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Получение фрагмента узлом \end{DoxyCompactList}\item 
+void \hyperlink{class_network_simulator_1_1_info_node_a99e3644d53d9feba5a9381f3a9912eec}{Set\+Curent\+Time} (double t)
+\begin{DoxyCompactList}\small\item\em Задает текущее время \end{DoxyCompactList}\item 
+double \hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{Get\+Curent\+Time} ()
+\begin{DoxyCompactList}\small\item\em Запрос текущего времени \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_info_node_aa471806f51a9c5c8481b78932d1afad1}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Активация узла \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_network_simulator_1_1_info_node_ac3c8aef408eab567fa2ede91c307ef83}{Route} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Отправляет фрагмент по сети обслуживания согласно маршрутизации \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_info_node_a02fd3b4fb6f6554d09850cdc04154db6}{Send} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f, \hyperlink{class_network_simulator_1_1_node}{Node} N)
+\begin{DoxyCompactList}\small\item\em Отправляет фрагмент в узел \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_network_simulator_1_1_info_node_a7e608899dfefba1c814626371225d87b}{Current\+Time}
+\begin{DoxyCompactList}\small\item\em Отображает текущее время \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Дополнительные унаследованные члены}
+
+
+\subsection{Подробное описание}
+Информационный узел в сети обслуживания 
+
+
+
+См. определение в файле Info\+Node.\+cs строка 12
+
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}!Activate@{Activate}}
+\index{Activate@{Activate}!Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}}
+\subsubsection[{\texorpdfstring{Activate()}{Activate()}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Info\+Node.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_info_node_aa471806f51a9c5c8481b78932d1afad1}{}\label{class_network_simulator_1_1_info_node_aa471806f51a9c5c8481b78932d1afad1}
+
+
+Активация узла 
+
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_a1f558044a94581467ba00d12bf1ae8fd}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Info\+Node.\+cs строка 53
+
+
+\begin{DoxyCode}
+54         \{
+55             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NotImplementedException();
+56         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}!Get\+Curent\+Time@{Get\+Curent\+Time}}
+\index{Get\+Curent\+Time@{Get\+Curent\+Time}!Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}}
+\subsubsection[{\texorpdfstring{Get\+Curent\+Time()}{GetCurentTime()}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Info\+Node.\+Get\+Curent\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{}\label{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}
+
+
+Запрос текущего времени 
+
+\begin{DoxyReturn}{Возвращает}
+Возвращает текущее время
+\end{DoxyReturn}
+
+
+См. определение в файле Info\+Node.\+cs строка 48
+
+
+\begin{DoxyCode}
+49         \{
+50             \textcolor{keywordflow}{return} \hyperlink{class_network_simulator_1_1_info_node_a7e608899dfefba1c814626371225d87b}{CurrentTime};
+51         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}!Receive@{Receive}}
+\index{Receive@{Receive}!Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}}
+\subsubsection[{\texorpdfstring{Receive(\+Fragment f)}{Receive(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Info\+Node.\+Receive (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_info_node_ab05a35ee0ee90670e7c6df8fc980b96d}{}\label{class_network_simulator_1_1_info_node_ab05a35ee0ee90670e7c6df8fc980b96d}
+
+
+Получение фрагмента узлом 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Получаемый фрагмент\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_ab1d7ae2e2e59169e9ab3086087d950e8}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Info\+Node.\+cs строка 14
+
+
+\begin{DoxyCode}
+15         \{
+16             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NotImplementedException();
+17         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}!Route@{Route}}
+\index{Route@{Route}!Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}}
+\subsubsection[{\texorpdfstring{Route(\+Fragment f)}{Route(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Info\+Node.\+Route (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_info_node_ac3c8aef408eab567fa2ede91c307ef83}{}\label{class_network_simulator_1_1_info_node_ac3c8aef408eab567fa2ede91c307ef83}
+
+
+Отправляет фрагмент по сети обслуживания согласно маршрутизации 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Фрагмент для отправки\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_afc4e83369cdce31db59b1023113c01f2}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Info\+Node.\+cs строка 19
+
+
+\begin{DoxyCode}
+20         \{
+21             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NotImplementedException();
+22         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}!Send@{Send}}
+\index{Send@{Send}!Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}}
+\subsubsection[{\texorpdfstring{Send(\+Fragment f, Node N)}{Send(Fragment f, Node N)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Info\+Node.\+Send (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f, }
+\item[{{\bf Node}}]{N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_info_node_a02fd3b4fb6f6554d09850cdc04154db6}{}\label{class_network_simulator_1_1_info_node_a02fd3b4fb6f6554d09850cdc04154db6}
+
+
+Отправляет фрагмент в узел 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Отправляемый фрагмент\\
+\hline
+{\em N} & отУзел-\/получатель\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_abcda5067b8842a447b2ad293818fc319}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Info\+Node.\+cs строка 24
+
+
+\begin{DoxyCode}
+25         \{
+26             \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NotImplementedException();
+27         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}!Set\+Curent\+Time@{Set\+Curent\+Time}}
+\index{Set\+Curent\+Time@{Set\+Curent\+Time}!Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}}
+\subsubsection[{\texorpdfstring{Set\+Curent\+Time(double t)}{SetCurentTime(double t)}}]{\setlength{\rightskip}{0pt plus 5cm}void Network\+Simulator.\+Info\+Node.\+Set\+Curent\+Time (
+\begin{DoxyParamCaption}
+\item[{double}]{t}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_info_node_a99e3644d53d9feba5a9381f3a9912eec}{}\label{class_network_simulator_1_1_info_node_a99e3644d53d9feba5a9381f3a9912eec}
+
+
+Задает текущее время 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em t} & Значение для текущего времени\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Info\+Node.\+cs строка 40
+
+
+\begin{DoxyCode}
+41         \{
+42             \hyperlink{class_network_simulator_1_1_info_node_a7e608899dfefba1c814626371225d87b}{CurrentTime} = t;
+43         \}
+\end{DoxyCode}
+
+
+\subsection{Данные класса}
+\index{Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}!Current\+Time@{Current\+Time}}
+\index{Current\+Time@{Current\+Time}!Network\+Simulator\+::\+Info\+Node@{Network\+Simulator\+::\+Info\+Node}}
+\subsubsection[{\texorpdfstring{Current\+Time}{CurrentTime}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Info\+Node.\+Current\+Time\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_info_node_a7e608899dfefba1c814626371225d87b}{}\label{class_network_simulator_1_1_info_node_a7e608899dfefba1c814626371225d87b}
+
+
+Отображает текущее время 
+
+
+
+См. определение в файле Info\+Node.\+cs строка 34
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_info_node_8cs}{Info\+Node.\+cs}\end{DoxyCompactItemize}

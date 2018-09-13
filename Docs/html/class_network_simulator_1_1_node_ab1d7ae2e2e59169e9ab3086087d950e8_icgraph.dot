@@ -1,0 +1,27 @@
+digraph "NetworkSimulator.Node.Receive"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NetworkSimulator.Node.Receive",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NetworkSimulator.ForkNode.Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_fork_node.html#aa61ec4b939488e78ac16865249f764f4",tooltip="Отправляет фрагмент указанному узлу "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="NetworkSimulator.ForkNode.\lRoute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_fork_node.html#a2268305e06c8e851a6faf2db79c89c58",tooltip="Распределяет фрагмент по узлам "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="NetworkSimulator.ForkNode.\lReceive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_fork_node.html#aca7a8c482a32868c4a8cb7c319bd866f",tooltip="Получение фрагмента из какого-то узла "];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="NetworkSimulator.JoinNode.Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_join_node.html#ac22f690bb07cc47c8788ae823e7c6c19",tooltip="Отправка фрагмент в заданый узел сетиобслуживания "];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="NetworkSimulator.JoinNode.\lRoute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_join_node.html#a5682ed1b31096dce17466e18e8fc8743",tooltip="Отправляет фрагмент по сети "];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="NetworkSimulator.JoinNode.\lReceive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_join_node.html#a32dc54853db194d6647d15b795981744",tooltip="Процедура приема фрагмента в интегратор "];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="NetworkSimulator.Service\lNode.Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_service_node.html#a467615866be1603e405dfa24775dca95",tooltip="Посылает фрагмент в указанный узел "];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="NetworkSimulator.SourceNode.Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_source_node.html#a637485f5acd4714d619014fdb7581861",tooltip="Отправление требования от источника к другому узлу "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="NetworkSimulator.SourceNode.\lRoute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_source_node.html#a459050a9d3f549d88bcd761d90f9aa70",tooltip="Отправяляет требование из источника по сети "];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="NetworkSimulator.SourceNode.\lActivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_source_node.html#ac57d1b9f996720128fc9c5ec08bf95da",tooltip="Передача управления источнику "];
+}

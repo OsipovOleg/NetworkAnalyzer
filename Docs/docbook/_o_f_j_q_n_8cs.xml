@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_o_f_j_q_n_8cs">
+    <title>OFJQN.cs File Reference</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_simulator_1_1_o_f_j_q_n">NetworkSimulator::OFJQN</link></para>
+<para><emphasis>&lt;summary&gt;
+Имитционная модель для открытой экспоненциальносй сети массового обслуживания 
+с делением и слиянием требований и произвольным числом обслуживающих прибором с дисциплиной FCFS
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <simplesect>
+            <title> Пространства имен </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="namespace_network_simulator">NetworkSimulator</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </simplesect>
+    <simplesect>
+        <title>Подробное описание</title>
+    <para>Definition in file /home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/OFJQN.cs</para>
+    </simplesect>
+</section>

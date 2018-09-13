@@ -1,0 +1,43 @@
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/ExactAnalysis.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/ExactAnalysis.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/obj/Debug/ExactAnalysis.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/obj/Debug/ExactAnalysis.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/obj/Debug/ExactNetworkAnalysis.csprojResolveAssemblyReference.cache
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/BLAS.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/LatexEditor.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/Networks.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/PhaseTypeDistribution.dll
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/BLAS.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/LatexEditor.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/Networks.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/ExactAnalysis/bin/Debug/PhaseTypeDistribution.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/ExactAnalysis.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/ExactAnalysis.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/BLAS.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/LatexEditor.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/Networks.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/PhaseTypeDistribution.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/BLAS.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/LatexEditor.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/Networks.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/bin/Debug/PhaseTypeDistribution.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/obj/Debug/ExactNetworkAnalysis.csprojResolveAssemblyReference.cache
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/obj/Debug/ExactAnalysis.dll
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/ExactAnalysis/obj/Debug/ExactAnalysis.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/ExactAnalysis.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/ExactAnalysis.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/BLAS.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/Networks.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/PhaseTypeDistribution.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/MathNet.Numerics.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/BLAS.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/BLAS.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/PhaseTypeDistribution.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/PhaseTypeDistribution.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/Networks.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/Networks.dll.mdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/bin/Debug/MathNet.Numerics.xml
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/obj/Debug/ExactNetworkAnalysis.csprojResolveAssemblyReference.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/obj/Debug/ExactNetworkAnalysis.csproj.CoreCompileInputs.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/obj/Debug/ExactAnalysis.dll
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/ExactAnalysis/obj/Debug/ExactAnalysis.pdb

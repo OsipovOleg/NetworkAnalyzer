@@ -1,0 +1,551 @@
+\hypertarget{class_network_simulator_1_1_service_node}{}\section{Класс Network\+Simulator.\+Service\+Node}
+\label{class_network_simulator_1_1_service_node}\index{Network\+Simulator.\+Service\+Node@{Network\+Simulator.\+Service\+Node}}
+
+
+Базовая система  
+
+
+Граф наследования\+:Network\+Simulator.\+Service\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_service_node}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}{Number\+Of\+Fragments} ()
+\begin{DoxyCompactList}\small\item\em Возвращает число фрагментов в базовой системе (очередь + приборы) \end{DoxyCompactList}\item 
+\hyperlink{class_network_simulator_1_1_service_node_af11f8ab97cd12922521ee35f47b8508c}{Service\+Node} (int \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID}, Random \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r}, \hyperlink{class_random_variables_1_1_random_variable}{Random\+Variable} \hyperlink{class_network_simulator_1_1_service_node_ad8db6aa20ec8e8ab9f53268c3a90b05d}{Service\+Time}, \hyperlink{class_network_simulator_1_1_buffer}{Buffer} \hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{In\+Buffer}, int kappa, \hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}, \hyperlink{class_network_simulator_1_1_info_node}{Info\+Node} \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}, double\mbox{[},\mbox{]} \hyperlink{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}{Route\+Matrix})
+\begin{DoxyCompactList}\small\item\em Базовая система \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_service_node_a5d2b640ef13859e73a262714701d7dd7}{Receive} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Процедура получения фрагмента базовой системой Фрагмент ставится в очередь или сразу начинается его обслуживание Реализация сегмента поступления фрагмента \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_service_node_af79c8221f7989b2dcb7aa4423ca437c3}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Передача управления базовой системе \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_network_simulator_1_1_service_node_aa832d42c9c93fbfb71f466ff91f45020}{Update\+Action\+Time} ()
+\begin{DoxyCompactList}\small\item\em Обновляет время активации узла \end{DoxyCompactList}\item 
+bool \hyperlink{class_network_simulator_1_1_service_node_a09388e32fbfd8d848a3348f47cc27e06}{Exist\+Free\+Server} ()
+\begin{DoxyCompactList}\small\item\em Проверка существования свобдного прибора \end{DoxyCompactList}\item 
+void \hyperlink{class_network_simulator_1_1_service_node_a16e3b098c0c8b3e08288c49078d5b1a5}{Start\+Service} ()
+\begin{DoxyCompactList}\small\item\em Берет фрагмент из очереди и начинает его обслуживание \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_service_node_aa9b820192e97c17822ab0a4c909aeac1}{Route} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Направляет фрагмент в какой-\/либо узел согласно установленным правилам маршрутизации \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_service_node_a467615866be1603e405dfa24775dca95}{Send} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f, \hyperlink{class_network_simulator_1_1_node}{Node} N)
+\begin{DoxyCompactList}\small\item\em Посылает фрагмент в указанный узел \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+double\mbox{[},\mbox{]} \hyperlink{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}{Route\+Matrix}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Матрица для маршрутизации фрагментов Элемент матрицы i,j задает вероятность для i-\/фрагмента поступить в j узел \end{DoxyCompactList}\item 
+\hyperlink{class_network_simulator_1_1_buffer}{Buffer} \hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{In\+Buffer}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Очередь базовой системы \end{DoxyCompactList}\item 
+int \hyperlink{class_network_simulator_1_1_service_node_a508a5abec3a03da2a2c98bd77d9f27e9}{Kappa}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Число одинаковых обслуживающих приборов \end{DoxyCompactList}\item 
+\hyperlink{class_random_variables_1_1_random_variable}{Random\+Variable} \hyperlink{class_network_simulator_1_1_service_node_ad8db6aa20ec8e8ab9f53268c3a90b05d}{Service\+Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Случайная величина -\/ длительность обслуживания фрагмента на приборе \end{DoxyCompactList}\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_service_node_a8fd15687cf3bbfc3e3e48b54d17c4d6e}{State\+Probabilities}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_service_node_afd54347835b7cdc3beacaa0c9eaf8592}{Arrival\+State\+Probabilities}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double \hyperlink{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}{Pred\+Event\+Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Время предыдущего события \end{DoxyCompactList}\item 
+Sorted\+Dictionary$<$ \hyperlink{class_network_simulator_1_1_label}{Label}, \hyperlink{class_network_simulator_1_1_fragment}{Fragment} $>$ \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{List\+Of\+Fragments}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Упорядоченный список номеров приборов согласно времени возникновения в них событий Нулевой элемент списка -\/ прибор которому нужно передать упралвение, если в списке нет элементов, значит нет загруженных приборов -\/ время акивациии неизвестно \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+const int \hyperlink{class_network_simulator_1_1_service_node_af7fdaf157c712f254b81ecc23ca8d843}{Max\+Number} = 50
+\end{DoxyCompactItemize}
+\subsection*{Дополнительные унаследованные члены}
+
+
+\subsection{Подробное описание}
+Базовая система 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 55
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Service\+Node@{Service\+Node}}
+\index{Service\+Node@{Service\+Node}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Service\+Node(int I\+D, Random r, Random\+Variable Service\+Time, Buffer In\+Buffer, int kappa, Node[] Nodes, Info\+Node Info, double[,] Route\+Matrix)}{ServiceNode(int ID, Random r, RandomVariable ServiceTime, Buffer InBuffer, int kappa, Node[] Nodes, InfoNode Info, double[,] RouteMatrix)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Service\+Node.\+Service\+Node (
+\begin{DoxyParamCaption}
+\item[{int}]{ID, }
+\item[{Random}]{r, }
+\item[{{\bf Random\+Variable}}]{Service\+Time, }
+\item[{{\bf Buffer}}]{In\+Buffer, }
+\item[{int}]{kappa, }
+\item[{{\bf Node}\mbox{[}$\,$\mbox{]}}]{Nodes, }
+\item[{{\bf Info\+Node}}]{Info, }
+\item[{double}]{Route\+Matrix\mbox{[},\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_service_node_af11f8ab97cd12922521ee35f47b8508c}{}\label{class_network_simulator_1_1_service_node_af11f8ab97cd12922521ee35f47b8508c}
+
+
+Базовая система 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em r} & Генратор случайных чисел\\
+\hline
+{\em In\+Buffer} & Буффер для фргаментов\\
+\hline
+{\em kappa} & Число однотипных обслуживающих приборов\\
+\hline
+{\em Service\+Time} & Случайная величина -\/ длительность обслуживания фрагмента прибором\\
+\hline
+{\em Route\+Matrix} & Матрица маршрутная Элемент i,j задает вероятность для i фрагмента попасть в j узел\\
+\hline
+{\em Nodes} & Узлы\\
+\hline
+{\em Info} & Информационный узел\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Service\+Node.\+cs строка 162
+
+
+\begin{DoxyCode}
+163         \{
+164             \textcolor{comment}{//Копирование параметров}
+165             this.\hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID} = \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID};
+166             this.\hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r} = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r};
+167             this.ServiceTime = \hyperlink{class_network_simulator_1_1_service_node_ad8db6aa20ec8e8ab9f53268c3a90b05d}{ServiceTime};
+168             this.\hyperlink{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}{RouteMatrix} = \hyperlink{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}{RouteMatrix};
+169             this.\hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes} = \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes};
+170             this.\hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info};
+171             this.\hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{InBuffer} = \hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{InBuffer};
+172             this.\hyperlink{class_network_simulator_1_1_service_node_a508a5abec3a03da2a2c98bd77d9f27e9}{Kappa} = kappa;
+173 
+174             \textcolor{comment}{//Время активизации узла}
+175             this.\hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = Double.PositiveInfinity;
+176 
+177             \textcolor{comment}{//Создаем список фаргментов на приборах}
+178             \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments} = \textcolor{keyword}{new} SortedDictionary<Label, Fragment>();
+179             \textcolor{comment}{//Число поступивших фрагментов}
+180             \hyperlink{class_network_simulator_1_1_node_a24aabc6ded4e970b0c2c5c3bcbdf6cd8}{NumberOfArrivedDemads} = 0;
+181 
+182 
+183 
+184             \textcolor{comment}{//Для статистики }
+185             this.\hyperlink{class_network_simulator_1_1_service_node_a8fd15687cf3bbfc3e3e48b54d17c4d6e}{StateProbabilities} = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[\hyperlink{class_network_simulator_1_1_service_node_af7fdaf157c712f254b81ecc23ca8d843}{MaxNumber}];
+186             this.\hyperlink{class_network_simulator_1_1_service_node_afd54347835b7cdc3beacaa0c9eaf8592}{ArrivalStateProbabilities} = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[
+      \hyperlink{class_network_simulator_1_1_service_node_af7fdaf157c712f254b81ecc23ca8d843}{MaxNumber}];
+187             this.\hyperlink{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}{PredEventTime} = 0;
+188         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Activate@{Activate}}
+\index{Activate@{Activate}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Activate()}{Activate()}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Service\+Node.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_service_node_af79c8221f7989b2dcb7aa4423ca437c3}{}\label{class_network_simulator_1_1_service_node_af79c8221f7989b2dcb7aa4423ca437c3}
+
+
+Передача управления базовой системе 
+
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_a1f558044a94581467ba00d12bf1ae8fd}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Service\+Node.\+cs строка 309
+
+
+\begin{DoxyCode}
+310         \{
+311             \textcolor{comment}{//Единственное действие это окончание обслуживания}
+312             var key = \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Keys.Min();
+313             var value = \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}[\hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Keys.Min()];
+314             \textcolor{comment}{//Удаляем из списка обслуживаемых фрамгентов}
+315             \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Remove(key);
+316             \textcolor{comment}{//Прибор свободен, пытаемся взять на обслуживание новый фрагмент }
+317             \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{InBuffer}.\hyperlink{class_network_simulator_1_1_buffer_ad8935513aaa3111b032d3b36cde5b663}{Length}() > 0)
+318             \{
+319                 \hyperlink{class_network_simulator_1_1_service_node_a16e3b098c0c8b3e08288c49078d5b1a5}{StartService}();
+320             \}
+321             \textcolor{keywordflow}{else}
+322             \{
+323                 \textcolor{comment}{//Обновляем время активации }
+324                 \hyperlink{class_network_simulator_1_1_service_node_aa832d42c9c93fbfb71f466ff91f45020}{UpdateActionTime}();
+325             \}
+326             \textcolor{comment}{//Отправляем обслуженный фрагмент в другие узлы }
+327             \hyperlink{class_network_simulator_1_1_service_node_aa9b820192e97c17822ab0a4c909aeac1}{Route}(value);
+328 
+329 
+330         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Exist\+Free\+Server@{Exist\+Free\+Server}}
+\index{Exist\+Free\+Server@{Exist\+Free\+Server}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Exist\+Free\+Server()}{ExistFreeServer()}}]{\setlength{\rightskip}{0pt plus 5cm}bool Network\+Simulator.\+Service\+Node.\+Exist\+Free\+Server (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_service_node_a09388e32fbfd8d848a3348f47cc27e06}{}\label{class_network_simulator_1_1_service_node_a09388e32fbfd8d848a3348f47cc27e06}
+
+
+Проверка существования свобдного прибора 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Service\+Node.\+cs строка 194
+
+
+\begin{DoxyCode}
+195         \{
+196             \textcolor{keywordflow}{return} (\hyperlink{class_network_simulator_1_1_service_node_a508a5abec3a03da2a2c98bd77d9f27e9}{Kappa} > \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Count());
+197         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Number\+Of\+Fragments@{Number\+Of\+Fragments}}
+\index{Number\+Of\+Fragments@{Number\+Of\+Fragments}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Number\+Of\+Fragments()}{NumberOfFragments()}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Service\+Node.\+Number\+Of\+Fragments (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}{}\label{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}
+
+
+Возвращает число фрагментов в базовой системе (очередь + приборы) 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле Service\+Node.\+cs строка 96
+
+
+\begin{DoxyCode}
+97         \{
+98             \textcolor{keywordflow}{return} \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Count + \hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{InBuffer}.
+      \hyperlink{class_network_simulator_1_1_buffer_ad8935513aaa3111b032d3b36cde5b663}{Length}();
+99         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Receive@{Receive}}
+\index{Receive@{Receive}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Receive(\+Fragment f)}{Receive(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Service\+Node.\+Receive (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_service_node_a5d2b640ef13859e73a262714701d7dd7}{}\label{class_network_simulator_1_1_service_node_a5d2b640ef13859e73a262714701d7dd7}
+
+
+Процедура получения фрагмента базовой системой Фрагмент ставится в очередь или сразу начинается его обслуживание Реализация сегмента поступления фрагмента 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Получаемый фрагмент\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_ab1d7ae2e2e59169e9ab3086087d950e8}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Service\+Node.\+cs строка 225
+
+
+\begin{DoxyCode}
+226         \{
+227             \textcolor{comment}{//Для статистики - Фрагмент застает систему в некотором состоянии}
+228             \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}{NumberOfFragments}() < \hyperlink{class_network_simulator_1_1_service_node_af7fdaf157c712f254b81ecc23ca8d843}{MaxNumber})
+229             \{
+230                 \hyperlink{class_network_simulator_1_1_service_node_afd54347835b7cdc3beacaa0c9eaf8592}{ArrivalStateProbabilities}[
+      \hyperlink{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}{NumberOfFragments}()]++;
+231 
+232                 \textcolor{comment}{//Состояние системы изменилось}
+233                 \textcolor{comment}{//Система находилась в этом состоянии некоторое время}
+234                 \textcolor{keywordtype}{double} delta = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}() - 
+      \hyperlink{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}{PredEventTime};
+235                 \hyperlink{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}{PredEventTime} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}();
+236                 \hyperlink{class_network_simulator_1_1_service_node_a8fd15687cf3bbfc3e3e48b54d17c4d6e}{StateProbabilities}[\hyperlink{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}{NumberOfFragments}()] += delta;
+237 
+238             \}
+239 
+240 
+241 
+242             \textcolor{comment}{//Увеличение числа поступивших фрагментов}
+243             \hyperlink{class_network_simulator_1_1_node_a24aabc6ded4e970b0c2c5c3bcbdf6cd8}{NumberOfArrivedDemads}++;
+244             \textcolor{comment}{//Устанавливаем для фрагмента текущее время}
+245             f.TimeArrival = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}();
+246             \textcolor{comment}{//Плмещаем фрагмент в очередь}
+247             this.\hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{InBuffer}.\hyperlink{class_network_simulator_1_1_buffer_acc9891009aed36c04a04796e24cc62a5}{Put}(f);
+248             \textcolor{comment}{//Если существует свободный сервер то можно начать обслуживание}
+249             \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_service_node_a09388e32fbfd8d848a3348f47cc27e06}{ExistFreeServer}())
+250             \{
+251                 \hyperlink{class_network_simulator_1_1_service_node_a16e3b098c0c8b3e08288c49078d5b1a5}{StartService}();
+252             \}
+253 
+254         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Route@{Route}}
+\index{Route@{Route}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Route(\+Fragment f)}{Route(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Service\+Node.\+Route (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_service_node_aa9b820192e97c17822ab0a4c909aeac1}{}\label{class_network_simulator_1_1_service_node_aa9b820192e97c17822ab0a4c909aeac1}
+
+
+Направляет фрагмент в какой-\/либо узел согласно установленным правилам маршрутизации 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Фрагмент для передачи\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_afc4e83369cdce31db59b1023113c01f2}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Service\+Node.\+cs строка 260
+
+
+\begin{DoxyCode}
+261         \{
+262             \textcolor{comment}{//Для статистики }
+263             \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}{NumberOfFragments}() < \hyperlink{class_network_simulator_1_1_service_node_af7fdaf157c712f254b81ecc23ca8d843}{MaxNumber} - 1)
+264             \{
+265                 \textcolor{comment}{//Состояние системы изменилось}
+266                 \textcolor{comment}{//Система находилась в этом состоянии некоторое время}
+267                 \textcolor{keywordtype}{double} delta = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}() - 
+      \hyperlink{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}{PredEventTime};
+268                 \hyperlink{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}{PredEventTime} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}();
+269                 \hyperlink{class_network_simulator_1_1_service_node_a8fd15687cf3bbfc3e3e48b54d17c4d6e}{StateProbabilities}[\hyperlink{class_network_simulator_1_1_service_node_a342272f5141858d2c957ad2bef849184}{NumberOfFragments}() + 1] += delta;
+270 
+271             \}
+272 
+273 
+274 
+275             \textcolor{keywordtype}{double} rand = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r}.NextDouble();
+276             \textcolor{keywordtype}{double} p = 0;
+277             \textcolor{keywordtype}{int} k = f.Sigma.ForkNodeID;
+278 
+279             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}{RouteMatrix}.GetLength(1); i++)
+280             \{
+281                 p += \hyperlink{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}{RouteMatrix}[k, i];
+282                 \textcolor{keywordflow}{if} (rand < p)
+283                 \{
+284                     \textcolor{comment}{//Посылаем фрагмент в указанный узел}
+285                     \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}[i] == \textcolor{keyword}{this})
+286                     \{
+287                         Console.WriteLine(\textcolor{stringliteral}{"Петля"});
+288                     \}
+289                     \hyperlink{class_network_simulator_1_1_service_node_a467615866be1603e405dfa24775dca95}{Send}(f, \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}[i]);
+290                     \textcolor{keywordflow}{break};
+291                 \}
+292             \}
+293         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Send@{Send}}
+\index{Send@{Send}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Send(\+Fragment f, Node N)}{Send(Fragment f, Node N)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Service\+Node.\+Send (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f, }
+\item[{{\bf Node}}]{N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_service_node_a467615866be1603e405dfa24775dca95}{}\label{class_network_simulator_1_1_service_node_a467615866be1603e405dfa24775dca95}
+
+
+Посылает фрагмент в указанный узел 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Посылаемый фрагмент\\
+\hline
+{\em N} & Узел для отправки\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_abcda5067b8842a447b2ad293818fc319}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Service\+Node.\+cs строка 300
+
+
+\begin{DoxyCode}
+301         \{
+302             \textcolor{comment}{//Посылаем фрагмент}
+303             N.Receive(f);
+304         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Start\+Service@{Start\+Service}}
+\index{Start\+Service@{Start\+Service}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Start\+Service()}{StartService()}}]{\setlength{\rightskip}{0pt plus 5cm}void Network\+Simulator.\+Service\+Node.\+Start\+Service (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_service_node_a16e3b098c0c8b3e08288c49078d5b1a5}{}\label{class_network_simulator_1_1_service_node_a16e3b098c0c8b3e08288c49078d5b1a5}
+
+
+Берет фрагмент из очереди и начинает его обслуживание 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 203
+
+
+\begin{DoxyCode}
+204         \{
+205             \textcolor{comment}{//Берем фрагмент из очереди }
+206             var new\_f = \hyperlink{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{InBuffer}.\hyperlink{class_network_simulator_1_1_buffer_abb36ad86bbf0f02e0905388ab07e041d}{Take}();
+207             \textcolor{comment}{//Направляем этот фрагмент на свободный обслуживающий прибор, определив время обслуживания}
+208             new\_f.\hyperlink{class_network_simulator_1_1_fragment_a5a585d4c4fecc4f03d5fb136cc8c8f5e}{TimeStartService} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}();
+209             new\_f.TimeLeave = new\_f.TimeStartService + \hyperlink{class_network_simulator_1_1_service_node_ad8db6aa20ec8e8ab9f53268c3a90b05d}{ServiceTime}.
+      \hyperlink{class_random_variables_1_1_random_variable_adf5ef829531ebcc4f0591b81d579519a}{NextValue}();
+210             \textcolor{comment}{//Увеличиваем число поступивших на прибор требований}
+211             \hyperlink{class_network_simulator_1_1_node_a24aabc6ded4e970b0c2c5c3bcbdf6cd8}{NumberOfArrivedDemads}++;
+212             \textcolor{comment}{//Добавление фрагмента на прибор}
+213             \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Add(\textcolor{keyword}{new} Label(new\_f.TimeLeave, 
+      \hyperlink{class_network_simulator_1_1_node_a24aabc6ded4e970b0c2c5c3bcbdf6cd8}{NumberOfArrivedDemads}), new\_f);
+214 
+215             \hyperlink{class_network_simulator_1_1_service_node_aa832d42c9c93fbfb71f466ff91f45020}{UpdateActionTime}();
+216         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Update\+Action\+Time@{Update\+Action\+Time}}
+\index{Update\+Action\+Time@{Update\+Action\+Time}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Update\+Action\+Time()}{UpdateActionTime()}}]{\setlength{\rightskip}{0pt plus 5cm}void Network\+Simulator.\+Service\+Node.\+Update\+Action\+Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_service_node_aa832d42c9c93fbfb71f466ff91f45020}{}\label{class_network_simulator_1_1_service_node_aa832d42c9c93fbfb71f466ff91f45020}
+
+
+Обновляет время активации узла 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 128
+
+
+\begin{DoxyCode}
+129         \{
+130             \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Count > 0)
+131             \{
+132                 \hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}[
+      \hyperlink{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{ListOfFragments}.Keys.Min()].TimeLeave;
+133             \}
+134             \textcolor{keywordflow}{else}
+135             \{
+136                 \hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = \textcolor{keywordtype}{double}.PositiveInfinity;
+137             \}
+138         \}
+\end{DoxyCode}
+
+
+\subsection{Данные класса}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Max\+Number@{Max\+Number}}
+\index{Max\+Number@{Max\+Number}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Max\+Number}{MaxNumber}}]{\setlength{\rightskip}{0pt plus 5cm}const int Network\+Simulator.\+Service\+Node.\+Max\+Number = 50\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_service_node_af7fdaf157c712f254b81ecc23ca8d843}{}\label{class_network_simulator_1_1_service_node_af7fdaf157c712f254b81ecc23ca8d843}
+
+
+См. определение в файле Service\+Node.\+cs строка 103
+
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Arrival\+State\+Probabilities@{Arrival\+State\+Probabilities}}
+\index{Arrival\+State\+Probabilities@{Arrival\+State\+Probabilities}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Arrival\+State\+Probabilities}{ArrivalStateProbabilities}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} Network\+Simulator.\+Service\+Node.\+Arrival\+State\+Probabilities\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_service_node_afd54347835b7cdc3beacaa0c9eaf8592}{}\label{class_network_simulator_1_1_service_node_afd54347835b7cdc3beacaa0c9eaf8592}
+
+
+См. определение в файле Service\+Node.\+cs строка 110
+
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!In\+Buffer@{In\+Buffer}}
+\index{In\+Buffer@{In\+Buffer}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{In\+Buffer}{InBuffer}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Buffer} Network\+Simulator.\+Service\+Node.\+In\+Buffer\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}{}\label{class_network_simulator_1_1_service_node_ae4baae1147ffac6e43ab3c5917849473}
+
+
+Очередь базовой системы 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 71
+
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Kappa@{Kappa}}
+\index{Kappa@{Kappa}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Kappa}{Kappa}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Service\+Node.\+Kappa\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}\hypertarget{class_network_simulator_1_1_service_node_a508a5abec3a03da2a2c98bd77d9f27e9}{}\label{class_network_simulator_1_1_service_node_a508a5abec3a03da2a2c98bd77d9f27e9}
+
+
+Число одинаковых обслуживающих приборов 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 79
+
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!List\+Of\+Fragments@{List\+Of\+Fragments}}
+\index{List\+Of\+Fragments@{List\+Of\+Fragments}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{List\+Of\+Fragments}{ListOfFragments}}]{\setlength{\rightskip}{0pt plus 5cm}Sorted\+Dictionary$<${\bf Label}, {\bf Fragment}$>$ Network\+Simulator.\+Service\+Node.\+List\+Of\+Fragments\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}{}\label{class_network_simulator_1_1_service_node_aec726744aa9a2c5a657424ecc9666f27}
+
+
+Упорядоченный список номеров приборов согласно времени возникновения в них событий Нулевой элемент списка -\/ прибор которому нужно передать упралвение, если в списке нет элементов, значит нет загруженных приборов -\/ время акивациии неизвестно 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 146
+
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Pred\+Event\+Time@{Pred\+Event\+Time}}
+\index{Pred\+Event\+Time@{Pred\+Event\+Time}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Pred\+Event\+Time}{PredEventTime}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Service\+Node.\+Pred\+Event\+Time\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}{}\label{class_network_simulator_1_1_service_node_a5417a341416b75444bb1d853788228a7}
+
+
+Время предыдущего события 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 119
+
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Route\+Matrix@{Route\+Matrix}}
+\index{Route\+Matrix@{Route\+Matrix}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Route\+Matrix}{RouteMatrix}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[},\mbox{]} Network\+Simulator.\+Service\+Node.\+Route\+Matrix\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}{}\label{class_network_simulator_1_1_service_node_a2e789a68c35295daa0c66b1cccf40247}
+
+
+Матрица для маршрутизации фрагментов Элемент матрицы i,j задает вероятность для i-\/фрагмента поступить в j узел 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 62
+
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!Service\+Time@{Service\+Time}}
+\index{Service\+Time@{Service\+Time}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{Service\+Time}{ServiceTime}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Random\+Variable} Network\+Simulator.\+Service\+Node.\+Service\+Time\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_service_node_ad8db6aa20ec8e8ab9f53268c3a90b05d}{}\label{class_network_simulator_1_1_service_node_ad8db6aa20ec8e8ab9f53268c3a90b05d}
+
+
+Случайная величина -\/ длительность обслуживания фрагмента на приборе 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 87
+
+\index{Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}!State\+Probabilities@{State\+Probabilities}}
+\index{State\+Probabilities@{State\+Probabilities}!Network\+Simulator\+::\+Service\+Node@{Network\+Simulator\+::\+Service\+Node}}
+\subsubsection[{\texorpdfstring{State\+Probabilities}{StateProbabilities}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} Network\+Simulator.\+Service\+Node.\+State\+Probabilities\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_service_node_a8fd15687cf3bbfc3e3e48b54d17c4d6e}{}\label{class_network_simulator_1_1_service_node_a8fd15687cf3bbfc3e3e48b54d17c4d6e}
+
+
+См. определение в файле Service\+Node.\+cs строка 105
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_service_node_8cs}{Service\+Node.\+cs}\end{DoxyCompactItemize}

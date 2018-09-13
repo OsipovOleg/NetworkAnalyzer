@@ -1,0 +1,1046 @@
+\begin{theindex}
+
+  \item {Activate}
+    \subitem {Network\+Simulator\+::\+Fork\+Node}, \hyperpage{29}
+    \subitem {Network\+Simulator\+::\+Info\+Node}, \hyperpage{37}
+    \subitem {Network\+Simulator\+::\+Join\+Node}, \hyperpage{39}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{56}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{72}
+    \subitem {Network\+Simulator\+::\+Source\+Node}, \hyperpage{78}
+  \item {Add\+Routing\+Element}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Add\+Routing\+Element}, 
+		\hyperpage{17}
+  \item {Approximation\+For\+One\+Servers\+Fork\+Join}
+    \subitem {Exact\+Network\+Analysis\+::\+Demo}, \hyperpage{25}
+  \item {Arrival\+Interval}
+    \subitem {Network\+Simulator\+::\+Source\+Node}, \hyperpage{78}
+  \item {Arrival\+State\+Probabilities}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+
+  \indexspace
+
+  \item {B\+L\+A\+S.\+Computation}, \hyperpage{20}
+  \item {B\+L\+A\+S.\+Demo}, \hyperpage{24}
+  \item {B\+L\+A\+S.\+Matrix}, \hyperpage{47}
+  \item {B\+L\+A\+S/\+Computation.\+cs}, \hyperpage{81}
+  \item {B\+L\+A\+S/\+Demo.\+cs}, \hyperpage{81}
+  \item {B\+L\+A\+S/\+Matrix.\+cs}, \hyperpage{82}
+  \item {B\+L\+A\+S/\+Properties/\+Assembly\+Info.\+cs}, \hyperpage{91}
+  \item {B\+L\+A\+S/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+2.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {B\+L\+A\+S/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {B\+L\+A\+S/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{85}
+  \item {B\+L\+A\+S/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{87}
+  \item {B\+L\+A\+S/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{89}
+  \item {B\+L\+A\+S/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {B\+L\+A\+S/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{85}
+  \item {B\+L\+A\+S/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{87}
+  \item {B\+L\+A\+S/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{89}
+  \item {B\+L\+A\+S/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{85}
+  \item {B\+L\+A\+S/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{87}
+  \item {B\+L\+A\+S/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{89}
+  \item {B\+L\+A\+S/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{85}
+  \item {B\+L\+A\+S/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{87}
+  \item {B\+L\+A\+S/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {B\+L\+A\+S\+::\+Computation}
+    \subitem {Eye}, \hyperpage{20}
+    \subitem {Gauss}, \hyperpage{20}
+    \subitem {Kronecker\+Product}, \hyperpage{21}
+    \subitem {Kronecker\+Sum}, \hyperpage{21}
+    \subitem {Max\+Abs}, \hyperpage{21}
+    \subitem {Ones\+Column}, \hyperpage{21}
+    \subitem {Ones\+Row}, \hyperpage{22}
+    \subitem {Zeidel}, \hyperpage{22}
+  \item {B\+L\+A\+S\+::\+Demo}
+    \subitem {Demo\+B\+L\+AS}, \hyperpage{24}
+  \item {B\+L\+A\+S\+::\+Matrix}
+    \subitem {Column}, \hyperpage{49}
+    \subitem {Copy}, \hyperpage{49}
+    \subitem {Count\+Column}, \hyperpage{53}
+    \subitem {Count\+Row}, \hyperpage{53}
+    \subitem {Det}, \hyperpage{50}
+    \subitem {Initialize}, \hyperpage{50}
+    \subitem {Inv}, \hyperpage{50}
+    \subitem {is\+Square}, \hyperpage{53}
+    \subitem {Matrix}, \hyperpage{48, 49}
+    \subitem {Non\+Zero\+Elements}, \hyperpage{50}
+    \subitem {Norm}, \hyperpage{50}
+    \subitem {operator$\ast$}, \hyperpage{50, 51}
+    \subitem {operator+}, \hyperpage{51}
+    \subitem {operator-\/}, \hyperpage{51, 52}
+    \subitem {Random\+Double\+Matrix}, \hyperpage{52}
+    \subitem {Random\+Int\+Matrix}, \hyperpage{52}
+    \subitem {Row}, \hyperpage{52, 53}
+    \subitem {this[int i, int j]}, \hyperpage{53}
+    \subitem {To\+String}, \hyperpage{53}
+    \subitem {Transpose}, \hyperpage{53}
+  \item {B\+L\+AS}, \hyperpage{13}
+  \item {Begin\+La\+Tex}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{42}
+
+  \indexspace
+
+  \item {Column}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{49}
+  \item {Compare\+To}
+    \subitem {Network\+Simulator\+::\+Label}, \hyperpage{41}
+  \item {Compile\+La\+Tex}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{42}
+  \item {Console\+Input\+Creator}, \hyperpage{13}
+  \item {Console\+Input\+Creator.\+Main\+Class}, \hyperpage{46}
+  \item {Console\+Input\+Creator/\+Program.\+cs}, \hyperpage{92}
+  \item {Console\+Input\+Creator/\+Properties/\+Assembly\+Info.\+cs}, 
+		\hyperpage{91}
+  \item {Console\+Input\+Creator/obj/x64/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Console\+Input\+Creator/obj/x64/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Console\+Input\+Creator\+::\+Main\+Class}
+    \subitem {Main}, \hyperpage{46}
+  \item {Convex\+Mixture}
+    \subitem {Phase\+Type\+Distribution\+::\+P\+H\+Operations}, 
+		\hyperpage{62}
+  \item {Copy}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{49}
+  \item {Count\+Column}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{53}
+  \item {Count\+Forker}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{69}
+  \item {Count\+Row}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{53}
+
+  \indexspace
+
+  \item {Delete\+Matrix}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{68}
+  \item {Delete\+Node}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{68}
+  \item {Demo}, \hyperpage{13}
+  \item {Demo.\+Program}, \hyperpage{64}
+  \item {Demo/\+Program.\+cs}, \hyperpage{92}
+  \item {Demo/\+Properties/\+Assembly\+Info.\+cs}, \hyperpage{92}
+  \item {Demo/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Demo/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{85}
+  \item {Demo/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{87}
+  \item {Demo/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Demo/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Demo/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{85}
+  \item {Demo/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Demo/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Demo\+B\+L\+AS}
+    \subitem {B\+L\+A\+S\+::\+Demo}, \hyperpage{24}
+  \item {Demo\+Latex}
+    \subitem {Latex\+::\+Demo}, \hyperpage{24}
+  \item {Demo\+PH}
+    \subitem {Phase\+Type\+Distribution\+::\+Demo}, \hyperpage{24}
+  \item {Desktop\+Network\+Analyzator}, \hyperpage{13}
+  \item {Desktop\+Network\+Analyzator.\+Add\+Routing\+Element}, 
+		\hyperpage{17}
+  \item {Desktop\+Network\+Analyzator.\+Main\+Form}, \hyperpage{46}
+  \item {Desktop\+Network\+Analyzator.\+Program}, \hyperpage{64}
+  \item {Desktop\+Network\+Analyzator.\+Properties}, \hyperpage{14}
+  \item {Desktop\+Network\+Analyzator.\+Routing\+Matrix\+Creator}, 
+		\hyperpage{70}
+  \item {Desktop\+Network\+Analyzator\+::\+Add\+Routing\+Element}
+    \subitem {Add\+Routing\+Element}, \hyperpage{17}
+    \subitem {Dispose}, \hyperpage{17}
+    \subitem {element}, \hyperpage{18}
+    \subitem {Nodes}, \hyperpage{18}
+  \item {Desktop\+Network\+Analyzator\+::\+Main\+Form}
+    \subitem {Dispose}, \hyperpage{46}
+    \subitem {Main\+Form}, \hyperpage{46}
+  \item {Desktop\+Network\+Analyzator\+::\+Routing\+Matrix\+Creator}
+    \subitem {Dispose}, \hyperpage{70}
+    \subitem {Nodes}, \hyperpage{70}
+    \subitem {Routing\+Elements}, \hyperpage{70}
+    \subitem {Routing\+Matrix\+Creator}, \hyperpage{70}
+  \item {Det}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{50}
+  \item {Dimention}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{69}
+  \item {Dispose}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Add\+Routing\+Element}, 
+		\hyperpage{17}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Main\+Form}, 
+		\hyperpage{46}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Routing\+Matrix\+Creator}, 
+		\hyperpage{70}
+
+  \indexspace
+
+  \item {element}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Add\+Routing\+Element}, 
+		\hyperpage{18}
+  \item {Element\+Route\+Matrix}
+    \subitem {Exact\+Network\+Analysis\+::\+Latex\+Utils}, 
+		\hyperpage{44}
+  \item {End\+La\+Tex}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{43}
+  \item {Exact\+Analysis/\+Demo.\+cs}, \hyperpage{81}
+  \item {Exact\+Analysis/\+Latex\+Utils.\+cs}, \hyperpage{93}
+  \item {Exact\+Analysis/\+Open\+Fork\+Join\+Analizator.\+cs}, 
+		\hyperpage{93}
+  \item {Exact\+Analysis/\+Properties/\+Assembly\+Info.\+cs}, 
+		\hyperpage{92}
+  \item {Exact\+Analysis/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Exact\+Analysis/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{85}
+  \item {Exact\+Analysis/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Exact\+Analysis/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Exact\+Analysis/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Exact\+Analysis/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Exact\+Analysis/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Exact\+Analysis/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Exact\+For\+Inf\+Servers\+Fork\+Join}
+    \subitem {Exact\+Network\+Analysis\+::\+Demo}, \hyperpage{25}
+  \item {Exact\+Network\+Analysis}, \hyperpage{14}
+  \item {Exact\+Network\+Analysis.\+Demo}, \hyperpage{25}
+  \item {Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{31}
+  \item {Exact\+Network\+Analysis.\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{34}
+  \item {Exact\+Network\+Analysis.\+Latex\+Utils}, \hyperpage{44}
+  \item {Exact\+Network\+Analysis\+::\+Demo}
+    \subitem {Approximation\+For\+One\+Servers\+Fork\+Join}, 
+		\hyperpage{25}
+    \subitem {Exact\+For\+Inf\+Servers\+Fork\+Join}, \hyperpage{25}
+    \subitem {Obtain\+Rates}, \hyperpage{26}
+  \item {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}
+    \subitem {Find\+Trivial\+Network}, \hyperpage{32}
+    \subitem {Input\+Rates}, \hyperpage{32}
+    \subitem {Is\+Trivial\+Matrix}, \hyperpage{33}
+    \subitem {Reduce\+Trivial\+Sub\+Network}, \hyperpage{33}
+    \subitem {Response\+Time\+Distribution}, \hyperpage{33}
+    \subitem {Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network}, 
+		\hyperpage{33}
+    \subitem {Response\+Time\+For\+Base\+Network}, \hyperpage{34}
+    \subitem {Total\+Input\+Rates}, \hyperpage{34}
+  \item {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}
+    \subitem {F}, \hyperpage{35}
+    \subitem {Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{35}
+    \subitem {J}, \hyperpage{35}
+    \subitem {Lambda0}, \hyperpage{35}
+    \subitem {mu}, \hyperpage{35}
+    \subitem {S}, \hyperpage{36}
+    \subitem {Theta}, \hyperpage{36}
+  \item {Exact\+Network\+Analysis\+::\+Latex\+Utils}
+    \subitem {Element\+Route\+Matrix}, \hyperpage{44}
+    \subitem {Ind\+\_\+F}, \hyperpage{45}
+    \subitem {Ind\+\_\+J}, \hyperpage{45}
+    \subitem {Ind\+\_\+S}, \hyperpage{45}
+    \subitem {Input\+Rates\+Latex}, \hyperpage{45}
+    \subitem {Lambda\+\_\+0}, \hyperpage{45}
+    \subitem {lambda\+\_\+in}, \hyperpage{45}
+  \item {Exist\+Free\+Server}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{73}
+  \item {Exp\+PH}
+    \subitem {Phase\+Type\+Distribution\+::\+P\+H\+Operations}, 
+		\hyperpage{63}
+  \item {Expected\+Value}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{61}
+  \item {Exponential\+Variable}
+    \subitem {Random\+Variables\+::\+Exponential\+Variable}, 
+		\hyperpage{26, 27}
+  \item {Eye}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{20}
+
+  \indexspace
+
+  \item {F}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{35}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{59}
+  \item {Find\+Trivial\+Network}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{32}
+  \item {Fork\+Node}
+    \subitem {Network\+Simulator\+::\+Fork\+Node}, \hyperpage{28}
+  \item {Fork\+Node\+ID}
+    \subitem {Network\+Simulator\+::\+Fork\+Node}, \hyperpage{29}
+    \subitem {Network\+Simulator\+::\+Signature}, \hyperpage{75}
+  \item {Fragment}
+    \subitem {Network\+Simulator\+::\+Fragment}, \hyperpage{30}
+
+  \indexspace
+
+  \item {Gauss}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{20}
+  \item {Generator}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{62}
+  \item {Get\+Curent\+Time}
+    \subitem {Network\+Simulator\+::\+Info\+Node}, \hyperpage{37}
+
+  \indexspace
+
+  \item {ID}
+    \subitem {Network\+Simulator\+::\+Demand}, \hyperpage{23}
+    \subitem {Network\+Simulator\+::\+Label}, \hyperpage{41}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{57}
+  \item {In\+Buffer}
+    \subitem {Network\+Simulator\+::\+Join\+Node}, \hyperpage{40}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+  \item {Ind\+\_\+F}
+    \subitem {Exact\+Network\+Analysis\+::\+Latex\+Utils}, 
+		\hyperpage{45}
+  \item {Ind\+\_\+J}
+    \subitem {Exact\+Network\+Analysis\+::\+Latex\+Utils}, 
+		\hyperpage{45}
+  \item {Ind\+\_\+S}
+    \subitem {Exact\+Network\+Analysis\+::\+Latex\+Utils}, 
+		\hyperpage{45}
+  \item {Infinity\+Server\+Open\+Fork\+Join\+Network}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{35}
+  \item {Info}
+    \subitem {Network\+Simulator\+::\+Network\+Model}, \hyperpage{55}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{57}
+    \subitem {Network\+Simulator\+::\+Simple\+Fork\+Join\+Network}, 
+		\hyperpage{76}
+  \item {Initial\+Probabilities}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{62}
+  \item {Initialize}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{50}
+  \item {Input\+Rates}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{32}
+  \item {Input\+Rates\+Latex}
+    \subitem {Exact\+Network\+Analysis\+::\+Latex\+Utils}, 
+		\hyperpage{45}
+  \item {Inv}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{50}
+  \item {Is\+Empty}
+    \subitem {Network\+Simulator\+::\+Buffer}, \hyperpage{19}
+    \subitem {Network\+Simulator\+::\+Queue\+F\+C\+FS}, \hyperpage{65}
+  \item {is\+Square}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{53}
+  \item {Is\+Trivial\+Matrix}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{33}
+
+  \indexspace
+
+  \item {J}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{35}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{59}
+  \item {Jackson\+Network}
+    \subitem {Network\+Simulator\+::\+Jackson\+Network}, \hyperpage{38}
+  \item {Join\+Node}
+    \subitem {Network\+Simulator\+::\+Join\+Node}, \hyperpage{39}
+
+  \indexspace
+
+  \item {Kappa}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+  \item {kappa}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{59}
+  \item {Kronecker\+Product}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{21}
+  \item {Kronecker\+Sum}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Label}
+    \subitem {Network\+Simulator\+::\+Label}, \hyperpage{41}
+  \item {Lambda0}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{35}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{59}
+  \item {Lambda\+\_\+0}
+    \subitem {Exact\+Network\+Analysis\+::\+Latex\+Utils}, 
+		\hyperpage{45}
+  \item {lambda\+\_\+in}
+    \subitem {Exact\+Network\+Analysis\+::\+Latex\+Utils}, 
+		\hyperpage{45}
+  \item {Latex}, \hyperpage{14}
+  \item {Latex.\+Demo}, \hyperpage{24}
+  \item {Latex.\+Latex\+Editor}, \hyperpage{42}
+  \item {Latex\+::\+Demo}
+    \subitem {Demo\+Latex}, \hyperpage{24}
+  \item {Latex\+::\+Latex\+Editor}
+    \subitem {Begin\+La\+Tex}, \hyperpage{42}
+    \subitem {Compile\+La\+Tex}, \hyperpage{42}
+    \subitem {End\+La\+Tex}, \hyperpage{43}
+    \subitem {Latex\+System\+Of\+Equation}, \hyperpage{43}
+    \subitem {New\+Line}, \hyperpage{44}
+    \subitem {New\+Page}, \hyperpage{44}
+    \subitem {Save\+La\+Tex}, \hyperpage{43}
+    \subitem {Show\+P\+DF}, \hyperpage{43}
+  \item {Latex\+Editor/\+Demo.\+cs}, \hyperpage{82}
+  \item {Latex\+Editor/\+Latex\+Editor.\+cs}, \hyperpage{93}
+  \item {Latex\+Editor/\+Properties/\+Assembly\+Info.\+cs}, 
+		\hyperpage{92}
+  \item {Latex\+Editor/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+2.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Latex\+Editor/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Latex\+Editor/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Latex\+Editor/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Latex\+Editor/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Latex\+Editor/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Latex\+Editor/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Latex\+Editor/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Latex\+Editor/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Latex\+Editor/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Latex\+Editor/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Latex\+Editor/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Latex\+Editor/obj/x64/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Latex\+Editor/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Latex\+Editor/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Latex\+Editor/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Latex\+System\+Of\+Equation}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{43}
+  \item {Length}
+    \subitem {Network\+Simulator\+::\+Buffer}, \hyperpage{19}
+    \subitem {Network\+Simulator\+::\+Queue\+F\+C\+FS}, \hyperpage{65}
+  \item {List\+Of\+Fragments}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+
+  \indexspace
+
+  \item {Main}
+    \subitem {Console\+Input\+Creator\+::\+Main\+Class}, \hyperpage{46}
+  \item {Main\+Form}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Main\+Form}, 
+		\hyperpage{46}
+  \item {Matrix}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{48, 49}
+  \item {Max}
+    \subitem {Phase\+Type\+Distribution\+::\+P\+H\+Operations}, 
+		\hyperpage{63, 64}
+  \item {Max\+Abs}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{21}
+  \item {mu}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{35}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{59}
+
+  \indexspace
+
+  \item {Net}
+    \subitem {Network\+Simulator\+::\+Simple\+Fork\+Join\+Network}, 
+		\hyperpage{76}
+  \item {Network\+Analyzer/\+Add\+Routing\+Element.\+cs}, 
+		\hyperpage{93}
+  \item {Network\+Analyzer/\+Add\+Routing\+Element.\+Designer.\+cs}, 
+		\hyperpage{94}
+  \item {Network\+Analyzer/\+Main\+Form.\+cs}, \hyperpage{94}
+  \item {Network\+Analyzer/\+Main\+Form.\+Designer.\+cs}, 
+		\hyperpage{94}
+  \item {Network\+Analyzer/\+Program.\+cs}, \hyperpage{92}
+  \item {Network\+Analyzer/\+Properties/\+Assembly\+Info.\+cs}, 
+		\hyperpage{92}
+  \item {Network\+Analyzer/\+Properties/\+Resources.\+Designer.\+cs}, 
+		\hyperpage{94}
+  \item {Network\+Analyzer/\+Properties/\+Settings.\+Designer.\+cs}, 
+		\hyperpage{95}
+  \item {Network\+Analyzer/\+Routing\+Matrix\+Creator.\+cs}, 
+		\hyperpage{95}
+  \item {Network\+Analyzer/\+Routing\+Matrix\+Creator.\+Designer.\+cs}, 
+		\hyperpage{95}
+  \item {Network\+Analyzer/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+2.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Network\+Analyzer/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Network\+Analyzer/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Network\+Analyzer/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Network\+Analyzer/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Network\+Analyzer/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Network\+Analyzer/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Network\+Analyzer/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Network\+Analyzer/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Network\+Analyzer/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Network\+Analyzer/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Network\+Analyzer/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{90}
+  \item {Network\+Analyzer/obj/x64/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Network\+Analyzer/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Network\+Analyzer/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Network\+Analyzer/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Network\+Model}
+    \subitem {Network\+Simulator\+::\+Network\+Model}, \hyperpage{54}
+  \item {Network\+Simulator}, \hyperpage{15}
+  \item {Network\+Simulator.\+Buffer}, \hyperpage{18}
+  \item {Network\+Simulator.\+Demand}, \hyperpage{23}
+  \item {Network\+Simulator.\+Demo}, \hyperpage{24}
+  \item {Network\+Simulator.\+Fork\+Node}, \hyperpage{27}
+  \item {Network\+Simulator.\+Fragment}, \hyperpage{30}
+  \item {Network\+Simulator.\+Info\+Node}, \hyperpage{36}
+  \item {Network\+Simulator.\+Jackson\+Network}, \hyperpage{38}
+  \item {Network\+Simulator.\+Join\+Node}, \hyperpage{38}
+  \item {Network\+Simulator.\+Label}, \hyperpage{41}
+  \item {Network\+Simulator.\+Network\+Model}, \hyperpage{54}
+  \item {Network\+Simulator.\+Node}, \hyperpage{55}
+  \item {Network\+Simulator.\+Queue\+F\+C\+FS}, \hyperpage{65}
+  \item {Network\+Simulator.\+Service\+Node}, \hyperpage{71}
+  \item {Network\+Simulator.\+Signature}, \hyperpage{75}
+  \item {Network\+Simulator.\+Simple\+Fork\+Join\+Network}, 
+		\hyperpage{76}
+  \item {Network\+Simulator.\+Source\+Node}, \hyperpage{77}
+  \item {Network\+Simulator.\+Utils}, \hyperpage{79}
+  \item {Network\+Simulator/\+Buffer.\+cs}, \hyperpage{96}
+  \item {Network\+Simulator/\+Demand.\+cs}, \hyperpage{96}
+  \item {Network\+Simulator/\+Demo.\+cs}, \hyperpage{82}
+  \item {Network\+Simulator/\+Fork\+Node.\+cs}, \hyperpage{96}
+  \item {Network\+Simulator/\+Fragment.\+cs}, \hyperpage{97}
+  \item {Network\+Simulator/\+Info\+Node.\+cs}, \hyperpage{97}
+  \item {Network\+Simulator/\+Jackson\+Network.\+cs}, \hyperpage{97}
+  \item {Network\+Simulator/\+Join\+Node.\+cs}, \hyperpage{97}
+  \item {Network\+Simulator/\+Network\+Model.\+cs}, \hyperpage{98}
+  \item {Network\+Simulator/\+Node.\+cs}, \hyperpage{98}
+  \item {Network\+Simulator/\+Properties/\+Assembly\+Info.\+cs}, 
+		\hyperpage{92}
+  \item {Network\+Simulator/\+Queue\+F\+C\+F\+S.\+cs}, \hyperpage{98}
+  \item {Network\+Simulator/\+Service\+Node.\+cs}, \hyperpage{98}
+  \item {Network\+Simulator/\+Simple\+Fork\+Join\+Network.\+cs}, 
+		\hyperpage{99}
+  \item {Network\+Simulator/\+Source\+Node.\+cs}, \hyperpage{99}
+  \item {Network\+Simulator/\+Utils.\+cs}, \hyperpage{99}
+  \item {Network\+Simulator/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Network\+Simulator/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Network\+Simulator/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Network\+Simulator/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Network\+Simulator/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Network\+Simulator/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{87}
+  \item {Network\+Simulator/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Network\+Simulator/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Network\+Simulator/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{87}
+  \item {Network\+Simulator/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Network\+Simulator/obj/x64/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Network\+Simulator/obj/x64/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{85}
+  \item {Network\+Simulator/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{87}
+  \item {Network\+Simulator/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Network\+Simulator/obj/x64/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Network\+Simulator\+::\+Buffer}
+    \subitem {Is\+Empty}, \hyperpage{19}
+    \subitem {Length}, \hyperpage{19}
+    \subitem {Put}, \hyperpage{19}
+    \subitem {Take}, \hyperpage{19}
+  \item {Network\+Simulator\+::\+Demand}
+    \subitem {ID}, \hyperpage{23}
+    \subitem {Time\+Generation}, \hyperpage{23}
+  \item {Network\+Simulator\+::\+Demo}
+    \subitem {Run\+Model}, \hyperpage{25}
+  \item {Network\+Simulator\+::\+Fork\+Node}
+    \subitem {Activate}, \hyperpage{29}
+    \subitem {Fork\+Node}, \hyperpage{28}
+    \subitem {Fork\+Node\+ID}, \hyperpage{29}
+    \subitem {Receive}, \hyperpage{29}
+    \subitem {Route}, \hyperpage{29}
+    \subitem {Route\+Row}, \hyperpage{30}
+    \subitem {Send}, \hyperpage{29}
+  \item {Network\+Simulator\+::\+Fragment}
+    \subitem {Fragment}, \hyperpage{30}
+    \subitem {Number\+Of\+Parts}, \hyperpage{31}
+    \subitem {Sigma}, \hyperpage{31}
+    \subitem {Time\+Arrival}, \hyperpage{31}
+    \subitem {Time\+Leave}, \hyperpage{31}
+    \subitem {Time\+Start\+Service}, \hyperpage{31}
+    \subitem {Total\+Time}, \hyperpage{31}
+  \item {Network\+Simulator\+::\+Info\+Node}
+    \subitem {Activate}, \hyperpage{37}
+    \subitem {Get\+Curent\+Time}, \hyperpage{37}
+    \subitem {Receive}, \hyperpage{37}
+    \subitem {Route}, \hyperpage{37}
+    \subitem {Send}, \hyperpage{37}
+    \subitem {Set\+Curent\+Time}, \hyperpage{38}
+  \item {Network\+Simulator\+::\+Jackson\+Network}
+    \subitem {Jackson\+Network}, \hyperpage{38}
+  \item {Network\+Simulator\+::\+Join\+Node}
+    \subitem {Activate}, \hyperpage{39}
+    \subitem {In\+Buffer}, \hyperpage{40}
+    \subitem {Join\+Node}, \hyperpage{39}
+    \subitem {Receive}, \hyperpage{39}
+    \subitem {Route}, \hyperpage{40}
+    \subitem {Route\+Matrix\+For\+Node}, \hyperpage{40}
+    \subitem {Send}, \hyperpage{40}
+  \item {Network\+Simulator\+::\+Label}
+    \subitem {Compare\+To}, \hyperpage{41}
+    \subitem {ID}, \hyperpage{41}
+    \subitem {Label}, \hyperpage{41}
+    \subitem {Time\+Leave}, \hyperpage{41}
+  \item {Network\+Simulator\+::\+Network\+Model}
+    \subitem {Info}, \hyperpage{55}
+    \subitem {Network\+Model}, \hyperpage{54}
+    \subitem {Nodes}, \hyperpage{55}
+    \subitem {Run}, \hyperpage{54}
+  \item {Network\+Simulator\+::\+Node}
+    \subitem {Activate}, \hyperpage{56}
+    \subitem {ID}, \hyperpage{57}
+    \subitem {Info}, \hyperpage{57}
+    \subitem {Next\+Event\+Time}, \hyperpage{57}
+    \subitem {Nodes}, \hyperpage{57}
+    \subitem {Number\+Of\+Arrived\+Demads}, \hyperpage{57}
+    \subitem {r}, \hyperpage{57}
+    \subitem {Receive}, \hyperpage{56}
+    \subitem {Route}, \hyperpage{56}
+    \subitem {Send}, \hyperpage{57}
+  \item {Network\+Simulator\+::\+Queue\+F\+C\+FS}
+    \subitem {Is\+Empty}, \hyperpage{65}
+    \subitem {Length}, \hyperpage{65}
+    \subitem {Put}, \hyperpage{65}
+    \subitem {Queue\+F\+C\+FS}, \hyperpage{65}
+    \subitem {Take}, \hyperpage{66}
+  \item {Network\+Simulator\+::\+Service\+Node}
+    \subitem {Activate}, \hyperpage{72}
+    \subitem {Arrival\+State\+Probabilities}, \hyperpage{74}
+    \subitem {Exist\+Free\+Server}, \hyperpage{73}
+    \subitem {In\+Buffer}, \hyperpage{74}
+    \subitem {Kappa}, \hyperpage{74}
+    \subitem {List\+Of\+Fragments}, \hyperpage{74}
+    \subitem {Number\+Of\+Fragments}, \hyperpage{73}
+    \subitem {Receive}, \hyperpage{73}
+    \subitem {Route}, \hyperpage{73}
+    \subitem {Route\+Matrix}, \hyperpage{74}
+    \subitem {Send}, \hyperpage{73}
+    \subitem {Service\+Node}, \hyperpage{72}
+    \subitem {Service\+Time}, \hyperpage{74}
+    \subitem {Start\+Service}, \hyperpage{74}
+    \subitem {State\+Probabilities}, \hyperpage{74}
+    \subitem {Update\+Action\+Time}, \hyperpage{74}
+  \item {Network\+Simulator\+::\+Signature}
+    \subitem {Fork\+Node\+ID}, \hyperpage{75}
+    \subitem {Parent\+Fragment}, \hyperpage{75}
+    \subitem {Signature}, \hyperpage{75}
+    \subitem {Sub\+ID}, \hyperpage{75}
+  \item {Network\+Simulator\+::\+Simple\+Fork\+Join\+Network}
+    \subitem {Info}, \hyperpage{76}
+    \subitem {Net}, \hyperpage{76}
+    \subitem {Nodes}, \hyperpage{76}
+    \subitem {Run}, \hyperpage{76}
+    \subitem {Simple\+Fork\+Join\+Network}, \hyperpage{76}
+  \item {Network\+Simulator\+::\+Source\+Node}
+    \subitem {Activate}, \hyperpage{78}
+    \subitem {Arrival\+Interval}, \hyperpage{78}
+    \subitem {Receive}, \hyperpage{78}
+    \subitem {Response\+Times}, \hyperpage{78}
+    \subitem {Route}, \hyperpage{78}
+    \subitem {Send}, \hyperpage{78}
+    \subitem {Source\+Node}, \hyperpage{77}
+  \item {Network\+Simulator\+::\+Utils}
+    \subitem {Route\+For\+Fork\+Node}, \hyperpage{79}
+  \item {Networks}, \hyperpage{14}
+  \item {Networks.\+Open\+Fork\+Join\+Network}, \hyperpage{58}
+  \item {Networks.\+Routing\+Matrix}, \hyperpage{67}
+  \item {Networks/\+Open\+Fork\+Join\+Network.\+cs}, \hyperpage{95}
+  \item {Networks/\+Properties/\+Assembly\+Info.\+cs}, \hyperpage{92}
+  \item {Networks/\+Routing\+Matrix.\+cs}, \hyperpage{96}
+  \item {Networks/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+2.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Networks/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Networks/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Networks/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{88}
+  \item {Networks/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Networks/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{84}
+  \item {Networks/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{86}
+  \item {Networks/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Networks/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Networks\+::\+Open\+Fork\+Join\+Network}
+    \subitem {F}, \hyperpage{59}
+    \subitem {J}, \hyperpage{59}
+    \subitem {kappa}, \hyperpage{59}
+    \subitem {Lambda0}, \hyperpage{59}
+    \subitem {mu}, \hyperpage{59}
+    \subitem {Open\+Fork\+Join\+Network}, \hyperpage{58, 59}
+    \subitem {S}, \hyperpage{59}
+    \subitem {Theta}, \hyperpage{60}
+    \subitem {To\+String}, \hyperpage{59}
+  \item {Networks\+::\+Routing\+Matrix}
+    \subitem {Count\+Forker}, \hyperpage{69}
+    \subitem {Delete\+Matrix}, \hyperpage{68}
+    \subitem {Delete\+Node}, \hyperpage{68}
+    \subitem {Dimention}, \hyperpage{69}
+    \subitem {Routing\+Matrix}, \hyperpage{67}
+    \subitem {Routing\+Matrix\+For\+Node}, \hyperpage{68}
+    \subitem {Routing\+Row}, \hyperpage{68}
+    \subitem {this[int k, int i, int j]}, \hyperpage{69}
+    \subitem {this[int k]}, \hyperpage{69}
+    \subitem {To\+String}, \hyperpage{69}
+  \item {New\+Line}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{44}
+  \item {New\+Page}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{44}
+  \item {Next\+Event\+Time}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{57}
+  \item {Next\+Value}
+    \subitem {Random\+Variables\+::\+Exponential\+Variable}, 
+		\hyperpage{27}
+    \subitem {Random\+Variables\+::\+Random\+Variable}, \hyperpage{67}
+  \item {Nodes}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Add\+Routing\+Element}, 
+		\hyperpage{18}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Routing\+Matrix\+Creator}, 
+		\hyperpage{70}
+    \subitem {Network\+Simulator\+::\+Network\+Model}, \hyperpage{55}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{57}
+    \subitem {Network\+Simulator\+::\+Simple\+Fork\+Join\+Network}, 
+		\hyperpage{76}
+  \item {Non\+Zero\+Elements}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{50}
+  \item {Norm}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{50}
+  \item {Number\+Of\+Arrived\+Demads}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{57}
+  \item {Number\+Of\+Fragments}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{73}
+  \item {Number\+Of\+Parts}
+    \subitem {Network\+Simulator\+::\+Fragment}, \hyperpage{31}
+  \item {Number\+Of\+Phases}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{62}
+
+  \indexspace
+
+  \item {Obtain\+Rates}
+    \subitem {Exact\+Network\+Analysis\+::\+Demo}, \hyperpage{26}
+  \item {Ones\+Column}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{21}
+  \item {Ones\+Row}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{22}
+  \item {Open\+Fork\+Join\+Network}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{58, 59}
+  \item {operator$\ast$}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{50, 51}
+  \item {operator+}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{51}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{61}
+  \item {operator-\/}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{51, 52}
+
+  \indexspace
+
+  \item {Parent\+Fragment}
+    \subitem {Network\+Simulator\+::\+Signature}, \hyperpage{75}
+  \item {PH}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{60, 61}
+  \item {Phase\+Type\+Distribution}, \hyperpage{15}
+  \item {Phase\+Type\+Distribution.\+Demo}, \hyperpage{23}
+  \item {Phase\+Type\+Distribution.\+P\+H\+Operations}, \hyperpage{62}
+  \item {Phase\+Type\+Distribution.\+PH}, \hyperpage{60}
+  \item {Phase\+Type\+Distribution/\+Demo.\+cs}, \hyperpage{82}
+  \item {Phase\+Type\+Distribution/\+P\+H.\+cs}, \hyperpage{99}
+  \item {Phase\+Type\+Distribution/\+P\+H\+Operations.\+cs}, 
+		\hyperpage{100}
+  \item {Phase\+Type\+Distribution/\+Properties/\+Assembly\+Info.\+cs}, 
+		\hyperpage{92}
+  \item {Phase\+Type\+Distribution/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+2.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Phase\+Type\+Distribution/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{85}
+  \item {Phase\+Type\+Distribution/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{87}
+  \item {Phase\+Type\+Distribution/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Phase\+Type\+Distribution/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Phase\+Type\+Distribution/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{85}
+  \item {Phase\+Type\+Distribution/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{87}
+  \item {Phase\+Type\+Distribution/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Phase\+Type\+Distribution/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Phase\+Type\+Distribution\+::\+Demo}
+    \subitem {Demo\+PH}, \hyperpage{24}
+  \item {Phase\+Type\+Distribution\+::\+P\+H\+Operations}
+    \subitem {Convex\+Mixture}, \hyperpage{62}
+    \subitem {Exp\+PH}, \hyperpage{63}
+    \subitem {Max}, \hyperpage{63, 64}
+    \subitem {Sum}, \hyperpage{64}
+  \item {Phase\+Type\+Distribution\+::\+PH}
+    \subitem {Expected\+Value}, \hyperpage{61}
+    \subitem {Generator}, \hyperpage{62}
+    \subitem {Initial\+Probabilities}, \hyperpage{62}
+    \subitem {Number\+Of\+Phases}, \hyperpage{62}
+    \subitem {operator+}, \hyperpage{61}
+    \subitem {PH}, \hyperpage{60, 61}
+    \subitem {To\+String}, \hyperpage{61}
+    \subitem {Var}, \hyperpage{61}
+  \item {Put}
+    \subitem {Network\+Simulator\+::\+Buffer}, \hyperpage{19}
+    \subitem {Network\+Simulator\+::\+Queue\+F\+C\+FS}, \hyperpage{65}
+
+  \indexspace
+
+  \item {Queue\+F\+C\+FS}
+    \subitem {Network\+Simulator\+::\+Queue\+F\+C\+FS}, \hyperpage{65}
+
+  \indexspace
+
+  \item {r}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{57}
+    \subitem {Random\+Variables\+::\+Random\+Variable}, \hyperpage{67}
+  \item {Random\+Double\+Matrix}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{52}
+  \item {Random\+Int\+Matrix}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{52}
+  \item {Random\+Variables}, \hyperpage{15}
+  \item {Random\+Variables.\+Exponential\+Variable}, \hyperpage{26}
+  \item {Random\+Variables.\+Random\+Variable}, \hyperpage{66}
+  \item {Random\+Variables/\+Exponential\+Variable.\+cs}, 
+		\hyperpage{100}
+  \item {Random\+Variables/\+Properties/\+Assembly\+Info.\+cs}, 
+		\hyperpage{92}
+  \item {Random\+Variables/\+Random\+Variable.\+cs}, \hyperpage{100}
+  \item {Random\+Variables/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+2.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{83}
+  \item {Random\+Variables/obj/\+Debug/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{85}
+  \item {Random\+Variables/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{87}
+  \item {Random\+Variables/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Random\+Variables/obj/\+Debug/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Random\+Variables/obj/\+Release/.\+N\+E\+T\+Framework,\+Version=v4.\+5.\+Assembly\+Attribute.\+cs}, 
+		\hyperpage{85}
+  \item {Random\+Variables/obj/\+Release/\+Temporary\+Generated\+File\+\_\+036\+C0\+B5\+B-\/1481-\/4323-\/8\+D20-\/8\+F5\+A\+D\+C\+B23\+D92.\+cs}, 
+		\hyperpage{87}
+  \item {Random\+Variables/obj/\+Release/\+Temporary\+Generated\+File\+\_\+5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\+cs}, 
+		\hyperpage{89}
+  \item {Random\+Variables/obj/\+Release/\+Temporary\+Generated\+File\+\_\+\+E7\+A71\+F73-\/0\+F8\+D-\/4\+B9\+B-\/\+B56\+E-\/8\+E70\+B10\+B\+C5\+D3.\+cs}, 
+		\hyperpage{91}
+  \item {Random\+Variables\+::\+Exponential\+Variable}
+    \subitem {Exponential\+Variable}, \hyperpage{26, 27}
+    \subitem {Next\+Value}, \hyperpage{27}
+    \subitem {Rate}, \hyperpage{27}
+  \item {Random\+Variables\+::\+Random\+Variable}
+    \subitem {Next\+Value}, \hyperpage{67}
+    \subitem {r}, \hyperpage{67}
+  \item {Rate}
+    \subitem {Random\+Variables\+::\+Exponential\+Variable}, 
+		\hyperpage{27}
+  \item {Receive}
+    \subitem {Network\+Simulator\+::\+Fork\+Node}, \hyperpage{29}
+    \subitem {Network\+Simulator\+::\+Info\+Node}, \hyperpage{37}
+    \subitem {Network\+Simulator\+::\+Join\+Node}, \hyperpage{39}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{56}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{73}
+    \subitem {Network\+Simulator\+::\+Source\+Node}, \hyperpage{78}
+  \item {Reduce\+Trivial\+Sub\+Network}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{33}
+  \item {Response\+Time\+Distribution}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{33}
+  \item {Response\+Time\+Distribution\+For\+Trivial\+Sub\+Network}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{33}
+  \item {Response\+Time\+For\+Base\+Network}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{34}
+  \item {Response\+Times}
+    \subitem {Network\+Simulator\+::\+Source\+Node}, \hyperpage{78}
+  \item {Route}
+    \subitem {Network\+Simulator\+::\+Fork\+Node}, \hyperpage{29}
+    \subitem {Network\+Simulator\+::\+Info\+Node}, \hyperpage{37}
+    \subitem {Network\+Simulator\+::\+Join\+Node}, \hyperpage{40}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{56}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{73}
+    \subitem {Network\+Simulator\+::\+Source\+Node}, \hyperpage{78}
+  \item {Route\+For\+Fork\+Node}
+    \subitem {Network\+Simulator\+::\+Utils}, \hyperpage{79}
+  \item {Route\+Matrix}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+  \item {Route\+Matrix\+For\+Node}
+    \subitem {Network\+Simulator\+::\+Join\+Node}, \hyperpage{40}
+  \item {Route\+Row}
+    \subitem {Network\+Simulator\+::\+Fork\+Node}, \hyperpage{30}
+  \item {Routing\+Elements}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Routing\+Matrix\+Creator}, 
+		\hyperpage{70}
+  \item {Routing\+Matrix}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{67}
+  \item {Routing\+Matrix\+Creator}
+    \subitem {Desktop\+Network\+Analyzator\+::\+Routing\+Matrix\+Creator}, 
+		\hyperpage{70}
+  \item {Routing\+Matrix\+For\+Node}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{68}
+  \item {Routing\+Row}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{68}
+  \item {Row}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{52, 53}
+  \item {Run}
+    \subitem {Network\+Simulator\+::\+Network\+Model}, \hyperpage{54}
+    \subitem {Network\+Simulator\+::\+Simple\+Fork\+Join\+Network}, 
+		\hyperpage{76}
+  \item {Run\+Model}
+    \subitem {Network\+Simulator\+::\+Demo}, \hyperpage{25}
+
+  \indexspace
+
+  \item {S}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{36}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{59}
+  \item {Save\+La\+Tex}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{43}
+  \item {Send}
+    \subitem {Network\+Simulator\+::\+Fork\+Node}, \hyperpage{29}
+    \subitem {Network\+Simulator\+::\+Info\+Node}, \hyperpage{37}
+    \subitem {Network\+Simulator\+::\+Join\+Node}, \hyperpage{40}
+    \subitem {Network\+Simulator\+::\+Node}, \hyperpage{57}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{73}
+    \subitem {Network\+Simulator\+::\+Source\+Node}, \hyperpage{78}
+  \item {Service\+Node}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{72}
+  \item {Service\+Time}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+  \item {Set\+Curent\+Time}
+    \subitem {Network\+Simulator\+::\+Info\+Node}, \hyperpage{38}
+  \item {Show\+P\+DF}
+    \subitem {Latex\+::\+Latex\+Editor}, \hyperpage{43}
+  \item {Sigma}
+    \subitem {Network\+Simulator\+::\+Fragment}, \hyperpage{31}
+  \item {Signature}
+    \subitem {Network\+Simulator\+::\+Signature}, \hyperpage{75}
+  \item {Simple\+Fork\+Join\+Network}
+    \subitem {Network\+Simulator\+::\+Simple\+Fork\+Join\+Network}, 
+		\hyperpage{76}
+  \item {Source\+Node}
+    \subitem {Network\+Simulator\+::\+Source\+Node}, \hyperpage{77}
+  \item {Start\+Service}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+  \item {State\+Probabilities}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+  \item {Sub\+ID}
+    \subitem {Network\+Simulator\+::\+Signature}, \hyperpage{75}
+  \item {Sum}
+    \subitem {Phase\+Type\+Distribution\+::\+P\+H\+Operations}, 
+		\hyperpage{64}
+
+  \indexspace
+
+  \item {Take}
+    \subitem {Network\+Simulator\+::\+Buffer}, \hyperpage{19}
+    \subitem {Network\+Simulator\+::\+Queue\+F\+C\+FS}, \hyperpage{66}
+  \item {Theta}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Network}, 
+		\hyperpage{36}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{60}
+  \item {this[int i, int j]}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{53}
+  \item {this[int k, int i, int j]}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{69}
+  \item {this[int k]}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{69}
+  \item {Time\+Arrival}
+    \subitem {Network\+Simulator\+::\+Fragment}, \hyperpage{31}
+  \item {Time\+Generation}
+    \subitem {Network\+Simulator\+::\+Demand}, \hyperpage{23}
+  \item {Time\+Leave}
+    \subitem {Network\+Simulator\+::\+Fragment}, \hyperpage{31}
+    \subitem {Network\+Simulator\+::\+Label}, \hyperpage{41}
+  \item {Time\+Start\+Service}
+    \subitem {Network\+Simulator\+::\+Fragment}, \hyperpage{31}
+  \item {To\+String}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{53}
+    \subitem {Networks\+::\+Open\+Fork\+Join\+Network}, \hyperpage{59}
+    \subitem {Networks\+::\+Routing\+Matrix}, \hyperpage{69}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{61}
+  \item {Total\+Input\+Rates}
+    \subitem {Exact\+Network\+Analysis\+::\+Infinity\+Server\+Open\+Fork\+Join\+Analizator}, 
+		\hyperpage{34}
+  \item {Total\+Time}
+    \subitem {Network\+Simulator\+::\+Fragment}, \hyperpage{31}
+  \item {Transpose}
+    \subitem {B\+L\+A\+S\+::\+Matrix}, \hyperpage{53}
+
+  \indexspace
+
+  \item {Update\+Action\+Time}
+    \subitem {Network\+Simulator\+::\+Service\+Node}, \hyperpage{74}
+
+  \indexspace
+
+  \item {Var}
+    \subitem {Phase\+Type\+Distribution\+::\+PH}, \hyperpage{61}
+
+  \indexspace
+
+  \item {Zeidel}
+    \subitem {B\+L\+A\+S\+::\+Computation}, \hyperpage{22}
+
+\end{theindex}

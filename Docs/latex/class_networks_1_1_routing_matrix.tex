@@ -1,0 +1,191 @@
+\hypertarget{class_networks_1_1_routing_matrix}{}\section{Класс Networks.\+Routing\+Matrix}
+\label{class_networks_1_1_routing_matrix}\index{Networks.\+Routing\+Matrix@{Networks.\+Routing\+Matrix}}
+
+
+Маршрутная матрица для сети с делением и слиянием требований  
+
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_networks_1_1_routing_matrix_a1fd7f5d451670ee497d9a2f19423cd6f}{Routing\+Matrix} (int Dim, int \hyperlink{class_networks_1_1_routing_matrix_ae2bc6f248f493e8b7e2c7a9973c48cb0}{Count\+Forker})
+\begin{DoxyCompactList}\small\item\em Маршрутная матрица размера Dimx\+Dim \end{DoxyCompactList}\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_networks_1_1_routing_matrix_aab9c76332f67bd201100fcaaaf6a0664}{Routing\+Row} (int i, int k)
+\begin{DoxyCompactList}\small\item\em Строка k-\/матрицы передачи \end{DoxyCompactList}\item 
+double\mbox{[},\mbox{]} \hyperlink{class_networks_1_1_routing_matrix_ace46d04d815320a6ed922f273d06f946}{Routing\+Matrix\+For\+Node} (int i)
+\begin{DoxyCompactList}\small\item\em Маршрутная матрица для фиксированного узла \end{DoxyCompactList}\item 
+override string \hyperlink{class_networks_1_1_routing_matrix_a0ffb0d45b82ffcdb60857497a22b5a69}{To\+String} ()
+\item 
+void \hyperlink{class_networks_1_1_routing_matrix_aa0c89ec7be267ad6a7dff5d9e5ce3e9b}{Delete\+Node} (int Index\+Of\+Node)
+\begin{DoxyCompactList}\small\item\em Удаление системы и соотвествующих строк и столбцов \end{DoxyCompactList}\item 
+void \hyperlink{class_networks_1_1_routing_matrix_a90b6115f19d84c00ffa542b614cad426}{Delete\+Matrix} (int k, int Index\+Of\+Fork\+Node, int Index\+Join\+Node)
+\begin{DoxyCompactList}\small\item\em Удаляет матрицу из матрицы передачи для некоторой пары дивайдер-\/интегратор с удалением соотвествующих строк \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_networks_1_1_routing_matrix_ae2bc6f248f493e8b7e2c7a9973c48cb0}{Count\+Forker}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Число разделяющих систем с учетом источника требований \end{DoxyCompactList}\item 
+int \hyperlink{class_networks_1_1_routing_matrix_a01211b1807b7b63b0796c58e11b42aeb}{Dimention}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Размерность маршртной матрицы \end{DoxyCompactList}\item 
+double \hyperlink{class_networks_1_1_routing_matrix_a96fe5877fb4ec7f740fa1a16b65ccb89}{this\mbox{[}int k, int i, int j\mbox{]}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Вероятность перехода из i-\/го узла в j-\/ый узел \end{DoxyCompactList}\item 
+double\mbox{[},\mbox{]} \hyperlink{class_networks_1_1_routing_matrix_ab17bb40663ec472f48b7b213032e0eba}{this\mbox{[}int k\mbox{]}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Маршрутная матрица для сети с делением и слиянием требований 
+
+
+
+\subsection{Конструктор(ы)}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!Routing\+Matrix@{Routing\+Matrix}}
+\index{Routing\+Matrix@{Routing\+Matrix}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{Routing\+Matrix(int Dim, int Count\+Forker)}{RoutingMatrix(int Dim, int CountForker)}}]{\setlength{\rightskip}{0pt plus 5cm}Networks.\+Routing\+Matrix.\+Routing\+Matrix (
+\begin{DoxyParamCaption}
+\item[{int}]{Dim, }
+\item[{int}]{Count\+Forker}
+\end{DoxyParamCaption}
+)}\hypertarget{class_networks_1_1_routing_matrix_a1fd7f5d451670ee497d9a2f19423cd6f}{}\label{class_networks_1_1_routing_matrix_a1fd7f5d451670ee497d9a2f19423cd6f}
+
+
+Маршрутная матрица размера Dimx\+Dim 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em L} & Число систем обслуживания в сети\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Методы}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!Delete\+Matrix@{Delete\+Matrix}}
+\index{Delete\+Matrix@{Delete\+Matrix}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{Delete\+Matrix(int k, int Index\+Of\+Fork\+Node, int Index\+Join\+Node)}{DeleteMatrix(int k, int IndexOfForkNode, int IndexJoinNode)}}]{\setlength{\rightskip}{0pt plus 5cm}void Networks.\+Routing\+Matrix.\+Delete\+Matrix (
+\begin{DoxyParamCaption}
+\item[{int}]{k, }
+\item[{int}]{Index\+Of\+Fork\+Node, }
+\item[{int}]{Index\+Join\+Node}
+\end{DoxyParamCaption}
+)}\hypertarget{class_networks_1_1_routing_matrix_a90b6115f19d84c00ffa542b614cad426}{}\label{class_networks_1_1_routing_matrix_a90b6115f19d84c00ffa542b614cad426}
+
+
+Удаляет матрицу из матрицы передачи для некоторой пары дивайдер-\/интегратор с удалением соотвествующих строк 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em k} & Номер матрицы для удаления (k$>$0)\\
+\hline
+{\em Index\+Of\+Fork\+Node} & Индекс дивайдера F\+\_\+k\\
+\hline
+{\em Index\+Join\+Node} & Индекс интегратора J\+\_\+k\\
+\hline
+\end{DoxyParams}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!Delete\+Node@{Delete\+Node}}
+\index{Delete\+Node@{Delete\+Node}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{Delete\+Node(int Index\+Of\+Node)}{DeleteNode(int IndexOfNode)}}]{\setlength{\rightskip}{0pt plus 5cm}void Networks.\+Routing\+Matrix.\+Delete\+Node (
+\begin{DoxyParamCaption}
+\item[{int}]{Index\+Of\+Node}
+\end{DoxyParamCaption}
+)}\hypertarget{class_networks_1_1_routing_matrix_aa0c89ec7be267ad6a7dff5d9e5ce3e9b}{}\label{class_networks_1_1_routing_matrix_aa0c89ec7be267ad6a7dff5d9e5ce3e9b}
+
+
+Удаление системы и соотвествующих строк и столбцов 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Index\+Of\+Node} & Номер системы (строки столбца) для удаления\\
+\hline
+\end{DoxyParams}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!Routing\+Matrix\+For\+Node@{Routing\+Matrix\+For\+Node}}
+\index{Routing\+Matrix\+For\+Node@{Routing\+Matrix\+For\+Node}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{Routing\+Matrix\+For\+Node(int i)}{RoutingMatrixForNode(int i)}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[},\mbox{]} Networks.\+Routing\+Matrix.\+Routing\+Matrix\+For\+Node (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}\hypertarget{class_networks_1_1_routing_matrix_ace46d04d815320a6ed922f273d06f946}{}\label{class_networks_1_1_routing_matrix_ace46d04d815320a6ed922f273d06f946}
+
+
+Маршрутная матрица для фиксированного узла 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!Routing\+Row@{Routing\+Row}}
+\index{Routing\+Row@{Routing\+Row}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{Routing\+Row(int i, int k)}{RoutingRow(int i, int k)}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} Networks.\+Routing\+Matrix.\+Routing\+Row (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{k}
+\end{DoxyParamCaption}
+)}\hypertarget{class_networks_1_1_routing_matrix_aab9c76332f67bd201100fcaaaf6a0664}{}\label{class_networks_1_1_routing_matrix_aab9c76332f67bd201100fcaaaf6a0664}
+
+
+Строка k-\/матрицы передачи 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em i} & Номер узла(строки)\\
+\hline
+{\em k} & Номер матры\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{To\+String()}{ToString()}}]{\setlength{\rightskip}{0pt plus 5cm}override string Networks.\+Routing\+Matrix.\+To\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_networks_1_1_routing_matrix_a0ffb0d45b82ffcdb60857497a22b5a69}{}\label{class_networks_1_1_routing_matrix_a0ffb0d45b82ffcdb60857497a22b5a69}
+
+
+\subsection{Полный список свойств}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!Count\+Forker@{Count\+Forker}}
+\index{Count\+Forker@{Count\+Forker}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{Count\+Forker}{CountForker}}]{\setlength{\rightskip}{0pt plus 5cm}int Networks.\+Routing\+Matrix.\+Count\+Forker\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_networks_1_1_routing_matrix_ae2bc6f248f493e8b7e2c7a9973c48cb0}{}\label{class_networks_1_1_routing_matrix_ae2bc6f248f493e8b7e2c7a9973c48cb0}
+
+
+Число разделяющих систем с учетом источника требований 
+
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!Dimention@{Dimention}}
+\index{Dimention@{Dimention}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{Dimention}{Dimention}}]{\setlength{\rightskip}{0pt plus 5cm}int Networks.\+Routing\+Matrix.\+Dimention\hspace{0.3cm}{\ttfamily [get]}}\hypertarget{class_networks_1_1_routing_matrix_a01211b1807b7b63b0796c58e11b42aeb}{}\label{class_networks_1_1_routing_matrix_a01211b1807b7b63b0796c58e11b42aeb}
+
+
+Размерность маршртной матрицы 
+
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!this\mbox{[}int k, int i, int j\mbox{]}@{this[int k, int i, int j]}}
+\index{this\mbox{[}int k, int i, int j\mbox{]}@{this[int k, int i, int j]}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{this[int k, int i, int j]}{this[int k, int i, int j]}}]{\setlength{\rightskip}{0pt plus 5cm}double Networks.\+Routing\+Matrix.\+this\mbox{[}int k, int i, int j\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_networks_1_1_routing_matrix_a96fe5877fb4ec7f740fa1a16b65ccb89}{}\label{class_networks_1_1_routing_matrix_a96fe5877fb4ec7f740fa1a16b65ccb89}
+
+
+Вероятность перехода из i-\/го узла в j-\/ый узел 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em k} & Выбор маршрутной матрицы\\
+\hline
+{\em i} & Система из которой переходит переход \\
+\hline
+{\em j} & Система в которую происходит переход\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+\index{Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}!this\mbox{[}int k\mbox{]}@{this[int k]}}
+\index{this\mbox{[}int k\mbox{]}@{this[int k]}!Networks\+::\+Routing\+Matrix@{Networks\+::\+Routing\+Matrix}}
+\subsubsection[{\texorpdfstring{this[int k]}{this[int k]}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[},\mbox{]} Networks.\+Routing\+Matrix.\+this\mbox{[}int k\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_networks_1_1_routing_matrix_ab17bb40663ec472f48b7b213032e0eba}{}\label{class_networks_1_1_routing_matrix_ab17bb40663ec472f48b7b213032e0eba}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Networks/\hyperlink{_routing_matrix_8cs}{Routing\+Matrix.\+cs}\end{DoxyCompactItemize}

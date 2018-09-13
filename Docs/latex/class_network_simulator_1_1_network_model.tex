@@ -1,0 +1,185 @@
+\hypertarget{class_network_simulator_1_1_network_model}{}\section{Класс Network\+Simulator.\+Network\+Model}
+\label{class_network_simulator_1_1_network_model}\index{Network\+Simulator.\+Network\+Model@{Network\+Simulator.\+Network\+Model}}
+
+
+Имитационная модель сети обслуживания  
+
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_network_model_a61dfb38e787f81b16b584c6f311064af}{Network\+Model} (\hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}, \hyperlink{class_network_simulator_1_1_info_node}{Info\+Node} \hyperlink{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}{Info}, Random \hyperlink{class_network_simulator_1_1_network_model_aaeac879328213fb50bce2e4c44368ecf}{r})
+\item 
+void \hyperlink{class_network_simulator_1_1_network_model_a79f12b7c4dc35f16f98bf59e06341e79}{Run} (double Finish\+Time)
+\begin{DoxyCompactList}\small\item\em Запуск имитационной модели сети \end{DoxyCompactList}\item 
+void \hyperlink{class_network_simulator_1_1_network_model_ab2526f51714e4ead297180cc391449a2}{Analysis} (out double Average\+RT)
+\begin{DoxyCompactList}\small\item\em Выполняет анализ имитационной модели \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Узлы в сети массового обслуживания \end{DoxyCompactList}\item 
+\hyperlink{class_network_simulator_1_1_info_node}{Info\+Node} \hyperlink{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}{Info}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Информационный узел \end{DoxyCompactList}\item 
+Random \hyperlink{class_network_simulator_1_1_network_model_aaeac879328213fb50bce2e4c44368ecf}{r}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Генератор случайных чисел \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Имитационная модель сети обслуживания 
+
+
+
+См. определение в файле Network\+Model.\+cs строка 12
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}!Network\+Model@{Network\+Model}}
+\index{Network\+Model@{Network\+Model}!Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}}
+\subsubsection[{\texorpdfstring{Network\+Model(\+Node[] Nodes, Info\+Node Info, Random r)}{NetworkModel(Node[] Nodes, InfoNode Info, Random r)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Network\+Model.\+Network\+Model (
+\begin{DoxyParamCaption}
+\item[{{\bf Node}\mbox{[}$\,$\mbox{]}}]{Nodes, }
+\item[{{\bf Info\+Node}}]{Info, }
+\item[{Random}]{r}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_network_model_a61dfb38e787f81b16b584c6f311064af}{}\label{class_network_simulator_1_1_network_model_a61dfb38e787f81b16b584c6f311064af}
+
+
+См. определение в файле Network\+Model.\+cs строка 41
+
+
+\begin{DoxyCode}
+42         \{
+43             this.\hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes} = \hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes};
+44             this.\hyperlink{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}{Info} = \hyperlink{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}{Info};
+45             this.\hyperlink{class_network_simulator_1_1_network_model_aaeac879328213fb50bce2e4c44368ecf}{r} = \hyperlink{class_network_simulator_1_1_network_model_aaeac879328213fb50bce2e4c44368ecf}{r};
+46         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}!Analysis@{Analysis}}
+\index{Analysis@{Analysis}!Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}}
+\subsubsection[{\texorpdfstring{Analysis(out double Average\+R\+T)}{Analysis(out double AverageRT)}}]{\setlength{\rightskip}{0pt plus 5cm}void Network\+Simulator.\+Network\+Model.\+Analysis (
+\begin{DoxyParamCaption}
+\item[{out double}]{Average\+RT}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_network_model_ab2526f51714e4ead297180cc391449a2}{}\label{class_network_simulator_1_1_network_model_ab2526f51714e4ead297180cc391449a2}
+
+
+Выполняет анализ имитационной модели 
+
+
+
+См. определение в файле Network\+Model.\+cs строка 87
+
+
+\begin{DoxyCode}
+88         \{
+89             \textcolor{comment}{//Вывод статистики}
+90             Console.WriteLine(\textcolor{stringliteral}{"E(tau) = \{0:f4\}"}, (\hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}[0] as SourceNode).ResponseTimes.Average());
+91             \textcolor{keywordtype}{double} tau = (\hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}[0] as SourceNode).ResponseTimes.Average();
+92             AverageRT = tau; 
+93             var rt = (\hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}[0] as SourceNode).ResponseTimes;
+94             List<double> vars = \textcolor{keyword}{new} List<double>();
+95             \textcolor{keywordflow}{foreach} (var item \textcolor{keywordflow}{in} rt)
+96             \{
+97                 vars.Add((item - tau) * (item - tau));
+98             \}
+99             Console.WriteLine(\textcolor{stringliteral}{"Var(tau) = \{0:f4\}"}, vars.Average());
+100         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}!Run@{Run}}
+\index{Run@{Run}!Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}}
+\subsubsection[{\texorpdfstring{Run(double Finish\+Time)}{Run(double FinishTime)}}]{\setlength{\rightskip}{0pt plus 5cm}void Network\+Simulator.\+Network\+Model.\+Run (
+\begin{DoxyParamCaption}
+\item[{double}]{Finish\+Time}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_network_model_a79f12b7c4dc35f16f98bf59e06341e79}{}\label{class_network_simulator_1_1_network_model_a79f12b7c4dc35f16f98bf59e06341e79}
+
+
+Запуск имитационной модели сети 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Finish\+Time} & Время окончания моделирования\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Network\+Model.\+cs строка 52
+
+
+\begin{DoxyCode}
+53         \{
+54             \textcolor{keywordtype}{double} CurrentTime = 0;
+55             \textcolor{comment}{//Текущее время передаем информационному узлу}
+56             \hyperlink{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}{Info}.\hyperlink{class_network_simulator_1_1_info_node_a99e3644d53d9feba5a9381f3a9912eec}{SetCurentTime}(CurrentTime);
+57             Node NextActionNode;
+58             \textcolor{keywordtype}{double} NextTime;
+59 
+60             \textcolor{keywordflow}{while} (CurrentTime <= FinishTime)
+61             \{
+62                 \textcolor{comment}{//Выбор узла для передачи управления }
+63                 NextActionNode = \hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}[0];
+64                 NextTime = \hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}[0].\hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime};
+65                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < \hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}.Length; i++)
+66                 \{
+67                     \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}[i].NextEventTime < NextTime)
+68                     \{
+69                         NextActionNode = \hyperlink{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{Nodes}[i];
+70                         NextTime = NextActionNode.\hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime};
+71                     \}
+72                 \}
+73                 \textcolor{comment}{//Установка времени}
+74                 CurrentTime = NextTime;
+75                 \hyperlink{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}{Info}.\hyperlink{class_network_simulator_1_1_info_node_a99e3644d53d9feba5a9381f3a9912eec}{SetCurentTime}(CurrentTime);
+76                 \textcolor{comment}{//Console.WriteLine("t = \{0:f4\}", NextTime);}
+77                 \textcolor{comment}{//Console.ReadKey();}
+78                 \textcolor{comment}{//Передаем управление нашему узлу}
+79                 NextActionNode.Activate();
+80             \}
+81         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}!Info@{Info}}
+\index{Info@{Info}!Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}}
+\subsubsection[{\texorpdfstring{Info}{Info}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Info\+Node} Network\+Simulator.\+Network\+Model.\+Info\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}\hypertarget{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}{}\label{class_network_simulator_1_1_network_model_ad855627388c67befd2c4c736a87fa84d}
+
+
+Информационный узел 
+
+
+
+См. определение в файле Network\+Model.\+cs строка 27
+
+\index{Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}!Nodes@{Nodes}}
+\index{Nodes@{Nodes}!Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}}
+\subsubsection[{\texorpdfstring{Nodes}{Nodes}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node} \mbox{[}$\,$\mbox{]} Network\+Simulator.\+Network\+Model.\+Nodes\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}\hypertarget{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}{}\label{class_network_simulator_1_1_network_model_a822a8596ab343f9a22006035fdaf4b6f}
+
+
+Узлы в сети массового обслуживания 
+
+
+
+См. определение в файле Network\+Model.\+cs строка 18
+
+\index{Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}!r@{r}}
+\index{r@{r}!Network\+Simulator\+::\+Network\+Model@{Network\+Simulator\+::\+Network\+Model}}
+\subsubsection[{\texorpdfstring{r}{r}}]{\setlength{\rightskip}{0pt plus 5cm}Random Network\+Simulator.\+Network\+Model.\+r\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_network_model_aaeac879328213fb50bce2e4c44368ecf}{}\label{class_network_simulator_1_1_network_model_aaeac879328213fb50bce2e4c44368ecf}
+
+
+Генератор случайных чисел 
+
+
+
+См. определение в файле Network\+Model.\+cs строка 36
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_network_model_8cs}{Network\+Model.\+cs}\end{DoxyCompactItemize}

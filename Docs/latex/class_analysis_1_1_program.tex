@@ -1,0 +1,276 @@
+\hypertarget{class_analysis_1_1_program}{}\section{Класс Analysis.\+Program}
+\label{class_analysis_1_1_program}\index{Analysis.\+Program@{Analysis.\+Program}}
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{class_analysis_1_1_program_a1d8b267dd093b57dc83268ebd548a73a}{Finite\+Analysis} (Random rand, double Finish\+Time, double lambda, out double Simulation\+RT, out double Approximation\+RT, out double\mbox{[}$\,$\mbox{]} rho)
+\begin{DoxyCompactList}\small\item\em Анализ однопориборной сети обслуживания и проверка на имитационной модели \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Закрытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_analysis_1_1_program_a9ad75be60bacf9d163fb2fa45cb94e18}{Main} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+\subsection*{Закрытые статические данные}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_analysis_1_1_program_abbd153e2a54cae09e6cbb7092163857f}{file} = \char`\"{}One\+Server\+Example2\char`\"{}
+\begin{DoxyCompactList}\small\item\em Имя файла с параметрами сети обслуживания \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Program.\+cs строка 16
+
+
+
+\subsection{Методы}
+\index{Analysis\+::\+Program@{Analysis\+::\+Program}!Finite\+Analysis@{Finite\+Analysis}}
+\index{Finite\+Analysis@{Finite\+Analysis}!Analysis\+::\+Program@{Analysis\+::\+Program}}
+\subsubsection[{\texorpdfstring{Finite\+Analysis(\+Random rand, double Finish\+Time, double lambda, out double Simulation\+R\+T, out double Approximation\+R\+T, out double[] rho)}{FiniteAnalysis(Random rand, double FinishTime, double lambda, out double SimulationRT, out double ApproximationRT, out double[] rho)}}]{\setlength{\rightskip}{0pt plus 5cm}static bool Analysis.\+Program.\+Finite\+Analysis (
+\begin{DoxyParamCaption}
+\item[{Random}]{rand, }
+\item[{double}]{Finish\+Time, }
+\item[{double}]{lambda, }
+\item[{out double}]{Simulation\+RT, }
+\item[{out double}]{Approximation\+RT, }
+\item[{out double\mbox{[}$\,$\mbox{]}}]{rho}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_analysis_1_1_program_a1d8b267dd093b57dc83268ebd548a73a}{}\label{class_analysis_1_1_program_a1d8b267dd093b57dc83268ebd548a73a}
+
+
+Анализ однопориборной сети обслуживания и проверка на имитационной модели 
+
+
+
+См. определение в файле Program.\+cs строка 30
+
+
+\begin{DoxyCode}
+33         \{
+34             \textcolor{comment}{//Предустановленные значения}
+35             SimulationRT = 0; 
+36             ApproximationRT = 0; 
+37 
+38 
+39             Console.Clear(); 
+40 
+41 
+42 
+43             \textcolor{keywordtype}{string} filename = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + \textcolor{stringliteral}{"/"}+
+      \hyperlink{class_analysis_1_1_program_abbd153e2a54cae09e6cbb7092163857f}{file}+\textcolor{stringliteral}{".txt"};
+44 
+45 
+46             \textcolor{comment}{//Получаем описание для сети массового осблуживания с деленеим и слиянием требованием}
+47             var Description = \textcolor{keyword}{new} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n}{DescriptionOFJQN}(filename); 
+48             \textcolor{comment}{//Console.WriteLine(Description); }
+49 
+50             \textcolor{comment}{//Меняем интенсивность входящего потока требований согласно поднанной на вход в функцию}
+51             Description.Lambda0 = lambda; 
+52 
+53 
+54             Console.ForegroundColor = ConsoleColor.Blue;
+55             Console.WriteLine(\textcolor{stringliteral}{"
+      ================================================================================"});
+56             Console.WriteLine(\textcolor{stringliteral}{"Lambda0 = \{0:f4\}"}, lambda); 
+57             Console.WriteLine(\textcolor{stringliteral}{"Имитационное моделирование одноприборной сети обслуживания"});
+58 
+59             \textcolor{comment}{//Создаем модель по её описанию }
+60             \hyperlink{class_network_simulator_1_1_network_model}{NetworkModel} OriginalModel = \hyperlink{class_network_simulator_1_1_o_f_j_q_n}{OFJQN}.
+      \hyperlink{class_network_simulator_1_1_o_f_j_q_n_a6d0939bfdf0bc3c0b96269169506c454}{CreateNetworkModel}(Description, rand); 
+61             \textcolor{comment}{//Запускаем модель}
+62             OriginalModel.\hyperlink{class_network_simulator_1_1_network_model_a79f12b7c4dc35f16f98bf59e06341e79}{Run}(FinishTime); 
+63             \textcolor{comment}{//Собираем статистику по модели}
+64             OriginalModel.\hyperlink{class_network_simulator_1_1_network_model_ab2526f51714e4ead297180cc391449a2}{Analysis}(out SimulationRT); 
+65 
+66            
+67 
+68             Console.WriteLine(\textcolor{stringliteral}{"Выполнение приближённого метода анализа"});
+69             \textcolor{comment}{//Вычисление интенсивностей входящего потока в каждую из систем обслуживания}
+70             var Lambda = \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator}{InfinityServerOpenForkJoinAnalizator}.
+      \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_aa6f6f71f9d588a2a98ee4b4849013050}{TotalInputRates}(
+71                              \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator}{InfinityServerOpenForkJoinAnalizator}.
+      \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a3ade97ca1f8742b8f289bd2a41b2ae89}{InputRates}(Description.S, Description.F, Description.J,
+72                                  Description.Lambda0, Description.Theta)); 
+73 
+74             \textcolor{comment}{//Выполняется преобразование интенсивностей и увеличение числа приборов}
+75             Console.WriteLine(\textcolor{stringliteral}{"Выполняем переход к бесконечноприборной сети с интенсивностями обслуживания:
+      "}); 
+76             \textcolor{comment}{//Меняем описание для сети}
+77 
+78             rho = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[Description.S.Length]; 
+79             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < Description.S.Length; i++)
+80             \{
+81                 \textcolor{comment}{//Увеличиваем число обслуживающих приборов до "бесконечности"}
+82                 Description.kappa[i] = 1000000;
+83 
+84                 \textcolor{comment}{//Считаем ro так как если бы это была одноприборная сеть обслуживания}
+85                 rho[i] = Lambda[i]/Description.mu[i]; 
+86 
+87                 \textcolor{comment}{//Модифицируем интенсинвность обслуживания фрагментов одним прибором}
+88                 Description.mu[i] = Description.mu[i] - Lambda[i]; 
+89 
+90                 Console.WriteLine(\textcolor{stringliteral}{"mu[\{0\}] = \{1:f4\}, ro[\{0\}] = \{2:f4\}"}, i + 1, Description.mu[i], rho[i]);
+91                 \textcolor{keywordflow}{if} (Description.mu[i] <= 0.01)
+92                 \{
+93                     Console.WriteLine(\textcolor{stringliteral}{"Отсутствие стационарного режима"});
+94                     \textcolor{keywordflow}{return} \textcolor{keyword}{false}; 
+95                 \}
+96             \}
+97 
+98         
+99 
+100             Console.WriteLine(\textcolor{stringliteral}{"Аналитическое моделирование"}); 
+101             var ph = \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator}{InfinityServerOpenForkJoinAnalizator}.
+      \hyperlink{class_exact_network_analysis_1_1_infinity_server_open_fork_join_analizator_a4b7ce8b06e8eabf86de585c8119b9d59}{ResponseTimeDistribution}(Description);
+102             Console.WriteLine(\textcolor{stringliteral}{"Число фаз \{0\}"}, ph.NumberOfPhases); 
+103             ApproximationRT = ph.ExpectedValue(); 
+104             Console.WriteLine(\textcolor{stringliteral}{"E(tau) = \{0:f4\}"}, ApproximationRT);
+105             \textcolor{comment}{//Console.WriteLine("Var(tau) = \{0:f4\}", ph.Variance());}
+106 
+107             Console.WriteLine(\textcolor{stringliteral}{"Имитационное моделирование бесконечноприборной - проверка"});
+108             \hyperlink{class_network_simulator_1_1_network_model}{NetworkModel} TransformedModel = \hyperlink{class_network_simulator_1_1_o_f_j_q_n}{OFJQN}.
+      \hyperlink{class_network_simulator_1_1_o_f_j_q_n_a6d0939bfdf0bc3c0b96269169506c454}{CreateNetworkModel}(Description, rand); 
+109             TransformedModel.\hyperlink{class_network_simulator_1_1_network_model_a79f12b7c4dc35f16f98bf59e06341e79}{Run}(FinishTime); 
+110             \textcolor{keywordtype}{double} temp; 
+111             TransformedModel.\hyperlink{class_network_simulator_1_1_network_model_ab2526f51714e4ead297180cc391449a2}{Analysis}(out temp); 
+112 
+113 
+114 
+115             Console.WriteLine(\textcolor{stringliteral}{"Press any key ..."}); 
+116             Console.ReadKey();
+117 
+118            
+119 
+120             \textcolor{keywordflow}{return} \textcolor{keyword}{true}; 
+121 
+122 
+123 
+124         \}
+\end{DoxyCode}
+\index{Analysis\+::\+Program@{Analysis\+::\+Program}!Main@{Main}}
+\index{Main@{Main}!Analysis\+::\+Program@{Analysis\+::\+Program}}
+\subsubsection[{\texorpdfstring{Main(string[] args)}{Main(string[] args)}}]{\setlength{\rightskip}{0pt plus 5cm}static void Analysis.\+Program.\+Main (
+\begin{DoxyParamCaption}
+\item[{string\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\hypertarget{class_analysis_1_1_program_a9ad75be60bacf9d163fb2fa45cb94e18}{}\label{class_analysis_1_1_program_a9ad75be60bacf9d163fb2fa45cb94e18}
+
+
+См. определение в файле Program.\+cs строка 126
+
+
+\begin{DoxyCode}
+127         \{
+128             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(\textcolor{stringliteral}{"ru-RU"});
+129             CultureInfo.DefaultThreadCurrentCulture = CultureInfo.DefaultThreadCurrentUICulture = 
+      CultureInfo.CreateSpecificCulture(\textcolor{stringliteral}{"ru-RU"});
+130 
+131 
+132             Random rand= \textcolor{keyword}{new} Random(); 
+133             \textcolor{keywordtype}{double} FinishTime = 100000;  
+134 
+135             \textcolor{comment}{//Console.Clear(); }
+136             \textcolor{comment}{//CreateFile(5); }
+137 
+138             \textcolor{keywordtype}{double} LambdaMin = 0.5; 
+139             \textcolor{keywordtype}{double} LambdaMax = 4.4; 
+140             \textcolor{keywordtype}{double} Lambda = 0; 
+141             \textcolor{keywordtype}{double} h = 0.2; 
+142 
+143 
+144             \textcolor{comment}{//Списки с результатами моделирования}
+145             List<double> ListLambda = \textcolor{keyword}{new} List<double>(); 
+146             List<double> ListApproximationRT = \textcolor{keyword}{new} List<double>(); 
+147             List<double> ListSimulationRT = \textcolor{keyword}{new} List<double>(); 
+148             List<double[]> ListRho = \textcolor{keyword}{new} List<double[]>(); 
+149 
+150 
+151             \textcolor{keywordtype}{bool} stationary = \textcolor{keyword}{true}; 
+152             \textcolor{comment}{//Пока существует стационарный режим и не перешли границу по LambdaMax}
+153 
+154             Lambda = LambdaMin; 
+155             \textcolor{keywordflow}{do}
+156             \{
+157                 \textcolor{keywordtype}{double} ApproximationRT = 0; 
+158                 \textcolor{keywordtype}{double} SimulationRT = 0; 
+159                 \textcolor{keywordtype}{double}[] rho; 
+160 
+161 
+162                 \textcolor{keywordflow}{if} (!\hyperlink{class_analysis_1_1_program_a1d8b267dd093b57dc83268ebd548a73a}{FiniteAnalysis}(rand, FinishTime, Lambda,  out SimulationRT, out 
+      ApproximationRT, out rho))
+163                 \{
+164                     stationary = \textcolor{keyword}{false}; 
+165                 \}
+166                 \textcolor{keywordflow}{else}
+167                 \{
+168                     ListLambda.Add(Lambda); 
+169                     ListApproximationRT.Add(ApproximationRT);
+170                     ListSimulationRT.Add(SimulationRT); 
+171                     ListRho.Add(rho); 
+172                 \}
+173 
+174 
+175                 Lambda += h; 
+176 
+177 
+178 
+179             \}
+180             \textcolor{keywordflow}{while}((stationary) && (Lambda < LambdaMax));
+181 
+182 
+183 
+184 
+185             Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(\textcolor{stringliteral}{"en-US"});
+186             CultureInfo.DefaultThreadCurrentCulture = CultureInfo.DefaultThreadCurrentUICulture = 
+      CultureInfo.CreateSpecificCulture(\textcolor{stringliteral}{"en-US"});
+187 
+188             \textcolor{keyword}{using} (StreamWriter sw = \textcolor{keyword}{new} StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.
+      Desktop) + \textcolor{stringliteral}{"/Results/"}+\hyperlink{class_analysis_1_1_program_abbd153e2a54cae09e6cbb7092163857f}{file}+\textcolor{stringliteral}{".csv"}))
+189             \{
+190                 sw.Write(\textcolor{stringliteral}{"Lambda App Sim"}); 
+191                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < ListRho[0].Length; j++)
+192                 \{
+193                     sw.Write(\textcolor{stringliteral}{" rho\{0\}"}, j+1); 
+194                 \}
+195                 sw.WriteLine(); 
+196 
+197                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i<ListLambda.Count(); i++)
+198                 \{
+199                     sw.Write(\textcolor{stringliteral}{"\{0:f4\} \{1:f4\} \{2:f4\}"}, ListLambda[i], ListApproximationRT[i], 
+      ListSimulationRT[i]); 
+200                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < ListRho[i].Length; j++)
+201                     \{
+202                         sw.Write(\textcolor{stringliteral}{" \{0:f4\}"}, ListRho[i][j]); 
+203                     \}
+204                     sw.WriteLine(); 
+205                 \}
+206                               
+207             \}
+208 
+209 
+210 
+211 
+212             Console.WriteLine(\textcolor{stringliteral}{"Программа завершила свою работу"});
+213             Console.ReadKey(); 
+214         \}
+\end{DoxyCode}
+
+
+\subsection{Данные класса}
+\index{Analysis\+::\+Program@{Analysis\+::\+Program}!file@{file}}
+\index{file@{file}!Analysis\+::\+Program@{Analysis\+::\+Program}}
+\subsubsection[{\texorpdfstring{file}{file}}]{\setlength{\rightskip}{0pt plus 5cm}string Analysis.\+Program.\+file = \char`\"{}One\+Server\+Example2\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}\hypertarget{class_analysis_1_1_program_abbd153e2a54cae09e6cbb7092163857f}{}\label{class_analysis_1_1_program_abbd153e2a54cae09e6cbb7092163857f}
+
+
+Имя файла с параметрами сети обслуживания 
+
+
+
+См. определение в файле Program.\+cs строка 22
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Demo/\hyperlink{_demo_2_program_8cs}{Program.\+cs}\end{DoxyCompactItemize}

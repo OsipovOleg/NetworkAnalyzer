@@ -1,0 +1,5 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Statistic/obj/x64/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Statistic/bin/Debug/Statistic.exe.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Statistic/bin/Debug/Statistic.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Statistic/obj/x64/Debug/Statistic.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Statistic/obj/x64/Debug/Statistic.exe.mdb

@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_phase_type_distribution_1_1_p_h_operations">
+<title>PhaseTypeDistribution::PHOperations class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_phase_type_distribution_1_1_p_h_operations_1aa8b83fd384976ff4b159047a5bb77713">Sum</link> (
+<link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link>[] randomValues)<para><emphasis>&lt;summary&gt;
+Сумма случайных ыеличин с фазовым распределением
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_phase_type_distribution_1_1_p_h_operations_1a2d0ec60638d8a8d24687c791fd6682f4">ConvexMixture</link> (
+<link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link>[] randomVariables, double[] p)<para><emphasis>&lt;summary&gt;
+Смесь случайных величин с фазовым распределенеием
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_phase_type_distribution_1_1_p_h_operations_1a724d142f65c13b43a88d87924f2129bc">Max</link> (
+<link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> A, <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> B)<para><emphasis>&lt;summary&gt;
+Максимум из двух случайных величин с фазовым распределением
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_phase_type_distribution_1_1_p_h_operations_1affa1c7f38acb89a2516a309de42faad8">Max</link> (
+<link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link>[] randomVaribles)<para><emphasis>&lt;summary&gt;
+Максимум из произвольного числа случайных величин с фазовым распределением
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_phase_type_distribution_1_1_p_h_operations_1a68bf32c3732edb6df24118b93f75d226">Max</link> (
+List&lt; <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> &gt; randomVaribles)<para><emphasis>&lt;summary&gt;
+Максимум из произвольного числа случайных величин с фазовым распределением
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeVarible</link> <link linkend="class_phase_type_distribution_1_1_p_h_operations_1ae648d3cec7cf6301115b3f038242fc23">ExpPH</link> (
+double mu)<para><emphasis>&lt;summary&gt;
+Фазовое представление для экспоненциального распределения 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Реализует основные операциии для случайных величин с фазовыс распределнием </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 14 of file PHOperations.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>PHOperations.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_phase_type_distribution_1_1_p_h_operations_1aa8b83fd384976ff4b159047a5bb77713">
+                <title>static PhaseTypeVarible PhaseTypeDistribution.PHOperations.Sum (PhaseTypeVarible[] randomValues)</title> <emphasis>&lt;summary&gt;
+Сумма случайных ыеличин с фазовым распределением
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>randomValues</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_p_h_operations_1a2d0ec60638d8a8d24687c791fd6682f4">
+                <title>static PhaseTypeVarible PhaseTypeDistribution.PHOperations.ConvexMixture (PhaseTypeVarible[] randomVariables, double[] p)</title> <emphasis>&lt;summary&gt;
+Смесь случайных величин с фазовым распределенеием
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>randomVariables</entry>
+                                <entry>
+<para>Массив с.в.</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>p</entry>
+                                <entry>
+<para>Массив с вероятностями</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_p_h_operations_1a724d142f65c13b43a88d87924f2129bc">
+                <title>static PhaseTypeVarible PhaseTypeDistribution.PHOperations.Max (PhaseTypeVarible A, PhaseTypeVarible B)</title> <emphasis>&lt;summary&gt;
+Максимум из двух случайных величин с фазовым распределением
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>A</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>B</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_p_h_operations_1affa1c7f38acb89a2516a309de42faad8">
+                <title>static PhaseTypeVarible PhaseTypeDistribution.PHOperations.Max (PhaseTypeVarible[] randomVaribles)</title> <emphasis>&lt;summary&gt;
+Максимум из произвольного числа случайных величин с фазовым распределением
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>randomVaribles</entry>
+                                <entry>
+<para>Массив PH объектов</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_p_h_operations_1a68bf32c3732edb6df24118b93f75d226">
+                <title>static PhaseTypeVarible PhaseTypeDistribution.PHOperations.Max (List&lt; PhaseTypeVarible &gt; randomVaribles)</title> <emphasis>&lt;summary&gt;
+Максимум из произвольного числа случайных величин с фазовым распределением
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>randomVaribles</entry>
+                                <entry>
+<para>Массив PH объектов</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_phase_type_distribution_1_1_p_h_operations_1ae648d3cec7cf6301115b3f038242fc23">
+                <title>static PhaseTypeVarible PhaseTypeDistribution.PHOperations.ExpPH (double mu)</title> <emphasis>&lt;summary&gt;
+Фазовое представление для экспоненциального распределения 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>mu</entry>
+                                <entry>
+<para>Параметр распределения</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+</section>

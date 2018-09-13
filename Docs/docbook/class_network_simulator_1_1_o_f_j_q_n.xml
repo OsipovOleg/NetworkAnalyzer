@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_o_f_j_q_n">
+<title>NetworkSimulator::OFJQN class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static <link linkend="class_network_simulator_1_1_network_model">NetworkModel</link> <link linkend="class_network_simulator_1_1_o_f_j_q_n_1a6d0939bfdf0bc3c0b96269169506c454">CreateNetworkModel</link> (
+<link linkend="class_network_descriptions_1_1_description_o_f_j_q_n">DescriptionOFJQN</link> Description, Random rand)<para><emphasis>&lt;summary&gt;
+Создает экземпляр класса NetworkModel по описанию сети обслуживания
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Имитционная модель для открытой экспоненциальносй сети массового обслуживания с делением и слиянием требований и произвольным числом обслуживающих прибором с дисциплиной FCFS </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 14 of file OFJQN.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>OFJQN.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_simulator_1_1_o_f_j_q_n_1a6d0939bfdf0bc3c0b96269169506c454">
+                <title>static NetworkModel NetworkSimulator.OFJQN.CreateNetworkModel (DescriptionOFJQN Description, Random rand)</title> <emphasis>&lt;summary&gt;
+Создает экземпляр класса NetworkModel по описанию сети обслуживания
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para>The network model.</para>
+</formalpara>
+
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>Description</entry>
+                                <entry>
+<para>Описание сети обслуживания</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

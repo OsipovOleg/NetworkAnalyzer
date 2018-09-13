@@ -1,0 +1,8 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/bin/Debug/Networks.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/bin/Debug/Networks.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/obj/Debug/Networks.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/obj/Debug/Networks.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/bin/Debug/BLAS.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/bin/Debug/BLAS.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Networks/bin/Debug/MathNet.Numerics.dll

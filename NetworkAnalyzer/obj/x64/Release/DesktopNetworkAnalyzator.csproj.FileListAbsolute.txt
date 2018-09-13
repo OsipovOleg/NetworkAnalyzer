@@ -1,0 +1,16 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\bin\x64\Release\NetworkAnalyzer.exe.config
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\bin\x64\Release\NetworkAnalyzer.exe
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\DesktopNetworkAnalyzator.csprojResolveAssemblyReference.cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\DesktopNetworkAnalyzator.MainForm.resources
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.Properties.Resources.resources
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\DesktopNetworkAnalyzator.csproj.GenerateResource.Cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.exe
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\bin\x64\Release\NetworkAnalyzer.exe.config
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\bin\x64\Release\NetworkAnalyzer.exe
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\x64\Release\DesktopNetworkAnalyzator.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.AddRoutingElement.resources
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\x64\Release\DesktopNetworkAnalyzator.MainForm.resources
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.Properties.Resources.resources
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.RoutingMatrixCreator.resources
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\x64\Release\DesktopNetworkAnalyzator.csproj.GenerateResource.Cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.exe

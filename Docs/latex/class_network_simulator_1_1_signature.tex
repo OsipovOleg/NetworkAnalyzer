@@ -1,0 +1,108 @@
+\hypertarget{class_network_simulator_1_1_signature}{}\section{Класс Network\+Simulator.\+Signature}
+\label{class_network_simulator_1_1_signature}\index{Network\+Simulator.\+Signature@{Network\+Simulator.\+Signature}}
+
+
+Класс для сигнатуры фрагмента  
+
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_signature_ae80636e822b8a99c622db6f0941a64e3}{Signature} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} Parent\+Demand, int \hyperlink{class_network_simulator_1_1_signature_ab571d5b84e1f7866a6ab6f6d79bc86d9}{Sub\+ID}, int \hyperlink{class_network_simulator_1_1_signature_ad1296ff97d325ac85896bf9a1d4d5247}{Fork\+Node\+ID})
+\begin{DoxyCompactList}\small\item\em Создает сигнатуру для фрагмента \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_fragment}{Fragment} \hyperlink{class_network_simulator_1_1_signature_ac9b2e402433d945c4fa8a7722bfe9ecc}{Parent\+Fragment}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Указатель на фрагмент-\/родитель \end{DoxyCompactList}\item 
+int \hyperlink{class_network_simulator_1_1_signature_ab571d5b84e1f7866a6ab6f6d79bc86d9}{Sub\+ID}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Номер фрагмента среди фрагментов, которые были получены при делении \end{DoxyCompactList}\item 
+int \hyperlink{class_network_simulator_1_1_signature_ad1296ff97d325ac85896bf9a1d4d5247}{Fork\+Node\+ID}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Идентификатор дивайдера на котором произошло деление фрагмента, 0 если фрагмент является требованием \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Класс для сигнатуры фрагмента 
+
+
+
+См. определение в файле Fragment.\+cs строка 11
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}!Signature@{Signature}}
+\index{Signature@{Signature}!Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}}
+\subsubsection[{\texorpdfstring{Signature(\+Fragment Parent\+Demand, int Sub\+I\+D, int Fork\+Node\+I\+D)}{Signature(Fragment ParentDemand, int SubID, int ForkNodeID)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Signature.\+Signature (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{Parent\+Demand, }
+\item[{int}]{Sub\+ID, }
+\item[{int}]{Fork\+Node\+ID}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_signature_ae80636e822b8a99c622db6f0941a64e3}{}\label{class_network_simulator_1_1_signature_ae80636e822b8a99c622db6f0941a64e3}
+
+
+Создает сигнатуру для фрагмента 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Parent\+Demand} & Фрагмент-\/родитель\\
+\hline
+{\em Sub\+ID} & Идентификатор полученого фрагмента\\
+\hline
+{\em Fork\+Node\+ID} & Идентификатор дивайдера, ко котором был получен фрагмент\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Fragment.\+cs строка 47
+
+
+\begin{DoxyCode}
+48         \{
+49             this.\hyperlink{class_network_simulator_1_1_signature_ac9b2e402433d945c4fa8a7722bfe9ecc}{ParentFragment} = ParentDemand;
+50             this.\hyperlink{class_network_simulator_1_1_signature_ab571d5b84e1f7866a6ab6f6d79bc86d9}{SubID} = \hyperlink{class_network_simulator_1_1_signature_ab571d5b84e1f7866a6ab6f6d79bc86d9}{SubID};
+51             this.\hyperlink{class_network_simulator_1_1_signature_ad1296ff97d325ac85896bf9a1d4d5247}{ForkNodeID} = \hyperlink{class_network_simulator_1_1_signature_ad1296ff97d325ac85896bf9a1d4d5247}{ForkNodeID};
+52         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}!Fork\+Node\+ID@{Fork\+Node\+ID}}
+\index{Fork\+Node\+ID@{Fork\+Node\+ID}!Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}}
+\subsubsection[{\texorpdfstring{Fork\+Node\+ID}{ForkNodeID}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Signature.\+Fork\+Node\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_signature_ad1296ff97d325ac85896bf9a1d4d5247}{}\label{class_network_simulator_1_1_signature_ad1296ff97d325ac85896bf9a1d4d5247}
+
+
+Идентификатор дивайдера на котором произошло деление фрагмента, 0 если фрагмент является требованием 
+
+
+
+См. определение в файле Fragment.\+cs строка 35
+
+\index{Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}!Parent\+Fragment@{Parent\+Fragment}}
+\index{Parent\+Fragment@{Parent\+Fragment}!Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}}
+\subsubsection[{\texorpdfstring{Parent\+Fragment}{ParentFragment}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Fragment} Network\+Simulator.\+Signature.\+Parent\+Fragment\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_signature_ac9b2e402433d945c4fa8a7722bfe9ecc}{}\label{class_network_simulator_1_1_signature_ac9b2e402433d945c4fa8a7722bfe9ecc}
+
+
+Указатель на фрагмент-\/родитель 
+
+
+
+См. определение в файле Fragment.\+cs строка 17
+
+\index{Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}!Sub\+ID@{Sub\+ID}}
+\index{Sub\+ID@{Sub\+ID}!Network\+Simulator\+::\+Signature@{Network\+Simulator\+::\+Signature}}
+\subsubsection[{\texorpdfstring{Sub\+ID}{SubID}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Signature.\+Sub\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_signature_ab571d5b84e1f7866a6ab6f6d79bc86d9}{}\label{class_network_simulator_1_1_signature_ab571d5b84e1f7866a6ab6f6d79bc86d9}
+
+
+Номер фрагмента среди фрагментов, которые были получены при делении 
+
+
+
+См. определение в файле Fragment.\+cs строка 25
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_fragment_8cs}{Fragment.\+cs}\end{DoxyCompactItemize}

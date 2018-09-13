@@ -1,0 +1,8 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/x64/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/x64/Debug/DesktopNetworkAnalyzator.AddRoutingElement.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/x64/Debug/DesktopNetworkAnalyzator.MainForm.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/x64/Debug/NetworkAnalyzer.Properties.Resources.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/x64/Debug/DesktopNetworkAnalyzator.RoutingMatrixCreator.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/bin/x64/Debug/NetworkAnalyzer.exe.config
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/bin/x64/Debug/NetworkAnalyzer.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/x64/Debug/NetworkAnalyzer.exe

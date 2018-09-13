@@ -1,0 +1,9 @@
+digraph "NetworkSimulator.ForkNode.Route"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NetworkSimulator.ForkNode.\lRoute",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NetworkSimulator.ForkNode.\lReceive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_fork_node.html#aca7a8c482a32868c4a8cb7c319bd866f",tooltip="Получение фрагмента из какого-то узла "];
+}

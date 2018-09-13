@@ -1,0 +1,16 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Release\LatexEditor.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Release\LatexEditor.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\Release\LatexEditor.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\Release\LatexEditor.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Release\BLAS.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\bin\Release\BLAS.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\LatexEditor\obj\Release\Latex.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Release\LatexEditor.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Release\LatexEditor.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Release\BLAS.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Release\BLAS.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\Release\Latex.csprojResolveAssemblyReference.cache
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\Release\LatexEditor.dll
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\obj\Release\LatexEditor.pdb
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Release\LatexEditor.dll.CodeAnalysisLog.xml
+E:\Researches\Current Work\NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )\LatexEditor\bin\Release\LatexEditor.dll.lastcodeanalysissucceeded

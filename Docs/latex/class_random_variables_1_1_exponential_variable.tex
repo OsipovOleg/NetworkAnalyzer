@@ -1,0 +1,118 @@
+\hypertarget{class_random_variables_1_1_exponential_variable}{}\section{Класс Random\+Variables.\+Exponential\+Variable}
+\label{class_random_variables_1_1_exponential_variable}\index{Random\+Variables.\+Exponential\+Variable@{Random\+Variables.\+Exponential\+Variable}}
+
+
+Генерирует значения случайной величины с экспоненциальным распределением  
+
+
+Граф наследования\+:Random\+Variables.\+Exponential\+Variable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_random_variables_1_1_exponential_variable}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+override double \hyperlink{class_random_variables_1_1_exponential_variable_a90d692fd128609d68cf87f4ff47c7a2d}{Next\+Value} ()
+\begin{DoxyCompactList}\small\item\em Получает следующее значение случайной величины \end{DoxyCompactList}\item 
+\hyperlink{class_random_variables_1_1_exponential_variable_aa4339d52050bbae1268e7de5d51c5506}{Exponential\+Variable} (Random \hyperlink{class_random_variables_1_1_random_variable_a8a79eb7a1676b85b74906831b2850cb9}{r}, double \hyperlink{class_random_variables_1_1_exponential_variable_a158140032c03acf367981db02dde135a}{Rate})
+\begin{DoxyCompactList}\small\item\em Создает генератор экспоненциально распределенной случайной величины \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_random_variables_1_1_exponential_variable_a158140032c03acf367981db02dde135a}{Rate}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Параметр для экспоненциально распределенной случайной величины \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Генерирует значения случайной величины с экспоненциальным распределением 
+
+
+
+См. определение в файле Exponential\+Variable.\+cs строка 12
+
+
+
+\subsection{Конструктор(ы)}
+\index{Random\+Variables\+::\+Exponential\+Variable@{Random\+Variables\+::\+Exponential\+Variable}!Exponential\+Variable@{Exponential\+Variable}}
+\index{Exponential\+Variable@{Exponential\+Variable}!Random\+Variables\+::\+Exponential\+Variable@{Random\+Variables\+::\+Exponential\+Variable}}
+\subsubsection[{\texorpdfstring{Exponential\+Variable(\+Random r, double Rate)}{ExponentialVariable(Random r, double Rate)}}]{\setlength{\rightskip}{0pt plus 5cm}Random\+Variables.\+Exponential\+Variable.\+Exponential\+Variable (
+\begin{DoxyParamCaption}
+\item[{Random}]{r, }
+\item[{double}]{Rate}
+\end{DoxyParamCaption}
+)}\hypertarget{class_random_variables_1_1_exponential_variable_aa4339d52050bbae1268e7de5d51c5506}{}\label{class_random_variables_1_1_exponential_variable_aa4339d52050bbae1268e7de5d51c5506}
+
+
+Создает генератор экспоненциально распределенной случайной величины 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em r} & Генератор случайных чисел\\
+\hline
+{\em Rate} & Параметр распределения\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Exponential\+Variable.\+cs строка 37
+
+
+\begin{DoxyCode}
+38         \{
+39             this.\hyperlink{class_random_variables_1_1_random_variable_a8a79eb7a1676b85b74906831b2850cb9}{r} = \hyperlink{class_random_variables_1_1_random_variable_a8a79eb7a1676b85b74906831b2850cb9}{r};
+40             this.\hyperlink{class_random_variables_1_1_exponential_variable_a158140032c03acf367981db02dde135a}{Rate} = \hyperlink{class_random_variables_1_1_exponential_variable_a158140032c03acf367981db02dde135a}{Rate}; 
+41             
+42         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Random\+Variables\+::\+Exponential\+Variable@{Random\+Variables\+::\+Exponential\+Variable}!Next\+Value@{Next\+Value}}
+\index{Next\+Value@{Next\+Value}!Random\+Variables\+::\+Exponential\+Variable@{Random\+Variables\+::\+Exponential\+Variable}}
+\subsubsection[{\texorpdfstring{Next\+Value()}{NextValue()}}]{\setlength{\rightskip}{0pt plus 5cm}override double Random\+Variables.\+Exponential\+Variable.\+Next\+Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_random_variables_1_1_exponential_variable_a90d692fd128609d68cf87f4ff47c7a2d}{}\label{class_random_variables_1_1_exponential_variable_a90d692fd128609d68cf87f4ff47c7a2d}
+
+
+Получает следующее значение случайной величины 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+Замещает \hyperlink{class_random_variables_1_1_random_variable_adf5ef829531ebcc4f0591b81d579519a}{Random\+Variables.\+Random\+Variable}.
+
+
+
+См. определение в файле Exponential\+Variable.\+cs строка 27
+
+
+\begin{DoxyCode}
+28         \{
+29             \textcolor{keywordflow}{return} -1.0 / \hyperlink{class_random_variables_1_1_exponential_variable_a158140032c03acf367981db02dde135a}{Rate}* Math.Log(this.\hyperlink{class_random_variables_1_1_random_variable_a8a79eb7a1676b85b74906831b2850cb9}{r}.NextDouble());
+30         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Random\+Variables\+::\+Exponential\+Variable@{Random\+Variables\+::\+Exponential\+Variable}!Rate@{Rate}}
+\index{Rate@{Rate}!Random\+Variables\+::\+Exponential\+Variable@{Random\+Variables\+::\+Exponential\+Variable}}
+\subsubsection[{\texorpdfstring{Rate}{Rate}}]{\setlength{\rightskip}{0pt plus 5cm}double Random\+Variables.\+Exponential\+Variable.\+Rate\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_random_variables_1_1_exponential_variable_a158140032c03acf367981db02dde135a}{}\label{class_random_variables_1_1_exponential_variable_a158140032c03acf367981db02dde135a}
+
+
+Параметр для экспоненциально распределенной случайной величины 
+
+
+
+См. определение в файле Exponential\+Variable.\+cs строка 18
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Random\+Variables/\hyperlink{_exponential_variable_8cs}{Exponential\+Variable.\+cs}\end{DoxyCompactItemize}

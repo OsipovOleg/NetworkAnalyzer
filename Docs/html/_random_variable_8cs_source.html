@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: Исходный файл NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/RandomVariables/RandomVariable.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="namespaces.html"><span>Пакеты</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_737c927721d7971b57ccadd8c7b4f926.html">NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )</a></li><li class="navelem"><a class="el" href="dir_cbe462a1abd5502278ed7211a35a5452.html">RandomVariables</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">RandomVariable.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_random_variable_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections.Generic;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Linq;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Text;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Threading.Tasks;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_random_variables.html">RandomVariables</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_random_variables_1_1_random_variable.html">   12</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="class_random_variables_1_1_random_variable.html">RandomVariable</a></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">protected</span> Random <a class="code" href="class_random_variables_1_1_random_variable.html#a8a79eb7a1676b85b74906831b2850cb9">r</a></div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_random_variables_1_1_random_variable.html#a8a79eb7a1676b85b74906831b2850cb9">   18</a></span>&#160;        {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keyword">get</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keyword">set</span>; </div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">double</span> <a class="code" href="class_random_variables_1_1_random_variable.html#adf5ef829531ebcc4f0591b81d579519a">NextValue</a>(); </div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div><div class="ttc" id="class_random_variables_1_1_random_variable_html_adf5ef829531ebcc4f0591b81d579519a"><div class="ttname"><a href="class_random_variables_1_1_random_variable.html#adf5ef829531ebcc4f0591b81d579519a">RandomVariables.RandomVariable.NextValue</a></div><div class="ttdeci">abstract double NextValue()</div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="namespace_system.html">System</a></div></div>
+<div class="ttc" id="class_random_variables_1_1_random_variable_html"><div class="ttname"><a href="class_random_variables_1_1_random_variable.html">RandomVariables.RandomVariable</a></div><div class="ttdoc">Абстрактный класс для генератора случайных величин </div><div class="ttdef"><b>Definition:</b> <a href="_random_variable_8cs_source.html#l00012">RandomVariable.cs:12</a></div></div>
+<div class="ttc" id="class_random_variables_1_1_random_variable_html_a8a79eb7a1676b85b74906831b2850cb9"><div class="ttname"><a href="class_random_variables_1_1_random_variable.html#a8a79eb7a1676b85b74906831b2850cb9">RandomVariables.RandomVariable.r</a></div><div class="ttdeci">Random r</div><div class="ttdoc">Генератор случайных чисел </div><div class="ttdef"><b>Definition:</b> <a href="_random_variable_8cs_source.html#l00018">RandomVariable.cs:18</a></div></div>
+<div class="ttc" id="namespace_random_variables_html"><div class="ttname"><a href="namespace_random_variables.html">RandomVariables</a></div><div class="ttdef"><b>Definition:</b> <a href="_exponential_variable_8cs_source.html#l00007">ExponentialVariable.cs:7</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

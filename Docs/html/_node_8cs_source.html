@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: Исходный файл NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkSimulator/Node.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="namespaces.html"><span>Пакеты</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_737c927721d7971b57ccadd8c7b4f926.html">NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )</a></li><li class="navelem"><a class="el" href="dir_31b8f9626b6ade96e52aab2f4db274a8.html">NetworkSimulator</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Node.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_node_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections.Generic;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Linq;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Text;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Threading.Tasks;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_network_simulator.html">NetworkSimulator</a></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_network_simulator_1_1_node.html">   12</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="class_network_simulator_1_1_node.html">Node</a></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">long</span> <a class="code" href="class_network_simulator_1_1_node.html#a24aabc6ded4e970b0c2c5c3bcbdf6cd8">NumberOfArrivedDemads</a></div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_network_simulator_1_1_node.html#a24aabc6ded4e970b0c2c5c3bcbdf6cd8">   18</a></span>&#160;        {</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keyword">get</span>;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keyword">protected</span> <span class="keyword">set</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="class_network_simulator_1_1_node.html#a1ba068212f50babe026c527a9b5fb55a">ID</a></div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_network_simulator_1_1_node.html#a1ba068212f50babe026c527a9b5fb55a">   28</a></span>&#160;        {</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keyword">get</span>;</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keyword">protected</span> <span class="keyword">set</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        }</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_network_simulator_1_1_node.html#a3eb74310ed895ee8ec49c1850c1c405e">   36</a></span>&#160;        <span class="keyword">protected</span> Random <a class="code" href="class_network_simulator_1_1_node.html#a3eb74310ed895ee8ec49c1850c1c405e">r</a>;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">protected</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code" href="class_network_simulator_1_1_node.html#afc4e83369cdce31db59b1023113c01f2">Route</a>(<a class="code" href="class_network_simulator_1_1_fragment.html">Fragment</a> f);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keyword">protected</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code" href="class_network_simulator_1_1_node.html#abcda5067b8842a447b2ad293818fc319">Send</a>(<a class="code" href="class_network_simulator_1_1_fragment.html">Fragment</a> f, <a class="code" href="class_network_simulator_1_1_node.html">Node</a> N);</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keyword">public</span> <a class="code" href="class_network_simulator_1_1_node.html">Node</a>[] <a class="code" href="class_network_simulator_1_1_node.html#abae5930cce02aa93551aefe417b23fa0">Nodes</a></div><div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="class_network_simulator_1_1_node.html#abae5930cce02aa93551aefe417b23fa0">   57</a></span>&#160;        {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keyword">get</span>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keyword">protected</span> <span class="keyword">set</span>;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keyword">public</span> <a class="code" href="class_network_simulator_1_1_info_node.html">InfoNode</a> <a class="code" href="class_network_simulator_1_1_node.html#a63e706d7158c6ea84ea8fdbe61d9bffb">Info</a></div><div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="class_network_simulator_1_1_node.html#a63e706d7158c6ea84ea8fdbe61d9bffb">   66</a></span>&#160;        {</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keyword">get</span>;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keyword">protected</span> <span class="keyword">set</span>;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code" href="class_network_simulator_1_1_node.html#ab1d7ae2e2e59169e9ab3086087d950e8">Receive</a>(<a class="code" href="class_network_simulator_1_1_fragment.html">Fragment</a> f);</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">double</span> <a class="code" href="class_network_simulator_1_1_node.html#ab3ae85d27d7e9056751bd826f1a3432b">NextEventTime</a></div><div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="class_network_simulator_1_1_node.html#ab3ae85d27d7e9056751bd826f1a3432b">   83</a></span>&#160;        {</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keyword">get</span>;</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keyword">protected</span> <span class="keyword">set</span>;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code" href="class_network_simulator_1_1_node.html#a1f558044a94581467ba00d12bf1ae8fd">Activate</a>();</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div><div class="ttc" id="class_network_simulator_1_1_node_html_a1f558044a94581467ba00d12bf1ae8fd"><div class="ttname"><a href="class_network_simulator_1_1_node.html#a1f558044a94581467ba00d12bf1ae8fd">NetworkSimulator.Node.Activate</a></div><div class="ttdeci">abstract void Activate()</div><div class="ttdoc">Активация узла </div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_abae5930cce02aa93551aefe417b23fa0"><div class="ttname"><a href="class_network_simulator_1_1_node.html#abae5930cce02aa93551aefe417b23fa0">NetworkSimulator.Node.Nodes</a></div><div class="ttdeci">Node[] Nodes</div><div class="ttdoc">Узлы с которыми происходит обмен фрагментами </div><div class="ttdef"><b>Definition:</b> <a href="_node_8cs_source.html#l00057">Node.cs:57</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="namespace_system.html">System</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_a3eb74310ed895ee8ec49c1850c1c405e"><div class="ttname"><a href="class_network_simulator_1_1_node.html#a3eb74310ed895ee8ec49c1850c1c405e">NetworkSimulator.Node.r</a></div><div class="ttdeci">Random r</div><div class="ttdoc">Для генерации случайных чисел </div><div class="ttdef"><b>Definition:</b> <a href="_node_8cs_source.html#l00036">Node.cs:36</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_ab3ae85d27d7e9056751bd826f1a3432b"><div class="ttname"><a href="class_network_simulator_1_1_node.html#ab3ae85d27d7e9056751bd826f1a3432b">NetworkSimulator.Node.NextEventTime</a></div><div class="ttdeci">double NextEventTime</div><div class="ttdoc">Время активации узла </div><div class="ttdef"><b>Definition:</b> <a href="_node_8cs_source.html#l00083">Node.cs:83</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_ab1d7ae2e2e59169e9ab3086087d950e8"><div class="ttname"><a href="class_network_simulator_1_1_node.html#ab1d7ae2e2e59169e9ab3086087d950e8">NetworkSimulator.Node.Receive</a></div><div class="ttdeci">abstract void Receive(Fragment f)</div><div class="ttdoc">Получение фрагмента узлом </div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_a63e706d7158c6ea84ea8fdbe61d9bffb"><div class="ttname"><a href="class_network_simulator_1_1_node.html#a63e706d7158c6ea84ea8fdbe61d9bffb">NetworkSimulator.Node.Info</a></div><div class="ttdeci">InfoNode Info</div><div class="ttdoc">Информационный узел </div><div class="ttdef"><b>Definition:</b> <a href="_node_8cs_source.html#l00066">Node.cs:66</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_abcda5067b8842a447b2ad293818fc319"><div class="ttname"><a href="class_network_simulator_1_1_node.html#abcda5067b8842a447b2ad293818fc319">NetworkSimulator.Node.Send</a></div><div class="ttdeci">abstract void Send(Fragment f, Node N)</div><div class="ttdoc">Отправляет фрагмент в узел </div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_a1ba068212f50babe026c527a9b5fb55a"><div class="ttname"><a href="class_network_simulator_1_1_node.html#a1ba068212f50babe026c527a9b5fb55a">NetworkSimulator.Node.ID</a></div><div class="ttdeci">int ID</div><div class="ttdoc">Идентификатор узла </div><div class="ttdef"><b>Definition:</b> <a href="_node_8cs_source.html#l00028">Node.cs:28</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html"><div class="ttname"><a href="class_network_simulator_1_1_node.html">NetworkSimulator.Node</a></div><div class="ttdoc">Узел сети массового обслуживания </div><div class="ttdef"><b>Definition:</b> <a href="_node_8cs_source.html#l00012">Node.cs:12</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_fragment_html"><div class="ttname"><a href="class_network_simulator_1_1_fragment.html">NetworkSimulator.Fragment</a></div><div class="ttdoc">Фрагмент в сети с делением и слиянием требований </div><div class="ttdef"><b>Definition:</b> <a href="_fragment_8cs_source.html#l00057">Fragment.cs:57</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_info_node_html"><div class="ttname"><a href="class_network_simulator_1_1_info_node.html">NetworkSimulator.InfoNode</a></div><div class="ttdoc">Информационный узел в сети обслуживания </div><div class="ttdef"><b>Definition:</b> <a href="_info_node_8cs_source.html#l00012">InfoNode.cs:12</a></div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_afc4e83369cdce31db59b1023113c01f2"><div class="ttname"><a href="class_network_simulator_1_1_node.html#afc4e83369cdce31db59b1023113c01f2">NetworkSimulator.Node.Route</a></div><div class="ttdeci">abstract void Route(Fragment f)</div><div class="ttdoc">Отправляет фрагмент по сети обслуживания согласно маршрутизации </div></div>
+<div class="ttc" id="class_network_simulator_1_1_node_html_a24aabc6ded4e970b0c2c5c3bcbdf6cd8"><div class="ttname"><a href="class_network_simulator_1_1_node.html#a24aabc6ded4e970b0c2c5c3bcbdf6cd8">NetworkSimulator.Node.NumberOfArrivedDemads</a></div><div class="ttdeci">long NumberOfArrivedDemads</div><div class="ttdoc">Число поступивших фрагментов </div><div class="ttdef"><b>Definition:</b> <a href="_node_8cs_source.html#l00018">Node.cs:18</a></div></div>
+<div class="ttc" id="namespace_network_simulator_html"><div class="ttname"><a href="namespace_network_simulator.html">NetworkSimulator</a></div><div class="ttdef"><b>Definition:</b> <a href="_buffer_8cs_source.html#l00007">Buffer.cs:7</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

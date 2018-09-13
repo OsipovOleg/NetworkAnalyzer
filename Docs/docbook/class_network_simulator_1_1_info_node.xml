@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_info_node">
+<title>NetworkSimulator::InfoNode class Reference</title>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double CurrentTime<para><emphasis>&lt;summary&gt;
+Отображает текущее время
+&lt;/summary&gt;</emphasis></para></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_info_node_1ab05a35ee0ee90670e7c6df8fc980b96d">Receive</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Получение фрагмента узлом
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_network_simulator_1_1_info_node_1a99e3644d53d9feba5a9381f3a9912eec">SetCurentTime</link> (
+double t)<para><emphasis>&lt;summary&gt;
+Задает текущее время
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>double <link linkend="class_network_simulator_1_1_info_node_1ada80a234225d01f27a5a56e555d9793a">GetCurentTime</link> (
+)<para><emphasis>&lt;summary&gt;
+Запрос текущего времени
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_info_node_1aa471806f51a9c5c8481b78932d1afad1">Activate</link> (
+)<para><emphasis>&lt;summary&gt;
+Активация узла
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_info_node_1ac3c8aef408eab567fa2ede91c307ef83">Route</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Отправляет фрагмент по сети обслуживания согласно маршрутизации 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_info_node_1a02fd3b4fb6f6554d09850cdc04154db6">Send</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f, <link linkend="class_network_simulator_1_1_node">Node</link> N)<para><emphasis>&lt;summary&gt;
+Отправляет фрагмент в узел
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Информационный узел в сети обслуживания </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 13 of file InfoNode.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>InfoNode.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+            <simplesect>
+                <title>double NetworkSimulator.InfoNode.CurrentTime</title>                
+                <para>Definition at line 34 of file InfoNode.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>InfoNode.cs</para></listitem></itemizedlist></para>
+            </simplesect>
+        </section>
+            <section xml:id="class_network_simulator_1_1_info_node_1ab05a35ee0ee90670e7c6df8fc980b96d">
+                <title>override void NetworkSimulator.InfoNode.Receive (Fragment f)</title> <emphasis>&lt;summary&gt;
+Получение фрагмента узлом
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Получаемый фрагмент</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_info_node_1a99e3644d53d9feba5a9381f3a9912eec">
+                <title>void NetworkSimulator.InfoNode.SetCurentTime (double t)</title> <emphasis>&lt;summary&gt;
+Задает текущее время
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>t</entry>
+                                <entry>
+<para>Значение для текущего времени</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_info_node_1ada80a234225d01f27a5a56e555d9793a">
+                <title>double NetworkSimulator.InfoNode.GetCurentTime ()</title> <emphasis>&lt;summary&gt;
+Запрос текущего времени
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para>Возвращает текущее время</para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_info_node_1aa471806f51a9c5c8481b78932d1afad1">
+                <title>override void NetworkSimulator.InfoNode.Activate ()</title> <emphasis>&lt;summary&gt;
+Активация узла
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_info_node_1ac3c8aef408eab567fa2ede91c307ef83">
+                <title>override void NetworkSimulator.InfoNode.Route (Fragment f)</title> <emphasis>&lt;summary&gt;
+Отправляет фрагмент по сети обслуживания согласно маршрутизации 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Фрагмент для отправки</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_info_node_1a02fd3b4fb6f6554d09850cdc04154db6">
+                <title>override void NetworkSimulator.InfoNode.Send (Fragment f, Node N)</title> <emphasis>&lt;summary&gt;
+Отправляет фрагмент в узел
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Отправляемый фрагмент</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>N</entry>
+                                <entry>
+<para>отУзел-получатель</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

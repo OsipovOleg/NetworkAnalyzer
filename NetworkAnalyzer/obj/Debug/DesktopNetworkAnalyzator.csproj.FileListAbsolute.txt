@@ -1,0 +1,34 @@
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.exe.config
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.exe
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.MainForm.resources
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.Properties.Resources.resources
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.csproj.GenerateResource.Cache
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.exe
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.pdb
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.csprojResolveAssemblyReference.cache
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.AddRoutingElement.resources
+C:/Users/Олег/Documents/Visual Studio 2015/Projects/NetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.RoutingMatrixCreator.resources
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.exe.config
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.exe
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.exe
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.pdb
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.csprojResolveAssemblyReference.cache
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.AddRoutingElement.resources
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.MainForm.resources
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.Properties.Resources.resources
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.RoutingMatrixCreator.resources
+E:/Researches/Current Work/NetworkAnalyzer (ИМ после конференции Богомолова, набор классов )/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.csproj.GenerateResource.Cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.exe.config
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.exe
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/bin/Debug/NetworkAnalyzer.pdb
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.csprojResolveAssemblyReference.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.AddRoutingElement.resources
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.MainForm.resources
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.Properties.Resources.resources
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.RoutingMatrixCreator.resources
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.csproj.GenerateResource.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/DesktopNetworkAnalyzator.csproj.CoreCompileInputs.cache
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.exe
+/home/oleg/Documents/Researches/Current Works/QueueingNetworkAnalyzer/NetworkAnalyzer/obj/Debug/NetworkAnalyzer.pdb

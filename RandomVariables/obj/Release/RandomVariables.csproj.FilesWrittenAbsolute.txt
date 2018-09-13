@@ -1,0 +1,5 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/RandomVariables/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/RandomVariables/bin/Release/RandomVariables.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/RandomVariables/bin/Release/RandomVariables.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/RandomVariables/obj/Release/RandomVariables.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/RandomVariables/obj/Release/RandomVariables.dll.mdb

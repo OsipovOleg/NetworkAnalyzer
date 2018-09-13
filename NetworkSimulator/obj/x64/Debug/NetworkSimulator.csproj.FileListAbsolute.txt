@@ -1,0 +1,17 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\NetworkSimulator.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\NetworkSimulator.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\obj\x64\Debug\NetworkSimulator.csprojResolveAssemblyReference.cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\obj\x64\Debug\NetworkSimulator.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\obj\x64\Debug\NetworkSimulator.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\BLAS.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\ExactAnalysis.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\LatexEditor.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\Networks.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\PhaseTypeDistribution.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\RandomVariables.dll
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\BLAS.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\LatexEditor.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\ExactAnalysis.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\Networks.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\PhaseTypeDistribution.pdb
+C:\Users\Олег\Documents\Visual Studio 2015\Projects\NetworkAnalyzer\NetworkSimulator\bin\x64\Debug\RandomVariables.pdb

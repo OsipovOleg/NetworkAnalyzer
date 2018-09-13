@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>My Project: Исходный файл NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/LatexEditor/Demo.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="namespaces.html"><span>Пакеты</span></a></li>
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_737c927721d7971b57ccadd8c7b4f926.html">NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )</a></li><li class="navelem"><a class="el" href="dir_2a91622401fefb138a5cb9f5d8e0181a.html">LatexEditor</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Demo.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_latex_editor_2_demo_8cs.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>;</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Collections.Generic;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Linq;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Text;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Threading.Tasks;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using</span> <a class="code" href="namespace_system.html">System</a>.Threading;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="namespace_latex.html">    8</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_latex.html">Latex</a></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div><div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_latex_1_1_demo.html">   10</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class </span><a class="code" href="namespace_demo.html">Demo</a></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_latex_1_1_demo.html#a8c29e3340938f92d55ad89d926db66d3">   12</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_latex_1_1_demo.html#a8c29e3340938f92d55ad89d926db66d3">DemoLatex</a>()</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        {</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <span class="keywordtype">string</span> text = <a class="code" href="class_latex_1_1_latex_editor.html">LatexEditor</a>.<a class="code" href="class_latex_1_1_latex_editor.html#a57e3b1474dd286bc0f8bfa0dd718b25a">BeginLaTex</a>();</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            text += <span class="stringliteral">&quot;Привет Мир\n&quot;</span>;</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            text += <a class="code" href="class_latex_1_1_latex_editor.html">LatexEditor</a>.<a class="code" href="class_latex_1_1_latex_editor.html#aadd58706a390c458fa7146a3798fe573">EndLaTex</a>();</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <a class="code" href="class_latex_1_1_latex_editor.html">LatexEditor</a>.<a class="code" href="class_latex_1_1_latex_editor.html#a69f48235bc595627993b62d3cfc25201">SaveLaTex</a>(text, <span class="stringliteral">&quot;simple&quot;</span>);</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            </div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="class_latex_1_1_latex_editor.html">LatexEditor</a>.<a class="code" href="class_latex_1_1_latex_editor.html#ad420e196f1fa78e64ba5bd9e6d823006">CompileLaTex</a>(<span class="stringliteral">&quot;simple&quot;</span>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            Thread.Sleep(2000);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="class_latex_1_1_latex_editor.html">LatexEditor</a>.<a class="code" href="class_latex_1_1_latex_editor.html#a77a63dbcb2cf87e5eb98707f928e7f6f">ShowPDF</a>(<span class="stringliteral">&quot;simple&quot;</span>);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div><div class="ttc" id="class_latex_1_1_latex_editor_html_a57e3b1474dd286bc0f8bfa0dd718b25a"><div class="ttname"><a href="class_latex_1_1_latex_editor.html#a57e3b1474dd286bc0f8bfa0dd718b25a">Latex.LatexEditor.BeginLaTex</a></div><div class="ttdeci">static string BeginLaTex()</div><div class="ttdoc">Формирует шапку tex-документа </div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_8cs_source.html#l00118">LatexEditor.cs:118</a></div></div>
+<div class="ttc" id="class_latex_1_1_latex_editor_html"><div class="ttname"><a href="class_latex_1_1_latex_editor.html">Latex.LatexEditor</a></div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_8cs_source.html#l00013">LatexEditor.cs:13</a></div></div>
+<div class="ttc" id="class_latex_1_1_latex_editor_html_aadd58706a390c458fa7146a3798fe573"><div class="ttname"><a href="class_latex_1_1_latex_editor.html#aadd58706a390c458fa7146a3798fe573">Latex.LatexEditor.EndLaTex</a></div><div class="ttdeci">static string EndLaTex()</div><div class="ttdoc">Формирует окончание tex-документа </div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_8cs_source.html#l00333">LatexEditor.cs:333</a></div></div>
+<div class="ttc" id="namespace_system_html"><div class="ttname"><a href="namespace_system.html">System</a></div></div>
+<div class="ttc" id="namespace_demo_html"><div class="ttname"><a href="namespace_demo.html">Demo</a></div><div class="ttdef"><b>Definition:</b> <a href="_random_network_8cs_source.html#l00003">RandomNetwork.cs:3</a></div></div>
+<div class="ttc" id="class_latex_1_1_latex_editor_html_a77a63dbcb2cf87e5eb98707f928e7f6f"><div class="ttname"><a href="class_latex_1_1_latex_editor.html#a77a63dbcb2cf87e5eb98707f928e7f6f">Latex.LatexEditor.ShowPDF</a></div><div class="ttdeci">static void ShowPDF(string FileName)</div><div class="ttdoc">Отображает PDF документ с данными (SumatraPDF) </div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_8cs_source.html#l00368">LatexEditor.cs:368</a></div></div>
+<div class="ttc" id="namespace_latex_html"><div class="ttname"><a href="namespace_latex.html">Latex</a></div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_2_demo_8cs_source.html#l00008">Demo.cs:8</a></div></div>
+<div class="ttc" id="class_latex_1_1_demo_html_a8c29e3340938f92d55ad89d926db66d3"><div class="ttname"><a href="class_latex_1_1_demo.html#a8c29e3340938f92d55ad89d926db66d3">Latex.Demo.DemoLatex</a></div><div class="ttdeci">static void DemoLatex()</div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_2_demo_8cs_source.html#l00012">Demo.cs:12</a></div></div>
+<div class="ttc" id="class_latex_1_1_latex_editor_html_a69f48235bc595627993b62d3cfc25201"><div class="ttname"><a href="class_latex_1_1_latex_editor.html#a69f48235bc595627993b62d3cfc25201">Latex.LatexEditor.SaveLaTex</a></div><div class="ttdeci">static void SaveLaTex(string code, string FileName)</div><div class="ttdoc">Сохраняет документ </div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_8cs_source.html#l00345">LatexEditor.cs:345</a></div></div>
+<div class="ttc" id="class_latex_1_1_latex_editor_html_ad420e196f1fa78e64ba5bd9e6d823006"><div class="ttname"><a href="class_latex_1_1_latex_editor.html#ad420e196f1fa78e64ba5bd9e6d823006">Latex.LatexEditor.CompileLaTex</a></div><div class="ttdeci">static void CompileLaTex(string FileName)</div><div class="ttdoc">Компилирует файл (pdflatex.exe) </div><div class="ttdef"><b>Definition:</b> <a href="_latex_editor_8cs_source.html#l00358">LatexEditor.cs:358</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespace_random_variables">
+<title>RandomVariables</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_random_variables_1_1_exponential_variable">RandomVariables::ExponentialVariable</link></para>
+<para><emphasis>&lt;summary&gt;
+Генерирует значения случайной величины с экспоненциальным распределением
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_random_variables_1_1_random_variable">RandomVariables::RandomVariable</link></para>
+<para><emphasis>&lt;summary&gt;
+Абстрактный класс для генератора случайных величин
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

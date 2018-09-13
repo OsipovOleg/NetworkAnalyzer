@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_descriptions_1_1_description_o_f_j_q_n">
+<title>NetworkDescriptions::DescriptionOFJQN class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_descriptions_1_1_description_o_f_j_q_n_1aadd1179f498f004b8f0658801bdf0bd5">DescriptionOFJQN</link> (
+int[] S, int[] F, int[] J, double[] mu, int[] kappa, <link linkend="class_network_descriptions_1_1_routing_matrix">RoutingMatrix</link> Theta, double Lambda0)<para><emphasis>&lt;summary&gt;
+Создание описания для открытой сети массового осблуживания с делением и слиянием требований
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_descriptions_1_1_description_o_f_j_q_n_1a190f0db575be6456d18cd431c972f8c4">DescriptionOFJQN</link> (
+string FileName)<para><emphasis>&lt;summary&gt;
+Создает открытую сеть с делением и слиянием требований, считывая данные из файла
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override string <link linkend="class_network_descriptions_1_1_description_o_f_j_q_n_1a3c1fbc082049a10b0c75b276120062f2">ToString</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>string <link linkend="class_network_descriptions_1_1_description_o_f_j_q_n_1aaf7df1f5a76c7162bedb254ecef5ad18">Save</link> (
+)<para><emphasis>&lt;summary&gt;
+Сохраняет описание сети в виде строки
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Описание открытой экспоненциальной сети массового осблуживания с делением и слиянием требований Пуассоновский входящий поток Многоприборные базовые системы Дисциплина FCFS </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 18 of file DescriptionOFJQN.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>DescriptionOFJQN.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_descriptions_1_1_description_o_f_j_q_n_1aadd1179f498f004b8f0658801bdf0bd5">
+                <title>NetworkDescriptions.DescriptionOFJQN.DescriptionOFJQN (int[] S, int[] F, int[] J, double[] mu, int[] kappa, RoutingMatrix Theta, double Lambda0)</title> <emphasis>&lt;summary&gt;
+Создание описания для открытой сети массового осблуживания с делением и слиянием требований
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>S</entry>
+                                <entry>
+<para>Массив номеров базовых систем</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>J</entry>
+                                <entry>
+<para>Массив номеров интеграторов</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>F</entry>
+                                <entry>
+<para>Массив номеров дивайдеров</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>mu</entry>
+                                <entry>
+<para>Массив интенсивностей обслуживания для базовых систем</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Theta</entry>
+                                <entry>
+<para>Матрица передачи</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Lambda0</entry>
+                                <entry>
+<para>Интенсивность входящего потока</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>kappa</entry>
+                                <entry>
+<para>Массив число обслуживающих приборов в каждой базовой системе обслуживания&gt; </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_descriptions_1_1_description_o_f_j_q_n_1a190f0db575be6456d18cd431c972f8c4">
+                <title>NetworkDescriptions.DescriptionOFJQN.DescriptionOFJQN (string FileName)</title> <emphasis>&lt;summary&gt;
+Создает открытую сеть с делением и слиянием требований, считывая данные из файла
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>FileName</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_descriptions_1_1_description_o_f_j_q_n_1a3c1fbc082049a10b0c75b276120062f2">
+                <title>override string NetworkDescriptions.DescriptionOFJQN.ToString ()</title> <emphasis></emphasis>
+                
+            </section>
+            <section xml:id="class_network_descriptions_1_1_description_o_f_j_q_n_1aaf7df1f5a76c7162bedb254ecef5ad18">
+                <title>string NetworkDescriptions.DescriptionOFJQN.Save ()</title> <emphasis>&lt;summary&gt;
+Сохраняет описание сети в виде строки
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+</section>

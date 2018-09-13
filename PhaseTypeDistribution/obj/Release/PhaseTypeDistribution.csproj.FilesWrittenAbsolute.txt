@@ -1,0 +1,8 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/bin/Release/PhaseTypeDistribution.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/bin/Release/PhaseTypeDistribution.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/obj/Release/PhaseTypeDistribution.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/obj/Release/PhaseTypeDistribution.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/bin/Release/BLAS.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/bin/Release/BLAS.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/PhaseTypeDistribution/bin/Release/MathNet.Numerics.dll

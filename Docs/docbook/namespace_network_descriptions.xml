@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespace_network_descriptions">
+<title>NetworkDescriptions</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_descriptions_1_1_description_o_f_j_q_n">NetworkDescriptions::DescriptionOFJQN</link></para>
+<para><emphasis>&lt;summary&gt;
+Описание открытой экспоненциальной сети массового осблуживания с делением и слиянием требований
+Пуассоновский входящий поток 
+Многоприборные базовые системы
+Дисциплина FCFS
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_network_descriptions_1_1_routing_matrix">NetworkDescriptions::RoutingMatrix</link></para>
+<para><emphasis>&lt;summary&gt;
+Маршрутная матрица для сети с делением и слиянием требований
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

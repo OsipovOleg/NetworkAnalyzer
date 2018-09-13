@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_desktop_network_analyzator_1_1_program">
+<title>DesktopNetworkAnalyzator::Program class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_desktop_network_analyzator_1_1_program_1aa20fbbfce9ca9e39fcf3cfd8aa80758d">Main</link> (
+)<para><emphasis>&lt;summary&gt;
+Главная точка входа для приложения.
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_desktop_network_analyzator_1_1_program_1aa20fbbfce9ca9e39fcf3cfd8aa80758d">
+                <title>static void DesktopNetworkAnalyzator.Program.Main ()</title> <emphasis>&lt;summary&gt;
+Главная точка входа для приложения.
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+</section>

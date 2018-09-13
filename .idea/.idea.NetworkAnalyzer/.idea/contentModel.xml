@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_NetworkAnalyzer.-163647832.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BLAS" t="IncludeRecursive">
+        <e p="BLAS.csproj" t="IncludeRecursive" />
+        <e p="Computation.cs" t="Include" />
+        <e p="Demo.cs" t="Include" />
+        <e p="Matrix.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="Demo" t="IncludeRecursive">
+        <e p="Analysis.csproj" t="IncludeRecursive" />
+        <e p="App.config" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RandomNetwork.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+      </e>
+      <e p="ExactAnalysis" t="IncludeRecursive">
+        <e p="ExactNetworkAnalysis.csproj" t="IncludeRecursive" />
+        <e p="OpenForkJoinAnalizator.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="NetworkAnalyzer" t="IncludeRecursive">
+        <e p="AddRoutingElement.Designer.cs" t="Include" />
+        <e p="AddRoutingElement.cs" t="Include" />
+        <e p="AddRoutingElement.resx" t="Include" />
+        <e p="App.config" t="Include" />
+        <e p="DesktopNetworkAnalyzator.csproj" t="IncludeRecursive" />
+        <e p="MainForm.Designer.cs" t="Include" />
+        <e p="MainForm.cs" t="Include" />
+        <e p="MainForm.resx" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="RoutingMatrixCreator.Designer.cs" t="Include" />
+        <e p="RoutingMatrixCreator.cs" t="Include" />
+        <e p="RoutingMatrixCreator.resx" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="network 128.ico" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="NetworkAnalyzer.sln" t="IncludeFlat" />
+      <e p="NetworkSimulator" t="IncludeRecursive">
+        <e p="Buffer.cs" t="Include" />
+        <e p="Demand.cs" t="Include" />
+        <e p="Demo.cs" t="Include" />
+        <e p="ForkNode.cs" t="Include" />
+        <e p="Fragment.cs" t="Include" />
+        <e p="InfoNode.cs" t="Include" />
+        <e p="JoinNode.cs" t="Include" />
+        <e p="NetworkModel.cs" t="Include" />
+        <e p="NetworkSimulator.csproj" t="IncludeRecursive" />
+        <e p="Node.cs" t="Include" />
+        <e p="OFJQN.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="QueueFCFS.cs" t="Include" />
+        <e p="ServiceNode.cs" t="Include" />
+        <e p="SourceNode.cs" t="Include" />
+        <e p="Utils.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Networks" t="IncludeRecursive">
+        <e p="DescriptionOFJQN.cs" t="Include" />
+        <e p="NetworkDescriptions.csproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RoutingMatrix.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="PhaseTypeDistribution" t="IncludeRecursive">
+        <e p="Demo.cs" t="Include" />
+        <e p="PHOperations.cs" t="Include" />
+        <e p="PhaseTypeDistribution.csproj" t="IncludeRecursive" />
+        <e p="PhaseTypeVarible.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="RandomVariables" t="IncludeRecursive">
+        <e p="ExponentialVariable.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RandomVariable.cs" t="Include" />
+        <e p="RandomVariables.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="Statistic" t="IncludeRecursive">
+        <e p="Statistic.cs" t="Include" />
+        <e p="Statistic.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Accord.3.8.0/build/Accord.dll.config" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

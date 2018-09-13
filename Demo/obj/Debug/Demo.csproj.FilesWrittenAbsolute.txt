@@ -1,0 +1,44 @@
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Demo.exe.config
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Demo.exe.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Demo.exe
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/obj/Debug/Demo.exe
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/obj/Debug/Demo.exe.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/BLAS.dll
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/BLAS.dll.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/ExactAnalysis.dll
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/ExactAnalysis.dll.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/LatexEditor.dll
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/LatexEditor.dll.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkAnalyzer.exe
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkAnalyzer.exe.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkSimulator.dll
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkSimulator.dll.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Networks.dll
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Networks.dll.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/PhaseTypeDistribution.dll
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/PhaseTypeDistribution.dll.mdb
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/RandomVariables.dll
+/media/oleg/7AD447FAD447B6E3/Researches/Current Works/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/RandomVariables.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Demo.exe.config
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Demo.exe.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Demo.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/obj/Debug/Demo.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/obj/Debug/Demo.exe.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/BLAS.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/BLAS.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/ExactAnalysis.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/ExactAnalysis.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/LatexEditor.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/LatexEditor.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkAnalyzer.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkAnalyzer.exe.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkSimulator.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/NetworkSimulator.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Networks.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/Networks.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/PhaseTypeDistribution.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/PhaseTypeDistribution.dll.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/RandomVariables.dll
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/Demo/bin/Debug/RandomVariables.dll.mdb

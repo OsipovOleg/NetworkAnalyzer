@@ -1,0 +1,116 @@
+\hypertarget{class_network_simulator_1_1_label}{}\section{Класс Network\+Simulator.\+Label}
+\label{class_network_simulator_1_1_label}\index{Network\+Simulator.\+Label@{Network\+Simulator.\+Label}}
+
+
+Метка требования, находящегося на обслуживании (на приборе)  
+
+
+Граф наследования\+:Network\+Simulator.\+Label\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_label}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_label_ad26a187810d4efe2e7ad863fce2d2797}{Label} (double \hyperlink{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}{Time\+Leave}, long \hyperlink{class_network_simulator_1_1_label_a5f5343f77e75830c5ebc4168808f52d9}{ID})
+\item 
+int \hyperlink{class_network_simulator_1_1_label_ab875dff5a5f1d1f378c5560a67e70266}{Compare\+To} (\hyperlink{class_network_simulator_1_1_label}{Label} other)
+\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+double \hyperlink{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}{Time\+Leave}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Время ухода фрагмента \end{DoxyCompactList}\item 
+long \hyperlink{class_network_simulator_1_1_label_a5f5343f77e75830c5ebc4168808f52d9}{ID}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Идентификатор метки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Метка требования, находящегося на обслуживании (на приборе) 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 13
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}!Label@{Label}}
+\index{Label@{Label}!Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}}
+\subsubsection[{\texorpdfstring{Label(double Time\+Leave, long I\+D)}{Label(double TimeLeave, long ID)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Label.\+Label (
+\begin{DoxyParamCaption}
+\item[{double}]{Time\+Leave, }
+\item[{long}]{ID}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_label_ad26a187810d4efe2e7ad863fce2d2797}{}\label{class_network_simulator_1_1_label_ad26a187810d4efe2e7ad863fce2d2797}
+
+
+См. определение в файле Service\+Node.\+cs строка 32
+
+
+\begin{DoxyCode}
+33         \{
+34             this.\hyperlink{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}{TimeLeave} = \hyperlink{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}{TimeLeave};
+35             this.\hyperlink{class_network_simulator_1_1_label_a5f5343f77e75830c5ebc4168808f52d9}{ID} = \hyperlink{class_network_simulator_1_1_label_a5f5343f77e75830c5ebc4168808f52d9}{ID};
+36         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}!Compare\+To@{Compare\+To}}
+\index{Compare\+To@{Compare\+To}!Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}}
+\subsubsection[{\texorpdfstring{Compare\+To(\+Label other)}{CompareTo(Label other)}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Label.\+Compare\+To (
+\begin{DoxyParamCaption}
+\item[{{\bf Label}}]{other}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_label_ab875dff5a5f1d1f378c5560a67e70266}{}\label{class_network_simulator_1_1_label_ab875dff5a5f1d1f378c5560a67e70266}
+
+
+См. определение в файле Service\+Node.\+cs строка 38
+
+
+\begin{DoxyCode}
+39         \{
+40             \textcolor{keywordflow}{if} (this.\hyperlink{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}{TimeLeave} > other.TimeLeave)
+41             \{
+42                 \textcolor{keywordflow}{return} 1;
+43             \}
+44             \textcolor{keywordflow}{if} (this.\hyperlink{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}{TimeLeave} < other.TimeLeave)
+45             \{
+46                 \textcolor{keywordflow}{return} -1;
+47             \}
+48             \textcolor{keywordflow}{return} 0;
+49         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}!ID@{ID}}
+\index{ID@{ID}!Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}}
+\subsubsection[{\texorpdfstring{ID}{ID}}]{\setlength{\rightskip}{0pt plus 5cm}long Network\+Simulator.\+Label.\+ID\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_label_a5f5343f77e75830c5ebc4168808f52d9}{}\label{class_network_simulator_1_1_label_a5f5343f77e75830c5ebc4168808f52d9}
+
+
+Идентификатор метки 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 27
+
+\index{Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}!Time\+Leave@{Time\+Leave}}
+\index{Time\+Leave@{Time\+Leave}!Network\+Simulator\+::\+Label@{Network\+Simulator\+::\+Label}}
+\subsubsection[{\texorpdfstring{Time\+Leave}{TimeLeave}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Label.\+Time\+Leave\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}{}\label{class_network_simulator_1_1_label_a9b7cae531ffa9a0c7de7260635eaaf1e}
+
+
+Время ухода фрагмента 
+
+
+
+См. определение в файле Service\+Node.\+cs строка 19
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_service_node_8cs}{Service\+Node.\+cs}\end{DoxyCompactItemize}

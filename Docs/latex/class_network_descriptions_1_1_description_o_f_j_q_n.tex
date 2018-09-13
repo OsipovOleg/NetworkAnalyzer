@@ -1,0 +1,473 @@
+\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n}{}\section{Класс Network\+Descriptions.\+Description\+O\+F\+J\+QN}
+\label{class_network_descriptions_1_1_description_o_f_j_q_n}\index{Network\+Descriptions.\+Description\+O\+F\+J\+QN@{Network\+Descriptions.\+Description\+O\+F\+J\+QN}}
+
+
+Описание открытой экспоненциальной сети массового осблуживания с делением и слиянием требований Пуассоновский входящий поток Многоприборные базовые системы Дисциплина F\+C\+FS  
+
+
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aadd1179f498f004b8f0658801bdf0bd5}{Description\+O\+F\+J\+QN} (int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}, int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}, int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}, double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}, int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}, \hyperlink{class_network_descriptions_1_1_routing_matrix}{Routing\+Matrix} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}, double \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0})
+\begin{DoxyCompactList}\small\item\em Создание описания для открытой сети массового осблуживания с делением и слиянием требований \end{DoxyCompactList}\item 
+\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a190f0db575be6456d18cd431c972f8c4}{Description\+O\+F\+J\+QN} (string File\+Name)
+\begin{DoxyCompactList}\small\item\em Создает открытую сеть с делением и слиянием требований, считывая данные из файла \end{DoxyCompactList}\item 
+override string \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3c1fbc082049a10b0c75b276120062f2}{To\+String} ()
+\item 
+string \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaf7df1f5a76c7162bedb254ecef5ad18}{Save} ()
+\begin{DoxyCompactList}\small\item\em Сохраняет описание сети в виде строки \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Массив номеров базовы систем \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Массив номеров интеграторов \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Массив номеров дивайдеров \end{DoxyCompactList}\item 
+\hyperlink{class_network_descriptions_1_1_routing_matrix}{Routing\+Matrix} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Матрица передачи \end{DoxyCompactList}\item 
+double \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Интенсивность входящего потока \end{DoxyCompactList}\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Массив интенсивностей обслуживания \end{DoxyCompactList}\item 
+int\mbox{[}$\,$\mbox{]} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Вектор числа приборов для базовых систем в сети обслуживания \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Описание открытой экспоненциальной сети массового осблуживания с делением и слиянием требований Пуассоновский входящий поток Многоприборные базовые системы Дисциплина F\+C\+FS 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 17
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!Description\+O\+F\+J\+QN@{Description\+O\+F\+J\+QN}}
+\index{Description\+O\+F\+J\+QN@{Description\+O\+F\+J\+QN}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{Description\+O\+F\+J\+Q\+N(int[] S, int[] F, int[] J, double[] mu, int[] kappa, Routing\+Matrix Theta, double Lambda0)}{DescriptionOFJQN(int[] S, int[] F, int[] J, double[] mu, int[] kappa, RoutingMatrix Theta, double Lambda0)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+Description\+O\+F\+J\+QN (
+\begin{DoxyParamCaption}
+\item[{int\mbox{[}$\,$\mbox{]}}]{S, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{F, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{J, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{mu, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{kappa, }
+\item[{{\bf Routing\+Matrix}}]{Theta, }
+\item[{double}]{Lambda0}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_aadd1179f498f004b8f0658801bdf0bd5}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_aadd1179f498f004b8f0658801bdf0bd5}
+
+
+Создание описания для открытой сети массового осблуживания с делением и слиянием требований 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em S} & Массив номеров базовых систем\\
+\hline
+{\em J} & Массив номеров интеграторов\\
+\hline
+{\em F} & Массив номеров дивайдеров\\
+\hline
+{\em mu} & Массив интенсивностей обслуживания для базовых систем\\
+\hline
+{\em Theta} & Матрица передачи\\
+\hline
+{\em Lambda0} & Интенсивность входящего потока\\
+\hline
+{\em kappa} & Массив число обслуживающих приборов в каждой базовой системе обслуживания$>$ \\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 87
+
+
+\begin{DoxyCode}
+88         \{
+89             this.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S} = \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S};
+90             this.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F} = \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F};
+91             this.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu} = \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu};
+92             this.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa} = \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa};
+93             this.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J} = \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J};
+94             this.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta} = \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta};
+95             this.\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0} = \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0};
+96         \}
+\end{DoxyCode}
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!Description\+O\+F\+J\+QN@{Description\+O\+F\+J\+QN}}
+\index{Description\+O\+F\+J\+QN@{Description\+O\+F\+J\+QN}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{Description\+O\+F\+J\+Q\+N(string File\+Name)}{DescriptionOFJQN(string FileName)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+Description\+O\+F\+J\+QN (
+\begin{DoxyParamCaption}
+\item[{string}]{File\+Name}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_a190f0db575be6456d18cd431c972f8c4}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_a190f0db575be6456d18cd431c972f8c4}
+
+
+Создает открытую сеть с делением и слиянием требований, считывая данные из файла 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em File\+Name} & \\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 106
+
+
+\begin{DoxyCode}
+107         \{
+108 
+109             \textcolor{keyword}{using} (StreamReader sr = \textcolor{keyword}{new} StreamReader(FileName))
+110             \{
+111                 \textcolor{comment}{//Индексы server-node}
+112                 var temp = sr.ReadLine().Split(\textcolor{charliteral}{';'});
+113                 \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S} = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[temp.Length];
+114                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < temp.Length; i++)
+115                 \{
+116                     \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[i] = \textcolor{keywordtype}{int}.Parse(temp[i], \hyperlink{namespace_system}{System}.Globalization.CultureInfo.CreateSpecificCulture
+      (\textcolor{stringliteral}{"RU-ru"}));
+117                 \}
+118 
+119 
+120                 \textcolor{comment}{//Индексы fork-node}
+121                 temp = sr.ReadLine().Split(\textcolor{charliteral}{';'});
+122                 \textcolor{keywordflow}{if} (temp[0].Length != 0)
+123                 \{
+124                     \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F} = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[temp.Length];
+125                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < temp.Length; i++)
+126                     \{
+127                         \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[i] = \textcolor{keywordtype}{int}.Parse(temp[i], \hyperlink{namespace_system}{System}.Globalization.CultureInfo.
+      CreateSpecificCulture(\textcolor{stringliteral}{"RU-ru"}));
+128                     \}
+129                 \}
+130                 \textcolor{keywordflow}{else}
+131                 \{
+132                     \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F} = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[0];
+133                 \}
+134 
+135 
+136 
+137                 \textcolor{comment}{//Индексы join-node}
+138                 temp = sr.ReadLine().Split(\textcolor{charliteral}{';'});
+139                 \textcolor{keywordflow}{if} (temp[0].Length != 0)
+140                 \{
+141                     \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J} = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[temp.Length];
+142                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < temp.Length; i++)
+143                     \{
+144                         \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[i] = \textcolor{keywordtype}{int}.Parse(temp[i], \hyperlink{namespace_system}{System}.Globalization.CultureInfo.
+      CreateSpecificCulture(\textcolor{stringliteral}{"RU-ru"}));
+145                     \}
+146                 \}
+147                 \textcolor{keywordflow}{else}
+148                 \{
+149                     \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J} = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[0];
+150                 \}
+151 
+152 
+153 
+154                 \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta} = \textcolor{keyword}{new} RoutingMatrix(\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length + \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}.Length + \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}.Length + 1, 
+      \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}.Length + 1);
+155 
+156                 \textcolor{comment}{//Маршрутная матрица}
+157                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; k++)
+158                 \{
+159                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; i++)
+160                     \{
+161 
+162                         temp = sr.ReadLine().Split(\textcolor{charliteral}{';'});
+163                         \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; j++)
+164                         \{
+165 
+166                             \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[k, i, j] = \textcolor{keywordtype}{double}.Parse(temp[j], \hyperlink{namespace_system}{System}.Globalization.
+      CultureInfo.CreateSpecificCulture(\textcolor{stringliteral}{"RU-ru"}));
+167                         \}
+168                     \}
+169                 \}
+170 
+171                 \textcolor{comment}{//Параметры систем массового обслуживания}
+172                 \textcolor{comment}{//Интенсивности обслуживания }
+173                 temp = sr.ReadLine().Split(\textcolor{charliteral}{';'});
+174                 \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu} = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length];
+175                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}.Length; i++)
+176                 \{
+177                     \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}[i] = \textcolor{keywordtype}{double}.Parse(temp[i], \hyperlink{namespace_system}{System}.Globalization.CultureInfo.
+      CreateSpecificCulture(\textcolor{stringliteral}{"RU-ru"}));
+178                 \}
+179 
+180                 \textcolor{comment}{//Число обслуживающих приборов в каждой системе обслуживания}
+181                 temp = sr.ReadLine().Split(\textcolor{charliteral}{';'});
+182                 \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa} = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length];
+183                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}.Length; i++)
+184                 \{
+185                     \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}[i] = \textcolor{keywordtype}{int}.Parse(temp[i], \hyperlink{namespace_system}{System}.Globalization.CultureInfo.
+      CreateSpecificCulture(\textcolor{stringliteral}{"RU-ru"}));
+186                 \}
+187 
+188                 \textcolor{comment}{//Интенсивность входящего потока }
+189                 \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0} = \textcolor{keywordtype}{double}.Parse(sr.ReadLine());
+190 
+191 
+192             \}
+193 
+194 
+195 
+196         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!Save@{Save}}
+\index{Save@{Save}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{Save()}{Save()}}]{\setlength{\rightskip}{0pt plus 5cm}string Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+Save (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_aaf7df1f5a76c7162bedb254ecef5ad18}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_aaf7df1f5a76c7162bedb254ecef5ad18}
+
+
+Сохраняет описание сети в виде строки 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 275
+
+
+\begin{DoxyCode}
+276         \{
+277             StringBuilder str = \textcolor{keyword}{new} StringBuilder(\textcolor{keywordtype}{string}.Empty);
+278 
+279             \textcolor{comment}{//Базовые системы}
+280             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length-1; i++)
+281             \{
+282                 str.AppendFormat(\textcolor{stringliteral}{"\{0\};"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[i]);
+283             \}
+284             str.AppendFormat(\textcolor{stringliteral}{"\{0\}"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length - 1]);
+285             str.AppendLine();
+286 
+287             \textcolor{comment}{//Дивайдеры }
+288             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}.Length-1; i++)
+289             \{
+290                 str.AppendFormat(\textcolor{stringliteral}{"\{0\};"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[i]);
+291             \}
+292             str.AppendFormat(\textcolor{stringliteral}{"\{0\}"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}.Length - 1]);
+293             str.AppendLine();
+294 
+295             \textcolor{comment}{//Интеграторы}
+296             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}.Length-1; i++)
+297             \{
+298                 str.AppendFormat(\textcolor{stringliteral}{"\{0\};"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[i]);
+299             \}
+300             str.AppendFormat(\textcolor{stringliteral}{"\{0\}"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}.Length - 1]);
+301             str.AppendLine();
+302            
+303 
+304 
+305             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; k++)
+306             \{
+307                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; i++)
+308                 \{
+309                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}-1; j++)
+310                     \{
+311                         str.AppendFormat(\textcolor{stringliteral}{"\{0:f4\};"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[k, i, j]);
+312                     \}
+313                     str.AppendFormat(\textcolor{stringliteral}{"\{0:f4\} "}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[k, i, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.
+      \hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}-1]);
+314 
+315                     str.AppendLine();
+316                 \}
+317 
+318             \}
+319 
+320             \textcolor{comment}{//Интенсивности обслуживания }
+321             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}.Length-1; i++)
+322             \{
+323                 str.AppendFormat(\textcolor{stringliteral}{"\{0\};"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}[i]);
+324             \}
+325             str.AppendFormat(\textcolor{stringliteral}{"\{0\}"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}[\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu}.Length - 1]);
+326             str.AppendLine();
+327 
+328             \textcolor{comment}{//Число обслуживающих приборов  }
+329             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}.Length-1; i++)
+330             \{
+331                 str.AppendFormat(\textcolor{stringliteral}{"\{0\};"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}[i]);
+332             \}
+333             str.AppendFormat(\textcolor{stringliteral}{"\{0\}"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}[\hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa}.Length - 1]);
+334             str.AppendLine();
+335 
+336 
+337             str.AppendFormat(\textcolor{stringliteral}{"\{0:f2\}"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0});
+338 
+339             \textcolor{keywordflow}{return} str.ToString();
+340         \}
+\end{DoxyCode}
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{To\+String()}{ToString()}}]{\setlength{\rightskip}{0pt plus 5cm}override string Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+To\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_a3c1fbc082049a10b0c75b276120062f2}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_a3c1fbc082049a10b0c75b276120062f2}
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 199
+
+
+\begin{DoxyCode}
+200         \{
+201             StringBuilder str = \textcolor{keyword}{new} StringBuilder(\textcolor{keywordtype}{string}.Empty);
+202             str.AppendLine(\textcolor{stringliteral}{"Парметры сети"});
+203 
+204             str.AppendLine(\textcolor{stringliteral}{"S = "});
+205             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}.Length; i++)
+206             \{
+207                 str.AppendFormat(\textcolor{stringliteral}{"\{0\}  "}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{S}[i]);
+208             \}
+209             str.AppendLine();
+210 
+211             str.AppendLine(\textcolor{stringliteral}{"F = "});
+212             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}.Length; i++)
+213             \{
+214                 str.AppendFormat(\textcolor{stringliteral}{"\{0\}  "}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{F}[i]);
+215 
+216             \}
+217             str.AppendLine();
+218 
+219             str.AppendLine(\textcolor{stringliteral}{"J = "});
+220             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}.Length; i++)
+221             \{
+222                 str.AppendFormat(\textcolor{stringliteral}{"\{0\}  "}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{J}[i]);
+223             \}
+224             str.AppendLine();
+225 
+226 
+227 
+228      
+229 
+230 
+231             str.AppendLine(\textcolor{stringliteral}{"Theta = "});
+232             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a38f3c4bb00bf84fdeb4fd2c3dbdc9bfb}{CountForker}; k++)
+233             \{
+234                 str.AppendFormat(\textcolor{stringliteral}{"Theta\{0\} = \(\backslash\)n"}, k);
+235                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; i++)
+236                 \{
+237                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}.\hyperlink{class_network_descriptions_1_1_routing_matrix_a417bebac18f3b241d4e40d55d9b44213}{Dimention}; j++)
+238                     \{
+239                         str.AppendFormat(\textcolor{stringliteral}{"\{0:f2\} "}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{Theta}[k, i, j]);
+240                     \}
+241                     str.AppendLine();
+242                 \}
+243 
+244             \}
+245             \textcolor{comment}{//Интесивности обслуживания для одного прибора в системе}
+246             str.AppendLine(\textcolor{stringliteral}{"mu = "});
+247             \textcolor{keywordflow}{foreach} (var item \textcolor{keywordflow}{in} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{mu})
+248             \{
+249                 str.AppendFormat(\textcolor{stringliteral}{"\{0:f2\}  "}, item);
+250             \}
+251             str.AppendLine();
+252 
+253             \textcolor{comment}{//Число обслуживающих приборов в системах}
+254             str.AppendLine(\textcolor{stringliteral}{"kappa = "});
+255             \textcolor{keywordflow}{foreach} (var item \textcolor{keywordflow}{in} \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{kappa})
+256             \{
+257                 str.AppendFormat(\textcolor{stringliteral}{"\{0:f2\}  "}, item);
+258             \}
+259             str.AppendLine();
+260 
+261             \textcolor{comment}{//Интенсивность входящего потока}
+262             str.AppendLine(\textcolor{stringliteral}{"lambda0 = "});
+263             str.AppendFormat(\textcolor{stringliteral}{"\{0:f2\}"}, \hyperlink{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{Lambda0});
+264 
+265 
+266             str.AppendLine();
+267 
+268             \textcolor{keywordflow}{return} str.ToString();
+269         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!F@{F}}
+\index{F@{F}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{F}{F}}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+F\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_aaadbe1cc3f0bdb0bef593d2b732c988f}
+
+
+Массив номеров дивайдеров 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 39
+
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!J@{J}}
+\index{J@{J}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{J}{J}}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+J\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_a75cf16b40e07c708c6580d331e692de0}
+
+
+Массив номеров интеграторов 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 31
+
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!kappa@{kappa}}
+\index{kappa@{kappa}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{kappa}{kappa}}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+kappa\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_a3a88e6ce220ecbbe4a056fedc8d6595c}
+
+
+Вектор числа приборов для базовых систем в сети обслуживания 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 72
+
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!Lambda0@{Lambda0}}
+\index{Lambda0@{Lambda0}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{Lambda0}{Lambda0}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+Lambda0\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_a0670c1d5fa5d487f7bddb667d421a85c}
+
+
+Интенсивность входящего потока 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 55
+
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!mu@{mu}}
+\index{mu@{mu}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{mu}{mu}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+mu\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_a378792ff9db7825dfeee852298fd3314}
+
+
+Массив интенсивностей обслуживания 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 63
+
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!S@{S}}
+\index{S@{S}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{S}{S}}]{\setlength{\rightskip}{0pt plus 5cm}int \mbox{[}$\,$\mbox{]} Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+S\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_a31744a17bac05c3e10a7e958ad3fdb0c}
+
+
+Массив номеров базовы систем 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 23
+
+\index{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}!Theta@{Theta}}
+\index{Theta@{Theta}!Network\+Descriptions\+::\+Description\+O\+F\+J\+QN@{Network\+Descriptions\+::\+Description\+O\+F\+J\+QN}}
+\subsubsection[{\texorpdfstring{Theta}{Theta}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Routing\+Matrix} Network\+Descriptions.\+Description\+O\+F\+J\+Q\+N.\+Theta\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}{}\label{class_network_descriptions_1_1_description_o_f_j_q_n_af8d4bf8f19a4db2daef14d0dafd77a00}
+
+
+Матрица передачи 
+
+
+
+См. определение в файле Description\+O\+F\+J\+Q\+N.\+cs строка 47
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Networks/\hyperlink{_description_o_f_j_q_n_8cs}{Description\+O\+F\+J\+Q\+N.\+cs}\end{DoxyCompactItemize}

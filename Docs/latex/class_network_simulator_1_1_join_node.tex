@@ -1,0 +1,266 @@
+\hypertarget{class_network_simulator_1_1_join_node}{}\section{Класс Network\+Simulator.\+Join\+Node}
+\label{class_network_simulator_1_1_join_node}\index{Network\+Simulator.\+Join\+Node@{Network\+Simulator.\+Join\+Node}}
+Граф наследования\+:Network\+Simulator.\+Join\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_join_node}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_network_simulator_1_1_join_node_a32dc54853db194d6647d15b795981744}{Receive} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Процедура приема фрагмента в интегратор \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_join_node_ab383bfff6a85c0963af158e9af6c574b}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Выполняемое действие дивайдера \end{DoxyCompactList}\item 
+\hyperlink{class_network_simulator_1_1_join_node_a57e5c5715308e75fd446e1152d7b079d}{Join\+Node} (int \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID}, Random \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r}, \hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}, \hyperlink{class_network_simulator_1_1_info_node}{Info\+Node} \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}, double\mbox{[},\mbox{]} \hyperlink{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}{Route\+Matrix\+For\+Node})
+\begin{DoxyCompactList}\small\item\em Создание и инициализация интератора \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_network_simulator_1_1_join_node_a5682ed1b31096dce17466e18e8fc8743}{Route} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Отправляет фрагмент по сети \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_join_node_ac22f690bb07cc47c8788ae823e7c6c19}{Send} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f, \hyperlink{class_network_simulator_1_1_node}{Node} N)
+\begin{DoxyCompactList}\small\item\em Отправка фрагмент в заданый узел сетиобслуживания \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+double\mbox{[},\mbox{]} \hyperlink{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}{Route\+Matrix\+For\+Node}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Матрица для маршрутизции фрагмнентов Элемент матрицы i,j задает вероятность для i-\/фрагмента поступить в j узел \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_network_simulator_1_1_fragment}{Fragment} $>$ \hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{In\+Buffer}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Буффер для хранения фрагментов в дивадере \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Дополнительные унаследованные члены}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Join\+Node.\+cs строка 9
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}!Join\+Node@{Join\+Node}}
+\index{Join\+Node@{Join\+Node}!Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}}
+\subsubsection[{\texorpdfstring{Join\+Node(int I\+D, Random r, Node[] Nodes, Info\+Node Info, double[,] Route\+Matrix\+For\+Node)}{JoinNode(int ID, Random r, Node[] Nodes, InfoNode Info, double[,] RouteMatrixForNode)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Join\+Node.\+Join\+Node (
+\begin{DoxyParamCaption}
+\item[{int}]{ID, }
+\item[{Random}]{r, }
+\item[{{\bf Node}\mbox{[}$\,$\mbox{]}}]{Nodes, }
+\item[{{\bf Info\+Node}}]{Info, }
+\item[{double}]{Route\+Matrix\+For\+Node\mbox{[},\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_join_node_a57e5c5715308e75fd446e1152d7b079d}{}\label{class_network_simulator_1_1_join_node_a57e5c5715308e75fd446e1152d7b079d}
+
+
+Создание и инициализация интератора 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em ID} & \\
+\hline
+{\em r} & \\
+\hline
+{\em Route\+Matrix\+For\+Node} & Элемент матрицы i,j задает вероятность для i-\/фрагмента поступить в j узел\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Join\+Node.\+cs строка 104
+
+
+\begin{DoxyCode}
+105         \{
+106             this.\hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID} = \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID};
+107             this.\hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r} = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r};
+108             this.\hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes} = \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes};
+109             this.\hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info};
+110             this.\hyperlink{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}{RouteMatrixForNode} = \hyperlink{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}{RouteMatrixForNode};
+111             this.\hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = \textcolor{keywordtype}{double}.PositiveInfinity;
+112 
+113             \hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer} = \textcolor{keyword}{new} List<Fragment>();
+114         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}!Activate@{Activate}}
+\index{Activate@{Activate}!Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}}
+\subsubsection[{\texorpdfstring{Activate()}{Activate()}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Join\+Node.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_join_node_ab383bfff6a85c0963af158e9af6c574b}{}\label{class_network_simulator_1_1_join_node_ab383bfff6a85c0963af158e9af6c574b}
+
+
+Выполняемое действие дивайдера 
+
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_a1f558044a94581467ba00d12bf1ae8fd}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Join\+Node.\+cs строка 92
+
+
+\begin{DoxyCode}
+93         \{
+94             \textcolor{comment}{//Следующий момент активации }
+95             \hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = \textcolor{keywordtype}{double}.PositiveInfinity;
+96         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}!Receive@{Receive}}
+\index{Receive@{Receive}!Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}}
+\subsubsection[{\texorpdfstring{Receive(\+Fragment f)}{Receive(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Join\+Node.\+Receive (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_join_node_a32dc54853db194d6647d15b795981744}{}\label{class_network_simulator_1_1_join_node_a32dc54853db194d6647d15b795981744}
+
+
+Процедура приема фрагмента в интегратор 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & \\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_ab1d7ae2e2e59169e9ab3086087d950e8}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Join\+Node.\+cs строка 35
+
+
+\begin{DoxyCode}
+36         \{
+37             \textcolor{comment}{//Поиск родственных фрагментов}
+38             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer}.Count; i++)
+39             \{
+40                 \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer}[i].Sigma.ParentFragment == f.Sigma.ParentFragment)
+41                 \{
+42                     \hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer}[i].NumberOfParts--;
+43                     \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer}[i].NumberOfParts == 1)
+44                     \{
+45                         var parent = \hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer}[i].Sigma.ParentFragment;
+46                         \hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer}.RemoveAt(i);
+47                         \hyperlink{class_network_simulator_1_1_join_node_a5682ed1b31096dce17466e18e8fc8743}{Route}(parent);
+48                     \}
+49                     \textcolor{keywordflow}{return};
+50                 \}
+51             \}
+52             \textcolor{comment}{//Если таких фрагментов нет, то просто добавляем фрагмент в очередь на ожидание }
+53             \hyperlink{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{InBuffer}.Add(f);
+54             \textcolor{comment}{//Время активации - бескончность}
+55             \hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = Double.PositiveInfinity;
+56         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}!Route@{Route}}
+\index{Route@{Route}!Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}}
+\subsubsection[{\texorpdfstring{Route(\+Fragment f)}{Route(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Join\+Node.\+Route (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_join_node_a5682ed1b31096dce17466e18e8fc8743}{}\label{class_network_simulator_1_1_join_node_a5682ed1b31096dce17466e18e8fc8743}
+
+
+Отправляет фрагмент по сети 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & \\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_afc4e83369cdce31db59b1023113c01f2}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Join\+Node.\+cs строка 62
+
+
+\begin{DoxyCode}
+63         \{
+64             \textcolor{keywordtype}{double} rand = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r}.NextDouble();
+65             \textcolor{keywordtype}{double} p = 0;
+66             \textcolor{keywordtype}{int} k = f.Sigma.ForkNodeID;
+67 
+68             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}{RouteMatrixForNode}.GetLength(1); i++)
+69             \{
+70                 p += \hyperlink{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}{RouteMatrixForNode}[k, i];
+71                 \textcolor{keywordflow}{if} (rand < p)
+72                 \{
+73                     \textcolor{comment}{//Посылаем фрагмент в указанный узел}
+74                     \hyperlink{class_network_simulator_1_1_join_node_ac22f690bb07cc47c8788ae823e7c6c19}{Send}(f, \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}[i]);
+75                     \textcolor{keywordflow}{break};
+76                 \}
+77             \}
+78         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}!Send@{Send}}
+\index{Send@{Send}!Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}}
+\subsubsection[{\texorpdfstring{Send(\+Fragment f, Node N)}{Send(Fragment f, Node N)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Join\+Node.\+Send (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f, }
+\item[{{\bf Node}}]{N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_join_node_ac22f690bb07cc47c8788ae823e7c6c19}{}\label{class_network_simulator_1_1_join_node_ac22f690bb07cc47c8788ae823e7c6c19}
+
+
+Отправка фрагмент в заданый узел сетиобслуживания 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Отправляемый фрагмент\\
+\hline
+{\em N} & Заданный узел\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_abcda5067b8842a447b2ad293818fc319}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Join\+Node.\+cs строка 85
+
+
+\begin{DoxyCode}
+86         \{
+87             N.Receive(f);
+88         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}!In\+Buffer@{In\+Buffer}}
+\index{In\+Buffer@{In\+Buffer}!Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}}
+\subsubsection[{\texorpdfstring{In\+Buffer}{InBuffer}}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Fragment}$>$ Network\+Simulator.\+Join\+Node.\+In\+Buffer\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}{}\label{class_network_simulator_1_1_join_node_ab581f4d5c3b4eb39d7e8820700b4d519}
+
+
+Буффер для хранения фрагментов в дивадере 
+
+
+
+См. определение в файле Join\+Node.\+cs строка 26
+
+\index{Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}!Route\+Matrix\+For\+Node@{Route\+Matrix\+For\+Node}}
+\index{Route\+Matrix\+For\+Node@{Route\+Matrix\+For\+Node}!Network\+Simulator\+::\+Join\+Node@{Network\+Simulator\+::\+Join\+Node}}
+\subsubsection[{\texorpdfstring{Route\+Matrix\+For\+Node}{RouteMatrixForNode}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[},\mbox{]} Network\+Simulator.\+Join\+Node.\+Route\+Matrix\+For\+Node\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}{}\label{class_network_simulator_1_1_join_node_a7db66d213f0ee75aef3d52bd0d6e5be2}
+
+
+Матрица для маршрутизции фрагмнентов Элемент матрицы i,j задает вероятность для i-\/фрагмента поступить в j узел 
+
+
+
+См. определение в файле Join\+Node.\+cs строка 17
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_join_node_8cs}{Join\+Node.\+cs}\end{DoxyCompactItemize}

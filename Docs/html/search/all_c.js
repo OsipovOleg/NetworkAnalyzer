@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['n',['n',['../class_b_l_a_s_1_1_matrix.html#a0faac6434774d4c500a2dce48dcd8b84',1,'BLAS::Matrix']]],
+  ['networkdescriptions',['NetworkDescriptions',['../namespace_network_descriptions.html',1,'']]],
+  ['networkmodel',['NetworkModel',['../class_network_simulator_1_1_network_model.html#a61dfb38e787f81b16b584c6f311064af',1,'NetworkSimulator::NetworkModel']]],
+  ['networkmodel',['NetworkModel',['../class_network_simulator_1_1_network_model.html',1,'NetworkSimulator']]],
+  ['networkmodel_2ecs',['NetworkModel.cs',['../_network_model_8cs.html',1,'']]],
+  ['networksimulator',['NetworkSimulator',['../namespace_network_simulator.html',1,'']]],
+  ['newline',['NewLine',['../class_latex_1_1_latex_editor.html#aeba08fa7a4f2ff2ab9752bb496841c7c',1,'Latex::LatexEditor']]],
+  ['newpage',['NewPage',['../class_latex_1_1_latex_editor.html#a1899d954c17ac9ad27a773f0d1ee9d61',1,'Latex::LatexEditor']]],
+  ['newtoolstripmenuitem',['NewToolStripMenuItem',['../class_desktop_network_analyzator_1_1_main_form.html#ae4b306685b46399668f12c7e1d8d6b23',1,'DesktopNetworkAnalyzator::MainForm']]],
+  ['newtoolstripmenuitem_5fclick',['NewToolStripMenuItem_Click',['../class_desktop_network_analyzator_1_1_main_form.html#af62e697612e1ecb886e7ad6ba1bb60a3',1,'DesktopNetworkAnalyzator::MainForm']]],
+  ['nexteventtime',['NextEventTime',['../class_network_simulator_1_1_node.html#ab3ae85d27d7e9056751bd826f1a3432b',1,'NetworkSimulator::Node']]],
+  ['nextvalue',['NextValue',['../class_random_variables_1_1_exponential_variable.html#a90d692fd128609d68cf87f4ff47c7a2d',1,'RandomVariables.ExponentialVariable.NextValue()'],['../class_random_variables_1_1_random_variable.html#adf5ef829531ebcc4f0591b81d579519a',1,'RandomVariables.RandomVariable.NextValue()']]],
+  ['node',['Node',['../class_network_simulator_1_1_node.html',1,'NetworkSimulator']]],
+  ['node_2ecs',['Node.cs',['../_node_8cs.html',1,'']]],
+  ['nodes',['Nodes',['../class_desktop_network_analyzator_1_1_add_routing_element.html#a51fe780180cfe2071a33bd0e1c3db398',1,'DesktopNetworkAnalyzator.AddRoutingElement.Nodes()'],['../class_desktop_network_analyzator_1_1_routing_matrix_creator.html#a3814334afe7686918cfe53e19464a3a7',1,'DesktopNetworkAnalyzator.RoutingMatrixCreator.Nodes()'],['../class_network_simulator_1_1_network_model.html#a822a8596ab343f9a22006035fdaf4b6f',1,'NetworkSimulator.NetworkModel.Nodes()'],['../class_network_simulator_1_1_node.html#abae5930cce02aa93551aefe417b23fa0',1,'NetworkSimulator.Node.Nodes()']]],
+  ['nonzeroelements',['NonZeroElements',['../class_b_l_a_s_1_1_matrix.html#af471c79d0dfb885d8e2d65de20359b75',1,'BLAS::Matrix']]],
+  ['norm',['Norm',['../class_b_l_a_s_1_1_matrix.html#af16842e488d9bf861c76c47c5fe0f4bf',1,'BLAS::Matrix']]],
+  ['numberofarriveddemads',['NumberOfArrivedDemads',['../class_network_simulator_1_1_node.html#a24aabc6ded4e970b0c2c5c3bcbdf6cd8',1,'NetworkSimulator::Node']]],
+  ['numberoffragments',['NumberOfFragments',['../class_network_simulator_1_1_service_node.html#a342272f5141858d2c957ad2bef849184',1,'NetworkSimulator::ServiceNode']]],
+  ['numberofparts',['NumberOfParts',['../class_network_simulator_1_1_fragment.html#a2c78012857282ae0729edba332f936ee',1,'NetworkSimulator::Fragment']]],
+  ['numberofphases',['NumberOfPhases',['../class_phase_type_distribution_1_1_phase_type_varible.html#a1bfaf7709c227b28fbbc89b808a89bfe',1,'PhaseTypeDistribution::PhaseTypeVarible']]]
+];

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_random_variables_1_1_exponential_variable">
+<title>RandomVariables::ExponentialVariable class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override double <link linkend="class_random_variables_1_1_exponential_variable_1a90d692fd128609d68cf87f4ff47c7a2d">NextValue</link> (
+)<para><emphasis>&lt;summary&gt;
+Получает следующее значение случайной величины
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_random_variables_1_1_exponential_variable_1aa4339d52050bbae1268e7de5d51c5506">ExponentialVariable</link> (
+Random r, double Rate)<para><emphasis>&lt;summary&gt;
+Создает генератор экспоненциально распределенной случайной величины
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Генерирует значения случайной величины с экспоненциальным распределением </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 13 of file ExponentialVariable.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>ExponentialVariable.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_random_variables_1_1_exponential_variable_1a90d692fd128609d68cf87f4ff47c7a2d">
+                <title>override double RandomVariables.ExponentialVariable.NextValue ()</title> <emphasis>&lt;summary&gt;
+Получает следующее значение случайной величины
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_random_variables_1_1_exponential_variable_1aa4339d52050bbae1268e7de5d51c5506">
+                <title>RandomVariables.ExponentialVariable.ExponentialVariable (Random r, double Rate)</title> <emphasis>&lt;summary&gt;
+Создает генератор экспоненциально распределенной случайной величины
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>r</entry>
+                                <entry>
+<para>Генератор случайных чисел</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Rate</entry>
+                                <entry>
+<para>Параметр распределения</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

@@ -1,0 +1,155 @@
+\hypertarget{class_network_simulator_1_1_fragment}{}\section{Класс Network\+Simulator.\+Fragment}
+\label{class_network_simulator_1_1_fragment}\index{Network\+Simulator.\+Fragment@{Network\+Simulator.\+Fragment}}
+
+
+Фрагмент в сети с делением и слиянием требований  
+
+
+Граф наследования\+:Network\+Simulator.\+Fragment\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_fragment}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_fragment_a945eb2690fcad45cc07ed52c047ce763}{Fragment} (double \hyperlink{class_network_simulator_1_1_demand_abd1660da7871505ae8ad8dd282dc3d29}{Time\+Generation}, long \hyperlink{class_network_simulator_1_1_demand_af9ba0cb40b82eb7be679676425cad207}{ID}, \hyperlink{class_network_simulator_1_1_signature}{Signature} \hyperlink{class_network_simulator_1_1_fragment_a4a04d76e80868fe6ea72fc453d946218}{Sigma})
+\begin{DoxyCompactList}\small\item\em Создание фрагмента(требования) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_signature}{Signature} \hyperlink{class_network_simulator_1_1_fragment_a4a04d76e80868fe6ea72fc453d946218}{Sigma}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Сигнатура фрагмента \end{DoxyCompactList}\item 
+int \hyperlink{class_network_simulator_1_1_fragment_a2c78012857282ae0729edba332f936ee}{Number\+Of\+Parts}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Число частей на которые был поделен фрагмент \end{DoxyCompactList}\item 
+double \hyperlink{class_network_simulator_1_1_fragment_a55a8a96eed9ca0a8bcdad41ac0710e95}{Time\+Arrival}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Время поступления \end{DoxyCompactList}\item 
+double \hyperlink{class_network_simulator_1_1_fragment_a5a585d4c4fecc4f03d5fb136cc8c8f5e}{Time\+Start\+Service}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Время начала обслуживания \end{DoxyCompactList}\item 
+double \hyperlink{class_network_simulator_1_1_fragment_ab4ea6557da38174fdc08f73e39d7ff4c}{Time\+Leave}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Время завершения обслуживания \end{DoxyCompactList}\item 
+double \hyperlink{class_network_simulator_1_1_fragment_a93384e51e479637c537049d881ac9686}{Total\+Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Общее время пребывания в сети обслуживания \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Фрагмент в сети с делением и слиянием требований 
+
+
+
+См. определение в файле Fragment.\+cs строка 57
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}!Fragment@{Fragment}}
+\index{Fragment@{Fragment}!Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}}
+\subsubsection[{\texorpdfstring{Fragment(double Time\+Generation, long I\+D, Signature Sigma)}{Fragment(double TimeGeneration, long ID, Signature Sigma)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Fragment.\+Fragment (
+\begin{DoxyParamCaption}
+\item[{double}]{Time\+Generation, }
+\item[{long}]{ID, }
+\item[{{\bf Signature}}]{Sigma}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_fragment_a945eb2690fcad45cc07ed52c047ce763}{}\label{class_network_simulator_1_1_fragment_a945eb2690fcad45cc07ed52c047ce763}
+
+
+Создание фрагмента(требования) 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em Time\+Generation} & Время создания\\
+\hline
+{\em ID} & Идентификатор фрагмента\\
+\hline
+{\em Sigma} & Сигнатура фрамента\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Fragment.\+cs строка 75
+
+
+\begin{DoxyCode}
+76         \{
+77             this.\hyperlink{class_network_simulator_1_1_demand_abd1660da7871505ae8ad8dd282dc3d29}{TimeGeneration} = \hyperlink{class_network_simulator_1_1_demand_abd1660da7871505ae8ad8dd282dc3d29}{TimeGeneration};
+78             this.\hyperlink{class_network_simulator_1_1_demand_af9ba0cb40b82eb7be679676425cad207}{ID} = \hyperlink{class_network_simulator_1_1_demand_af9ba0cb40b82eb7be679676425cad207}{ID};
+79             this.\hyperlink{class_network_simulator_1_1_fragment_a4a04d76e80868fe6ea72fc453d946218}{Sigma} = \hyperlink{class_network_simulator_1_1_fragment_a4a04d76e80868fe6ea72fc453d946218}{Sigma};
+80 
+81             this.\hyperlink{class_network_simulator_1_1_fragment_a2c78012857282ae0729edba332f936ee}{NumberOfParts} = 1;
+82         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}!Number\+Of\+Parts@{Number\+Of\+Parts}}
+\index{Number\+Of\+Parts@{Number\+Of\+Parts}!Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}}
+\subsubsection[{\texorpdfstring{Number\+Of\+Parts}{NumberOfParts}}]{\setlength{\rightskip}{0pt plus 5cm}int Network\+Simulator.\+Fragment.\+Number\+Of\+Parts\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_fragment_a2c78012857282ae0729edba332f936ee}{}\label{class_network_simulator_1_1_fragment_a2c78012857282ae0729edba332f936ee}
+
+
+Число частей на которые был поделен фрагмент 
+
+
+
+См. определение в файле Fragment.\+cs строка 88
+
+\index{Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}!Sigma@{Sigma}}
+\index{Sigma@{Sigma}!Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}}
+\subsubsection[{\texorpdfstring{Sigma}{Sigma}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Signature} Network\+Simulator.\+Fragment.\+Sigma\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_fragment_a4a04d76e80868fe6ea72fc453d946218}{}\label{class_network_simulator_1_1_fragment_a4a04d76e80868fe6ea72fc453d946218}
+
+
+Сигнатура фрагмента 
+
+
+
+См. определение в файле Fragment.\+cs строка 64
+
+\index{Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}!Time\+Arrival@{Time\+Arrival}}
+\index{Time\+Arrival@{Time\+Arrival}!Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}}
+\subsubsection[{\texorpdfstring{Time\+Arrival}{TimeArrival}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Fragment.\+Time\+Arrival\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_fragment_a55a8a96eed9ca0a8bcdad41ac0710e95}{}\label{class_network_simulator_1_1_fragment_a55a8a96eed9ca0a8bcdad41ac0710e95}
+
+
+Время поступления 
+
+
+
+См. определение в файле Fragment.\+cs строка 99
+
+\index{Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}!Time\+Leave@{Time\+Leave}}
+\index{Time\+Leave@{Time\+Leave}!Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}}
+\subsubsection[{\texorpdfstring{Time\+Leave}{TimeLeave}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Fragment.\+Time\+Leave\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_fragment_ab4ea6557da38174fdc08f73e39d7ff4c}{}\label{class_network_simulator_1_1_fragment_ab4ea6557da38174fdc08f73e39d7ff4c}
+
+
+Время завершения обслуживания 
+
+
+
+См. определение в файле Fragment.\+cs строка 107
+
+\index{Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}!Time\+Start\+Service@{Time\+Start\+Service}}
+\index{Time\+Start\+Service@{Time\+Start\+Service}!Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}}
+\subsubsection[{\texorpdfstring{Time\+Start\+Service}{TimeStartService}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Fragment.\+Time\+Start\+Service\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_fragment_a5a585d4c4fecc4f03d5fb136cc8c8f5e}{}\label{class_network_simulator_1_1_fragment_a5a585d4c4fecc4f03d5fb136cc8c8f5e}
+
+
+Время начала обслуживания 
+
+
+
+См. определение в файле Fragment.\+cs строка 103
+
+\index{Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}!Total\+Time@{Total\+Time}}
+\index{Total\+Time@{Total\+Time}!Network\+Simulator\+::\+Fragment@{Network\+Simulator\+::\+Fragment}}
+\subsubsection[{\texorpdfstring{Total\+Time}{TotalTime}}]{\setlength{\rightskip}{0pt plus 5cm}double Network\+Simulator.\+Fragment.\+Total\+Time\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}\hypertarget{class_network_simulator_1_1_fragment_a93384e51e479637c537049d881ac9686}{}\label{class_network_simulator_1_1_fragment_a93384e51e479637c537049d881ac9686}
+
+
+Общее время пребывания в сети обслуживания 
+
+
+
+См. определение в файле Fragment.\+cs строка 112
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_fragment_8cs}{Fragment.\+cs}\end{DoxyCompactItemize}

@@ -1,0 +1,13 @@
+digraph "NetworkSimulator.ForkNode.Receive"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="NetworkSimulator.ForkNode.\lReceive",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="NetworkSimulator.ForkNode.\lRoute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_fork_node.html#a2268305e06c8e851a6faf2db79c89c58",tooltip="Распределяет фрагмент по узлам "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="NetworkSimulator.ForkNode.Send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_fork_node.html#aa61ec4b939488e78ac16865249f764f4",tooltip="Отправляет фрагмент указанному узлу "];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="NetworkSimulator.Node.Receive",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_node.html#ab1d7ae2e2e59169e9ab3086087d950e8",tooltip="Получение фрагмента узлом "];
+}

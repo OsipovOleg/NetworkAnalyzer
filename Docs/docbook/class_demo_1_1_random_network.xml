@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_demo_1_1_random_network">
+<title>Demo::RandomNetwork class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_demo_1_1_random_network_1a6b6fd96f3551fce8324bbcaa403e9ccb">CreateRandomNetwork</link> (
+int L)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_demo_1_1_random_network_1a6b6fd96f3551fce8324bbcaa403e9ccb">
+                <title>static void Demo.RandomNetwork.CreateRandomNetwork (int L)</title> <emphasis></emphasis>
+                
+            </section>
+</section>

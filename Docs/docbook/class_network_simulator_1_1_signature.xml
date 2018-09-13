@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_signature">
+<title>NetworkSimulator::Signature class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_signature_1ae80636e822b8a99c622db6f0941a64e3">Signature</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> ParentDemand, int SubID, int ForkNodeID)<para><emphasis>&lt;summary&gt;
+Создает сигнатуру для фрагмента
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Класс для сигнатуры фрагмента </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 12 of file Fragment.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Fragment.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_simulator_1_1_signature_1ae80636e822b8a99c622db6f0941a64e3">
+                <title>NetworkSimulator.Signature.Signature (Fragment ParentDemand, int SubID, int ForkNodeID)</title> <emphasis>&lt;summary&gt;
+Создает сигнатуру для фрагмента
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>ParentDemand</entry>
+                                <entry>
+<para>Фрагмент-родитель</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>SubID</entry>
+                                <entry>
+<para>Идентификатор полученого фрагмента</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>ForkNodeID</entry>
+                                <entry>
+<para>Идентификатор дивайдера, ко котором был получен фрагмент</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

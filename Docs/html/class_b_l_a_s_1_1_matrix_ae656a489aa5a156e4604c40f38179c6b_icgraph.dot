@@ -1,0 +1,15 @@
+digraph "BLAS.Matrix.Column"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BLAS.Matrix.Column",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BLAS.Matrix.Det",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#a2ea117d5fbaeddc4928b9f6b390dfe4c",tooltip="Возвращает определитель матрицы "];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BLAS.Matrix.Inv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#aa6af90c35062376d6e0db316fd2cad70",tooltip="Возвращает обратную матрицу "];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PhaseTypeDistribution.PH.\lExpectedValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_phase_type_distribution_1_1_p_h.html#a170c80fcac45b3d05bfdf1df33d02f1c",tooltip="Математическое ожидание для случайной величины "];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PhaseTypeDistribution.PH.Var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_phase_type_distribution_1_1_p_h.html#a2603d3b806c3ffcab85a7ea8e01a5010",tooltip="Дисперсия случайной величины "];
+}

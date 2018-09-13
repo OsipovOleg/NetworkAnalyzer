@@ -1,0 +1,7 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\bin\x64\Release\NetworkAnalyzer.exe.config
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\bin\x64\Release\NetworkAnalyzer.exe
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.csprojResolveAssemblyReference.cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.MainForm.resources
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.Properties.Resources.resources
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.csproj.GenerateResource.Cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\NetworkAnalyzer\obj\x64\Release\NetworkAnalyzer.exe

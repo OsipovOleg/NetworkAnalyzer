@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_latex_1_1_latex_editor">
+<title>Latex::LatexEditor class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static string <link linkend="class_latex_1_1_latex_editor_1a8c003bd184cc2b8b2632410a7b1d39ed">LatexSystemOfEquation</link> (
+string A_str, string[] b_str, string[] x_str, <link linkend="class_b_l_a_s_1_1_matrix">Matrix</link> A, double[] b)<para><emphasis>&lt;summary&gt;
+Формирует систему линейных алгебраических уравнений A*x = b в виде кода LaTex
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static string <link linkend="class_latex_1_1_latex_editor_1a57e3b1474dd286bc0f8bfa0dd718b25a">BeginLaTex</link> (
+)<para><emphasis>&lt;summary&gt;
+Формирует шапку tex-документа 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static string <link linkend="class_latex_1_1_latex_editor_1aadd58706a390c458fa7146a3798fe573">EndLaTex</link> (
+)<para><emphasis>&lt;summary&gt;
+Формирует окончание tex-документа
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_latex_1_1_latex_editor_1a69f48235bc595627993b62d3cfc25201">SaveLaTex</link> (
+string code, string FileName)<para><emphasis>&lt;summary&gt;
+Сохраняет документ
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_latex_1_1_latex_editor_1ad420e196f1fa78e64ba5bd9e6d823006">CompileLaTex</link> (
+string FileName)<para><emphasis>&lt;summary&gt;
+Компилирует файл (pdflatex.exe)
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_latex_1_1_latex_editor_1a77a63dbcb2cf87e5eb98707f928e7f6f">ShowPDF</link> (
+string FileName)<para><emphasis>&lt;summary&gt;
+Отображает PDF документ с данными (SumatraPDF)
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_latex_1_1_latex_editor_1a8c003bd184cc2b8b2632410a7b1d39ed">
+                <title>static string Latex.LatexEditor.LatexSystemOfEquation (string[,] A_str, string[] b_str, string[] x_str, Matrix A, double[] b)</title> <emphasis>&lt;summary&gt;
+Формирует систему линейных алгебраических уравнений A*x = b в виде кода LaTex
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>A_str</entry>
+                                <entry>
+<para>Текстовое представление матрицы A</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b_str</entry>
+                                <entry>
+<para>Текстовое представление строки b</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>x_str</entry>
+                                <entry>
+<para>Текстовое представление столбца x</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>A</entry>
+                                <entry>
+<para>Численные значения матрицы A</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>b</entry>
+                                <entry>
+<para>Численные значения строки b</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                <formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_latex_1_1_latex_editor_1a57e3b1474dd286bc0f8bfa0dd718b25a">
+                <title>static string Latex.LatexEditor.BeginLaTex ()</title> <emphasis>&lt;summary&gt;
+Формирует шапку tex-документа 
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_latex_1_1_latex_editor_1aadd58706a390c458fa7146a3798fe573">
+                <title>static string Latex.LatexEditor.EndLaTex ()</title> <emphasis>&lt;summary&gt;
+Формирует окончание tex-документа
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_latex_1_1_latex_editor_1a69f48235bc595627993b62d3cfc25201">
+                <title>static void Latex.LatexEditor.SaveLaTex (string code, string FileName)</title> <emphasis>&lt;summary&gt;
+Сохраняет документ
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>code</entry>
+                                <entry>
+<para>Текст документа</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>name</entry>
+                                <entry>
+<para>Имя файла без разширения</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_latex_1_1_latex_editor_1ad420e196f1fa78e64ba5bd9e6d823006">
+                <title>static void Latex.LatexEditor.CompileLaTex (string FileName)</title> <emphasis>&lt;summary&gt;
+Компилирует файл (pdflatex.exe)
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>FileName</entry>
+                                <entry>
+<para>Имя файла без расширения</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_latex_1_1_latex_editor_1a77a63dbcb2cf87e5eb98707f928e7f6f">
+                <title>static void Latex.LatexEditor.ShowPDF (string FileName)</title> <emphasis>&lt;summary&gt;
+Отображает PDF документ с данными (SumatraPDF)
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>FileName</entry>
+                                <entry>
+<para>Имя файла без расширения</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

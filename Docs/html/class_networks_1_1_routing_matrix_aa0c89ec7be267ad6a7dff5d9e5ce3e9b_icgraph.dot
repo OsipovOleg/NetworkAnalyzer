@@ -1,0 +1,11 @@
+digraph "Networks.RoutingMatrix.DeleteNode"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="Networks.RoutingMatrix.DeleteNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Networks.RoutingMatrix.Delete\lMatrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_networks_1_1_routing_matrix.html#a90b6115f19d84c00ffa542b614cad426",tooltip="Удаляет матрицу из матрицы передачи для некоторой пары дивайдер-интегратор с удалением соотвествующих..."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="ExactNetworkAnalysis.Infinity\lServerOpenForkJoinNetwork.Infinity\lServerOpenForkJoinNetwork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_exact_network_analysis_1_1_infinity_server_open_fork_join_network.html#aa68fa7a62d49fc7f9add83dde539fc09",tooltip="Задает сеть с делением и слиянием требований с бесконечноприборными базовыми системами обслуживания ..."];
+}

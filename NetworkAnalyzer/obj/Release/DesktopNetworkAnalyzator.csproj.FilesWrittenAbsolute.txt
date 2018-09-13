@@ -1,0 +1,10 @@
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/Release/DesktopNetworkAnalyzator.AddRoutingElement.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/Release/DesktopNetworkAnalyzator.MainForm.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/Release/NetworkAnalyzer.Properties.Resources.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/Release/DesktopNetworkAnalyzator.RoutingMatrixCreator.resources
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/bin/Release/NetworkAnalyzer.exe.config
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/bin/Release/NetworkAnalyzer.exe.mdb
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/bin/Release/NetworkAnalyzer.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/Release/NetworkAnalyzer.exe
+/home/oleg/Desktop/NetworkAnalyzer (ИМ после конференции  с изменениями от 01.07.18 )/NetworkAnalyzer/obj/Release/NetworkAnalyzer.exe.mdb

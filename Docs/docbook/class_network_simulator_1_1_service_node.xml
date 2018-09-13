@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_service_node">
+<title>NetworkSimulator::ServiceNode class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Закрытые данные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const int MaxNumber</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="class_network_simulator_1_1_service_node_1a342272f5141858d2c957ad2bef849184">NumberOfFragments</link> (
+)<para><emphasis>&lt;summary&gt;
+Возвращает число фрагментов в базовой системе (очередь + приборы) 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_service_node_1af11f8ab97cd12922521ee35f47b8508c">ServiceNode</link> (
+int ID, Random r, <link linkend="class_random_variables_1_1_random_variable">RandomVariable</link> ServiceTime, <link linkend="class_network_simulator_1_1_buffer">Buffer</link> InBuffer, int kappa, <link linkend="class_network_simulator_1_1_node">Node</link>[] Nodes, <link linkend="class_network_simulator_1_1_info_node">InfoNode</link> Info, double RouteMatrix)<para><emphasis>&lt;summary&gt;
+Базовая система
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_service_node_1a5d2b640ef13859e73a262714701d7dd7">Receive</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Процедура получения фрагмента базовой системой
+Фрагмент ставится в очередь или сразу начинается его обслуживание 
+Реализация сегмента поступления фрагмента
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_service_node_1af79c8221f7989b2dcb7aa4423ca437c3">Activate</link> (
+)<para><emphasis>&lt;summary&gt;
+Передача управления базовой системе
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_network_simulator_1_1_service_node_1aa832d42c9c93fbfb71f466ff91f45020">UpdateActionTime</link> (
+)<para><emphasis>&lt;summary&gt;
+Обновляет время активации узла 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="class_network_simulator_1_1_service_node_1a09388e32fbfd8d848a3348f47cc27e06">ExistFreeServer</link> (
+)<para><emphasis>&lt;summary&gt;
+Проверка существования свобдного прибора
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="class_network_simulator_1_1_service_node_1a16e3b098c0c8b3e08288c49078d5b1a5">StartService</link> (
+)<para><emphasis>&lt;summary&gt;
+Берет фрагмент из очереди и начинает его обслуживание
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_service_node_1aa9b820192e97c17822ab0a4c909aeac1">Route</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Направляет фрагмент в какой-либо узел согласно установленным правилам маршрутизации
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_service_node_1a467615866be1603e405dfa24775dca95">Send</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f, <link linkend="class_network_simulator_1_1_node">Node</link> N)<para><emphasis>&lt;summary&gt;
+Посылает фрагмент в указанный узел
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Базовая система </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 56 of file ServiceNode.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>ServiceNode.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+        <section>
+            <title>Данные класса</title>
+        </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1a342272f5141858d2c957ad2bef849184">
+                <title>int NetworkSimulator.ServiceNode.NumberOfFragments ()</title> <emphasis>&lt;summary&gt;
+Возвращает число фрагментов в базовой системе (очередь + приборы) 
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1af11f8ab97cd12922521ee35f47b8508c">
+                <title>NetworkSimulator.ServiceNode.ServiceNode (int ID, Random r, RandomVariable ServiceTime, Buffer InBuffer, int kappa, Node[] Nodes, InfoNode Info, double[,] RouteMatrix)</title> <emphasis>&lt;summary&gt;
+Базовая система
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>r</entry>
+                                <entry>
+<para>Генратор случайных чисел</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>InBuffer</entry>
+                                <entry>
+<para>Буффер для фргаментов</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>kappa</entry>
+                                <entry>
+<para>Число однотипных обслуживающих приборов</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>ServiceTime</entry>
+                                <entry>
+<para>Случайная величина - длительность обслуживания фрагмента прибором</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>RouteMatrix</entry>
+                                <entry>
+<para>Матрица маршрутная Элемент i,j задает вероятность для i фрагмента попасть в j узел</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Nodes</entry>
+                                <entry>
+<para>Узлы</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>Info</entry>
+                                <entry>
+<para>Информационный узел</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1a5d2b640ef13859e73a262714701d7dd7">
+                <title>override void NetworkSimulator.ServiceNode.Receive (Fragment f)</title> <emphasis>&lt;summary&gt;
+Процедура получения фрагмента базовой системой
+Фрагмент ставится в очередь или сразу начинается его обслуживание 
+Реализация сегмента поступления фрагмента
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Получаемый фрагмент</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1af79c8221f7989b2dcb7aa4423ca437c3">
+                <title>override void NetworkSimulator.ServiceNode.Activate ()</title> <emphasis>&lt;summary&gt;
+Передача управления базовой системе
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1aa832d42c9c93fbfb71f466ff91f45020">
+                <title>void NetworkSimulator.ServiceNode.UpdateActionTime ()</title> <emphasis>&lt;summary&gt;
+Обновляет время активации узла 
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1a09388e32fbfd8d848a3348f47cc27e06">
+                <title>bool NetworkSimulator.ServiceNode.ExistFreeServer ()</title> <emphasis>&lt;summary&gt;
+Проверка существования свобдного прибора
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1a16e3b098c0c8b3e08288c49078d5b1a5">
+                <title>void NetworkSimulator.ServiceNode.StartService ()</title> <emphasis>&lt;summary&gt;
+Берет фрагмент из очереди и начинает его обслуживание
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1aa9b820192e97c17822ab0a4c909aeac1">
+                <title>override void NetworkSimulator.ServiceNode.Route (Fragment f)</title> <emphasis>&lt;summary&gt;
+Направляет фрагмент в какой-либо узел согласно установленным правилам маршрутизации
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Фрагмент для передачи</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_service_node_1a467615866be1603e405dfa24775dca95">
+                <title>override void NetworkSimulator.ServiceNode.Send (Fragment f, Node N)</title> <emphasis>&lt;summary&gt;
+Посылает фрагмент в указанный узел
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Посылаемый фрагмент</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>N</entry>
+                                <entry>
+<para>Узел для отправки</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

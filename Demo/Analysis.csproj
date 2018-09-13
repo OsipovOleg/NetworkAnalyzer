@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DAB229BA-CAFE-4492-A94B-6F4ED6A7ACF4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Demo</RootNamespace>
+    <AssemblyName>Demo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="MathNet.Numerics">
+      <HintPath>..\packages\MathNet.Numerics.4.0.0\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Accord">
+      <HintPath>..\packages\Accord.3.8.0\lib\net45\Accord.dll</HintPath>
+    </Reference>
+    <Reference Include="LibOptimization">
+      <HintPath>..\packages\LibOptimization.1.12.1\lib\net40\LibOptimization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomNetwork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLAS\BLAS.csproj">
+      <Project>{2FA49FA3-7A61-4662-A83D-44F8EB05B45B}</Project>
+      <Name>BLAS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExactAnalysis\ExactNetworkAnalysis.csproj">
+      <Project>{8EF370C3-9BC3-4019-AC21-12D94694E03B}</Project>
+      <Name>ExactNetworkAnalysis</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetworkAnalyzer\DesktopNetworkAnalyzator.csproj">
+      <Project>{837E44B3-BB19-45C9-B36C-0AD923C9B9C9}</Project>
+      <Name>DesktopNetworkAnalyzator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetworkSimulator\NetworkSimulator.csproj">
+      <Project>{61D0BD3F-659B-4B45-B3CF-403BFC4A219C}</Project>
+      <Name>NetworkSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhaseTypeDistribution\PhaseTypeDistribution.csproj">
+      <Project>{EF55DFFE-FC49-4FB6-8406-649E721869DD}</Project>
+      <Name>PhaseTypeDistribution</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RandomVariables\RandomVariables.csproj">
+      <Project>{802808AA-C7C7-4D4A-B6F9-730E22810D58}</Project>
+      <Name>RandomVariables</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Networks\NetworkDescriptions.csproj">
+      <Project>{AEA5DB13-8A09-4C5E-B707-D81D48F98014}</Project>
+      <Name>NetworkDescriptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Statistic\Statistic.csproj">
+      <Project>{C887BB46-28B3-478E-BC7C-E5E63FD940E1}</Project>
+      <Name>Statistic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Accord.3.8.0\build\Accord.targets" Condition="Exists('..\packages\Accord.3.8.0\build\Accord.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\bin\x64\Debug\BLAS.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\bin\x64\Debug\BLAS.pdb
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\obj\x64\Debug\BLAS.csprojResolveAssemblyReference.cache
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\obj\x64\Debug\BLAS.dll
+c:\users\олег\documents\visual studio 2015\Projects\NetworkAnalyzer\BLAS\obj\x64\Debug\BLAS.pdb

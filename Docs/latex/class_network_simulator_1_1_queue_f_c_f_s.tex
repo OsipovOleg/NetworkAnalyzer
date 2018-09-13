@@ -1,0 +1,200 @@
+\hypertarget{class_network_simulator_1_1_queue_f_c_f_s}{}\section{Класс Network\+Simulator.\+Queue\+F\+C\+FS}
+\label{class_network_simulator_1_1_queue_f_c_f_s}\index{Network\+Simulator.\+Queue\+F\+C\+FS@{Network\+Simulator.\+Queue\+F\+C\+FS}}
+
+
+Очередь с дисциплной F\+C\+FS  
+
+
+Граф наследования\+:Network\+Simulator.\+Queue\+F\+C\+FS\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_queue_f_c_f_s}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a812ab2164add073d81904f6c9e458037}{Queue\+F\+C\+FS} ()
+\begin{DoxyCompactList}\small\item\em Создает очередь F\+C\+FS \end{DoxyCompactList}\item 
+override bool \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_abf626c68dc10a0fe86e7865d0717b012}{Is\+Empty} ()
+\begin{DoxyCompactList}\small\item\em Проверка очереди на пустоту \end{DoxyCompactList}\item 
+override int \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a463716e2e6eebb40170e5e2d82363d73}{Length} ()
+\begin{DoxyCompactList}\small\item\em Число элментов в очереди \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_acf69de265821290747952858f417ae5f}{Put} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Помещает элемент в очередь \end{DoxyCompactList}\item 
+override \hyperlink{class_network_simulator_1_1_fragment}{Fragment} \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_aa3b80a41b3c15339131d7de216b02a2b}{Take} ()
+\begin{DoxyCompactList}\small\item\em Выбор первого элемента из очереди \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Закрытые данные}
+\begin{DoxyCompactItemize}
+\item 
+Queue$<$ \hyperlink{class_network_simulator_1_1_fragment}{Fragment} $>$ \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}{queue}
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Очередь с дисциплной F\+C\+FS 
+
+
+
+См. определение в файле Queue\+F\+C\+F\+S.\+cs строка 12
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}!Queue\+F\+C\+FS@{Queue\+F\+C\+FS}}
+\index{Queue\+F\+C\+FS@{Queue\+F\+C\+FS}!Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}}
+\subsubsection[{\texorpdfstring{Queue\+F\+C\+F\+S()}{QueueFCFS()}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Queue\+F\+C\+F\+S.\+Queue\+F\+C\+FS (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_queue_f_c_f_s_a812ab2164add073d81904f6c9e458037}{}\label{class_network_simulator_1_1_queue_f_c_f_s_a812ab2164add073d81904f6c9e458037}
+
+
+Создает очередь F\+C\+FS 
+
+
+
+См. определение в файле Queue\+F\+C\+F\+S.\+cs строка 19
+
+
+\begin{DoxyCode}
+20         \{
+21             \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}{queue} = \textcolor{keyword}{new} Queue<Fragment>();
+22         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}!Is\+Empty@{Is\+Empty}}
+\index{Is\+Empty@{Is\+Empty}!Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}}
+\subsubsection[{\texorpdfstring{Is\+Empty()}{IsEmpty()}}]{\setlength{\rightskip}{0pt plus 5cm}override bool Network\+Simulator.\+Queue\+F\+C\+F\+S.\+Is\+Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_queue_f_c_f_s_abf626c68dc10a0fe86e7865d0717b012}{}\label{class_network_simulator_1_1_queue_f_c_f_s_abf626c68dc10a0fe86e7865d0717b012}
+
+
+Проверка очереди на пустоту 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_buffer_afbd910f1f775e7ee212017c92e72a09f}{Network\+Simulator.\+Buffer}.
+
+
+
+См. определение в файле Queue\+F\+C\+F\+S.\+cs строка 28
+
+
+\begin{DoxyCode}
+29         \{
+30             \textcolor{keywordflow}{if} (\hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}{queue}.Count() == 0)
+31             \{
+32                 \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+33             \}
+34             \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+35         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}!Length@{Length}}
+\index{Length@{Length}!Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}}
+\subsubsection[{\texorpdfstring{Length()}{Length()}}]{\setlength{\rightskip}{0pt plus 5cm}override int Network\+Simulator.\+Queue\+F\+C\+F\+S.\+Length (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_queue_f_c_f_s_a463716e2e6eebb40170e5e2d82363d73}{}\label{class_network_simulator_1_1_queue_f_c_f_s_a463716e2e6eebb40170e5e2d82363d73}
+
+
+Число элментов в очереди 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_buffer_ad8935513aaa3111b032d3b36cde5b663}{Network\+Simulator.\+Buffer}.
+
+
+
+См. определение в файле Queue\+F\+C\+F\+S.\+cs строка 41
+
+
+\begin{DoxyCode}
+42         \{
+43             \textcolor{keywordflow}{return} \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}{queue}.Count;
+44         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}!Put@{Put}}
+\index{Put@{Put}!Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}}
+\subsubsection[{\texorpdfstring{Put(\+Fragment f)}{Put(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Queue\+F\+C\+F\+S.\+Put (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_queue_f_c_f_s_acf69de265821290747952858f417ae5f}{}\label{class_network_simulator_1_1_queue_f_c_f_s_acf69de265821290747952858f417ae5f}
+
+
+Помещает элемент в очередь 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Помещаемый фрагмент\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_buffer_acc9891009aed36c04a04796e24cc62a5}{Network\+Simulator.\+Buffer}.
+
+
+
+См. определение в файле Queue\+F\+C\+F\+S.\+cs строка 50
+
+
+\begin{DoxyCode}
+51         \{
+52             \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}{queue}.Enqueue(f);
+53         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}!Take@{Take}}
+\index{Take@{Take}!Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}}
+\subsubsection[{\texorpdfstring{Take()}{Take()}}]{\setlength{\rightskip}{0pt plus 5cm}override {\bf Fragment} Network\+Simulator.\+Queue\+F\+C\+F\+S.\+Take (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_queue_f_c_f_s_aa3b80a41b3c15339131d7de216b02a2b}{}\label{class_network_simulator_1_1_queue_f_c_f_s_aa3b80a41b3c15339131d7de216b02a2b}
+
+
+Выбор первого элемента из очереди 
+
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_buffer_abb36ad86bbf0f02e0905388ab07e041d}{Network\+Simulator.\+Buffer}.
+
+
+
+См. определение в файле Queue\+F\+C\+F\+S.\+cs строка 60
+
+
+\begin{DoxyCode}
+61         \{
+62             \textcolor{keywordflow}{return} \hyperlink{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}{queue}.Dequeue();
+63         \}
+\end{DoxyCode}
+
+
+\subsection{Данные класса}
+\index{Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}!queue@{queue}}
+\index{queue@{queue}!Network\+Simulator\+::\+Queue\+F\+C\+FS@{Network\+Simulator\+::\+Queue\+F\+C\+FS}}
+\subsubsection[{\texorpdfstring{queue}{queue}}]{\setlength{\rightskip}{0pt plus 5cm}Queue$<${\bf Fragment}$>$ Network\+Simulator.\+Queue\+F\+C\+F\+S.\+queue\hspace{0.3cm}{\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}{}\label{class_network_simulator_1_1_queue_f_c_f_s_a253222210269fb32ca514c88730ca27b}
+
+
+См. определение в файле Queue\+F\+C\+F\+S.\+cs строка 15
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_queue_f_c_f_s_8cs}{Queue\+F\+C\+F\+S.\+cs}\end{DoxyCompactItemize}

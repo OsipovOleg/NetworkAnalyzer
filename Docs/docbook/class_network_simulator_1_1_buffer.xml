@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_buffer">
+<title>NetworkSimulator::Buffer class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract void <link linkend="class_network_simulator_1_1_buffer_1acc9891009aed36c04a04796e24cc62a5">Put</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Помещает фрагмент в буффер
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract <link linkend="class_network_simulator_1_1_fragment">Fragment</link> <link linkend="class_network_simulator_1_1_buffer_1abb36ad86bbf0f02e0905388ab07e041d">Take</link> (
+)<para><emphasis>&lt;summary&gt;
+Берет фрагмент из буффера
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract int <link linkend="class_network_simulator_1_1_buffer_1ad8935513aaa3111b032d3b36cde5b663">Length</link> (
+)<para><emphasis>&lt;summary&gt;
+Число элеметов в буффере
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>abstract bool <link linkend="class_network_simulator_1_1_buffer_1afbd910f1f775e7ee212017c92e72a09f">IsEmpty</link> (
+)<para><emphasis>&lt;summary&gt;
+Проверка буффера на пустоту
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+
+<para>Абстрактный класс для буфера (очередь) </para>
+    </simplesect>
+        <simplesect>
+            <title>Подробное описание</title>
+                <para>Definition at line 13 of file Buffer.cs</para>
+                <para>The Documentation for this struct was generated from the following file: </para>
+                <para><itemizedlist><listitem><para>Buffer.cs</para></listitem></itemizedlist></para>
+        </simplesect>
+            <section xml:id="class_network_simulator_1_1_buffer_1acc9891009aed36c04a04796e24cc62a5">
+                <title>abstract void NetworkSimulator.Buffer.Put (Fragment f)</title> <emphasis>&lt;summary&gt;
+Помещает фрагмент в буффер
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Помещаемый фрагмент</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_buffer_1abb36ad86bbf0f02e0905388ab07e041d">
+                <title>abstract Fragment NetworkSimulator.Buffer.Take ()</title> <emphasis>&lt;summary&gt;
+Берет фрагмент из буффера
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_buffer_1ad8935513aaa3111b032d3b36cde5b663">
+                <title>abstract int NetworkSimulator.Buffer.Length ()</title> <emphasis>&lt;summary&gt;
+Число элеметов в буффере
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para></para>
+</formalpara>
+</para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_buffer_1afbd910f1f775e7ee212017c92e72a09f">
+                <title>abstract bool NetworkSimulator.Buffer.IsEmpty ()</title> <emphasis>&lt;summary&gt;
+Проверка буффера на пустоту
+&lt;/summary&gt;</emphasis>
+                
+<para><formalpara><title>Возвращает: </title>
+
+<para>Возвращает true если буффер пуст, иначе flase</para>
+</formalpara>
+</para>
+
+            </section>
+</section>

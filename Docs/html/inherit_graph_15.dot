@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PhaseTypeDistribution.PH",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_phase_type_distribution_1_1_p_h.html",tooltip="Описывает случайную величину с фазовым расределением "];
+}

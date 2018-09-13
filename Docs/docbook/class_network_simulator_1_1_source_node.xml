@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_source_node">
+<title>NetworkSimulator::SourceNode class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_source_node_1acb023c692466b3434dd8c1b0bd481e1b">Receive</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Получение требования (возврат требования в исчтоник) 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_source_node_1ac57d1b9f996720128fc9c5ec08bf95da">Activate</link> (
+)<para><emphasis>&lt;summary&gt;
+Передача управления источнику
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para> <link linkend="class_network_simulator_1_1_source_node_1aa02f3786e6e62f1db4e44ef21605161b">SourceNode</link> (
+int ID, Random r, <link linkend="class_random_variables_1_1_random_variable">RandomVariable</link> ArrivalInterval, <link linkend="class_network_simulator_1_1_node">Node</link>[] Nodes, <link linkend="class_network_simulator_1_1_info_node">InfoNode</link> Info, double[] RouteRow)<para><emphasis>&lt;summary&gt;
+Инициализация источника требований
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_source_node_1a459050a9d3f549d88bcd761d90f9aa70">Route</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f)<para><emphasis>&lt;summary&gt;
+Отправяляет требование из источника по сети 
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>override void <link linkend="class_network_simulator_1_1_source_node_1a637485f5acd4714d619014fdb7581861">Send</link> (
+<link linkend="class_network_simulator_1_1_fragment">Fragment</link> f, <link linkend="class_network_simulator_1_1_node">Node</link> N)<para><emphasis>&lt;summary&gt;
+Отправление требования от источника к другому узлу
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_network_simulator_1_1_source_node_1acb023c692466b3434dd8c1b0bd481e1b">
+                <title>override void NetworkSimulator.SourceNode.Receive (Fragment f)</title> <emphasis>&lt;summary&gt;
+Получение требования (возврат требования в исчтоник) 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_source_node_1ac57d1b9f996720128fc9c5ec08bf95da">
+                <title>override void NetworkSimulator.SourceNode.Activate ()</title> <emphasis>&lt;summary&gt;
+Передача управления источнику
+&lt;/summary&gt;</emphasis>
+                
+            </section>
+            <section xml:id="class_network_simulator_1_1_source_node_1aa02f3786e6e62f1db4e44ef21605161b">
+                <title>NetworkSimulator.SourceNode.SourceNode (int ID, Random r, RandomVariable ArrivalInterval, Node[] Nodes, InfoNode Info, double[] RouteRow)</title> <emphasis>&lt;summary&gt;
+Инициализация источника требований
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>r</entry>
+                                <entry>
+<para>Интервалы между поступлениями требований</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>RouteRow</entry>
+                                <entry>
+<para>Строка для маршрутизации требований</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>ID</entry>
+                                <entry>
+<para>Идентификатор узла</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_source_node_1a459050a9d3f549d88bcd761d90f9aa70">
+                <title>override void NetworkSimulator.SourceNode.Route (Fragment f)</title> <emphasis>&lt;summary&gt;
+Отправяляет требование из источника по сети 
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+            <section xml:id="class_network_simulator_1_1_source_node_1a637485f5acd4714d619014fdb7581861">
+                <title>override void NetworkSimulator.SourceNode.Send (Fragment f, Node N)</title> <emphasis>&lt;summary&gt;
+Отправление требования от источника к другому узлу
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>f</entry>
+                                <entry>
+<para>Требование</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>N</entry>
+                                <entry>
+<para>Узел-получатель</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>

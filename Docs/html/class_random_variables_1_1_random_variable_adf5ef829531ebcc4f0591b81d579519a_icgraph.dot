@@ -1,0 +1,9 @@
+digraph "RandomVariables.RandomVariable.NextValue"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="RandomVariables.RandomVariable.\lNextValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="NetworkSimulator.SourceNode.\lActivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_network_simulator_1_1_source_node.html#ac57d1b9f996720128fc9c5ec08bf95da",tooltip="Передача управления источнику "];
+}

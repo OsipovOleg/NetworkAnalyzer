@@ -1,0 +1,349 @@
+\hypertarget{class_phase_type_distribution_1_1_p_h_operations}{}\section{Класс Phase\+Type\+Distribution.\+P\+H\+Operations}
+\label{class_phase_type_distribution_1_1_p_h_operations}\index{Phase\+Type\+Distribution.\+P\+H\+Operations@{Phase\+Type\+Distribution.\+P\+H\+Operations}}
+
+
+Реализует основные операциии для случайных величин с фазовыс распределнием  
+
+
+\subsection*{Открытые статические члены}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_phase_type_distribution_1_1_p_h_operations_aa8b83fd384976ff4b159047a5bb77713}{Sum} (\hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible}\mbox{[}$\,$\mbox{]} random\+Values)
+\begin{DoxyCompactList}\small\item\em Сумма случайных ыеличин с фазовым распределением \end{DoxyCompactList}\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_phase_type_distribution_1_1_p_h_operations_a2d0ec60638d8a8d24687c791fd6682f4}{Convex\+Mixture} (\hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible}\mbox{[}$\,$\mbox{]} random\+Variables, double\mbox{[}$\,$\mbox{]} p)
+\begin{DoxyCompactList}\small\item\em Смесь случайных величин с фазовым распределенеием \end{DoxyCompactList}\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_phase_type_distribution_1_1_p_h_operations_a724d142f65c13b43a88d87924f2129bc}{Max} (\hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} A, \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} B)
+\begin{DoxyCompactList}\small\item\em Максимум из двух случайных величин с фазовым распределением \end{DoxyCompactList}\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_phase_type_distribution_1_1_p_h_operations_affa1c7f38acb89a2516a309de42faad8}{Max} (\hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible}\mbox{[}$\,$\mbox{]} random\+Varibles)
+\begin{DoxyCompactList}\small\item\em Максимум из произвольного числа случайных величин с фазовым распределением \end{DoxyCompactList}\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_phase_type_distribution_1_1_p_h_operations_a68bf32c3732edb6df24118b93f75d226}{Max} (List$<$ \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} $>$ random\+Varibles)
+\begin{DoxyCompactList}\small\item\em Максимум из произвольного числа случайных величин с фазовым распределением \end{DoxyCompactList}\item 
+static \hyperlink{class_phase_type_distribution_1_1_phase_type_varible}{Phase\+Type\+Varible} \hyperlink{class_phase_type_distribution_1_1_p_h_operations_ae648d3cec7cf6301115b3f038242fc23}{Exp\+PH} (double mu)
+\begin{DoxyCompactList}\small\item\em Фазовое представление для экспоненциального распределения \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Реализует основные операциии для случайных величин с фазовыс распределнием 
+
+
+
+См. определение в файле P\+H\+Operations.\+cs строка 13
+
+
+
+\subsection{Методы}
+\index{Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}!Convex\+Mixture@{Convex\+Mixture}}
+\index{Convex\+Mixture@{Convex\+Mixture}!Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}}
+\subsubsection[{\texorpdfstring{Convex\+Mixture(\+Phase\+Type\+Varible[] random\+Variables, double[] p)}{ConvexMixture(PhaseTypeVarible[] randomVariables, double[] p)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Phase\+Type\+Distribution.\+P\+H\+Operations.\+Convex\+Mixture (
+\begin{DoxyParamCaption}
+\item[{{\bf Phase\+Type\+Varible}\mbox{[}$\,$\mbox{]}}]{random\+Variables, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{p}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_p_h_operations_a2d0ec60638d8a8d24687c791fd6682f4}{}\label{class_phase_type_distribution_1_1_p_h_operations_a2d0ec60638d8a8d24687c791fd6682f4}
+
+
+Смесь случайных величин с фазовым распределенеием 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em random\+Variables} & Массив с.\+в.\\
+\hline
+{\em p} & Массив с вероятностями\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле P\+H\+Operations.\+cs строка 38
+
+
+\begin{DoxyCode}
+39         \{
+40             \textcolor{comment}{//Число случайных величин }
+41             \textcolor{keywordtype}{int} N = randomVariables.Length;
+42             \textcolor{keywordflow}{if} (N != p.Length)
+43             \{
+44                 \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"Размерности не совпадают"});
+45             \}
+46 
+47             \textcolor{comment}{//Число фаз в каждой случайной величине}
+48             \textcolor{keywordtype}{int}[] n = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[N];
+49             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < N; i++)
+50             \{
+51                 n[i] = randomVariables[i].NumberOfPhases;
+52             \}
+53 
+54             \textcolor{keywordtype}{int} NumberOfPhases = n.Sum();
+55             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} C = \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(NumberOfPhases, NumberOfPhases);
+56 
+57 
+58             \textcolor{comment}{//Начинаем заполнение блочной матрицы}
+59             \textcolor{keywordtype}{int} offseti = 0;
+60             \textcolor{keywordtype}{int} offsetj = 0;
+61             \textcolor{comment}{//Берем матрицу и ставим ее на диагональ}
+62             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} k = 0; k < N; k++)
+63             \{
+64                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n[k]; i++)
+65                 \{
+66                     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < n[k]; j++)
+67                     \{
+68                         C[offseti + i, offsetj + j] = randomVariables[k].SubGenerator[i, j];
+69                     \}
+70                 \}
+71 
+72                 \textcolor{comment}{//Смещение положения для последующего заполнения }
+73                 offseti += n[k];
+74                 offsetj += n[k];
+75 
+76             \}
+77 
+78 
+79             \textcolor{keywordtype}{double}[] gammma = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[NumberOfPhases];
+80             \textcolor{comment}{//Проход по каждой случайной величине }
+81             \textcolor{keywordtype}{int} offset = 0;
+82             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < N; i++)
+83             \{
+84                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < n[i]; j++)
+85                 \{
+86                     gammma[offset] = p[i] * randomVariables[i].InitialDistribution[j];
+87                     offset++;
+88                 \}
+89             \}
+90 
+91             \textcolor{keywordflow}{return} \textcolor{keyword}{new} PhaseTypeVarible(C, gammma);
+92 
+93         \}
+\end{DoxyCode}
+\index{Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}!Exp\+PH@{Exp\+PH}}
+\index{Exp\+PH@{Exp\+PH}!Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}}
+\subsubsection[{\texorpdfstring{Exp\+P\+H(double mu)}{ExpPH(double mu)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Phase\+Type\+Distribution.\+P\+H\+Operations.\+Exp\+PH (
+\begin{DoxyParamCaption}
+\item[{double}]{mu}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_p_h_operations_ae648d3cec7cf6301115b3f038242fc23}{}\label{class_phase_type_distribution_1_1_p_h_operations_ae648d3cec7cf6301115b3f038242fc23}
+
+
+Фазовое представление для экспоненциального распределения 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em mu} & Параметр распределения\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле P\+H\+Operations.\+cs строка 195
+
+
+\begin{DoxyCode}
+196         \{
+197             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix} A = \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(1, 1);
+198             A[0, 0] = -mu;
+199             \textcolor{keywordtype}{double}[] alpha = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[1];
+200             alpha[0] = 1;
+201 
+202             \textcolor{keywordflow}{return} \textcolor{keyword}{new} PhaseTypeVarible(A, alpha);
+203         \}
+\end{DoxyCode}
+\index{Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}!Max@{Max}}
+\index{Max@{Max}!Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}}
+\subsubsection[{\texorpdfstring{Max(\+Phase\+Type\+Varible A, Phase\+Type\+Varible B)}{Max(PhaseTypeVarible A, PhaseTypeVarible B)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Phase\+Type\+Distribution.\+P\+H\+Operations.\+Max (
+\begin{DoxyParamCaption}
+\item[{{\bf Phase\+Type\+Varible}}]{A, }
+\item[{{\bf Phase\+Type\+Varible}}]{B}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_p_h_operations_a724d142f65c13b43a88d87924f2129bc}{}\label{class_phase_type_distribution_1_1_p_h_operations_a724d142f65c13b43a88d87924f2129bc}
+
+
+Максимум из двух случайных величин с фазовым распределением 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em A} & \\
+\hline
+{\em B} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле P\+H\+Operations.\+cs строка 102
+
+
+\begin{DoxyCode}
+103         \{
+104             \textcolor{keywordtype}{int} n = A.NumberOfPhases;
+105             \textcolor{keywordtype}{int} m = B.NumberOfPhases;
+106             var alpha = A.InitialDistribution;
+107             var betta = B.InitialDistribution;
+108 
+109             var a = -A.SubGenerator * \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_ae7bf65dbabdb3c801ccddba5ed866b11}{OnesColumn}(n);
+110             var b = -B.SubGenerator * \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_ae7bf65dbabdb3c801ccddba5ed866b11}{OnesColumn}(m);
+111 
+112             var alpha0 = 1 - alpha.Sum();
+113             var betta0 = 1 - betta.Sum();
+114 
+115 
+116             \textcolor{comment}{//Генерация вектора gamma }
+117             \textcolor{keywordtype}{double}[] gamma = \textcolor{keyword}{new} \textcolor{keywordtype}{double}[n * m + n + m];
+118             \textcolor{keywordtype}{int} offset = 0;
+119             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+120             \{
+121                 \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} j = 0; j < m; j++)
+122                 \{
+123                     gamma[offset] = alpha[i] * betta[j];
+124                     offset++;
+125 
+126                 \}
+127             \}
+128             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < n; i++)
+129             \{
+130                 gamma[offset] = betta0 * alpha[i];
+131                 offset++;
+132             \}
+133             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < m; i++)
+134             \{
+135                 gamma[offset] = alpha0 * betta[i];
+136                 offset++;
+137             \}
+138 
+139             \textcolor{comment}{//Закончили генерировать вектор gamma }
+140 
+141             \textcolor{comment}{// Computation.KroneckerProduct(Computation.Eye(n), b); }
+142 
+143 
+144             \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}[,] C = \{
+145                 \{ \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_a494ec792812354d87034d18e2583d029}{KroneckerSum}(A.SubGenerator, B.SubGenerator), 
+      \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_a51aa0363d37030a35bcd43cfe86599c1}{KroneckerProduct}(\hyperlink{class_b_l_a_s_1_1_computation}{Computation}.
+      \hyperlink{class_b_l_a_s_1_1_computation_a1fe45b442a10421501936b43a054a4b4}{Eye}(n), b), \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_a51aa0363d37030a35bcd43cfe86599c1}{KroneckerProduct}(a, 
+      \hyperlink{class_b_l_a_s_1_1_computation}{Computation}.\hyperlink{class_b_l_a_s_1_1_computation_a1fe45b442a10421501936b43a054a4b4}{Eye}(m)) \},
+146                 \{ \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(n, n*m), A.SubGenerator,  \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(n, m) \},
+147                 \{ \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(m, n*m), \textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(m, n), B.SubGenerator\}
+148 
+149             \};
+150 
+151             \textcolor{keywordflow}{return} \textcolor{keyword}{new} PhaseTypeVarible(\textcolor{keyword}{new} \hyperlink{class_b_l_a_s_1_1_matrix}{Matrix}(C), gamma);
+152         \}
+\end{DoxyCode}
+\index{Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}!Max@{Max}}
+\index{Max@{Max}!Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}}
+\subsubsection[{\texorpdfstring{Max(\+Phase\+Type\+Varible[] random\+Varibles)}{Max(PhaseTypeVarible[] randomVaribles)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Phase\+Type\+Distribution.\+P\+H\+Operations.\+Max (
+\begin{DoxyParamCaption}
+\item[{{\bf Phase\+Type\+Varible}\mbox{[}$\,$\mbox{]}}]{random\+Varibles}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_p_h_operations_affa1c7f38acb89a2516a309de42faad8}{}\label{class_phase_type_distribution_1_1_p_h_operations_affa1c7f38acb89a2516a309de42faad8}
+
+
+Максимум из произвольного числа случайных величин с фазовым распределением 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em random\+Varibles} & Массив PH объектов\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле P\+H\+Operations.\+cs строка 159
+
+
+\begin{DoxyCode}
+160         \{
+161 
+162             PhaseTypeVarible C = randomVaribles[0];
+163 
+164             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < randomVaribles.Length; i++)
+165             \{
+166                 C = \hyperlink{class_phase_type_distribution_1_1_p_h_operations_a724d142f65c13b43a88d87924f2129bc}{Max}(C, randomVaribles[i]);
+167             \}
+168 
+169             \textcolor{keywordflow}{return} C;
+170         \}
+\end{DoxyCode}
+\index{Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}!Max@{Max}}
+\index{Max@{Max}!Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}}
+\subsubsection[{\texorpdfstring{Max(\+List$<$ Phase\+Type\+Varible $>$ random\+Varibles)}{Max(List< PhaseTypeVarible > randomVaribles)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Phase\+Type\+Distribution.\+P\+H\+Operations.\+Max (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Phase\+Type\+Varible} $>$}]{random\+Varibles}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_p_h_operations_a68bf32c3732edb6df24118b93f75d226}{}\label{class_phase_type_distribution_1_1_p_h_operations_a68bf32c3732edb6df24118b93f75d226}
+
+
+Максимум из произвольного числа случайных величин с фазовым распределением 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em random\+Varibles} & Массив PH объектов\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле P\+H\+Operations.\+cs строка 177
+
+
+\begin{DoxyCode}
+178         \{
+179 
+180             PhaseTypeVarible C = randomVaribles[0];
+181 
+182             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i < randomVaribles.Count; i++)
+183             \{
+184                 C = \hyperlink{class_phase_type_distribution_1_1_p_h_operations_a724d142f65c13b43a88d87924f2129bc}{Max}(C, randomVaribles[i]);
+185             \}
+186 
+187             \textcolor{keywordflow}{return} C;
+188         \}
+\end{DoxyCode}
+\index{Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}!Sum@{Sum}}
+\index{Sum@{Sum}!Phase\+Type\+Distribution\+::\+P\+H\+Operations@{Phase\+Type\+Distribution\+::\+P\+H\+Operations}}
+\subsubsection[{\texorpdfstring{Sum(\+Phase\+Type\+Varible[] random\+Values)}{Sum(PhaseTypeVarible[] randomValues)}}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Phase\+Type\+Varible} Phase\+Type\+Distribution.\+P\+H\+Operations.\+Sum (
+\begin{DoxyParamCaption}
+\item[{{\bf Phase\+Type\+Varible}\mbox{[}$\,$\mbox{]}}]{random\+Values}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_phase_type_distribution_1_1_p_h_operations_aa8b83fd384976ff4b159047a5bb77713}{}\label{class_phase_type_distribution_1_1_p_h_operations_aa8b83fd384976ff4b159047a5bb77713}
+
+
+Сумма случайных ыеличин с фазовым распределением 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em random\+Values} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+
+\end{DoxyReturn}
+
+
+См. определение в файле P\+H\+Operations.\+cs строка 20
+
+
+\begin{DoxyCode}
+21         \{
+22             PhaseTypeVarible res = \textcolor{keyword}{new} PhaseTypeVarible();
+23             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < randomValues.Length; i++)
+24             \{
+25                 res += randomValues[i];
+26             \}
+27 
+28             \textcolor{keywordflow}{return} res;
+29 
+30         \}
+\end{DoxyCode}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Phase\+Type\+Distribution/\hyperlink{_p_h_operations_8cs}{P\+H\+Operations.\+cs}\end{DoxyCompactItemize}

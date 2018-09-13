@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespace_phase_type_distribution">
+<title>PhaseTypeDistribution</title>
+        <section>
+            <title> Классы </title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_phase_type_distribution_1_1_demo">PhaseTypeDistribution::Demo</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_phase_type_distribution_1_1_phase_type_varible">PhaseTypeDistribution::PhaseTypeVarible</link></para>
+<para><emphasis>&lt;summary&gt;
+Описывает случайную величину с фазовым расределением
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>struct <link linkend="class_phase_type_distribution_1_1_p_h_operations">PhaseTypeDistribution::PHOperations</link></para>
+<para><emphasis>&lt;summary&gt;
+Реализует основные операциии для случайных величин с фазовыс распределнием
+&lt;/summary&gt;</emphasis></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

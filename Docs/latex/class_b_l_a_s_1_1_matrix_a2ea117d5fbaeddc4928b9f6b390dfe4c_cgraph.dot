@@ -1,0 +1,15 @@
+digraph "BLAS.Matrix.Det"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BLAS.Matrix.Det",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="BLAS.Matrix.Copy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#acbb991a74ebf35c9932aaedc8b936f51",tooltip="Создает копию данной матрицы "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="BLAS.Matrix.Matrix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#a347802ba2127f13d57a24d99d36137d9",tooltip="Создает матрицу заданной размерности "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="BLAS.Matrix.Row",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#a6864f15a809bdaefa5b0217070a23921",tooltip="Возвращает i-ую строку в виде массива "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="BLAS.Matrix.Column",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_b_l_a_s_1_1_matrix.html#ae656a489aa5a156e4604c40f38179c6b",tooltip="Возвращает j-ый столбец "];
+}

@@ -1,0 +1,290 @@
+\hypertarget{class_network_simulator_1_1_source_node}{}\section{Класс Network\+Simulator.\+Source\+Node}
+\label{class_network_simulator_1_1_source_node}\index{Network\+Simulator.\+Source\+Node@{Network\+Simulator.\+Source\+Node}}
+Граф наследования\+:Network\+Simulator.\+Source\+Node\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_network_simulator_1_1_source_node}
+\end{center}
+\end{figure}
+\subsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_network_simulator_1_1_source_node_acb023c692466b3434dd8c1b0bd481e1b}{Receive} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Получение требования (возврат требования в исчтоник) \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_source_node_ac57d1b9f996720128fc9c5ec08bf95da}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Передача управления источнику \end{DoxyCompactList}\item 
+\hyperlink{class_network_simulator_1_1_source_node_aa02f3786e6e62f1db4e44ef21605161b}{Source\+Node} (int \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID}, Random \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r}, \hyperlink{class_random_variables_1_1_random_variable}{Random\+Variable} \hyperlink{class_network_simulator_1_1_source_node_a9da60399e7ba58e5eea72a57acf69b8e}{Arrival\+Interval}, \hyperlink{class_network_simulator_1_1_node}{Node}\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}, \hyperlink{class_network_simulator_1_1_info_node}{Info\+Node} \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}, double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}{Route\+Row})
+\begin{DoxyCompactList}\small\item\em Инициализация источника требований \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Защищенные члены}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_network_simulator_1_1_source_node_a459050a9d3f549d88bcd761d90f9aa70}{Route} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f)
+\begin{DoxyCompactList}\small\item\em Отправяляет требование из источника по сети \end{DoxyCompactList}\item 
+override void \hyperlink{class_network_simulator_1_1_source_node_a637485f5acd4714d619014fdb7581861}{Send} (\hyperlink{class_network_simulator_1_1_fragment}{Fragment} f, \hyperlink{class_network_simulator_1_1_node}{Node} N)
+\begin{DoxyCompactList}\small\item\em Отправление требования от источника к другому узлу \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Свойства}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ double $>$ \hyperlink{class_network_simulator_1_1_source_node_ad631f434c90a58a65f71945f5cecd82d}{Response\+Times}\hspace{0.3cm}{\ttfamily  \mbox{[}get, private set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Среднее время отклика \end{DoxyCompactList}\item 
+long \hyperlink{class_network_simulator_1_1_source_node_afaf73f99d665080e19cc98941c24af31}{Fragment\+Counter}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Счетчик всех созданных фрагментов \end{DoxyCompactList}\item 
+\hyperlink{class_random_variables_1_1_random_variable}{Random\+Variable} \hyperlink{class_network_simulator_1_1_source_node_a9da60399e7ba58e5eea72a57acf69b8e}{Arrival\+Interval}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Случайная величина между (интервалы между требованиями) \end{DoxyCompactList}\item 
+double\mbox{[}$\,$\mbox{]} \hyperlink{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}{Route\+Row}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Маршрутная строка только для смежных узлов \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Дополнительные унаследованные члены}
+
+
+\subsection{Подробное описание}
+
+
+См. определение в файле Source\+Node.\+cs строка 10
+
+
+
+\subsection{Конструктор(ы)}
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Source\+Node@{Source\+Node}}
+\index{Source\+Node@{Source\+Node}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Source\+Node(int I\+D, Random r, Random\+Variable Arrival\+Interval, Node[] Nodes, Info\+Node Info, double[] Route\+Row)}{SourceNode(int ID, Random r, RandomVariable ArrivalInterval, Node[] Nodes, InfoNode Info, double[] RouteRow)}}]{\setlength{\rightskip}{0pt plus 5cm}Network\+Simulator.\+Source\+Node.\+Source\+Node (
+\begin{DoxyParamCaption}
+\item[{int}]{ID, }
+\item[{Random}]{r, }
+\item[{{\bf Random\+Variable}}]{Arrival\+Interval, }
+\item[{{\bf Node}\mbox{[}$\,$\mbox{]}}]{Nodes, }
+\item[{{\bf Info\+Node}}]{Info, }
+\item[{double\mbox{[}$\,$\mbox{]}}]{Route\+Row}
+\end{DoxyParamCaption}
+)}\hypertarget{class_network_simulator_1_1_source_node_aa02f3786e6e62f1db4e44ef21605161b}{}\label{class_network_simulator_1_1_source_node_aa02f3786e6e62f1db4e44ef21605161b}
+
+
+Инициализация источника требований 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em r} & Интервалы между поступлениями требований\\
+\hline
+{\em Route\+Row} & Строка для маршрутизации требований\\
+\hline
+{\em ID} & Идентификатор узла\\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Source\+Node.\+cs строка 115
+
+
+\begin{DoxyCode}
+116         \{
+117             \textcolor{comment}{//Передача параметров}
+118             this.\hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID} = \hyperlink{class_network_simulator_1_1_node_a1ba068212f50babe026c527a9b5fb55a}{ID};
+119             this.\hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r} = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r};
+120             this.ArrivalInterval = \hyperlink{class_network_simulator_1_1_source_node_a9da60399e7ba58e5eea72a57acf69b8e}{ArrivalInterval};
+121             this.\hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes} = \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes};
+122             this.\hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info};
+123             this.\hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r} = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r};
+124             this.\hyperlink{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}{RouteRow} = \hyperlink{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}{RouteRow};
+125 
+126             \textcolor{comment}{//Первое поступление происходит в нулевой момент времени}
+127             this.\hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = 0;
+128             \hyperlink{class_network_simulator_1_1_source_node_afaf73f99d665080e19cc98941c24af31}{FragmentCounter} = 0;
+129             \textcolor{comment}{//Для сбора статистики }
+130             \hyperlink{class_network_simulator_1_1_source_node_ad631f434c90a58a65f71945f5cecd82d}{ResponseTimes} = \textcolor{keyword}{new} List<double>();
+131         \}
+\end{DoxyCode}
+
+
+\subsection{Методы}
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Activate@{Activate}}
+\index{Activate@{Activate}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Activate()}{Activate()}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Source\+Node.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_source_node_ac57d1b9f996720128fc9c5ec08bf95da}{}\label{class_network_simulator_1_1_source_node_ac57d1b9f996720128fc9c5ec08bf95da}
+
+
+Передача управления источнику 
+
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_a1f558044a94581467ba00d12bf1ae8fd}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Source\+Node.\+cs строка 76
+
+
+\begin{DoxyCode}
+77         \{
+78             \textcolor{comment}{//Создаем требование}
+79             Fragment f = \textcolor{keyword}{new} Fragment(\hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}(), 
+      \hyperlink{class_network_simulator_1_1_source_node_afaf73f99d665080e19cc98941c24af31}{FragmentCounter}, \textcolor{keyword}{new} Signature(null, 1, 0));
+80             \textcolor{comment}{//Требование ссылается само на себя}
+81             f.Sigma.ParentFragment = f;
+82             \hyperlink{class_network_simulator_1_1_source_node_afaf73f99d665080e19cc98941c24af31}{FragmentCounter}++;
+83 
+84             \textcolor{comment}{//Время следующего события}
+85             \hyperlink{class_network_simulator_1_1_node_ab3ae85d27d7e9056751bd826f1a3432b}{NextEventTime} = \hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}() + 
+      \hyperlink{class_network_simulator_1_1_source_node_a9da60399e7ba58e5eea72a57acf69b8e}{ArrivalInterval}.\hyperlink{class_random_variables_1_1_random_variable_adf5ef829531ebcc4f0591b81d579519a}{NextValue}();
+86             \textcolor{comment}{//Отправка требования по сети обслуживания}
+87             \hyperlink{class_network_simulator_1_1_source_node_a459050a9d3f549d88bcd761d90f9aa70}{Route}(f);
+88         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Receive@{Receive}}
+\index{Receive@{Receive}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Receive(\+Fragment f)}{Receive(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Source\+Node.\+Receive (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_source_node_acb023c692466b3434dd8c1b0bd481e1b}{}\label{class_network_simulator_1_1_source_node_acb023c692466b3434dd8c1b0bd481e1b}
+
+
+Получение требования (возврат требования в исчтоник) 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & \\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_ab1d7ae2e2e59169e9ab3086087d950e8}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Source\+Node.\+cs строка 27
+
+
+\begin{DoxyCode}
+28         \{
+29             \textcolor{comment}{//Console.WriteLine("Требование вернулось");}
+30             \hyperlink{class_network_simulator_1_1_source_node_ad631f434c90a58a65f71945f5cecd82d}{ResponseTimes}.Add(\hyperlink{class_network_simulator_1_1_node_a63e706d7158c6ea84ea8fdbe61d9bffb}{Info}.\hyperlink{class_network_simulator_1_1_info_node_ada80a234225d01f27a5a56e555d9793a}{GetCurentTime}() - f.TimeGeneration);
+31         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Route@{Route}}
+\index{Route@{Route}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Route(\+Fragment f)}{Route(Fragment f)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Source\+Node.\+Route (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_source_node_a459050a9d3f549d88bcd761d90f9aa70}{}\label{class_network_simulator_1_1_source_node_a459050a9d3f549d88bcd761d90f9aa70}
+
+
+Отправяляет требование из источника по сети 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & \\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_afc4e83369cdce31db59b1023113c01f2}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Source\+Node.\+cs строка 37
+
+
+\begin{DoxyCode}
+38         \{
+39             \textcolor{keywordtype}{double} rand = \hyperlink{class_network_simulator_1_1_node_a3eb74310ed895ee8ec49c1850c1c405e}{r}.NextDouble();
+40             \textcolor{keywordtype}{double} p = 0;
+41             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < \hyperlink{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}{RouteRow}.Length; i++)
+42             \{
+43                 p += \hyperlink{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}{RouteRow}[i];
+44                 \textcolor{keywordflow}{if} (rand < p)
+45                 \{
+46                     \textcolor{comment}{//Посылаем фрагмент в указанный узел}
+47                     \hyperlink{class_network_simulator_1_1_source_node_a637485f5acd4714d619014fdb7581861}{Send}(f, \hyperlink{class_network_simulator_1_1_node_abae5930cce02aa93551aefe417b23fa0}{Nodes}[i]);
+48                     \textcolor{keywordflow}{break};
+49                 \}
+50             \}
+51         \}
+\end{DoxyCode}
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Send@{Send}}
+\index{Send@{Send}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Send(\+Fragment f, Node N)}{Send(Fragment f, Node N)}}]{\setlength{\rightskip}{0pt plus 5cm}override void Network\+Simulator.\+Source\+Node.\+Send (
+\begin{DoxyParamCaption}
+\item[{{\bf Fragment}}]{f, }
+\item[{{\bf Node}}]{N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}\hypertarget{class_network_simulator_1_1_source_node_a637485f5acd4714d619014fdb7581861}{}\label{class_network_simulator_1_1_source_node_a637485f5acd4714d619014fdb7581861}
+
+
+Отправление требования от источника к другому узлу 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em f} & Требование\\
+\hline
+{\em N} & Узел-\/получатель\\
+\hline
+\end{DoxyParams}
+
+
+Замещает \hyperlink{class_network_simulator_1_1_node_abcda5067b8842a447b2ad293818fc319}{Network\+Simulator.\+Node}.
+
+
+
+См. определение в файле Source\+Node.\+cs строка 58
+
+
+\begin{DoxyCode}
+59         \{
+60             N.Receive(f);
+61         \}
+\end{DoxyCode}
+
+
+\subsection{Полный список свойств}
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Arrival\+Interval@{Arrival\+Interval}}
+\index{Arrival\+Interval@{Arrival\+Interval}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Arrival\+Interval}{ArrivalInterval}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Random\+Variable} Network\+Simulator.\+Source\+Node.\+Arrival\+Interval\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [protected]}}\hypertarget{class_network_simulator_1_1_source_node_a9da60399e7ba58e5eea72a57acf69b8e}{}\label{class_network_simulator_1_1_source_node_a9da60399e7ba58e5eea72a57acf69b8e}
+
+
+Случайная величина между (интервалы между требованиями) 
+
+
+
+См. определение в файле Source\+Node.\+cs строка 94
+
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Fragment\+Counter@{Fragment\+Counter}}
+\index{Fragment\+Counter@{Fragment\+Counter}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Fragment\+Counter}{FragmentCounter}}]{\setlength{\rightskip}{0pt plus 5cm}long Network\+Simulator.\+Source\+Node.\+Fragment\+Counter\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_source_node_afaf73f99d665080e19cc98941c24af31}{}\label{class_network_simulator_1_1_source_node_afaf73f99d665080e19cc98941c24af31}
+
+
+Счетчик всех созданных фрагментов 
+
+
+
+См. определение в файле Source\+Node.\+cs строка 67
+
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Response\+Times@{Response\+Times}}
+\index{Response\+Times@{Response\+Times}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Response\+Times}{ResponseTimes}}]{\setlength{\rightskip}{0pt plus 5cm}List$<$double$>$ Network\+Simulator.\+Source\+Node.\+Response\+Times\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [private set]}}\hypertarget{class_network_simulator_1_1_source_node_ad631f434c90a58a65f71945f5cecd82d}{}\label{class_network_simulator_1_1_source_node_ad631f434c90a58a65f71945f5cecd82d}
+
+
+Среднее время отклика 
+
+
+
+См. определение в файле Source\+Node.\+cs строка 16
+
+\index{Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}!Route\+Row@{Route\+Row}}
+\index{Route\+Row@{Route\+Row}!Network\+Simulator\+::\+Source\+Node@{Network\+Simulator\+::\+Source\+Node}}
+\subsubsection[{\texorpdfstring{Route\+Row}{RouteRow}}]{\setlength{\rightskip}{0pt plus 5cm}double \mbox{[}$\,$\mbox{]} Network\+Simulator.\+Source\+Node.\+Route\+Row\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}, {\ttfamily [private]}}\hypertarget{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}{}\label{class_network_simulator_1_1_source_node_aa06f15bdfd1627ca01d35acb9bae863b}
+
+
+Маршрутная строка только для смежных узлов 
+
+
+
+См. определение в файле Source\+Node.\+cs строка 104
+
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+Network\+Analyzer (ИМ после конференции  с изменениями от 01.\+07.\+18 )/\+Network\+Simulator/\hyperlink{_source_node_8cs}{Source\+Node.\+cs}\end{DoxyCompactItemize}

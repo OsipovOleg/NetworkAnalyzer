@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="class_network_simulator_1_1_utils">
+<title>NetworkSimulator::Utils class Reference</title>
+        <section>
+            <title></title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>static void <link linkend="class_network_simulator_1_1_utils_1aaa072f6fa5259e0924a99ba9b63692fb">RouteForForkNode</link> (
+<link linkend="class_network_simulator_1_1_node">Node</link>[] Nodes, double[] RouteRow, out <link linkend="class_network_simulator_1_1_node">Node</link>[] AdjacentNodes, out double[] AdjacentRouteRow)<para><emphasis>&lt;summary&gt;
+Получает массив только смежных узлов и строку маршрутизации для них
+&lt;/summary&gt;</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+            <section xml:id="class_network_simulator_1_1_utils_1aaa072f6fa5259e0924a99ba9b63692fb">
+                <title>static void NetworkSimulator.Utils.RouteForForkNode (Node[] Nodes, double[] RouteRow, out Node[] AdjacentNodes, out double[] AdjacentRouteRow)</title> <emphasis>&lt;summary&gt;
+Получает массив только смежных узлов и строку маршрутизации для них
+&lt;/summary&gt;</emphasis>
+                
+<para>
+                <formalpara>
+                    <title/>
+                    <table frame="all">
+                        <title>Аргументы                        </title>
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>Nodes</entry>
+                                <entry>
+<para>Все узлы </para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>RouteRow</entry>
+                                <entry>
+<para>Строка маршрутизации</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>AdjacentNodes</entry>
+                                <entry>
+<para>Смежные узлы</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>AdjacentRouteRow</entry>
+                                <entry>
+<para>Строка марщрутизации для смежных узлов</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                </formalpara>
+                </para>
+
+            </section>
+</section>
